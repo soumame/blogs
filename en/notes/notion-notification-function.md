@@ -10,7 +10,7 @@ published_at: "2021-11-22"
 
 [![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)
 
-Notion is really convenient, right? I also migrated from Trello and find it very useful, but there's **one disappointing thing**.
+Notion is convenient, isn't it? I also migrated from Trello and find it very useful, but there's **one disappointing thing.**
 
 ## No notifications when time comes...
 
@@ -22,7 +22,7 @@ Unlike Trello, Notion doesn't automatically remind you when you set a time. You 
 
 For those thinking "Oh, it's just toggling a switch!"
 
-This feature is **tricky** because if you forget to toggle it while quickly taking notes, **you won't get any notifications when the due date comes**. This is really inconvenient.
+This feature is **tricky** because if you forget while quickly taking notes, **you won't get any notifications when the due date comes**. This is very inconvenient.
 
 So, I decided to solve this drawback by **using external tools**.
 
@@ -38,13 +38,13 @@ You can create automatic reminders for **free** using **"[the gist](https://www.
 
 ## Let's Set Up "the:gist"!
 
-While the:gist is a useful software, it **needs some setup** to use as a reminder. Since I **couldn't find** this information on other websites, I decided to write it here.
+While the:gist is useful software, it **needs some setup** to use as a reminder. Since I **couldn't find this** on other websites, I decided to write it here.
 
-## Notion Setup
+## Notion Settings
 
-As mentioned earlier, the:gist is an app that **reacts to specific actions**, so we need to make Notion perform a specific action when the time comes. For this, we'll use **calendar and formula** properties.
+As mentioned earlier, the:gist is an app that **reacts to specific actions**, so you need to make Notion perform a specific action when the time comes. For this, we'll use **calendar and formula** properties.
 
-Since we want to remind **one day before** the deadline, we'll **calculate the remaining days using the datebetween property** and send a notification through the:gist when one day remains.
+Since we want to remind **one day before** the deadline, we'll **calculate remaining days using the datebetween property** and send a notification through the:gist when one day remains.
 
 First, **select Formula from properties**.
 
@@ -56,19 +56,19 @@ Then, enter the datebetween command in the created property. **Replace "Date?" w
 dateBetween(prop("Date?"), now(), "days")
 ```
 
-This allows us to **calculate the remaining days**.
+This allows you to **calculate the remaining days.**
 
-Next, set it up to **trigger an action when one day remains**.
+Next, set it to **trigger an action when one day remains**.
 
-Add another Formula property and **copy and paste the following**. Replace **(remaining days)** with the **name of the datebetween property** you just created.
+Add another Formula property like before and **copy-paste the following**. Replace **(remaining days)** with the **name of the datebetween property** you just created.
 
 ```
 if(prop("remaining days") < 1, "yes", "no") == "yes"
 ```
 
-Now it will check the box when one day remains!
+Now a checkbox will be checked when one day remains!
 
-## **the:gist Setup**
+## **the:gist Settings**
 
 We're **almost there**!
 
@@ -79,9 +79,9 @@ First, connect [the:gist](https://app.thegist.so/) following the instructions (i
 > **Name:** Reminder name
 > **In:** Database name
 > **if: Set the checkbox property name to become ✅**
-> **then:** Action when detected. **Set email to be sent when checked.**
+> **then:** Action when detected. **Here, set email to be sent when checked.**
 
-**If you input everything as shown above, you should receive email notifications. Good job!**
+**If you input as above, you should receive email notifications. Good job!**
 
 ## There's an easier way too...
 
