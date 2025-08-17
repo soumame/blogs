@@ -9,6 +9,13 @@ on:
       - "!en/**"
       - "!_*.md"
       - "!README.md"
+  workflow_dispatch:
+    inputs:
+      translate_all:
+        description: 'Translate all untranslated files (ignore recent changes)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,25 +39,48 @@ jobs:
       - name: Get files to translate
         id: changed-files
         run: |
-          # Get list of changed markdown files from the commit
-          changed_files=$(git diff --name-only HEAD^ HEAD | grep -E '\.md$' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' || true)
-          
-          # Also find all markdown files that don't have a translation yet
-          all_md_files=$(find . -name "*.md" -type f | sed 's|^\./||' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' | grep -v '^\.')
-          
-          # Combine and deduplicate files to translate
-          files_to_translate=""
-          
-          # Check each markdown file
-          for file in $all_md_files; do
-            # Check if translation exists in en/ folder
-            if [ ! -f "en/$file" ]; then
-              files_to_translate="$files_to_translate$file"$'\n'
-            elif echo "$changed_files" | grep -q "^$file$"; then
-              # File was changed in this commit
-              files_to_translate="$files_to_translate$file"$'\n'
+          # Check if this is a manual run with translate_all option
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]] && [[ "${{ github.event.inputs.translate_all }}" == "true" ]]; then
+            echo "Manual run: Translating all untranslated files"
+            
+            # Find all markdown files that don't have a translation yet
+            all_md_files=$(find . -name "*.md" -type f | sed 's|^\./||' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' | grep -v '^\.')
+            
+            files_to_translate=""
+            for file in $all_md_files; do
+              # Check if translation exists in en/ folder
+              if [ ! -f "en/$file" ]; then
+                files_to_translate="$files_to_translate$file"$'\n'
+              fi
+            done
+          else
+            # Normal mode: translate changed files and untranslated files
+            
+            # Get list of changed markdown files from the commit (only for push events)
+            if [[ "${{ github.event_name }}" == "push" ]]; then
+              changed_files=$(git diff --name-only HEAD^ HEAD | grep -E '\.md$' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' || true)
+            else
+              # For manual dispatch without translate_all, only process untranslated files
+              changed_files=""
             fi
-          done
+            
+            # Also find all markdown files that don't have a translation yet
+            all_md_files=$(find . -name "*.md" -type f | sed 's|^\./||' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' | grep -v '^\.')
+            
+            # Combine and deduplicate files to translate
+            files_to_translate=""
+            
+            # Check each markdown file
+            for file in $all_md_files; do
+              # Check if translation exists in en/ folder
+              if [ ! -f "en/$file" ]; then
+                files_to_translate="$files_to_translate$file"$'\n'
+              elif [ -n "$changed_files" ] && echo "$changed_files" | grep -q "^$file$"; then
+                # File was changed in this commit
+                files_to_translate="$files_to_translate$file"$'\n'
+              fi
+            done
+          fi
           
           # Remove trailing newline and duplicates
           files_to_translate=$(echo "$files_to_translate" | sed '/^$/d' | sort -u)
