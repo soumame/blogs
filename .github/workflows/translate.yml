@@ -132,10 +132,10 @@ jobs:
                 messages: [
                   {
                     role: "user",
-                    content: "Translate the following Japanese blog post to English. Maintain the markdown formatting and structure. Only translate the content, do not add any explanations or notes. If there are any code blocks, keep them as is.\n\nFile: \($file)\n\nContent:\n\($content)"
+                    content: "Translate the following Japanese markdown file to English. Rules:\n1. Output ONLY the translated markdown content\n2. Do NOT add any explanations, notes, or wrapper text\n3. Preserve ALL markdown formatting including frontmatter\n4. Keep code blocks unchanged\n5. Translate Japanese text to natural English\n6. Start directly with the frontmatter or content - no preamble\n\n\($content)"
                   }
                 ],
-                temperature: 0.3
+                temperature: 0.2
               }')
             
             # Call Claude API with error handling
