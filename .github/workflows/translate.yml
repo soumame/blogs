@@ -47,9 +47,15 @@ jobs:
 
       - name: Translate files
         if: steps.changed-files.outputs.files != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           # Parse JSON array of files
           files='${{ steps.changed-files.outputs.files }}'
+          
+          # Track if any translation fails
+          failed=false
+          touch /tmp/failed_files.txt
 
           # Create en directory structure
           echo "$files" | jq -r '.[]' | while read -r file; do
@@ -82,25 +88,55 @@ jobs:
                 temperature: 0.3
               }')
             
-            # Call Claude API
-            response=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            # Call Claude API with error handling
+            response=$(curl -s -w "\nHTTP_STATUS:%{http_code}" -X POST https://api.anthropic.com/v1/messages \
               -H "Content-Type: application/json" \
               -H "x-api-key: $ANTHROPIC_API_KEY" \
               -H "anthropic-version: 2023-06-01" \
               -d "$request_body")
             
+            # Extract HTTP status code
+            http_status=$(echo "$response" | tail -n 1 | sed 's/HTTP_STATUS://')
+            response_body=$(echo "$response" | sed '$d')
+            
+            # Check for API errors
+            if [ "$http_status" != "200" ]; then
+              echo "❌ API Error for $file (HTTP $http_status)"
+              echo "Response: $response_body"
+              echo "$file" >> /tmp/failed_files.txt
+              continue
+            fi
+            
+            # Check for error in response
+            error_type=$(echo "$response_body" | jq -r '.error.type // empty')
+            if [ -n "$error_type" ]; then
+              echo "❌ Translation error for $file: $error_type"
+              error_message=$(echo "$response_body" | jq -r '.error.message // "Unknown error"')
+              echo "Error message: $error_message"
+              echo "$file" >> /tmp/failed_files.txt
+              continue
+            fi
+            
             # Extract translated content
-            translated=$(echo "$response" | jq -r '.content[0].text // empty')
+            translated=$(echo "$response_body" | jq -r '.content[0].text // empty')
             
             if [ -n "$translated" ]; then
               # Save translated file
               echo "$translated" > "en/$file"
               echo "✅ Translated: $file -> en/$file"
             else
-              echo "❌ Failed to translate: $file"
-              echo "Response: $response"
+              echo "❌ Failed to extract translation for: $file"
+              echo "Response: $response_body"
+              echo "$file" >> /tmp/failed_files.txt
             fi
           done
+          
+          # Check if any translations failed
+          if [ -s /tmp/failed_files.txt ]; then
+            echo "::error::Translation failed for the following files:"
+            cat /tmp/failed_files.txt
+            exit 1
+          fi
 
       - name: Check for changes
         id: check-changes
