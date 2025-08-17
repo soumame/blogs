@@ -10,11 +10,7 @@ published_at: "2024-12-26"
 
 # Reflecting on Mitou Junior
 
-<figure name="e0ac0405-5b96-4494-a33a-2acd6cb8a11b" id="e0ac0405-5b96-4494-a33a-2acd6cb8a11b">
-
 > This article is part of the [Mitou Junior Advent Calendar](https://adventar.org/calendars/10825).
-
-</figure>
 
 Long time no see, this is Soumame ([https://tokumaru.work/ja](https://tokumaru.work/ja)). I was attending an Australian international school in Malaysia and graduated at the end of November.
 As 2024 is coming to an end, I'm reflecting on various things I've done this year.
@@ -23,8 +19,7 @@ Today, I'd like to casually look back on the Mitou Junior creator support progra
 
 [https://jr.mitou.org/](https://jr.mitou.org/)
 
-## It Started When I Watched the Mitou Junior Final Presentation {#4eee3def-a5ad-48f9-b565-b3f5cfca5159}
-
+## It Started When I Watched the Mitou Junior Final Presentation
 The reason I applied to Mitou Junior goes back more than two years. In November 2022, I went to watch the final presentation with a friend I had just met that day.
 
 <figure name="245ed608-9c48-42b6-a7ca-92241245575e" id="245ed608-9c48-42b6-a7ca-92241245575e">
@@ -37,8 +32,7 @@ The reason I applied to Mitou Junior goes back more than two years. In November 
 
 [Content continues with the same structure and formatting...]
 
-### Promotion {#bfe85634-0bcf-46db-a383-cc600bd138cb}
-
+### Promotion
 Please check out my website and follow me on social media
 
 [https://tokumaru.work/ja](https://tokumaru.work/ja)

@@ -8,7 +8,7 @@ published_at: "2021-11-22"
 
 # How to Create Free Automatic Notifications in Notion Using Functions
 
-<figure name="85ba53ac-3eec-4d53-a4a2-2740fde9f023">[![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)</figure>
+[![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)
 
 Notion is really convenient, right? I also migrated from Trello and find it very useful, but there's **one disappointing thing**.
 

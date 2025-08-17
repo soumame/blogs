@@ -8,7 +8,7 @@ published_at: "2021-04-07"
 
 # How to Mine with Nicehash
 
-<figure name="22d141bd-fdae-402a-8a9c-caac02e9df48">[![Image from Gyazo](https://i.gyazo.com/6430ba51daf6a8887b81226ba123152e.png)](https://gyazo.com/6430ba51daf6a8887b81226ba123152e)</figure>
+[![Image from Gyazo](https://i.gyazo.com/6430ba51daf6a8887b81226ba123152e.png)](https://gyazo.com/6430ba51daf6a8887b81226ba123152e)
 
 Here's a simple explanation
 
