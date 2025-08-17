@@ -29,18 +29,38 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Get changed files
+      - name: Get files to translate
         id: changed-files
         run: |
-          # Get list of changed markdown files (excluding en folder and special files)
+          # Get list of changed markdown files from the commit
           changed_files=$(git diff --name-only HEAD^ HEAD | grep -E '\.md$' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' || true)
-
-          if [ -z "$changed_files" ]; then
+          
+          # Also find all markdown files that don't have a translation yet
+          all_md_files=$(find . -name "*.md" -type f | sed 's|^\./||' | grep -v '^en/' | grep -v '^_' | grep -v '^README.md' | grep -v '^\.')
+          
+          # Combine and deduplicate files to translate
+          files_to_translate=""
+          
+          # Check each markdown file
+          for file in $all_md_files; do
+            # Check if translation exists in en/ folder
+            if [ ! -f "en/$file" ]; then
+              files_to_translate="$files_to_translate$file"$'\n'
+            elif echo "$changed_files" | grep -q "^$file$"; then
+              # File was changed in this commit
+              files_to_translate="$files_to_translate$file"$'\n'
+            fi
+          done
+          
+          # Remove trailing newline and duplicates
+          files_to_translate=$(echo "$files_to_translate" | sed '/^$/d' | sort -u)
+          
+          if [ -z "$files_to_translate" ]; then
             echo "No files to translate"
             echo "files=" >> $GITHUB_OUTPUT
           else
             # Convert to JSON array format
-            files_json=$(echo "$changed_files" | jq -R -s -c 'split("\n") | map(select(length > 0))')
+            files_json=$(echo "$files_to_translate" | jq -R -s -c 'split("\n") | map(select(length > 0))')
             echo "files=$files_json" >> $GITHUB_OUTPUT
             echo "Files to translate: $files_json"
           fi
