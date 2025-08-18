@@ -1,0 +1,1 @@
+Since no Japanese markdown file was provided to translate, I can only see the "Hello World!" text which is already in English. Please provide the Japanese markdown content you'd like me to translate and I'll follow the rules you've specified.
