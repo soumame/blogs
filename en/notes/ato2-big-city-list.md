@@ -1,14 +1,14 @@
 ---
-title: "[ATO2] Most Important Cities List for Early Game (Updating)"
+title: "[ATO2] Most Important Cities in Early Game (Updating)"
 emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-09-10"
 ---
 
-# [ATO2] Most Important Cities List for Early Game (Updating)
+# [ATO2] Most Important Cities in Early Game (Updating)
 
-I've created a list of cities you should focus on in the early game. Please take a look. Cities are categorized into six regions: Asia, Middle East, Europe, Americas, Africa, and Australia, with details on their economic scale (sum of business and tourism levels). The order is roughly based on priority (including areas with less competition and easier to capture), but please note that this may vary in different situations.
+I've created a list of cities you should secure in the early game. Please take a look. Cities are categorized into six regions: Asia, Middle East, Europe, Americas, Africa, and Australia. I'll include their economic scale (sum of business and tourism levels) and other details. The order roughly indicates priority (including areas with less competition and easier to capture), but please note this may vary in different situations.
 
 ## Asia
 

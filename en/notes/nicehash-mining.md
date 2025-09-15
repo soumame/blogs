@@ -28,7 +28,7 @@ Click **GET STARTED**
 
 [![Image from Gyazo](https://i.gyazo.com/fd4d4909a39f6cb6991ee799e88ee382.png)](https://gyazo.com/fd4d4909a39f6cb6991ee799e88ee382)
 
-Enter your email and password as instructed
+Enter your email and password following the instructions
 
 If you can get to this dashboard screen, you've succeeded!
 
@@ -36,15 +36,15 @@ If you can get to this dashboard screen, you've succeeded!
 
 ## Downloading and Starting the Software
 
-**Your account has been created! Next, we'll download the software to your computer and start mining!**
+**Your account has been created! Next, let's download the software to your computer and start mining!**
 
-Following the link above, download **Nicehash Miner**. It should be at the top. If you have an NVIDIA GPU, you can also use Quickminer. (We won't explain that here. If you're unsure, please download Nicehash Miner)
+Following the link above, download **Nicehash Miner**. It should be at the top. If you have an NVIDIA GPU, you can also use Quickminer (not explained here. If you're unsure, please download Nicehash Miner)
 
 [![Image from Gyazo](https://i.gyazo.com/09a62fffdcef7fcbc9bd8e4b2028b8d2.png)](https://gyazo.com/09a62fffdcef7fcbc9bd8e4b2028b8d2)
 
-Once downloaded, follow the installation instructions. All default settings are fine
+Once downloaded, follow the installation instructions. Default settings are fine for everything
 
-If you've completed the download and logged in, you should see this screen:
+After downloading and logging in, if you can get to this screen, you've succeeded.
 
 [![Image from Gyazo](https://i.gyazo.com/3f324f637a020113cf251cede253d6e0.png)](https://gyazo.com/3f324f637a020113cf251cede253d6e0)
 
