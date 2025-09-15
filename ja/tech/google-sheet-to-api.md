@@ -2,6 +2,7 @@
 title: GoogleスプレッドシートをAPI経由で読み込もう！
 emoji: 🤖
 tags:
+  - Google
 published_at: 2024-06-22
 ---
 
