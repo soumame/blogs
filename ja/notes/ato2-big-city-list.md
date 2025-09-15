@@ -1,9 +1,9 @@
 ---
-title: "【ATO2】序盤で最も重要な都市リスト(更新中）"
-emoji: "🤖"
+title: 【ATO2】序盤で最も重要な都市リスト(更新中）
+emoji: 🤖
 tags:
-  - "template"
-published_at: "2021-09-10"
+  - ゲーム
+published_at: 2021-09-10
 ---
 
 # 【ATO2】序盤で最も重要な都市リスト(更新中）

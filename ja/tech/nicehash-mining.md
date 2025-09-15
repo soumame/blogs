@@ -1,9 +1,9 @@
 ---
-title: "Nicehashでマイニングする方法"
-emoji: "🤖"
+title: Nicehashでマイニングする方法
+emoji: 🤖
 tags:
-  - "template"
-published_at: "2021-04-07"
+  - 暗号通貨
+published_at: 2021-04-07
 ---
 
 # Nicehashでマイニングする方法

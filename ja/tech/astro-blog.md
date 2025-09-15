@@ -1,9 +1,8 @@
 ---
-title: "HTMLさえわかればできる！Astroでブログサイトを作ってみよう！"
-emoji: "🤖"
+title: HTMLさえわかればできる！Astroでブログサイトを作ってみよう！
+emoji: 🤖
 tags:
-  - "template"
-published_at: "2024-05-12"
+published_at: 2024-05-12
 ---
 
 # HTMLさえわかればできる！Astroでブログサイトを作ってみよう！

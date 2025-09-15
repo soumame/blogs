@@ -1,9 +1,9 @@
 ---
-title: "【Notion】関数を使って無料で自動通知を作る方法"
-emoji: "🤖"
+title: 【Notion】関数を使って無料で自動通知を作る方法
+emoji: 🤖
 tags:
-  - "template"
-published_at: "2021-11-22"
+  - notion
+published_at: 2021-11-22
 ---
 
 # 【Notion】関数を使って無料で自動通知を作る方法

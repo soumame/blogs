@@ -1,9 +1,8 @@
 ---
-title: "GoogleスプレッドシートをAPI経由で読み込もう！"
-emoji: "🤖"
+title: GoogleスプレッドシートをAPI経由で読み込もう！
+emoji: 🤖
 tags:
-  - "template"
-published_at: "2024-06-22"
+published_at: 2024-06-22
 ---
 
 # GoogleスプレッドシートをAPI経由で読み込もう！
