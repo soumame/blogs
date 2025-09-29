@@ -5,7 +5,9 @@ description: "I worked as a part-time staff member at McDonald's."
 tags:
   - "work"
 published_at: "2025-03"
+istranslated: true
 ---
+
 Hi, I'm Soumame.
 Around February this year (2025), I had no school until September when I start university. To prevent becoming depressed from staying at home with minimal social contact (lol), I started working as a crew member (part-time) at McDonald's. I'd like to introduce their internal systems, especially their well-designed kitchen operations.
 

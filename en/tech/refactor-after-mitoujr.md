@@ -8,6 +8,7 @@ tags:
   - "mitou-junior"
   - "hono"
 published_at: "2024-12-14 12:13"
+istranslated: true
 ---
 
 Hello, I'm Souma.

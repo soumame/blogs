@@ -4,6 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-04-07"
+istranslated: true
 ---
 
 # How to Mine with Nicehash
@@ -22,7 +23,7 @@ Here's a simple explanation
 
 First, go to the official Nicehash website using the link below
 
-[https://www.nicehash.com/](https://www.nicehash.com/)　
+[https://www.nicehash.com/](https://www.nicehash.com/)
 
 Click **GET STARTED**
 

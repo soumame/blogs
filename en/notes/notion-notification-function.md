@@ -4,6 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-11-22"
+istranslated: true
 ---
 
 # How to Create Free Automatic Notifications in Notion Using Functions
@@ -78,8 +79,7 @@ First, connect [the:gist](https://app.thegist.so/) following the instructions (i
 
 > **Name:** Reminder name
 > **In:** Database name
-> **if: Set the checkbox property name to trigger when ✅**
-> **then:** Action when detected. **Set email to be sent when checked.**
+> **if: Set the checkbox property name to trigger when ✅** > **then:** Action when detected. **Set email to be sent when checked.**
 
 **Follow these settings and you should receive email notifications. Great job!**
 

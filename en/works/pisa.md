@@ -5,4 +5,5 @@ description: "I attended Peninsula International School Australia from early 202
 tags:
   - "school"
 published_at: "2020-01"
+istranslated: true
 ---

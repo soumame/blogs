@@ -9,7 +9,9 @@ tags:
   - "Finalist"
   - "Finals"
 published_at: "2023-10-25"
+istranslated: true
 ---
+
 While Japan has the Minecraft Cup competition for Minecraft: Education Edition, similar events exist overseas. In Malaysia, there's an event called MEC (Minecraft Education Challenge). I participated in [MEC 2023](https://mcedumy.com/mec-2023) and won second place.
 
 ## Malaysia's Minecraft Cup!?
@@ -25,6 +27,7 @@ We received an incredibly large trophy.
 Took a photo holding the NAIB JOHAN (Runner-up) board.
 
 ## Two Years Later in 2025...
+
 Now, after about two years, I'm helping operate the Minecraft Cup in Japan. I've realized that overseas, especially in Asia, there's growing recognition of the importance of IT education and digital creation education, and Minecraft is incredibly useful in these areas.
 
 From my experience participating, I noticed that the level of submissions isn't quite as high as Japan's yet, and most participants were from urban areas, highlighting regional disparities (though Malaysia is a very large country, so bridging these gaps will be quite challenging).

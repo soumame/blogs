@@ -4,6 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-12-05"
+istranslated: true
 ---
 
 **Note: This article is still being written and content may change.**

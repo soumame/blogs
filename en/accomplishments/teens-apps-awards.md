@@ -8,19 +8,22 @@ tags:
   - "TutoriaLLM"
   - "Grand Prize"
   - "Finalist"
-
+istranslated: true
 published_at: "2024-11-17"
 ---
+
 ## What is App Koshien?
+
 > "App Koshien" is an app development contest that has been held since 2011 with the aim of discovering and supporting the healthy development of young creators who will lead the next generation.
 
 > In the finals, elementary, middle and high school app developers who have advanced through the development division gather to give public presentations.
-In past competitions, judges active in various fields evaluate the planning capabilities of the apps,
-then score implementation skills while actually operating the apps on devices and checking the source code to select outstanding works.
+> In past competitions, judges active in various fields evaluate the planning capabilities of the apps,
+> then score implementation skills while actually operating the apps on devices and checking the source code to select outstanding works.
 
 > Every year, future stars emerge from the competition.
 
 ## Results
+
 [![Image from Gyazo](https://i.gyazo.com/9f2c4e55ee297af5b2edd0275c0bd4b2.jpg)](https://gyazo.com/9f2c4e55ee297af5b2edd0275c0bd4b2)
 In the App Koshien finals, you have to memorize your presentation (at least that was the case in 2024). I'm really bad at memorization, so honestly it was terrible.
 Although I ended up winning, personally I couldn't memorize the presentation well and couldn't perform to my full potential, making it a somewhat bitter experience. I can remember the flow of the presentation, but memorizing it word for word was impossible for me.

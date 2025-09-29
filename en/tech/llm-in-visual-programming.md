@@ -8,6 +8,7 @@ tags:
   - "gpt"
   - "llm"
 published_at: "2024-11-22 12:19"
+istranslated: true
 ---
 
 Hello, I'm Soma Tokumaru. For about a year, I've been deeply involved in Typescript/React web app development, and I'm currently creating a web application called ["TutoriaLLM"](https://tutoriallm.com) that incorporates visual programming, AI dialogue, and real-time code execution features.

@@ -4,6 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-12-26"
+istranslated: true
 ---
 
 # Reflecting on Mitou Junior
@@ -18,6 +19,7 @@ Today, I'd like to casually look back on my journey with Mitou Junior, a creator
 [https://jr.mitou.org/](https://jr.mitou.org/)
 
 ## It Started When I Watched the Mitou Junior Final Presentation
+
 My journey with Mitou Junior goes back over 2 years. In November 2022, I went to watch the final presentations with a friend I had just met that day.
 
 <figure name="245ed608-9c48-42b6-a7ca-92241245575e" id="245ed608-9c48-42b6-a7ca-92241245575e">
