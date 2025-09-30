@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-09-09"
-istranslated: true
+isTranslated: true
 ---
 
 # What Would I Do If I Had a Lot of Money

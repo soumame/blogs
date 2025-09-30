@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-09-10"
-istranslated: true
+isTranslated: true
 ---
 
 # [ATO2] Most Important Cities in Early Game (Updating)

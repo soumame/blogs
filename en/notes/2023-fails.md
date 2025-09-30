@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-01-02"
-istranslated: true
+isTranslated: true
 ---
 
 # Looking Back at Only My Failures in 2023!

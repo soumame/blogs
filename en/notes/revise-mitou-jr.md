@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-12-26"
-istranslated: true
+isTranslated: true
 ---
 
 # Reflecting on Mitou Junior

@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2022-12-02"
-istranslated: true
+isTranslated: true
 ---
 
 # 【Bedrock & Java】Convert Your Minecraft World to 3D for Free!

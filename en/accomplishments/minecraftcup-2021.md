@@ -8,5 +8,5 @@ tags:
   - Finalist
   - Finals
 published_at: 2022-01-30
-istranslated: true
+isTranslated: true
 ---

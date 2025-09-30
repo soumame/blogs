@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-11-22"
-istranslated: true
+isTranslated: true
 ---
 
 # How to Create Free Automatic Notifications in Notion Using Functions

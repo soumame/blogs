@@ -8,7 +8,7 @@ tags:
   - "Finalist"
   - "Finals"
 published_at: "2024-11-04"
-istranslated: true
+isTranslated: true
 ---
 
 For reflections on Mitou Junior, please see [Reflections on Mitou Junior](https://tokumaru.work/ja/blog/notes/revise-mitou-jr).

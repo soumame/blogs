@@ -6,5 +6,5 @@ tags:
   - "Minecraft"
   - "Work"
 published_at: "2025-06-01"
-istranslated: true
+isTranslated: true
 ---

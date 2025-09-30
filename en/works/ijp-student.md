@@ -6,5 +6,5 @@ tags:
   - "work"
   - "Team Ippanjin"
 published_at: "2022-04"
-istranslated: true
+isTranslated: true
 ---

@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-07-27"
-istranslated: true
+isTranslated: true
 ---
 
 # Getting a Driver's License in Malaysia

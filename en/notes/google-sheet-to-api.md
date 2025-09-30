@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-06-22"
-istranslated: true
+isTranslated: true
 ---
 
 # Let's Read Google Spreadsheets via API!
@@ -55,17 +55,14 @@ Here's the link format containing everything needed for retrieval. Please modify
 ```
 
 - Sheet ID
-
   - Enter your sheet ID
 
   - In the address shown when you open your spreadsheet, the underlined part below is your sheet ID: [https://docs.google.com/spreadsheets/d/**xxxxx-xxxxxxxxxx**/edit#gid=1472330080](https://docs.google.com/spreadsheets/d/**xxxxx-xxxxxxxxxx**/edit#gid=1472330080)
 
 - SheetName!StartPoint:EndPoint
-
   - Enter the sheet name shown at the bottom. If you only have one sheet, you can skip this
 
 - API Key
-
   - Enter the API key you just created
 
 ## Done! Let's Send the API Request!

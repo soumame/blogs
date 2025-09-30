@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2023-12-28"
-istranslated: true
+isTranslated: true
 ---
 
 # What is VCE - The Curriculum Offered in Victoria, Australia?

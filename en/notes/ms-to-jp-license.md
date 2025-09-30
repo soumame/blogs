@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2025-04-04"
-istranslated: true
+isTranslated: true
 ---
 
 # Converting a Malaysian License to a Japanese Driver's License

@@ -8,7 +8,7 @@ tags:
   - "TutoriaLLM"
   - "Grand Prize"
   - "Finalist"
-istranslated: true
+isTranslated: true
 published_at: "2024-11-17"
 ---
 

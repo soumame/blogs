@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2023-05-09"
-istranslated: true
+isTranslated: true
 ---
 
 # How to Make Bitcoin Transactions Without Using Blockchain (Off-chain)

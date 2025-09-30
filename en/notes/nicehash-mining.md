@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2021-04-07"
-istranslated: true
+isTranslated: true
 ---
 
 # How to Mine with Nicehash

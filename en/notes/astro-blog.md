@@ -4,7 +4,7 @@ emoji: "🤖"
 tags:
   - "template"
 published_at: "2024-05-12"
-istranslated: true
+isTranslated: true
 ---
 
 # Create a Blog Site with Astro - All You Need is HTML Knowledge!

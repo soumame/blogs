@@ -6,5 +6,5 @@ tags:
   - "Keio University"
   - "School"
 published_at: "2025-09"
-istranslated: true
+isTranslated: true
 ---
