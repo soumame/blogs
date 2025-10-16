@@ -1,13 +1,10 @@
 ---
-title: "未踏ジュニア終わったから超大規模リファクタリングしてみた"
-emoji: "♻️"
+title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
+emoji: ♻️
 tags:
-  - "postgresql"
-  - "typescript"
-  - "rpc"
-  - "未踏ジュニア"
-  - "hono"
-published_at: "2024-12-14 12:13"
+  - typescript
+  - 未踏ジュニア
+published_at: 2024-12-14 12:13
 ---
 
 こんにちは。そうまめです。

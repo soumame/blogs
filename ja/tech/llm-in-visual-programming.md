@@ -1,13 +1,11 @@
 ---
-title: "ビジュアルプログラミングにLLMを組み込みたい(Blockly × LLM)"
-emoji: "🤖"
+title: ビジュアルプログラミングにLLMを組み込みたい(Blockly × LLM)
+emoji: 🤖
 tags:
-  - "frontend"
-  - "プログラミング教育"
-  - "blockly"
-  - "gpt"
-  - "llm"
-published_at: "2024-11-22 12:19"
+  - プログラミング教育
+  - llm
+  - 開発
+published_at: 2024-11-22 12:19
 ---
 
 初めまして。そうまめこと得丸創生と申します。

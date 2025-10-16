@@ -2,8 +2,8 @@
 title: VS Codeを始めよう
 emoji: 💻
 tags:
-  - vscode
   - プログラミング
+  - 開発
 published_at: 2025-10-05
 description: VS Codeの簡単なガイドを書いておきます
 ---
