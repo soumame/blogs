@@ -3,5 +3,6 @@ tags:
   - web
   - wip
 ---
-World Wide Webとは...なんかすごいやつ。
+
+World Wide Web とは...なんかすごいやつ。
 インターネット。
