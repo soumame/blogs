@@ -2,7 +2,8 @@
 title: HTMLさえわかればできる！Astroでブログサイトを作ってみよう！
 emoji: 🤖
 tags:
-  - ウェブ
+  - web
+  - dev
 published_at: 2024-05-12
 ---
 

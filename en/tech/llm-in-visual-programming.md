@@ -1,13 +1,12 @@
 ---
-title: "Integrating LLM into Visual Programming (Blockly × LLM)"
-emoji: "🤖"
+title: Integrating LLM into Visual Programming (Blockly × LLM)
+emoji: 🤖
 tags:
-  - "frontend"
-  - "programming-education"
-  - "blockly"
-  - "gpt"
-  - "llm"
-published_at: "2024-11-22 12:19"
+  - programming-education
+  - llm
+  - dev
+  - Work
+published_at: 2024-11-22 12:19
 isTranslated: true
 ---
 

@@ -2,7 +2,8 @@
 title: マークアップ言語
 emoji: 🗒️
 tags:
-  - プログラミング
+  - dev
+  - coding
 published_at: 2025-10-05
 description: よくマークアップ言語といいますが、あれはプログラミング言語じゃないのでしょうか？
 ---

@@ -1,13 +1,9 @@
 ---
-title: "I Did a Massive Refactoring After Mitou Junior Ended"
-emoji: "♻️"
+title: I Did a Massive Refactoring After Mitou Junior Ended
+emoji: ♻️
 tags:
-  - "postgresql"
-  - "typescript"
-  - "rpc"
-  - "mitou-junior"
-  - "hono"
-published_at: "2024-12-14 12:13"
+  - mitou-junior
+published_at: 2024-12-14 12:13
 isTranslated: true
 ---
 

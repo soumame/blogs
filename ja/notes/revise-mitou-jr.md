@@ -2,8 +2,8 @@
 title: 未踏ジュニアの振り返り
 emoji: 🤖
 tags:
-  - 未踏ジュニア
   - TutoriaLLM
+  - mitou-junior
 published_at: 2024-12-26
 ---
 

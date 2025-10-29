@@ -1,9 +1,10 @@
 ---
-title: "マークアップ言語"
-emoji: "🗒️"
+title: HTMLとは
+emoji: 🗒️
 tags:
-  - "プログラミング"
-published_at: "2025-10-05"
+  - dev
+  - coding
+published_at: 2025-10-05
 ---
 ## HTMLの役目
 HTMLは、**HyperText Markup Language**と言って、ハイパーテキストを記述する言語。

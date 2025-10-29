@@ -7,11 +7,11 @@ tags:
   - 受賞
   - ファイナリスト
   - 決勝
-  - 未踏ジュニア
+  - mitou-junior
 published_at: 2024-11-04
 ---
 
-未踏ジュニアの振り返りについては、[未踏ジュニアの振り返り](https://tokumaru.work/ja/blog/notes/revise-mitou-jr)をご覧ください。
+未踏ジュニアの振り返りについては、[[blogs/ja/notes/revise-mitou-jr|未踏ジュニアの振り返り]]をご覧ください。
 
 ## 未踏ジュニアとは
 > 独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://www.mext.go.jp/a_menu/koutou/kousen/index.htm)などを支援するプログラムです。
