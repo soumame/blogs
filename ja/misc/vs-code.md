@@ -2,14 +2,14 @@
 title: VS Codeを始めよう
 emoji: 💻
 tags:
-  - プログラミング
-  - 開発
+  - dev
+  - coding
+  - favourite-things
+  - wip
 published_at: 2025-10-05
 description: VS Codeの簡単なガイドを書いておきます
 ---
 
-# VS Codeを始めよう
+# VS Code を始めよう
 
-VS Code（Visual Studio Code）は、Microsoftが開発した無料のソースコードエディタです。
-
-> インストール方法は後で書きます
+VS Code（Visual Studio Code）は、Microsoft が開発した無料のソースコードエディタ。

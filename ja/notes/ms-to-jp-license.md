@@ -2,7 +2,7 @@
 title: 【外免切り替え】マレーシアの免許を日本の免許に書き換えてみた
 emoji: 🤖
 tags:
-  - 免許
+  - essay
 published_at: 2025-04-04
 ---
 

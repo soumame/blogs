@@ -2,9 +2,9 @@
 title: ビジュアルプログラミングにLLMを組み込みたい(Blockly × LLM)
 emoji: 🤖
 tags:
-  - プログラミング教育
   - llm
-  - 開発
+  - programming-education
+  - dev
 published_at: 2024-11-22 12:19
 ---
 

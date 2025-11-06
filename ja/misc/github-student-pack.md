@@ -2,7 +2,10 @@
 title: GitHub Student Pack
 emoji: ⚒️
 tags:
-  - プログラミング
+  - coding
+  - team-dev
+  - dev
+  - wip
 published_at: 2025-10-05
 ---
 

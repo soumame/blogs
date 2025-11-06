@@ -2,8 +2,7 @@
 title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
 emoji: ♻️
 tags:
-  - typescript
-  - 未踏ジュニア
+  - mitou-junior
 published_at: 2024-12-14 12:13
 ---
 

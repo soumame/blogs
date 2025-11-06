@@ -2,7 +2,7 @@
 title: Nicehashでマイニングする方法
 emoji: 🤖
 tags:
-  - 暗号通貨
+  - crypto
 published_at: 2021-04-07
 ---
 
