@@ -1,9 +1,8 @@
 ---
 title: ブログにグラフビューを実装してみた
 emoji: 🗺️
-description: Obsidianのグラフビューが気に入ったので自分のウェブサイトにも
+description: Obsidianのグラフビューが気に入ったので自分のウェブサイトにも実装してみた
 tags:
-  - wip
   - coding
   - web
 published_at: 2025-10-29
@@ -14,12 +13,17 @@ published_at: 2025-10-29
 [![Image from Gyazo](https://i.gyazo.com/91a13fc1a4272f4d87b3122fcb26adc7.png)](https://gyazo.com/91a13fc1a4272f4d87b3122fcb26adc7)
 グラフビューでは、このように、相関図のようなグラフでアイテム間の関係性を表すことができる。
 
-ブログを書くのに使っている[[obsidian|Obsidian]]というエディターに同様の機能が搭載されており、それを自作した感じ。
+ブログを書くのに使っている[[obsidian|Obsidian]]というエディターに同様の機能が搭載されている。Obsidianの記事をwebで公開する、Obsidian Publishにもこのグラフビューが搭載されていて、グラフビューと同じレンダリングエンジンを使っていると言っている。
+
+https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/
+
+
+
 
 [![Image from Gyazo](https://i.gyazo.com/2bc46e271420fd8c8617f2e2bf6160d4.png)](https://gyazo.com/2bc46e271420fd8c8617f2e2bf6160d4)
 Obsidian ではどうやら自前で実装しているようだけど、ソースコードが公開されていないので、仕方なく自前で実装する。
 
-記事数もそこまで多くないし、パフォーマンスについてはそこまで考えなくて良かったので、d3.js というライブラリを内包した、React-Force-Graph というパッケージを使って、力のシミュレーションとかを微調整している。
+記事数もそこまで多くないし、パフォーマンスについてはそこまで考えなくて良かったので、先程挙げたredditで言及されていたd3.js というライブラリを内包した、React-Force-Graph というパッケージを使って、力のシミュレーションとかを微調整している。
 
 https://github.com/vasturiano/react-force-graph
 
