@@ -10,7 +10,7 @@ published_at: 2025-12-15
 isTranslated:
 ---
 
-> この記事は、[[ja/notes/revise-mitou-jr|未踏ジュニアの振り返り]]を参考に書いた続きの話です。アドベントカレンダー記事としても書いています。
+> この記事は、[[revise-mitou-jr|未踏ジュニアの振り返り]]を参考に書いた続きの話です。アドベントカレンダー記事としても書いています。
 
 <iframe src="https://adventar.org/calendars/11697/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
 
