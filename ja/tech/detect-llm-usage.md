@@ -28,7 +28,7 @@ https://openai.com/ja-JP/index/new-ai-classifier-for-indicating-ai-written-text/
 前の高校で使っている人たくさんいた。AI検出器と、パラフレーズ（単語を他の単語に置き換える）機能を同じアプリで提供しているという、なんとしても課題をAIにやらせようする学生をターゲットにしたサービス。それ以外にもいろいろツールを提供している。
 
 ## Turnitin
-自分が通っている[[blogs/ja/works/keio|慶應SFC]]で、「この講義ではTurnitinを使っているのでお前らのAI使用はバレバレだよ！」というメッセージが書いてある事がある。
+自分が通っている[[ja/works/keio|慶應SFC]]で、「この講義ではTurnitinを使っているのでお前らのAI使用はバレバレだよ！」というメッセージが書いてある事がある。
 
 https://www.turnitin.com/
 

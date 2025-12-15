@@ -13,7 +13,7 @@ isTranslated:
 Obsidianが便利すぎます。
 
 ## Obsidianってなに
-- 基本機能はNotionと同じで、[[markdown]]を使って記述する
+- 基本機能はNotionと同じで、[[markdown|Markdown]]を使って記述する
 - Notionは、階層でデータを保存していくイメージで、Obsidianでは、記事間のリンクなどでデータを構造化するイメージ
 - Notionのほうがぶっちゃけ機能は豊富なんだけど、Obsidianはローカル動作する&明らかにNotionより軽量
 	- Notionの機能を使いこなせない&特定の機能とかAPIが欲しい自分にとってピッタリだった
