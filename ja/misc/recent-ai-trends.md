@@ -3,6 +3,7 @@ title: 最近のAIの進歩に追いつけない話
 emoji: 🤖
 description: LLMとか、画像生成とか、進歩が早すぎてついていくのが面倒くさくなってきた。
 tags:
+  - llm
 published_at: 2025-11-21
 isTranslated:
 ---

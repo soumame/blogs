@@ -4,6 +4,7 @@ emoji: 🦉
 description: 語学学習アプリであるDuolingoは機械学習を至る所で使っていると耳にしたのですが、いったいどこで使っているのでしょうか？気になって調べてみました。
 tags:
   - dev
+  - llm
 published_at: 2025-12-02
 isTranslated:
 ---

@@ -5,6 +5,7 @@ description: LLMの進歩によって人の行動やを言語化したり他者�
 tags:
   - dev
   - favourite-things
+  - llm
 published_at: 2025-11-18
 isTranslated:
 ---
