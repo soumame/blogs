@@ -1,0 +1,68 @@
+name: auto-translate
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 3 * * *" # JST 12:00
+    push:
+        paths:
+            - "src/content/blog/ja/**/*.md"
+            - "src/content/blog/en/**/*.md"
+            - "src/content/blog/scripts/**/*.ts"
+            - "src/content.config.ts"
+
+permissions:
+    contents: write
+    pull-requests: write
+    issues: write
+
+jobs:
+    translate:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+                  cache: "pnpm"
+
+            - name: Enable corepack
+              run: corepack enable
+
+            - name: Install (blog scripts)
+              run: pnpm install --no-frozen-lockfile
+              working-directory: src/content/blog
+
+            - name: Check frontmatter
+              run: pnpm check:blog
+              working-directory: src/content/blog
+
+            - name: Translate missing/changed posts
+              run: pnpm translate
+              working-directory: src/content/blog
+              env:
+                  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+                  OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL }}
+                  OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL }}
+
+            - name: Detect duplicated tags (and open/update issue)
+              run: pnpm detect:duplicated-tags -- --create-issue
+              working-directory: src/content/blog
+              env:
+                  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+                  OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Create Pull Request
+              uses: peter-evans/create-pull-request@v6
+              with:
+                  title: "[auto] translate missing posts"
+                  commit-message: "[auto] translate missing posts"
+                  body: |
+                      自動翻訳botが生成/更新した記事です。
+                      - isTranslated: true の記事は sourceHash/sourcePath でソース変更を検知します
+                      - タグ重複は別途 Issue で警告します
+                  branch: "auto/translate"
+                  delete-branch: true
+                  labels: "auto"
