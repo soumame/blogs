@@ -12,7 +12,6 @@ import path from "node:path";
 import { glob } from "glob";
 import { getBlogRoot, posixify } from "./utils.js";
 import { translateOne, type Locale } from "./translate.js";
-import { buildCanonicalEnglishTags, collectTagOccurrences } from "./tags.js";
 
 type Direction = "ja-en" | "en-ja" | "both";
 
@@ -37,7 +36,6 @@ async function runForDirection(
     dryRun: boolean;
     limit?: number;
     force: boolean;
-    canonicalEnglishTags: string[];
   }
 ) {
   const root = getBlogRoot();
@@ -67,7 +65,6 @@ async function runForDirection(
       targetLocale,
       dryRun: params.dryRun,
       force: params.force,
-      canonicalEnglishTags: params.canonicalEnglishTags,
     });
     results.push({
       action: r.action,
@@ -97,17 +94,12 @@ async function main() {
     targetRel: string;
   }> = [];
 
-  // canonical tags は1回だけ構築（大量翻訳時の無駄を削減）
-  const occ = await collectTagOccurrences();
-  const canonicalEnglishTags = buildCanonicalEnglishTags(occ);
-
   if (direction === "ja-en" || direction === "both") {
     allResults.push(
       ...(await runForDirection("ja", "en", {
         dryRun,
         force,
         limit,
-        canonicalEnglishTags,
       }))
     );
   }
@@ -117,7 +109,6 @@ async function main() {
         dryRun,
         force,
         limit,
-        canonicalEnglishTags,
       }))
     );
   }

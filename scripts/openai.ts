@@ -38,9 +38,8 @@ export async function embedTexts(texts: string[]) {
 
 export type TranslateMarkdownOutput = {
   title: string;
-  description?: string;
+  description: string;
   body: string;
-  tags: string[];
 };
 
 export async function translateMarkdownStructured(params: {
@@ -48,9 +47,6 @@ export async function translateMarkdownStructured(params: {
   targetLocale: "ja" | "en";
   sourceTitle: string;
   sourceDescription?: string | null;
-  sourceEmoji: string;
-  sourceTags?: string[] | null;
-  canonicalEnglishTags: string[];
   markdownBody: string;
 }): Promise<TranslateMarkdownOutput> {
   const client = getOpenAIClient();
@@ -67,19 +63,13 @@ export async function translateMarkdownStructured(params: {
         title: { type: "string" },
         description: { type: "string" },
         body: { type: "string" },
-        tags: { type: "array", items: { type: "string" } },
       },
-      required: ["title", "body", "tags"],
+      required: ["title", "description", "body"],
     },
   } as const;
 
   const sourceLang = params.sourceLocale === "ja" ? "日本語" : "英語";
   const targetLang = params.targetLocale === "ja" ? "日本語" : "英語";
-
-  const canonicalTagList = (params.canonicalEnglishTags ?? [])
-    .slice(0, 200)
-    .map((t) => `- ${t}`)
-    .join("\n");
 
   const prompt = [
     `あなたは技術ブログの編集者です。以下のMarkdown記事を ${sourceLang} → ${targetLang} に翻訳してください。`,
@@ -87,17 +77,13 @@ export async function translateMarkdownStructured(params: {
     "制約:",
     "- 出力は **JSONのみ**（スキーマに厳密準拠）",
     "- Markdown本文は Markdown のまま（リンク/画像/コードフェンス/見出し/引用 を壊さない）",
-    "- tags は **すべて英語**。既存の英語タグ一覧から意味が合うものを優先して選ぶ。なければ短い英語タグを新規で提案してよい",
-    "- tags は重複しない（大文字小文字違いも重複扱い）",
-    "",
-    "既存の英語タグ一覧:",
-    canonicalTagList || "(なし)",
+    "- 翻訳対象は title / description / body のみ（emojiやtags等は触らない）",
+    "- description は必ず返す（元が無い場合は空文字でよい）",
+    "- 埋め込みなどのコードは、そのままコピーする",
     "",
     "ソースfrontmatter（参考）:",
     `- title: ${params.sourceTitle}`,
     `- description: ${params.sourceDescription ?? ""}`,
-    `- emoji: ${params.sourceEmoji}`,
-    `- tags: ${(params.sourceTags ?? []).join(", ")}`,
     "",
     "ソース本文(Markdown):",
     params.markdownBody,

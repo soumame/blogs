@@ -4,49 +4,17 @@ import matter from "gray-matter";
 import {
   exists,
   getBlogRoot,
-  isProbablyJapanese,
-  normalizeTag,
   posixify,
   sha256Hex,
   writeText,
 } from "./utils.js";
 import { translateMarkdownStructured } from "./openai.js";
-import { buildCanonicalEnglishTags, collectTagOccurrences } from "./tags.js";
+import {
+  stringifyMarkdownWithFrontmatter,
+  type BlogFrontmatter,
+} from "./frontmatter.js";
 
 export type Locale = "ja" | "en";
-
-type BlogFrontmatter = {
-  title: string;
-  emoji: string;
-  tags?: string[] | null;
-  published_at?: string | Date | null;
-  description?: string | null;
-  isTranslated?: boolean | null;
-  sourcePath?: string | null;
-  sourceHash?: string | null;
-};
-
-function uniqueByNormalized(tags: string[]) {
-  const seen = new Set<string>();
-  const out: string[] = [];
-  for (const t of tags) {
-    const n = normalizeTag(t);
-    if (!n) continue;
-    if (seen.has(n)) continue;
-    seen.add(n);
-    out.push(t.trim());
-  }
-  return out;
-}
-
-function canonicalizeByExactMatch(
-  tags: string[],
-  canonicalEnglishTags: string[]
-) {
-  const map = new Map<string, string>();
-  for (const t of canonicalEnglishTags) map.set(normalizeTag(t), t);
-  return tags.map((t) => map.get(normalizeTag(t)) ?? t);
-}
 
 export async function translateOne(params: {
   sourceAbsPath: string;
@@ -55,7 +23,6 @@ export async function translateOne(params: {
   targetLocale: Locale;
   dryRun?: boolean;
   force?: boolean;
-  canonicalEnglishTags?: string[];
 }) {
   const blogRoot = getBlogRoot();
   const sourceRaw = await fs.readFile(params.sourceAbsPath, "utf8");
@@ -85,43 +52,33 @@ export async function translateOne(params: {
     }
   }
 
-  const canonicalEnglishTags =
-    params.canonicalEnglishTags ??
-    buildCanonicalEnglishTags(await collectTagOccurrences());
-
   const translated = await translateMarkdownStructured({
     sourceLocale: params.sourceLocale,
     targetLocale: params.targetLocale,
     sourceTitle: src.title,
     sourceDescription: src.description ?? null,
-    sourceEmoji: src.emoji,
-    sourceTags: (src.tags ?? null) as string[] | null,
-    canonicalEnglishTags,
     markdownBody: sourceParsed.content,
   });
 
-  let outTags = translated.tags ?? [];
-  outTags = outTags
-    .map((t) => t.trim())
-    .filter(Boolean)
-    .filter((t) => !isProbablyJapanese(t));
-  outTags = uniqueByNormalized(outTags);
-  outTags = canonicalizeByExactMatch(outTags, canonicalEnglishTags);
-
   const outFrontmatter: BlogFrontmatter = {
     title: translated.title.trim(),
+    // emoji は翻訳元をそのまま引き継ぐ（AIに渡すと壊れることがあるため）
     emoji: src.emoji,
-    // 翻訳先の記事はタグを英語に統一する（空ならnull）
-    tags: outTags.length > 0 ? outTags : null,
+    // tags は翻訳元をそのまま引き継ぐ（英日共通運用）
+    tags: (src.tags ?? null) as any,
     published_at: (src.published_at ?? null) as any,
-    // 翻訳先の記事は description も翻訳結果を優先（空ならnull）
+    // description は翻訳結果を優先（空ならnull）
     description: (translated.description?.trim() || null) as any,
     isTranslated: true,
     sourcePath: sourceRel,
     sourceHash,
   };
 
-  const out = matter.stringify(translated.body, outFrontmatter as any);
+  // gray-matter.stringify はUnicode(絵文字)をエスケープする場合があるため、自前でYAMLを生成する
+  const out = stringifyMarkdownWithFrontmatter({
+    frontmatter: outFrontmatter,
+    body: translated.body,
+  });
 
   if (params.dryRun) {
     return {
