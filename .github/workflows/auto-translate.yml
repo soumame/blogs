@@ -24,25 +24,40 @@ jobs:
             - uses: pnpm/action-setup@v4
               with:
                   run_install: false
+            - name: Verify directory structure
+              run: |
+                  pwd
+                  ls -la
+                  if [ -d "src/content/blog" ]; then
+                      echo "Directory exists: src/content/blog"
+                      ls -la src/content/blog/
+                  else
+                      echo "Directory not found: src/content/blog"
+                      find . -name "package.json" -type f | head -10
+                  fi
             - name: Install (blog scripts)
-              run: pnpm install --no-frozen-lockfile
-              working-directory: src/content/blog
+              run: |
+                  cd src/content/blog || cd . || { echo "Failed to change directory"; exit 1; }
+                  pnpm install --no-frozen-lockfile
 
             - name: Check frontmatter
-              run: pnpm check:blog
-              working-directory: src/content/blog
+              run: |
+                  cd src/content/blog
+                  pnpm check:blog
 
             - name: Translate missing/changed posts
-              run: pnpm translate
-              working-directory: src/content/blog
+              run: |
+                  cd src/content/blog
+                  pnpm translate
               env:
                   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
                   OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL }}
                   OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL }}
 
             - name: Detect duplicated tags (and open/update issue)
-              run: pnpm detect:duplicated-tags -- --create-issue
-              working-directory: src/content/blog
+              run: |
+                  cd src/content/blog
+                  pnpm detect:duplicated-tags -- --create-issue
               env:
                   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
                   OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL }}
