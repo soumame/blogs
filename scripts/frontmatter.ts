@@ -79,6 +79,3 @@ export function stringifyMarkdownWithFrontmatter(params: {
   const body = params.body.replace(/^\s+/, ""); // 先頭の余計な空白は落とす
   return `---\n${fm}\n---\n\n${body}`;
 }
-
-
-
