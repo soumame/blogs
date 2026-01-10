@@ -1,5 +1,5 @@
 ---
-title: "Embedding LLMs in Visual Programming (Blockly × LLM)"
+title: "I Want to Incorporate LLM into Visual Programming (Blockly × LLM)"
 emoji: "🤖"
 tags:
   - "llm"
@@ -11,95 +11,89 @@ sourcePath: "ja/tech/llm-in-visual-programming.md"
 sourceHash: "48e4dd8cb0ef3c27560847ec58fd321a40f6dc76ee23dcd39abfe3a1476901b8"
 ---
 
-Nice to meet you. I’m Sōmamekoto Tokumaru Sōsei.
-
-About a year ago I got hooked on Typescript/React web app development, and I’m currently building a web application called [“TutoriaLLM”](https://tutoriallm.com) that integrates visual programming with AI-driven dialogue and real-time code execution features.
+Hello everyone. My name is Sousei Tokumaru, also known as Sōmame.
+About a year ago, I became deeply fascinated with web application development using Typescript and React, and I am currently creating a web application called ["TutoriaLLM"](https://tutoriallm.com), which incorporates visual programming, AI interactions, and real-time code execution features.
 
 https://tutoriallm.com
 
-[“TutoriaLLM”](https://tutoriallm.com) has been in development since the beginning of this year, and while it’s the first app I’ve properly built, I’m happy to say it was selected for [Mitou Junior 2024](https://jr.mitou.org/projects/2024/tutoriallm) and won the AI development division at [Applica Koshien 2024](https://applikoshien.jp/).
+Since the beginning of this year, I have been developing ["TutoriaLLM"](https://tutoriallm.com). While it's the first serious app I have created, I am happy to say that it has been selected for [Unexplored Junior 2024](https://jr.mitou.org/projects/2024/tutoriallm) and has won the AI development category at [App Koshien 2024](https://applikoshien.jp/).
 
-That said, I’ve entered a number of external contests, but I haven’t had many opportunities to explain each feature in detail, so today I’d like to think through the integration of LLMs into block-based programming for programming education.
+However, although I have participated in several external contests, I have not had many opportunities to explain the details of each feature. So today, I would like to think about incorporating LLM into programming education using block programming.
 
-I’ll skip writing out the code because I want many people to read this. If you’re curious about the details, please ask me directly or check the GitHub repository. (If there’s demand, I might write a deeper dive.)
+I would like as many people as possible to see this, so I will omit the program descriptions. If you are curious about the details, please feel free to ask me directly or refer to the GitHub repository. (I might write more detailed articles if there is demand.)
 https://github.com/TutoriaLLM/TutoriaLLM
 
-## Integrating LLMs into a VPL
+## Incorporating LLM into VPL
 
-VPLs (visual programming languages) are often used for teaching programming beginners. Recently, LLM accuracy has improved, so some people may be considering integrating LLMs into VPLs.
+VPL (Visual Programming Language) is often associated with the education of programming beginners. Recently, as the accuracy of LLMs has improved, some people might consider incorporating LLMs into VPL as well.
 https://zenn.dev/yutakobayashi/articles/blockly-openai
-For example, in this demo developed by yuta, you can create programs directly within the playground of Google’s [Blockly](https://developers.google.com/blockly?hl=ja) VPL. The VPL×AI portion of TutoriaLLM I’ll introduce today is heavily inspired by this.
+For example, in this demo developed by Yuta, it is possible to create programs directly within a workspace of [Blockly](https://developers.google.com/blockly?hl=ja), which is developed by Google. The VPL×AI system of TutoriaLLM that I will introduce today is quite inspired by this.
 
-## There was a problem
+## Issues Encountered
 
-However, the aforementioned demo is very well received by general developers (I’m one of them), but user testing revealed it wasn’t very effective for children. Like GitHub Copilot, when an LLM directly creates code, humans write less code. Children, in particular, can become overly reliant on it and throw everything to the AI with an attitude like, “If it can write better code than me, I’ll just have the AI do it all!” I rely on Copilot a lot myself, so I’m not trying to condemn it, but here I treat the behavior of children stopping to think and handing over all tasks to the AI as undesirable.
+However, while the aforementioned demo is well-received by general developers (I am one of them), user tests showed that it was not very effective for children. Similar to GitHub Copilot, when LLMs are used to create programs directly, humans tend to write less code, and especially with children, they can overly rely on it. This leads to a mentality of "If AI can write a better program than me, I'll let it handle everything!" I am someone who heavily relies on Copilot, so I cannot deny it, but for the sake of discussion, let's treat it as a negative that children can stop thinking and delegate all tasks to AI.
 
-## Getting users to move their hands
+## Encouraging User Interaction
 
-So in TutoriaLLM we developed a system where the AI assists while making users actually move—highlighting blocks and directly suggesting blocks to use—so users manually interact with the workspace while the AI supports them.
-[![Image from Gyazo](https://i.gyazo.com/31abfd751e0584aacefefdede66b9997.gif)_AI-driven block highlighting_](https://gyazo.com/31abfd751e0584aacefefdede66b9997)
+Therefore, in TutoriaLLM, we developed a system that highlights blocks and directly suggests blocks to encourage users to actually engage by moving their hands while AI provides assistance.
+[![Image from Gyazo](https://i.gyazo.com/31abfd751e0584aacefefdede66b9997.gif)_AI Highlighting Blocks_](https://gyazo.com/31abfd751e0584aacefefdede66b9997)
 
-[![Image from Gyazo](https://i.gyazo.com/002a9d49d1a377a4bd9c23c09e3ef826.gif)_AI-driven block suggestions_
-](https://gyazo.com/002a9d49d1a377a4bd9c23c09e3ef826)
+[![Image from Gyazo](https://i.gyazo.com/002a9d49d1a377a4bd9c23c09e3ef826.gif)_AI Block Suggestions_](https://gyazo.com/002a9d49d1a377a4bd9c23c09e3ef826)
 
-We haven’t tested this on a large number of people yet, but this approach at least forces users to move their hands. I used to teach at a programming classroom, and I taught students how to build programs step by step like this. LLMs are very good at imitating human actions and speech, so they work well when teaching step-by-step like this.
+Although we have not been able to conduct large-scale testing yet, at least users will now need to move their hands. In fact, I used to teach programming classes, and I taught students step-by-step how to create programs like this. LLM is very good at mimicking human behaviors and speech, so it works well even when teaching step-by-step.
 
-## How it was implemented
+## Implementation
 
-Both the block highlighting and block suggestions are implemented by making slight modifications to the Blockly framework that provides the visual programming environment. Blockly allows you to dynamically retrieve the workspace contents. You can also retrieve toolbar contents with a bit of tweaking.
+Both the block highlighting and block suggestions use a slightly modified version of the framework providing visual programming, called Blockly. With Blockly, the contents of the workspace can be dynamically retrieved. Additionally, accessing the contents of the toolbar can also be done easily with slight modifications.
 
-The Blockly workspace can be [serialized](https://developers.google.com/blockly/guides/configure/web/serialization) and saved as JSON or XML. TutoriaLLM uses this JSON for processing. For highlighting we draw SVG directly inside the workspace. You can find information on that with a quick search.
+The contents of the Blockly workspace can be [serialized](https://developers.google.com/blockly/guides/configure/web/serialization), allowing for saving in JSON or XML formats. In TutoriaLLM, we use this JSON for processing.
+For highlighting, we handle it by directly drawing SVGs within the workspace. You should be able to find information on this through research.
 
-The toolbox can be read using methods provided by Blockly. For a collapsible toolbox, we examine every bottom-level category and highlight the entire path up to the matching category once found.
+Toolbox reading can be done using the methods provided by Blockly. For collapsible toolboxes, we highlighted all categories in the hierarchy until we discovered a matching category by searching to the lowest level.
 
-Using these techniques, we parse responses from the LLM and, when there are block highlights or block suggestions, the frontend converts them into a form users can interact with and responds accordingly.
+Then, using these technologies, we analyze responses from LLMs and respond to the frontend with anything like block highlights or suggestions, making it available for users.
 
-### Early stage
+### Initial Stage
 
-In the early stage, responses looked like the image below. The AI could specify one block per message.
-[![Image from Gyazo](https://i.gyazo.com/b9f7d8875b386a3fb282654fcd002bdc.png)_It’s not ideal that the block name is written directly in the chat_](https://gyazo.com/b9f7d8875b386a3fb282654fcd002bdc)
-To achieve this, we used OpenAI’s API structured output. I think while building this feature a new structured output mode replacing JSON mode was announced, which greatly reduced the probability of errors.
-I vaguely remember responses from gpt looking like this
+In the initial stage, responses like the one in the image were returned. The AI could specify one block for each message.
+[![Image from Gyazo](https://i.gyazo.com/b9f7d8875b386a3fb282654fcd002bdc.png)_It's not good to have the block name written in the chat._](https://gyazo.com/b9f7d8875b386a3fb282654fcd002bdc)
+To achieve this, we used the structured output from OpenAI's API. During the creation of this feature, a new structured output mode was announced, which replaced JSON mode and significantly reduced the probability of errors. 
+Although I recall vaguely, the response from GPT looked something like this:
 
 ```json
 {
-content: "現在、チュートリアルが..."
+content: "Currently, the tutorial is..."
 block: "ext_example_console_log"
 toolbar: null
 }
 ```
 
-### Current specification
+### Current Specifications
 
-However, this specification had a problem: it could only select one block. Also, because the responses tended to be long, elementary school children often wouldn’t read the entire message.
-So, trading a bit of certainty for better usability, we introduced a new system.
+However, this specification had issues: **only one block can be selected**. Moreover, since the text tends to become long, **elementary school children often do not read everything.** Therefore, we implemented a new system, **in exchange for some reliability.** 
 [![Image from Gyazo](https://i.gyazo.com/0d17abba11d61c30241dcbb823768af5.png)](https://gyazo.com/0d17abba11d61c30241dcbb823768af5)
-
-This system parses the LLM’s Markdown-containing output on the frontend and, if block names or workspace block IDs are included, replaces them with the appropriate format for rendering. The current issue is that if block names or IDs are incorrect, they’ll be displayed as plain text, but this approach greatly reduces unnecessary textual information and produces clearer responses.
-The LLM just recognizes the user’s workspace as a string and returns it as a string, but the user sees it converted into visual information, so I think it’s a fairly cost-effective method.
+This system analyzes sentences from LLM that contain Markdown and replaces block names and block IDs within the workspace into an appropriate format for rendering. The current issue is that if block names or IDs are incorrect, they are displayed as plain text. However, thanks to this, unnecessary textual information has been greatly reduced, allowing for clearer responses.
+LLMs merely recognize the user’s workspace as a string and return it as a string, but since users see it converted into visual information, I think it's quite a cost-effective method.
 [![Image from Gyazo](https://i.gyazo.com/5910b3783b04510b77b318d0705e478a.png)](https://gyazo.com/5910b3783b04510b77b318d0705e478a)
+This allows for inline guidance for multiple blocks and workspace instructions.
 
-This allows inline instructions referencing multiple blocks and workspace actions like this.
+With this, teachers do not have to point to the screen saying, "Here, look, here!" because AI can do all of that, making it very easy to understand.
 
-With this, the AI can do everything instead of the teacher pointing at the screen and saying, “Here, here!”, which makes things much easier to understand.
+### Voice Mode
 
-### Voice mode
+Additionally, we are also working on implementing this via voice.
+Recently, a model called gpt4o-audio-preview (if I remember correctly) allows for these inputs and outputs to be replaced by audio.
+While the Realtime API has been a hot topic, it had a critical flaw where it would forget all context when disconnected (I’m not sure if this is still the case now). Moreover, as it only supports voice-to-voice, I did not use it.
+Audio-preview does not yet support structured output, so it sometimes returns broken JSON (proper error handling is necessary), but it enables dialogues in the way specified by users. For example, it can allow for input via voice and output via text.
+[![Image from Gyazo](https://i.gyazo.com/0670ec2f53d2d882f842b53804275926.jpg)_For voice input_](https://gyazo.com/0670ec2f53d2d882f842b53804275926)
 
-We’re also working on implementing these features with voice.
-There’s a model that came out recently—gpt4o-audio-preview, I think—that can replace these inputs and outputs with audio.
-Although the Realtime API got more attention, it had a fatal flaw of forgetting the entire context when the connection was dropped (I’m not sure about the current state), and it only supports voice-to-voice, so we didn’t use it.
-Audio-preview doesn’t yet support structured output, so it sometimes returns broken JSON (so you need proper error handling), but it can carry out dialogues in the manner specified by the user. For example, you can input by voice and output as text.
-[![Image from Gyazo](https://i.gyazo.com/0670ec2f53d2d882f842b53804275926.jpg)_When input is by voice_](https://gyazo.com/0670ec2f53d2d882f842b53804275926)
+[![Image from Gyazo](https://i.gyazo.com/0abdd3a3e228a0e237de5abd1b143315.jpg)_For text input_](https://gyazo.com/0abdd3a3e228a0e237de5abd1b143315)
+Nevertheless, I feel it may not yet be practical, so please try it at [demo.tutoriallm.com](https://demo.tutoriallm.com) if you're interested.
 
-[![Image from Gyazo](https://i.gyazo.com/0abdd3a3e228a0e237de5abd1b143315.jpg)_When input is text_
-](https://gyazo.com/0abdd3a3e228a0e237de5abd1b143315)
-That said, I’m not sure it’s practical yet, so if you’re interested please try it at [demo.tutoriallm.com](https://demo.tutoriallm.com).
+## Conclusion
 
-## In closing
-
-So,
-TutoriaLLM is still in development and unstable enough to crash almost daily... but we’ve already released a demo. Everything is open source and we’re eagerly looking for contributors, so the code might be messy—please take a look if you’re interested.
+In conclusion, TutoriaLLM is currently in development and is unstable to the level of crashing daily... but a demo version is already available. Also, it's fully open source and actively seeking contributors, so please take a look even though the code might be messy.
 https://github.com/TutoriaLLM/TutoriaLLM
 
-If you’re interested, I’d appreciate a follow on social media!
+If you are interested, I would be happy if you could follow me on social media!
 https://tokumaru.work/ja

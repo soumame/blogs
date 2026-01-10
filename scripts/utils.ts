@@ -57,4 +57,33 @@ export function cosineSimilarity(a: number[], b: number[]) {
   return denom === 0 ? 0 : dot / denom;
 }
 
+export function rewriteWikiLinksLocale(
+  markdown: string,
+  targetLocale: "ja" | "en",
+) {
+  // [[...]] のみ対象（通常のMarkdownリンクは触らない）
+  // [[target|label]] 形式の場合は target 部分だけ置換する
+  const from = targetLocale === "en" ? "ja" : "en";
+  const to = targetLocale;
+
+  return markdown.replace(/\[\[([^\]]+)\]\]/g, (_m, inner: string) => {
+    const parts = inner.split("|");
+    const targetRaw = parts[0] ?? "";
+    const rest = parts.slice(1);
+
+    const target = targetRaw.trim();
+    if (!target) return `[[${inner}]]`;
+    // 外部URLっぽいものは触らない
+    if (/^https?:\/\//i.test(target)) return `[[${inner}]]`;
+
+    // `/ja/` や `ja/` のようなパスプレフィックスだけ入れ替える
+    let replaced = targetRaw;
+    replaced = replaced.replace(new RegExp(`(^|\\/)${from}(?=\\/)`, "g"), `$1${to}`);
+
+    const rebuilt =
+      rest.length > 0 ? [replaced, ...rest].join("|") : replaced;
+    return `[[${rebuilt}]]`;
+  });
+}
+
 

@@ -1,5 +1,5 @@
 ---
-title: "【Notion】How to create free automatic notifications using formulas"
+title: "How to Create Automated Notifications for Free Using Functions in Notion"
 emoji: "🤖"
 tags:
   - "notion"
@@ -9,91 +9,89 @@ sourcePath: "ja/tech/notion-notification-function.md"
 sourceHash: "b426b06b18e5302c663048382fb70a4a3889b278157f15987e7e353bea8e5c57"
 ---
 
-# 【Notion】How to create free automatic notifications using formulas
+# How to Create Automated Notifications for Free Using Functions in Notion
 
 [![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)
 
-Notion is convenient, isn't it? I migrated from Trello and find it extremely useful, but there's one thing that left me **a bit disappointed.**
+Notion is convenient, isn't it? I also migrated from Trello and find it very useful, but there is one thing that is **disappointing.**
 
-## No notification when the time comes...
+## No notifications even when the time comes...
 
-A few days after I started using it, I noticed that **reminders don't come through**.
+A few days after I started using it, I realized that **reminders don’t come.**
 
-Unlike Trello, Notion doesn't automatically remind you when you set a time — you need to either type `/remind` or toggle the switch when setting it from the calendar property.
+Unlike Trello, Notion does not **automatically remind** you when you set a time; you need to either type **/remind** or toggle a switch when setting it up from the calendar property.
 
 [![Image from Gyazo](https://i.gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c.png)](https://gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c)
 
-If you're thinking, “Oh, it's just toggling a switch,”
+"Oh, it's just a toggle," you might be thinking!
 
-**this feature is tricky**: when you're jotting down notes quickly and forget to toggle it, **you won't get any notification even when the due date arrives.** That's really inconvenient.
+**This feature can be quite tricky**; if you forget to toggle it while jotting down notes, **you won’t receive any notifications when the due date arrives.** This is incredibly inconvenient.
 
-So I decided to fix this shortcoming by **relying on an external tool.**
+So, I decided to **rely on external tools** to overcome this inconvenience.
 
 ## the:gist
 
-By using **[the gist](https://www.thegist.so)**, you can create automatic reminders for **free**. This app is a service that **detects specific events** and sends notifications.
+By using **"[the gist](https://www.thegist.so),"** you can create **automated reminders for free.** This app is a service that detects **specific events** and sends notifications.
 
 [![Image from Gyazo](https://i.gyazo.com/adeaa61701d46a54986681e355701023.png)](https://gyazo.com/adeaa61701d46a54986681e355701023)
 
-> **“the:gist”**
-> Price: Freemium (the first one is free)
-> Functionality: Detects events in Notion
+> **"the:gist"**  
+> Price: Freemium (only the first one is free)  
+> Function: Detects events in Notion
 
-## Let's set up “the:gist”!
+## Let's Set Up "the:gist!"
 
-the:gist is a handy piece of software, but it requires **a bit of configuration** to use as a reminder. I couldn't find a clear guide on other websites, so I'm writing it down here.
+the:gist is a handy software, but it requires **a little setup** to use as a reminder. Since I couldn’t find it on other websites, I decided to write it here.
 
-## Settings on the Notion side
+## Notion Settings
 
-As mentioned earlier, the:gist is an app that **reacts to specific actions**, so you need to make Notion trigger a specific action when the time comes. For that, we'll use a **calendar and a Formula** property.
+As mentioned earlier, the gist is an app that **responds to specific actions**, so we need to initiate a specific action in Notion when the time comes. For this, we will use **a calendar and a formula (Formula).**
 
-This time we want to remind 1 day before the due date, so we'll **use a dateBetween property to calculate the remaining days**, and when the remaining days equals 1, **the:gist will send a notification**.
+This time, we will remind **one day before the due date**, so we will calculate the remaining days with the **datebetween property** and send a notification with **the gist** when there is one day left.
 
-First, **select Formula from the properties**.
+First, **select the formula from the property.**
 
 [![Image from Gyazo](https://i.gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a.png)](https://gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a)
 
-Then, enter the dateBetween command into the property you created. **Replace the "日付？" part with the name of the calendar property you are using.**
+Then, input the datebetween command into the created property. **In the "date?" part, enter the name of the calendar property you are using.**
 
 ```
-dateBetween(prop("日付？"), now(), "days")
+dateBetween(prop("date?"), now(), "days")
 ```
 
-This lets you **calculate the remaining days**.
+This way, you can **calculate the remaining days.**
 
-Next, set it to **trigger an action when the remaining days is 1**.
+Next, set it up so that when the remaining days equal one, it **triggers an action.**
 
-Add another Formula property as before, and **copy and paste the following**. Replace **(残り日数)** with the name of the dateBetween property you created earlier.
+Just like before, add another formula property and **copy and paste the following.** **In place of (remaining days), enter the name of the datebetween property you created earlier.**
 
 ```
-if(prop("残り日数") < 1, "yes", "no") == "yes"
+if(prop("Remaining Days") < 1, "yes", "no") == "yes"
 ```
 
-This will check the box when the remaining days becomes 1!
+This way, a check will be marked when the remaining days are one!
 
-## Settings on the the:gist side
+## **Setting Up on the Gist Side**
 
-Once you've done this, you're **almost finished**!
+Once you've done this, there is **just a little more to go!**
 
-First, connect [the:gist](https://app.thegist.so/) following the steps (it will do this automatically). There's no need to explain how to do that here.
+First, link **[the gist](https://app.thegist.so/)** following the steps (it will do it automatically). There’s no need to explain how to do this.
 
 [![Image from Gyazo](https://i.gyazo.com/05aa0cf1bf34499e55102532c4f700ea.png)](https://gyazo.com/05aa0cf1bf34499e55102532c4f700ea)
 
-> **Name:** Reminder name
-> **In:** Database name
-> **if:** What to detect. Set it so that the checkbox property name becomes ✅
-> **then:** Action when detected. **Here set it to email when the checkbox is checked.**
+> **Name:** Reminder name  
+> **In:** Database name  
+> **if:** Condition to be detected. Set the checkbox property name to be ✅  
+> **then:** Action when detected. **Here, we set it to notify via email when the check is marked.**
 
-If you enter the above, you should receive an email notification. Well done!
+If you input as above, you should receive notifications via Email. Great job!
 
-## There is an even easier way...
+## There’s an Even Easier Way...
 
-Actually, there is another external tool called **[Notion Automations](https://notion-automations.com/calendar/)** that can **sync with Google Calendar bidirectionally**. It's more convenient to use than the:gist. However, it costs about $5/month, which might be a bit much if you're using it only a little personally.
+**Actually, there’s another external tool called "[Notion Automations](https://notion-automations.com/calendar/)"** that allows **two-way synchronization with Google Calendar.** It’s more user-friendly than "the gist." However, it’s priced at 500 yen per month, which might seem a bit too much for personal use.
 
 [![Image from Gyazo](https://i.gyazo.com/9c06dc485dfeef48bc92a8efcdde705d.png)](https://gyazo.com/9c06dc485dfeef48bc92a8efcdde705d)
 
-> **“Notion Automations”**
-> Price: $5 (¥500/month)
-> Functionality: Bidirectional calendar sync
-
-##
+> **"Notion Automations"**  
+> Price: five dollars (500 yen per month)  
+> Function: Two-way calendar synchronization

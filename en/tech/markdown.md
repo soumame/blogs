@@ -1,5 +1,5 @@
 ---
-title: "Markdown Syntax Cheat Sheet (Super Simple)"
+title: "Markdown Syntax Cheat Sheet (Super Easy)"
 emoji: "✒️"
 tags:
   - "プログラミング"
@@ -9,24 +9,25 @@ sourcePath: "ja/tech/markdown.md"
 sourceHash: "7b09bdc7e15775094ca03e24affaddcc4d163797c4c0c567baf408a93dd64aaf"
 ---
 
-If you've used Google Docs or Word, [![Image from Gyazo](https://i.gyazo.com/16b2c81bd5613af3c43990472054a394.png)](https://gyazo.com/16b2c81bd5613af3c43990472054a394)
-you can use buttons like these to select bold, italics, or headings.
+If you've used Google Docs or Word, you can select things like bold, italic, or headings like this:
 
-However, when using an editor for writing code, those buttons often aren't available, or you might not be able to select text with a mouse.
+[![Image from Gyazo](https://i.gyazo.com/16b2c81bd5613af3c43990472054a394.png)](https://gyazo.com/16b2c81bd5613af3c43990472054a394)
 
-Markdown is a language ([[markup|markup language]]) that lets you easily express headings, emphasis, and lists by adding simple symbols to text.
+However, when you use an editor for writing code, there are often no such buttons, or you may not be able to select text with the mouse.
 
-You often use it in editors like [[vs-code|VS Code]] or in editors such as Notion and Obsidian, so I made a cheat sheet (there are quite a few of these online, but I wanted one that was a bit simpler).
+Markdown is a simple language ([[markup|markup language]]) that allows you to express headings, emphasis, and bullet points by adding simple characters to the text.
 
-## Headings
+Even if you're using an editor like [[vs-code|VS Code]], or other editors like Notion or Obsidian, you can use it quite often, so I created a cheat sheet (there are quite a few of these available online, but I thought a simpler one would be nice).
 
-Use `#` for headings.
+## About Headings
+
+Headings are created using `#`.
 
 ```
-## タイトル
+## Title
 ```
 
-You type it like this
+You enter it like this:
 [![Image from Gyazo](https://i.gyazo.com/a11025c619300104cee3a5ab751529a8.png)](https://gyazo.com/a11025c619300104cee3a5ab751529a8)
 
 ---
@@ -41,52 +42,52 @@ You type it like this
 
 ---
 
-## Text formatting
+## Text Decoration
 
 ### Bold
 
 ```md
-**太字にしたい文字**
+**Text you want to be bold**
 ```
 
 ---
 
-## **This becomes bold**
+## **Will be bold**
 
 ### Italic
 
 ```md
-_斜体にしたい文字_
+_ text you want to be italic _
 ```
 
 ---
 
-## _This becomes italic_
+## _Will be italic_
 
-### Bullet lists
+### Bullet Points
 
 ```md
-- `-`を入れた後にスペースを入れると
-- 箇条書きになります
+- After putting `-`, if you add a space,
+- It becomes a bullet point.
 ```
 
 ---
 
-- If you put `-` and then a space
-- it becomes a bulleted list
+- After putting `-`, if you add a space,
+- It becomes a bullet point.
 
 ---
 
 ## Links
 
 ```md
-[リンクテキスト](https://example.com)
+[Link Text](https://example.com)
 ```
 
 ---
 
-## [Link text](https://example.com)
+## [Link Text](https://example.com)
 
 ---
 
-There are many other syntaxes, but covering these basics should be enough — you can look up the rest when you need them.
+There are many other notations, but I think if you cover this much, you can look up what you need later.

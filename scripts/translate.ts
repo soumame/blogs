@@ -5,6 +5,7 @@ import {
   exists,
   getBlogRoot,
   posixify,
+  rewriteWikiLinksLocale,
   sha256Hex,
   writeText,
 } from "./utils.js";
@@ -81,10 +82,16 @@ export async function translateOne(params: {
     sourceHash,
   };
 
+  // wikilink [[...]] 内の /ja/ /en/ を翻訳先言語に合わせて置換
+  const bodyWithRewrittenWikiLinks = rewriteWikiLinksLocale(
+    translated.body,
+    params.targetLocale,
+  );
+
   // gray-matter.stringify はUnicode(絵文字)をエスケープする場合があるため、自前でYAMLを生成する
   const out = stringifyMarkdownWithFrontmatter({
     frontmatter: outFrontmatter,
-    body: translated.body,
+    body: bodyWithRewrittenWikiLinks,
   });
 
   if (params.dryRun) {

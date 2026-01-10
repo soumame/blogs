@@ -13,9 +13,9 @@ sourceHash: "d9e55898a71d23ab9ee8a679c017a966d3f9f34b37626ca59ca00056f7c4bb82"
 
 [![Image from Gyazo](https://i.gyazo.com/6430ba51daf6a8887b81226ba123152e.png)](https://gyazo.com/6430ba51daf6a8887b81226ba123152e)
 
-I'll explain briefly.
+Here's a quick explanation.
 
-## **What you need**
+## **What You Need**
 
 > 1. A computer
 
@@ -23,44 +23,44 @@ I'll explain briefly.
 
 ## Creating a Nicehash Account
 
-First, go to the official Nicehash website using the link below
+First, go to the official Nicehash website via the link below:
 
-[https://www.nicehash.com/](https://www.nicehash.com/)　
+[https://www.nicehash.com/](https://www.nicehash.com/)
 
-Click **GET STARTED**
+Click **GET STARTED**.
 
 [![Image from Gyazo](https://i.gyazo.com/fd4d4909a39f6cb6991ee799e88ee382.png)](https://gyazo.com/fd4d4909a39f6cb6991ee799e88ee382)
 
-Enter your email and password as instructed
+Follow the steps to enter your email and password.
 
-If you reach a dashboard screen like this, you're done!
+If you can reach a screen like this dashboard, you've succeeded!
 
 [![Image from Gyazo](https://i.gyazo.com/e00d00e91d0b59263d155bcef21398dc.png)](https://gyazo.com/e00d00e91d0b59263d155bcef21398dc)
 
-## Downloading and launching the software
+## Downloading and Starting the Software
 
-**Account created! Next, download the software to your computer and start mining!**
+**Your account has been created! Now, we will download the software to your computer and start mining!**
 
-Follow the link above and download **Nicehash Miner**. It's probably the top item. If you have an NVIDIA GPU, you can also use QuickMiner (not covered here). If you're unsure, download Nicehash Miner.
+Follow the link above to download **Nicehash Miner**. It should probably be at the top. If you have an NVIDIA GPU, you can also use Quickminer (this won't be explained here; if you're unsure, please download Nicehash Miner).
 
 [![Image from Gyazo](https://i.gyazo.com/09a62fffdcef7fcbc9bd8e4b2028b8d2.png)](https://gyazo.com/09a62fffdcef7fcbc9bd8e4b2028b8d2)
 
-Once downloaded, follow the steps to install. Default settings are fine.
+Once downloaded, install it following the instructions. All settings should be fine with the defaults.
 
-Once the download is complete and you've logged in, reaching a screen like this means success.
+If the download completes and you log in, and you can reach a screen like this, you've succeeded.
 
 [![Image from Gyazo](https://i.gyazo.com/3f324f637a020113cf251cede253d6e0.png)](https://gyazo.com/3f324f637a020113cf251cede253d6e0)
 
-Enter your wallet address. Click the gear button and input your wallet address.
+Enter your wallet address. Click the gear button to input your wallet address.
 
 [![Image from Gyazo](https://i.gyazo.com/e0d5251ac32a7f4f2636d8e8c27010ee.png)](https://gyazo.com/e0d5251ac32a7f4f2636d8e8c27010ee)
 
-You can find your wallet address by opening the Mining tab on the dashboard and clicking the orange button.
+You can view your wallet address by clicking the orange button located in the Mining tab of the dashboard.
 
 [![Image from Gyazo](https://i.gyazo.com/b370b7deeb699c6a77cdc4ac471a1fb3.png)](https://gyazo.com/b370b7deeb699c6a77cdc4ac471a1fb3)
 
 [![Image from Gyazo](https://i.gyazo.com/728e97cd3256115b5c8a3f5efb44bc1e.png)](https://gyazo.com/728e97cd3256115b5c8a3f5efb44bc1e)
 
-Now Nicehash is ready to use.
+Now you can use Nicehash.
 
-Press the Start button shown in the software (the one that looks like a YouTube play button) and it will start mining automatically.
+By pressing the start button displayed on the software (the one that looks like a YouTube play button), it will start mining automatically.
