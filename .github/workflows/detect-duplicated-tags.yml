@@ -18,16 +18,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "pnpm"
 
       - name: Enable corepack
-        run: |
-          corepack enable
-          corepack prepare pnpm@10.15.0 --activate
-          pnpm --version
+        run: corepack enable
 
       - name: Install (blog scripts)
         run: pnpm install --no-frozen-lockfile
