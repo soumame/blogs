@@ -42,6 +42,45 @@ export type TranslateMarkdownOutput = {
   body: string;
 };
 
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function getTimeoutMs() {
+  const raw = process.env.OPENAI_TIMEOUT_MS ?? "180000"; // 3 minutes
+  const n = Number(raw);
+  return Number.isFinite(n) && n > 0 ? n : 180000;
+}
+
+async function withTimeout<T>(
+  p: Promise<T>,
+  ms: number,
+  label: string
+): Promise<T> {
+  let t: NodeJS.Timeout | undefined;
+  const timeout = new Promise<T>((_, reject) => {
+    t = setTimeout(
+      () => reject(new Error(`${label} timed out after ${ms}ms`)),
+      ms
+    );
+  });
+  try {
+    return await Promise.race([p, timeout]);
+  } finally {
+    if (t) clearTimeout(t);
+  }
+}
+
+function isRetryableOpenAIError(e: unknown) {
+  const any = e as any;
+  const status = any?.status;
+  if (status === 429) return true;
+  if (typeof status === "number" && status >= 500) return true;
+  const msg = String(any?.message ?? "");
+  if (/ECONNRESET|ETIMEDOUT|EAI_AGAIN|ENOTFOUND/i.test(msg)) return true;
+  return false;
+}
+
 export async function translateMarkdownStructured(params: {
   sourceLocale: "ja" | "en";
   targetLocale: "ja" | "en";
@@ -89,17 +128,40 @@ export async function translateMarkdownStructured(params: {
     params.markdownBody,
   ].join("\n");
 
-  const res = await client.responses.create({
-    model: translationModel,
-    instructions:
-      "You are a careful translator and technical editor. Preserve markdown formatting exactly and return strictly valid JSON according to the provided schema.",
-    input: prompt,
-    text: { format: jsonSchema },
-  });
+  const timeoutMs = getTimeoutMs();
+  const maxRetries = Number(process.env.OPENAI_MAX_RETRIES ?? "2");
 
-  const text = res.output_text;
-  if (!text) throw new Error("OpenAIからの出力が空です");
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const res = await withTimeout(
+        client.responses.create({
+          model: translationModel,
+          instructions:
+            "You are a careful translator and technical editor. Preserve markdown formatting exactly and return strictly valid JSON according to the provided schema.",
+          input: prompt,
+          text: { format: jsonSchema },
+        }),
+        timeoutMs,
+        "OpenAI responses.create"
+      );
 
-  const parsed = JSON.parse(text) as TranslateMarkdownOutput;
-  return parsed;
+      const text = res.output_text;
+      if (!text) throw new Error("OpenAIからの出力が空です");
+
+      const parsed = JSON.parse(text) as TranslateMarkdownOutput;
+      return parsed;
+    } catch (e) {
+      lastErr = e;
+      const shouldRetry = attempt < maxRetries && isRetryableOpenAIError(e);
+      if (!shouldRetry) break;
+      const backoff = Math.min(30000, 1000 * 2 ** attempt);
+      console.warn(
+        `[openai] retry ${attempt + 1}/${maxRetries} after ${backoff}ms: ${(e as Error).message}`
+      );
+      await sleep(backoff);
+    }
+  }
+
+  throw lastErr instanceof Error ? lastErr : new Error(String(lastErr));
 }

@@ -52,6 +52,10 @@ export async function translateOne(params: {
     }
   }
 
+  const startedAt = Date.now();
+  console.error(
+    `[translate] OpenAI start: ${params.sourceLocale}->${params.targetLocale} ${sourceRel}`
+  );
   const translated = await translateMarkdownStructured({
     sourceLocale: params.sourceLocale,
     targetLocale: params.targetLocale,
@@ -59,6 +63,9 @@ export async function translateOne(params: {
     sourceDescription: src.description ?? null,
     markdownBody: sourceParsed.content,
   });
+  console.error(
+    `[translate] OpenAI done : ${params.sourceLocale}->${params.targetLocale} ${sourceRel} (${Date.now() - startedAt}ms)`
+  );
 
   const outFrontmatter: BlogFrontmatter = {
     title: translated.title.trim(),

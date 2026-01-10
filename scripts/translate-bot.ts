@@ -43,6 +43,7 @@ async function runForDirection(
     cwd: root,
     nodir: true,
   });
+  sourceFiles.sort();
 
   let processed = 0;
   const results: Array<{
@@ -51,6 +52,11 @@ async function runForDirection(
     targetRel: string;
   }> = [];
 
+  console.error(
+    `[translate-bot] ${sourceLocale}->${targetLocale}: ${sourceFiles.length} files` +
+      (params.limit != null ? ` (limit=${params.limit})` : "")
+  );
+
   for (const rel of sourceFiles) {
     if (params.limit != null && processed >= params.limit) break;
     const sourceRel = posixify(rel);
@@ -58,6 +64,14 @@ async function runForDirection(
     const sourceAbs = path.resolve(root, sourceRel);
     const targetAbs = path.resolve(root, targetRel);
 
+    const idx = processed + 1;
+    console.error(
+      `[translate-bot] (${idx}/${Math.min(
+        sourceFiles.length,
+        params.limit ?? sourceFiles.length
+      )}) ${sourceLocale}->${targetLocale} ${sourceRel} -> ${targetRel}`
+    );
+    const t0 = Date.now();
     const r = await translateOne({
       sourceAbsPath: sourceAbs,
       targetAbsPath: targetAbs,
@@ -66,6 +80,9 @@ async function runForDirection(
       dryRun: params.dryRun,
       force: params.force,
     });
+    console.error(
+      `[translate-bot] done ${sourceRel} => ${r.action} (${Date.now() - t0}ms)`
+    );
     results.push({
       action: r.action,
       sourceRel: r.sourceRel,
