@@ -1,19 +1,21 @@
 ---
-title: I Did a Massive Refactoring After Mitou Junior Ended
-emoji: ♻️
+title: "Super Large Refactoring After Finishing MITOU Junior"
+emoji: "♻️"
 tags:
-  - mitou-junior
-published_at: 2024-12-14 12:13
+  - "mitou-junior"
+published_at: "2024-12-14 12:13"
 isTranslated: true
+sourcePath: "ja/tech/refactor-after-mitoujr.md"
+sourceHash: "5c1c8dcef22a9ddaef81dcbfe7ff4a76a8e8907d35ad9b9685ab0fb21a4ffa31"
 ---
 
-Hello, I'm Souma.
+Hello. I'm Souma.
 
 :::message
-This article is part of the [Mitou Junior Advent Calendar](https://adventar.org/calendars/10825).
+This article is part of the [MITOU Junior Advent Calendar](https://adventar.org/calendars/10825).
 :::
 
-Today I'd like to talk about how I did a major refactoring of my app [TutoriaLLM](https://tutoriallm.com). Although I've gotten more comfortable with development, I'm still an amateur compared to industry professionals, so I may be writing code in ways that are generally considered bad practice. If you notice anything, please let me know gently. [Contact info here](https://tokumaru.work/ja)
+Today, I'd like to talk about a large-scale refactoring of the app I am currently developing, called [TutoriaLLM](https://tutoriallm.com). Although I've gotten somewhat accustomed to it, I am still a beginner in the eyes of the community, so I may be writing code that is generally considered poor. Please let me know gently if I am! [Contact here](https://tokumaru.work/ja)
 
 https://tutoriallm.com
 
@@ -21,95 +23,92 @@ https://github.com/TutoriaLLM/TutoriaLLM
 
 # What is TutoriaLLM?
 
-> A self-hosted software that allows you to easily create block programming tutorials like Scratch and provide them using AI.
+> It's self-hosted software that allows you to easily create tutorials for block programming like Scratch and provide them using AI.
 
-Simply put, TutoriaLLM is a block programming learning software aimed at teachers and children that incorporates many ideas and solutions to frustrations encountered with [Scratch](https://scratch.mit.edu/) and [Makecode](https://makecode.microbit.org/).
+To put it simply, TutoriaLLM is a learning software for block programming aimed at teachers and children, filled with frustrations and ideas that emerged from platforms like [Scratch](https://scratch.mit.edu/) and [Makecode](https://makecode.microbit.org/).
 
-Using technologies like AI that monitors the entire app and acts as a teacher's assistant to teach block programming to children, and a VM system that executes created code on the server-side, it aims to reduce the cost burden on teachers and make programming education more accessible.
+Using technologies such as AI functions that assist teachers in teaching block programming while monitoring the entire application and a VM system that executes created code on the server-side, it aims to lower the costs for educators and make access to programming education easier.
 
-The app has been under development since around May this year with support from the "Mitou Junior" creator support program, and we had our final presentation on November 4th. Later, on the 17th, we surprisingly won first place at App Koshien. This was quite shocking. As this was the first proper application I developed with only 2 years of programming experience, I'm endlessly grateful to everyone at Mitou Junior who watched over me warmly while I wrote code inexperienced and taught me so many things.
+The app has been developed with support from the creator support program "MITOU Junior" since around May of this year, and we held a成果報告会 (results presentation meeting) on November 4th. Additionally, I was fortunate enough to win the app competition held on the 17th. I'm surprised! This application was my first serious development project after two years of programming, and I can't thank the wonderful people at MITOU Junior enough who watched over me as I wrote code in my inexperience and taught me so many things.
 
 # Reasons for Refactoring
 
-However, after finishing the final presentation and winning App Koshien, I was feeling satisfied but... as I worked with my app's code that I had rushed to complete in a short time, I started thinking "...isn't this code kind of messy?" Perhaps this means my technical skills have improved. The app is far from stable - the demo site's Sentry receives error notifications almost daily. While this app has been highly evaluated as a technical demo, it's still insufficient and unusable for real-world implementation.
+However, after the presentation meeting and winning the app competition, I found myself satisfied... but while touching the code of my app, which I managed to finish in a short amount of time, I began to think, "...Isn’t the code kind of messy?" Perhaps this indicates that my technical skills have improved. The app cannot be called stable by any means, as I receive error notifications on the demo site’s Sentry almost daily. While this app has been highly evaluated as a technical demo, it is still insufficient for actual implementation in the real world and is not usable at all.
 
-This app is intended to be used by teachers and children. While people may have been lenient since it was made by a high school student, having errors occur when actual users are using it would be a serious problem.
+This app is intended for use by teachers and children. Everyone may have overlooked it since it was made by high school students, but it would be a big problem if users actually use it and errors arise.
 
-Additionally, this app is [open source](https://github.com/TutoriaLLM/TutoriaLLM), and while there aren't many contributors yet, there may be people who want to contribute in the future. For that reason, I felt it was necessary to create an environment where developers can write code comfortably... or rather, my friend pointed this out to me.
+Moreover, since this app is [open-source](https://github.com/TutoriaLLM/TutoriaLLM), although not many people are participating yet, someone might contribute in the future. Therefore, I thought it was necessary to create an environment where developers can feel comfortable writing code... Well, a friend pointed it out to me.
 
-When I started writing code in May, everything was trial and error and I didn't understand anything, but now I feel like I can handle it! So I decided to do a refactoring.
+When I started coding in May, everything was a trial and error, and I didn’t understand anything, but now I feel like I can somehow manage it! So, I decided to refactor.
 
-# Starting the Refactoring!
+# Start Refactoring!
 
-For the refactoring, rather than just working from online information, I got various advice about repository setup and trending frameworks from Yuta-san who often helps me out. When it comes to making an app production-ready, it seems best to learn from someone with actual experience.
+In embarking on the refactoring, I made sure to get advice from Yuta, who often helps me, about setting up the repository and trendy frameworks, rather than relying solely on information from the internet. After all, I think it's best to hear from someone who has actually done it when it comes to getting an app into a production environment.
 https://zenn.dev/yutakobayashi
 
-## DB Redesign
+## Redesigning the Database
 
-First, I started by completely rebuilding the database.
-Previously I was using a combination of PostgreSQL and Redis, but I decided to consolidate this into PostgreSQL.
+First, I started by completely redesigning the database. 
+Originally, I was using a combination of PostgreSQL and Redis, but I decided to integrate them into PostgreSQL.
 
-Originally, TutoriaLLM synchronized user-created programs with server storage in real-time to enable LLM processing, multiple user access to the same session, and server-side code execution. I used Redis to achieve this. At the time, I didn't understand PostgreSQL very well, and since it was in the testing phase, I prioritized getting a working version quickly, so I chose Redis because it was simple to use and immediately available. Also, since session data was written in JSON and was being overwritten in Redis each time, the high-speed in-memory processing it advertised was another reason.
+Initially, TutoriaLLM was using Redis to synchronize users’ created programs in real-time with the server's storage in order to handle LLM processing, multiple users accessing the same session, and server-side code execution. At that time, I didn’t have much understanding of PostgreSQL, and since it was still in the testing phase, I prioritized creating a working version quickly, which is why I chose Redis for its simplicity and immediate usability. Additionally, session data was described in JSON and was being overwritten in Redis each time, thus leveraging its advertised fast in-memory processing.
 
-However, as time passed and we reached the stage where people would actually use it, we needed something that was "reliably working" rather than just "working somehow". Redis is in-memory, so if you stop the server without taking any precautions, all data is lost. If the server goes down even for a moment while children are using it, all their in-progress data would be lost - a disaster. Also, after changing to a diff-based update method, the amount of data read and written at once decreased. In this case... PostgreSQL is sufficient, right?
+However, as time passed and we moved to the stage of actual usage by people, the demand shifted from "just working" to "working reliably." Since Redis operates in-memory, if the server is stopped unexpectedly, all data will be lost. If the server drops even for a moment while children are using it, all the data they were working on will disappear, leading to a disaster. Furthermore, by switching to a differential base for data updates, the amount read and written at once was reduced. With that said... PostgreSQL is sufficient for our needs.
 
-So, as we moved from the stage of creating a working demo to having people actually use it, I decided to redesign the DB.
+Thus, as we transitioned from creating a functional demo to a stage where real users would be using it, I decided to redesign the database.
 
 ### Selected Technologies
 
-Although I say redesign, it was quite simple since I just integrated the session management part into PostgreSQL. However, I decided not to support backward compatibility as it would have been difficult. (This would be very problematic in production)
-For the PostgreSQL server, I used a Docker image that already supported Vector data (which isn't in standard PG and needs to be extended) since it was needed for AI-related features.
+Even though I said I redesigned it, I only integrated session management into PostgreSQL, so it was relatively simple to do. However, I decided against supporting backward compatibility because doing so in a production environment would be very tricky.
+Since the PostgreSQL server needed to store vector data related to AI features (which is not present in standard PG and needs to be extended), I started with a Docker image that supports it from the outset.
 https://hub.docker.com/r/ankane/pgvector
 
-For these operations, I used Drizzle ORM. It also [supports Vector](https://orm.drizzle.team/docs/guides/vector-similarity-search), and I think this is the best choice for people writing in Javascript/Typescript.
+For these operations, I used Drizzle ORM. It supports [vector capabilities](https://orm.drizzle.team/docs/guides/vector-similarity-search), and for those writing in Javascript/Typescript, this is probably the best option.
 https://orm.drizzle.team/
 
 ## Goodbye, Express
 
-TutoriaLLM was using Express for backend and Vite for frontend, and to build these quickly, I was using something straightforwardly named Vite-express.
+In TutoriaLLM, the stack consisted of Express for the backend and Vite for the frontend, and to create these quickly, I was using something simply named vite-express.
 https://github.com/szymmis/vite-express
-It's more of a wrapper for easy full-stack deployment than a framework (sorry if I'm wrong). Since the app is served as static files, using this made it easy to handle the whole flow of Vite build → Express loading → frontend/backend serving.
 
-When I first developed it, I thought this was super convenient! And it is. However, using something like this makes it impossible to separate frontend and backend.
-TutoriaLLM is provided as a Docker image, but this offers zero scalability. Like before, it was fine for creating a working demo, but when it comes to actual use... it's a bit concerning.
+Rather than a framework, it's more like a wrapper for easily deploying full-stack applications (I apologize if that’s incorrect). Since the app is served as static files, using something like this made the process straightforward from building with Vite → loading it with Express → providing frontend/backend.
+
+At the time of development, I thought this was super convenient! And it was indeed convenient. However, by using something like this, it became impossible to separate the frontend from the backend.
+TutoriaLLM is provided as a Docker image, but this setup shows no scalability at all. While it was sufficient for creating a working demo, it became a bit concerning once it had to be used in practice...
 
 ### Monorepo Strategy
 
-So, with Yuta-san's help, we started by turning the application into a monorepo. Since I was using pnpm, we used [pnpm workspaces](https://pnpm.io/ja/next/workspaces) to separate frontend and backend. Since it's essentially just Vite and Express, moving directories should be enough... right...
+Thus, with Yuta's help, I decided to start by converting the application into a monorepo. Since I was using pnpm, I would use [pnpm workspaces](https://pnpm.io/ja/next/workspaces) to separate the frontend and backend. Since it effectively uses Vite and Express, it should just take moving the directories...
 
 ### Type Definition Issues
 
-However, reality wasn't so simple. Five months ago, I was sharing TypeScript type definitions between frontend and backend.
+However, reality was not so easy. Five months ago, I was sharing TypeScript type definitions between the frontend and backend.
 
-When communicating between frontend and backend, you can't have type definitions without doing anything special. There are various ways to add type definitions but... ~~it was troublesome, so I was about to use Any (making enemies of TypeScript users worldwide)~~
-Creating a dedicated module for type definitions in pnpm workspace and managing them there... just thinking about it is troublesome, and double definitions would probably become a maintenance nightmare and ~~we'd end up back in Any hell~~
+When making the frontend and backend communicate without doing anything, type definitions cannot be applied. There are various ways to implement type definitions... but I was going to use Any out of laziness (which would put me at odds with all typescripters around the world).
+I considered creating a module solely for type definitions in the pnpm workspace, but just thinking about it felt tedious, and if I ended up having to define them twice, it would probably become a hassle to manage and lead me back to the Any hell.
 
 ### Hono + RPC
 
-There was a hot framework for lazy individual developers like me. It's Hono.
-With Hono, you can bring type definitions defined in the backend using zod to the frontend.
+There was a hot framework for lazy individual developers: Hono.
+With Hono, you can bring the type definitions defined in the backend (using zod etc.) to the frontend.
 https://hono.dev/docs/concepts/stacks
 
-It's amazing, right? I have no idea what technology is being used (I should study), but with this, you can bring types directly to the frontend. Moreover, you can generate these based on [Zod+OpenAPI combination](https://hono.dev/examples/zod-openapi). By just defining the API specification and describing the corresponding responses, you can develop the backend side with complete type safety.
+Isn’t that wonderful? I have no idea what technology is being used (I should study), but by using this, you can take types straight to the frontend. Moreover, you can even generate these based on a [Zod + OpenAPI combination](https://hono.dev/examples/zod-openapi). By defining the API specifications and writing the corresponding responses, the backend can develop completely with types intact.
 
-So since Hono clearly matches our current situation better, I decided to part ways with Express. While Express is a widely used framework for building server-side applications and is used in many large-scale applications with high stability, at least for cases like mine, this is better.
+Given that it fits the current situation much better, I decided to part ways with Express. While Express is a widely used framework for server-side development and is often found in large-scale applications with high stability, in cases like mine, this seems to be a better choice.
 
-TutoriaLLM was already using Hono for executing user code.
-TutoriaLLM's code execution feature can connect with games like Minecraft to execute code, and we were using Hono's WebSocket helper to provide a lightweight WebSocket connection environment. Often these kinds of WebSocket servers can't connect with special clients like Minecraft, but Hono is written very simply so there seem to be fewer such troubles.
+Originally, Hono was also used in TutoriaLLM when executing code. The code execution functionality of TutoriaLLM allows connection with games like Minecraft to execute code, and by utilizing Hono's WebSocket helper, it provided a lightweight WebSocket connection environment. A lot of WebSocket servers struggle to connect with specialized clients like Minecraft, but I have the impression that Hono is very simply written, which reduces such troubles.
 
-So for this refactoring, we decided to implement Hono across the entire app, and since it was so user-friendly, I plan to become a Hono believer and promote it from now on.
+Thus, for this refactoring, I decided to implement Hono throughout the entire application, and I found it very user-friendly, so I plan to become a Hono believer and promote it in the future.
 
-# Time and Results
+# Time and Outcomes
 
-So what do you think?
-For my first time refactoring my first web app, I think we achieved quite good improvements.
+So, how was it? Considering it was my first web app and my first time refactoring, I think we made significant improvements.
 
-The time taken for these changes was about three weeks. I think this is excellent timing for completing everything including technology selection, DB redesign, repository migration, monorepo conversion, framework change, and type sharing setup.
+The total time taken for these changes was about three weeks. Considering that I managed the technology selection, redesigned the database, migrated the repository, converted it to a monorepo, changed frameworks, and set up type sharing, I think this timeframe is quite good.
 
-I believe these changes have greatly improved TutoriaLLM's stability. I'm very satisfied that what was previously in a temporary working state is now functioning quite properly.
+With these changes, I believe the stability of TutoriaLLM has improved greatly. What was previously a makeshift working state has become more robust, and I am very satisfied.
 
-However, even after this refactoring, there are still unstable areas that need more fixes, but by establishing a solid development foundation at this point, we plan to continue updates and eventually deploy this app for actual use in educational institutions teaching programming.
+That said, even after this refactoring, there are still some unstable areas, and I need to fix a few more things. However, I aim to establish a solid development foundation at this point and to continue updating, with the eventual goal of deploying this app to educational institutions that teach programming (for them to use).
 
-During the Mitou Junior period, I focused on creating a working demo to gather interested people. While it's valid to develop without considering stability like that, there comes a time when you need to rewrite things like this. We need to aim for stable operation too. I'll keep working hard.
-
-https://tokumaru.work/ja
+During the MITOU Junior period, I focused primarily on creating a working demo to attract people interested in the app. Of course, I think it's acceptable to develop like this, ignoring stability, but there will come a time when you need to rewrite things in such a manner. We need to aim for reliable functioning as well. I will keep trying my best.

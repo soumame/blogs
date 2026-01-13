@@ -1,0 +1,41 @@
+name: detect-duplicated-tags
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "src/content/blog/ja/**/*.md"
+      - "src/content/blog/en/**/*.md"
+      - "src/content/blog/scripts/**/*.ts"
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Enable corepack
+        run: corepack enable
+
+      - name: Install (blog scripts)
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Detect duplicated tags (and open/update issue)
+        run: pnpm detect:duplicated-tags -- --create-issue
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
