@@ -1,33 +1,31 @@
 ---
-title: Markdown Syntax Cheat Sheet (Super Easy)
-emoji: ✒️
+title: "Markdown Syntax Cheat Sheet (Super Simple)"
+emoji: "✒️"
 tags:
-  - dev
-published_at: 2025-10-05
+  - "dev"
+published_at: "2025-10-05T00:00:00.000Z"
 isTranslated: true
-sourcePath: ja/tech/markdown.md
-sourceHash: 7b09bdc7e15775094ca03e24affaddcc4d163797c4c0c567baf408a93dd64aaf
+sourcePath: "ja/tech/markdown.md"
+sourceHash: "a96cbe01a79cb877a6f423bd1217a8309bb059c54609349e3bfd00cd3dd8987d"
 ---
 
-If you've used Google Docs or Word, you can select things like bold, italic, or headings like this:
+If you've used Google Docs or Word, [![Image from Gyazo](https://i.gyazo.com/16b2c81bd5613af3c43990472054a394.png)](https://gyazo.com/16b2c81bd5613af3c43990472054a394) you can select bold, italic, headings and so on like this.
 
-[![Image from Gyazo](https://i.gyazo.com/16b2c81bd5613af3c43990472054a394.png)](https://gyazo.com/16b2c81bd5613af3c43990472054a394)
+However, when using editors for writing code, such buttons are often not available, or you may not be able to select text with a mouse.
 
-However, when you use an editor for writing code, there are often no such buttons, or you may not be able to select text with the mouse.
+Markdown is a language ([[markup|markup language]]) that lets you represent headings, emphasis, and lists by adding simple characters to text.
 
-Markdown is a simple language ([[markup|markup language]]) that allows you to express headings, emphasis, and bullet points by adding simple characters to the text.
+You often use it in editors like [[vs-code|VS Code]], Notion, Obsidian, so I made a cheat sheet (there are many like this on the web, but I wanted something a bit simpler).
 
-Even if you're using an editor like [[vs-code|VS Code]], or other editors like Notion or Obsidian, you can use it quite often, so I created a cheat sheet (there are quite a few of these available online, but I thought a simpler one would be nice).
+## Headings
 
-## About Headings
-
-Headings are created using `#`.
+Headings use `#`.
 
 ```
-## Title
+## タイトル
 ```
 
-You enter it like this:
+You type it like this
 [![Image from Gyazo](https://i.gyazo.com/a11025c619300104cee3a5ab751529a8.png)](https://gyazo.com/a11025c619300104cee3a5ab751529a8)
 
 ---
@@ -42,52 +40,52 @@ You enter it like this:
 
 ---
 
-## Text Decoration
+## Text formatting
 
 ### Bold
 
 ```md
-**Text you want to be bold**
+**太字にしたい文字**
 ```
 
 ---
 
-## **Will be bold**
+## **This becomes bold**
 
 ### Italic
 
 ```md
-_ text you want to be italic _
+_斜体にしたい文字_
 ```
 
 ---
 
-## _Will be italic_
+## _This becomes italic_
 
-### Bullet Points
+### Lists
 
 ```md
-- After putting `-`, if you add a space,
-- It becomes a bullet point.
+- `-`を入れた後にスペースを入れると
+- 箇条書きになります
 ```
 
 ---
 
-- After putting `-`, if you add a space,
-- It becomes a bullet point.
+- If you put `-` followed by a space
+- it becomes a list
 
 ---
 
 ## Links
 
 ```md
-[Link Text](https://example.com)
+[リンクテキスト](https://example.com)
 ```
 
 ---
 
-## [Link Text](https://example.com)
+## [Link text](https://example.com)
 
 ---
 
-There are many other notations, but I think if you cover this much, you can look up what you need later.
+There are many other syntaxes, but if you cover these, you can look up the rest when needed.

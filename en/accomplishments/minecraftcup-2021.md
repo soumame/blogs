@@ -1,28 +1,15 @@
 ---
-title: Minecraft Cup 2021
-emoji: 🏆
+title: "Minecraft Cup 2021"
+emoji: "🏆"
 tags:
-  - Minecraft
-  - wip
-  - teamwork
-  - awards
-published_at: 2022-01-30T00:00:00.000Z
-description: A competition where friends compete in technical skills and problem-solving abilities in Minecraft, where we won the finalist award and the Impress Kids and IT Award.
+  - "Minecraft"
+  - "wip"
+  - "teamwork"
+  - "awards"
+published_at: "2022-01-30T00:00:00.000Z"
+description: "A competition with a few friends to compete in Minecraft technical skills and problem-solving; we were finalists and received the Impress 'Children and IT' Award."
 isTranslated: true
-sourcePath: ja/accomplishments/minecraftcup-2021.md
-sourceHash: ab8bceda568acb382d51857849062d71146fe01980c24817ddd73616c034aaa6
+sourcePath: "ja/accomplishments/minecraftcup-2021.md"
+sourceHash: "7e0804a3d2c1bebae60056168efeecc927e41e9d81a732ae0eef44c0ca979977"
 ---
 
-# Minecraft Cup 2021
-
-The Minecraft Cup 2021 was held with several friends participating in various challenges.
-
-## Overview
-This competition was aimed at showcasing technical skills and creativity within the game.
-
-### Highlights
-- Finalist in the competition
-- Won the Impress Kids and IT Award
-
-## Conclusion
-Overall, the event was a great success and provided an excellent opportunity for everyone to learn and grow in their skills.
