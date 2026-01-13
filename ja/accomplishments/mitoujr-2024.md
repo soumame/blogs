@@ -4,7 +4,6 @@ emoji: 🏢
 description: 2024年度未踏ジュニアで採択されたTutoriaLLMプロジェクトの支援を11月4日の成果報告会をもって修了しました。同日にビジョナル株式会社様より、企業賞としてVisional賞を受賞しました。また、同月末には特に顕著な成果を残したクリエイターに与えられる、スーパークリエータの認定を受けました。
 tags:
   - TutoriaLLM
-  - 決勝
   - mitou-junior
   - awards
 published_at: 2024-11-04
