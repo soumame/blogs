@@ -1,18 +1,15 @@
 ---
-title: "Minecraft Education Challenge 2023 Runner-Up"
-emoji: "🏆"
+title: Minecraft Education Challenge 2023 Runner-Up
+emoji: 🏆
 tags:
-  - "受賞"
-  - "全国大会"
-  - "ファイナリスト"
-  - "決勝"
-  - "学校"
-  - "Minecraft"
-published_at: "2023-10-25T00:00:00.000Z"
-description: "The Minecraft world I created was selected as the second place in the International upper grade category of the Minecraft Education Challenge organized by the Ministry of Education of Malaysia, Sunway Malls, and Microsoft."
+  - Minecraft
+  - educaiton
+  - awards
+published_at: 2023-10-25T00:00:00.000Z
+description: The Minecraft world I created was selected as the second place in the International upper grade category of the Minecraft Education Challenge organized by the Ministry of Education of Malaysia, Sunway Malls, and Microsoft.
 isTranslated: true
-sourcePath: "ja/accomplishments/minecraft-edu-challenge.md"
-sourceHash: "68305c9c74ac21756bcc5a2b1bf5e02969bcee5e02caa4e106bd601534df6d6a"
+sourcePath: ja/accomplishments/minecraft-edu-challenge.md
+sourceHash: 68305c9c74ac21756bcc5a2b1bf5e02969bcee5e02caa4e106bd601534df6d6a
 ---
 
 In Japan, there is a Minecraft contest called the Minecraft Cup, and similar events exist overseas. In Malaysia, there is an event called MEC (Minecraft Education Challenge). I participated in [MEC 2023](https://mcedumy.com/mec-2023) and won the runner-up prize.

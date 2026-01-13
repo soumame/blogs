@@ -1,13 +1,13 @@
 ---
-title: "Keio University"
-emoji: "🎓"
+title: Keio University
+emoji: 🎓
 tags:
-  - "学校"
-published_at: "2025-09"
-description: "I enrolled in the Faculty of Environment and Information Studies at Keio University in September 2025."
+  - educaiton
+published_at: 2025-09
+description: I enrolled in the Faculty of Environment and Information Studies at Keio University in September 2025.
 isTranslated: true
-sourcePath: "ja/works/keio.md"
-sourceHash: "6350a4e3c601996adb467929530b12f143d3d9ae333ec61fd0dbca38ecd8c952"
+sourcePath: ja/works/keio.md
+sourceHash: 6350a4e3c601996adb467929530b12f143d3d9ae333ec61fd0dbca38ecd8c952
 ---
 
 The reasons I chose to go to university were that I wanted connections with people, and compared to high school, I could study more specialized subjects.

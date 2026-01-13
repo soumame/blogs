@@ -1,12 +1,12 @@
 ---
-title: "Markdown Syntax Cheat Sheet (Super Easy)"
-emoji: "✒️"
+title: Markdown Syntax Cheat Sheet (Super Easy)
+emoji: ✒️
 tags:
-  - "プログラミング"
-published_at: "2025-10-05"
+  - dev
+published_at: 2025-10-05
 isTranslated: true
-sourcePath: "ja/tech/markdown.md"
-sourceHash: "7b09bdc7e15775094ca03e24affaddcc4d163797c4c0c567baf408a93dd64aaf"
+sourcePath: ja/tech/markdown.md
+sourceHash: 7b09bdc7e15775094ca03e24affaddcc4d163797c4c0c567baf408a93dd64aaf
 ---
 
 If you've used Google Docs or Word, you can select things like bold, italic, or headings like this:

@@ -1,12 +1,12 @@
 ---
-title: "The curriculum offered in Victoria, Australia — What is the VCE?"
-emoji: "🤖"
+title: The curriculum offered in Victoria, Australia — What is the VCE?
+emoji: 🤖
 tags:
-  - "学校"
-published_at: "2023-12-28T00:00:00.000Z"
+  - educaiton
+published_at: 2023-12-28T00:00:00.000Z
 isTranslated: true
-sourcePath: "ja/notes/australian-vce.md"
-sourceHash: "756c56b1aecea0bc2900b1f3f6ac70407f48f00d56621f8a3d1de504dbfce861"
+sourcePath: ja/notes/australian-vce.md
+sourceHash: 756c56b1aecea0bc2900b1f3f6ac70407f48f00d56621f8a3d1de504dbfce861
 ---
 
 # The curriculum offered in Victoria, Australia — What is the VCE?

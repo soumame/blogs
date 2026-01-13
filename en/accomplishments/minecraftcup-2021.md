@@ -1,19 +1,16 @@
 ---
-title: "Minecraft Cup 2021"
-emoji: "🏆"
+title: Minecraft Cup 2021
+emoji: 🏆
 tags:
-  - "チーム逸般人"
-  - "受賞"
-  - "全国大会"
-  - "ファイナリスト"
-  - "決勝"
-  - "Minecraft"
-  - "wip"
-published_at: "2022-01-30T00:00:00.000Z"
-description: "A competition where friends compete in technical skills and problem-solving abilities in Minecraft, where we won the finalist award and the Impress Kids and IT Award."
+  - Minecraft
+  - wip
+  - teamwork
+  - awards
+published_at: 2022-01-30T00:00:00.000Z
+description: A competition where friends compete in technical skills and problem-solving abilities in Minecraft, where we won the finalist award and the Impress Kids and IT Award.
 isTranslated: true
-sourcePath: "ja/accomplishments/minecraftcup-2021.md"
-sourceHash: "ab8bceda568acb382d51857849062d71146fe01980c24817ddd73616c034aaa6"
+sourcePath: ja/accomplishments/minecraftcup-2021.md
+sourceHash: ab8bceda568acb382d51857849062d71146fe01980c24817ddd73616c034aaa6
 ---
 
 # Minecraft Cup 2021

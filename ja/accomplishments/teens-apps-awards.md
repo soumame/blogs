@@ -4,8 +4,8 @@ emoji: 🏆
 description: 日本全国の中高生が競う、アプリ開発のコンテスト「アプリ甲子園2024」にて、TutoriaLLMプロジェクトがAI部門において本戦に進出し、技術賞と優勝・総務大臣賞を受賞しました。
 tags:
   - TutoriaLLM
-  - ファイナリスト
   - mitou-junior
+  - awards
 published_at: 2024-11-17
 ---
 
