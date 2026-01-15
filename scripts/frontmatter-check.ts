@@ -83,18 +83,11 @@ function validateFrontmatter(
       warnings.push("isTranslated が null です（空値の可能性）");
   }
 
-  if (data.isDraft === true) {
-    if (!isString(data.sourcePath) || data.sourcePath.trim().length === 0) {
-      errors.push("isDraft: true の場合、sourcePath が必須です");
-    }
-    if (!isString(data.sourceHash) || data.sourceHash.trim().length === 0) {
-      errors.push("isDraft: true の場合、sourceHash が必須です");
-    }
-  } else {
-    if (data.isDraft === null) {
-      warnings.push("isDraft が null です（空値の可能性）");
-    }
+
+  if (data.isDraft === null) {
+    warnings.push("isDraft が null です（空値の可能性）");
   }
+  
 
   if (errors.length > 0) {
     errors.unshift(`(${relFile})`);
