@@ -1,11 +1,12 @@
 ---
 title: template
-emoji: 🤖
+emoji: ❓
 description:
 tags:
-  - wip
+  - essay
 published_at: "{{date:YYYY-MM-DD}}"
-isTranslated:
+isTranslated: false
+isDraft: true
 ---
 
 This is template!!!
