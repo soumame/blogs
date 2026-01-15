@@ -3,12 +3,9 @@ title: Minecraftエデュケーションチャレンジ2023 準優勝
 emoji: 🏆
 description: 製作したマインクラフトのワールドが、マレーシア教育省、サンウェイ・モールズ、マイクロソフトが主催するマインクラフト教育チャレンジのInternational高学年部門で2位に選ばれました。
 tags:
-  - 受賞
-  - 全国大会
-  - ファイナリスト
-  - 決勝
-  - 学校
   - Minecraft
+  - educaiton
+  - awarded
 published_at: 2023-10-25
 ---
 日本ではMinecraftカップというマイクラ教育版のコンテストがあるわけなんですが、海外にもそういった事例はあり、マレーシアでは、MEC(Minecraft Education Challenge)というイベントがあります。[MEC 2023](https://mcedumy.com/mec-2023)に出場し、準優勝しました。

@@ -1,9 +1,9 @@
 ---
-title: "Markdown記法チートシート(すごい簡単)"
-emoji: "✒️"
+title: Markdown記法チートシート(すごい簡単)
+emoji: ✒️
 tags:
-  - "プログラミング"
-published_at: "2025-10-05"
+  - dev
+published_at: 2025-10-05
 ---
 
 Google DocsやWordとかを使ったことあると、[![Image from Gyazo](https://i.gyazo.com/16b2c81bd5613af3c43990472054a394.png)](https://gyazo.com/16b2c81bd5613af3c43990472054a394)
