@@ -11,6 +11,7 @@ type BlogFrontmatter = {
   published_at?: unknown;
   description?: unknown;
   isTranslated?: unknown;
+  isDraft?: unknown;
   sourcePath?: unknown;
   sourceHash?: unknown;
 };
@@ -56,6 +57,10 @@ function validateFrontmatter(
     errors.push("isTranslated は boolean/null/undefined のみ許容です");
   }
 
+  if (data.isDraft != null && !isBoolean(data.isDraft)) {
+    errors.push("isDraft は boolean/null/undefined のみ許容です");
+  }
+
   // YAMLの date は Date になることがある。文字列も許容。
   if (
     data.published_at != null &&
@@ -76,6 +81,19 @@ function validateFrontmatter(
     // 翻訳フラグが空（例: isTranslated: ）は null になりがちなので警告
     if (data.isTranslated === null)
       warnings.push("isTranslated が null です（空値の可能性）");
+  }
+
+  if (data.isDraft === true) {
+    if (!isString(data.sourcePath) || data.sourcePath.trim().length === 0) {
+      errors.push("isDraft: true の場合、sourcePath が必須です");
+    }
+    if (!isString(data.sourceHash) || data.sourceHash.trim().length === 0) {
+      errors.push("isDraft: true の場合、sourceHash が必須です");
+    }
+  } else {
+    if (data.isDraft === null) {
+      warnings.push("isDraft が null です（空値の可能性）");
+    }
   }
 
   if (errors.length > 0) {

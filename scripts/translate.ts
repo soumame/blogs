@@ -78,6 +78,7 @@ export async function translateOne(params: {
     // description は翻訳結果を優先（空ならnull）
     description: (translated.description?.trim() || null) as any,
     isTranslated: true,
+    isDraft: src.isDraft ?? null,
     sourcePath: sourceRel,
     sourceHash,
   };
@@ -85,7 +86,7 @@ export async function translateOne(params: {
   // wikilink [[...]] 内の /ja/ /en/ を翻訳先言語に合わせて置換
   const bodyWithRewrittenWikiLinks = rewriteWikiLinksLocale(
     translated.body,
-    params.targetLocale,
+    params.targetLocale
   );
 
   // gray-matter.stringify はUnicode(絵文字)をエスケープする場合があるため、自前でYAMLを生成する

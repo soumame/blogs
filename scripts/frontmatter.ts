@@ -14,6 +14,7 @@ export type BlogFrontmatter = {
   published_at?: string | Date | null;
   description?: string | null;
   isTranslated?: boolean | null;
+  isDraft?: boolean | null;
   sourcePath?: string | null;
   sourceHash?: string | null;
 };
@@ -60,6 +61,10 @@ export function stringifyFrontmatter(data: BlogFrontmatter) {
 
   if (data.isTranslated != null) {
     lines.push(`isTranslated: ${data.isTranslated ? "true" : "false"}`);
+  }
+
+  if (data.isDraft != null) {
+    lines.push(`isDraft: ${data.isDraft ? "true" : "false"}`);
   }
 
   const sp = formatScalar(data.sourcePath ?? null);
