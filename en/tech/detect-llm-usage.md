@@ -3,7 +3,6 @@ title: Can LLM Usage Be Detected?
 emoji: 🤖
 tags:
   - brain-storming
-  - wip
   - llm
 published_at: 2025-10-06T00:00:00.000Z
 description: Have you ever been banned from using AI tools like ChatGPT (LLMs) at school? At one time OpenAI and others released experimental software to detect text written by LLMs, but such tools are hard to find now. Is it actually possible to reliably detect LLM usage?

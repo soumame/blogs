@@ -1,14 +1,13 @@
 ---
-title: "Inheritance of Digital Assets"
-emoji: "🤝"
+title: Inheritance of Digital Assets
+emoji: 🤝
 tags:
-  - "wip"
-  - "dev"
-published_at: "2026-01-10T00:00:00.000Z"
-description: "I entrust my information to various platforms, and I think it's a waste for those assets to become inaccessible and frozen after my death, so I'm considering measures to pass those assets on to posterity."
+  - dev
+published_at: 2026-01-10T00:00:00.000Z
+description: I entrust my information to various platforms, and I think it's a waste for those assets to become inaccessible and frozen after my death, so I'm considering measures to pass those assets on to posterity.
 isTranslated: true
-sourcePath: "ja/tech/inherit-digital-assets.md"
-sourceHash: "fff09ad591d9555c9be442146eaf258e804c2ebfc0474aef7b524264a35a158a"
+sourcePath: ja/tech/inherit-digital-assets.md
+sourceHash: fff09ad591d9555c9be442146eaf258e804c2ebfc0474aef7b524264a35a158a
 ---
 
 ## What if I die?

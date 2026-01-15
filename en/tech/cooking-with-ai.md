@@ -1,15 +1,14 @@
 ---
-title: "XR's Use May Be Like a HUD — Let's Cook with AI"
-emoji: "🍳"
+title: XR's Use May Be Like a HUD — Let's Cook with AI
+emoji: 🍳
 tags:
-  - "dev"
-  - "application-development"
-  - "wip"
-published_at: "2026-01-12T00:00:00.000Z"
-description: "I borrowed an inmo XR, an Android-based XR headset, from Ukai (known from Mitou Junior) and did a small hackathon. After struggling to find a use, I built an AI-powered cooking assistant to enjoy cooking with an AI. Here I introduce my attempt to cook with AI using the XR glasses."
+  - dev
+  - application-development
+published_at: 2026-01-12T00:00:00.000Z
+description: I borrowed an inmo XR, an Android-based XR headset, from Ukai (known from Mitou Junior) and did a small hackathon. After struggling to find a use, I built an AI-powered cooking assistant to enjoy cooking with an AI. Here I introduce my attempt to cook with AI using the XR glasses.
 isTranslated: true
-sourcePath: "ja/tech/cooking-with-ai.md"
-sourceHash: "a35d6b98b1d6bc0eee7336b93d876f510c4ef0d0a7bbc860f1b25e010075e9f3"
+sourcePath: ja/tech/cooking-with-ai.md
+sourceHash: a35d6b98b1d6bc0eee7336b93d876f510c4ef0d0a7bbc860f1b25e010075e9f3
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I made a teleprompter app that stylishly displays Google Slides speaker notes for the Inmo Air 3 — the glasses from <a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a> that run Android and that I bought in Shenzhen. It's fun and seems immediately practical. (In reality, it's floating in the air with AR glasses and looks insanely cool, but it's painful that there's no easy way to show this.) <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

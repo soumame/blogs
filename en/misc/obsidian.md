@@ -1,15 +1,14 @@
 ---
-title: "Isn't Obsidian Too Convenient?"
-emoji: "🪨"
+title: Isn't Obsidian Too Convenient?
+emoji: 🪨
 tags:
-  - "dev"
-  - "favourite-things"
-  - "#wip"
-published_at: "2025-11-14T00:00:00.000Z"
-description: "This blog is also written in Obsidian."
+  - dev
+  - favourite-things
+published_at: 2025-11-14T00:00:00.000Z
+description: This blog is also written in Obsidian.
 isTranslated: true
-sourcePath: "ja/misc/obsidian.md"
-sourceHash: "5cf86de0235eb30e0f7d654a12c8a25281e4bc99146d049cd729e76010f88ed6"
+sourcePath: ja/misc/obsidian.md
+sourceHash: 5cf86de0235eb30e0f7d654a12c8a25281e4bc99146d049cd729e76010f88ed6
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/8a0e785f3b35bb2652f6dfbf0e80d93b.png)](https://gyazo.com/8a0e785f3b35bb2652f6dfbf0e80d93b)

@@ -3,10 +3,10 @@ title: Hack Clubのすすめ
 emoji: 💻
 description: Hack Clubという英語圏のコミュニティがあるのでおすすめする
 tags:
-  - "dev"
-  - "wip"
+  - dev
 published_at: 2025-12-15
 isTranslated:
+isDraft: true
 ---
 
 ## Hack Clubとは

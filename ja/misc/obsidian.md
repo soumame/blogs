@@ -5,9 +5,9 @@ description: このブログもObsidianで書いています
 tags:
   - dev
   - favourite-things
-  - "#wip"
 published_at: 2025-11-14
 isTranslated:
+isDraft: true
 ---
 [![Image from Gyazo](https://i.gyazo.com/8a0e785f3b35bb2652f6dfbf0e80d93b.png)](https://gyazo.com/8a0e785f3b35bb2652f6dfbf0e80d93b)
 Obsidianが便利すぎます。

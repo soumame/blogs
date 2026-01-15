@@ -5,8 +5,8 @@ tags:
   - coding
   - team-dev
   - dev
-  - wip
 published_at: 2025-10-05
+isDraft: true
 ---
 
 # GitHub Student Packとは？

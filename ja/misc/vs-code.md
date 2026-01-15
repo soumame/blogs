@@ -5,9 +5,9 @@ tags:
   - dev
   - coding
   - favourite-things
-  - wip
 published_at: 2025-10-05
 description: VS Codeの簡単なガイドを書いておきます
+isDraft: true
 ---
 
 # VS Code を始めよう

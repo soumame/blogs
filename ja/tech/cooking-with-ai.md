@@ -5,9 +5,9 @@ description: 未踏ジュニアでお馴染みの鵜飼さんが持っていたi
 tags:
   - dev
   - application-development
-  - wip
 published_at: 2026-01-12
 isTranslated:
+isDraft: true
 ---
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は深圳で買ってきた<a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a> のAndroidが動く眼鏡 Inmo Air 3 向けに Google Slideのスピーカーノートをかっこよく表示できるテレプロンプターアプリを作った。面白いしすぐに実用できそう。（実際は ARグラスで空中に浮いていてくそかっこいいんだけどこれを見せる方法がないのがつらい） <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

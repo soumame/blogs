@@ -3,10 +3,10 @@ title: デジタル資産の継承
 emoji: 🤝
 description: さまざまなプラットフォームに自分の情報を預けていて、自分が死んだ後、それらのアクセスを失って凍結されるのはもったいないと思い、後世にその資産を継承するための対策を考えます。
 tags:
-  - wip
   - dev
 published_at: 2026-01-10
 isTranslated:
+isDraft: true
 ---
 
 ## もし死んだらどうするか？
