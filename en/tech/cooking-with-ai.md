@@ -1,87 +1,84 @@
 ---
-title: XR's Use May Be Like a HUD — Let's Cook with AI
-emoji: 🍳
+title: "XR's Use Might Be Like a HUD - Let's Cook with AI"
+emoji: "🍳"
 tags:
-  - dev
-  - application-development
-published_at: 2026-01-12T00:00:00.000Z
-description: I borrowed an inmo XR, an Android-based XR headset, from Ukai (known from Mitou Junior) and did a small hackathon. After struggling to find a use, I built an AI-powered cooking assistant to enjoy cooking with an AI. Here I introduce my attempt to cook with AI using the XR glasses.
+  - "dev"
+  - "application-development"
+published_at: "2026-01-12T00:00:00.000Z"
+description: "I borrowed an inmo XR — Android-powered XR glasses — from Ukai-san (known from the MITOU Junior program) and did a short hackathon. After struggling to find a use, I created a cooking assistant to enjoy with an AI. Here I introduce my attempt to cook with AI using XR glasses."
 isTranslated: true
-sourcePath: ja/tech/cooking-with-ai.md
-sourceHash: a35d6b98b1d6bc0eee7336b93d876f510c4ef0d0a7bbc860f1b25e010075e9f3
+isDraft: true
+sourcePath: "ja/tech/cooking-with-ai.md"
+sourceHash: "0f82af75953f6a92b59d96a44ab58b72e53c6e15277b036aa38839e8e8ac24d8"
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I made a teleprompter app that stylishly displays Google Slides speaker notes for the Inmo Air 3 — the glasses from <a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a> that run Android and that I bought in Shenzhen. It's fun and seems immediately practical. (In reality, it's floating in the air with AR glasses and looks insanely cool, but it's painful that there's no easy way to show this.) <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Today I made a teleprompter app for the Inmo Air 3 — Android-powered glasses I bought in Shenzhen — that stylishly displays Google Slides speaker notes. It's fun and looks immediately practical. (In reality it's floating in the air with AR glasses and ridiculously cool, but it's painful that there's no way to show this) <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Today I got to try the inmo XR — an Android-powered XR headset that Ukai (well-known from Mitou Junior) brought — and I spent some time thinking about products that could make good use of it.
+Today I tried out an inmo XR — Android-powered XR glasses — that Ukai-san (familiar from MITOU Junior) had, and brainstormed products that might work with it.
 
 ## Exploring the potential of inmo XR
 
-I also own an [XREAL One](http://xreal.com) lens and wondered whether it could do similar things. Basically, I mostly use my XREAL like a mobile monitor, so honestly I didn’t feel much need to build apps specifically for this kind of device. Making a custom UI or hunting for APIs is a hassle.
+I own [XREAL One](http://xreal.com) lenses and was wondering if it could do the same kinds of things. Basically, I mostly use XREAL like a mobile monitor, so honestly I hadn't felt much need to build apps specifically for this kind of device. Creating a custom UI or digging into APIs felt like a hassle.
 
-However, after actually using inmo XR, the fact that it’s cable-free and standalone is a huge advantage. For developers, that opens up many possibilities, and I felt that more devices like this will appear in the future.
+However, actually trying the device made it clear that being cable-free and standalone is a huge advantage — from a developer perspective it opens up a lot of possibilities, and I feel we'll see more devices like this going forward. Unlike XREAL's approach, it's extremely thin and less conspicuous (though it still feels a bit odd), and judging by the thinness and performance of the glasses portion alone, I wondered if it's an upper-tier upgrade over [Even Realities](https://www.evenrealities.com/).
 
-Unlike XREAL’s approach, inmo XR is extremely thin and less noticeable (though it still feels a bit odd), and judging just by the thinness and performance of the glasses portion, I thought: is this an upper-tier replacement for [Even Realities](https://www.evenrealities.com/)?
-
-(If you want a recommendation on Even G1, denshi-neko has a good introduction:)
+(If you want a recommendation about the Even G1, Denden Nekoneko wrote an introduction:)
 https://note.com/electrical_cat/n/ncbff77528ada
 
-I don’t know if inmo XR is the absolute best (I only compared it with XREAL), but it feels that it’s come far enough to be actually usable. There are issues — heavy operations make the area around the ears heat up ridiculously, and as is common with Chinese devices, the Play Store might not work and related services can be unavailable. Maybe there’s a way to unlock that, though.
+I don't know if inmo XR is the best (I've only compared it to XREAL), but it feels like it's reached the point of being practically usable. There are issues: heavy workloads cause alarming heat around the ears, and as is common with Chinese devices, the Play Store doesn't work and related services are unavailable. Maybe there's some way to bypass that.
 
-The display itself is interesting: XREAL uses something like a birdbath optical system, placing a triangular (semi-reflective) mirror right where it almost touches the eye to deliver the image, but inmo XR uses a different method — some mysterious technology delivers a super-thin image to the eye. How to describe it… a thin few-millimeter eyeglass lens has mirrors embedded, and you can see an image from the side… (my vocabulary fails me).
+The display itself is interesting. XREAL uses a birdbath optical system? — placing triangular semi-reflective mirrors right where the eye would be — but inmo XR uses a different method: some mysterious technique that delivers images to the eye in an ultra-thin form. How to describe it... a few-millimeter-thin glasses lens has mirrors embedded inside, and you can see images from the side... (my vocabulary fails me)
 
-Because it’s Android, an operation method equivalent to a mouse was needed. As a result, inmo XR has a touchpad-like device and a ring-like device you wear on your finger (probably also a touchpad).
-
+Because it's Android, it needed some mouse-equivalent control. As a result, inmo XR has a touchpad-like device and a ring-shaped device you wear on your finger (which also acts like a touchpad).
 
 ## Weaknesses of current wearable devices
 
-Separately, I recognized common issues shared by inmo XR and other devices.
+Separately, I also recognized some common problems with inmo XR and other devices.
 
-Most high-function XR glasses end up heavy, and I personally can’t wear them daily. There are lightweight, purpose-limited devices like Even G1/G2, but devices that do things like display in Full HD or have Android built-in tend to be heavy and cause eye strain. Also, with about 0.7 eyesight, I need insert lenses. Some say “just use contacts,” but putting foreign objects into your eyes and doing that every day is scary… Still, humans might need to endure some discomfort to adapt to machines, I guess.
+Most high-function XR glasses are heavy, and at least for me they're unbearable for daily wear. There are devices like the Even G1/G2 that strip down functionality, but anything with full HD or built-in Android tends to be heavy and causes eye fatigue. Also, with about 0.7 vision, I need insert lenses. Some people suggest using contact lenses, but putting foreign objects into my eyes daily is scary...
 
-From a developer’s perspective, I’m happy with high-performance devices, but in daily use they can be exhausting.
+That said, maybe humans will need to adapt to machines and tolerate some discomfort, haha.
 
-That said, I think this problem will be solved fairly soon — as time goes on, they’ll get smaller.
+From a developer perspective, I prefer high-performance devices like these, but they are exhausting for everyday use.
 
+Still, I feel these issues will be resolved relatively quickly as tech advances and things get smaller.
 
 ## What to build
 
-I thought about what to build, but since it was supposed to be a quick one-day hackathon, I ignored the inmo XR’s biggest advantages — that it runs Android and exposes device APIs. Instead, I focused on its high screen transparency, which makes it usable like a HUD, and the fact that it’s cable-free increases usable scenes.
+We decided to build something quickly in one day (hackathon-style), so we ultimately ignored inmo XR's biggest strengths like Android running on-device and device APIs. Instead, we focused on its high screen transparency — making it usable like a HUD — and the fact that there are no cables coming from your ears, which broadens possible use scenarios.
 
-Recently with XREAL I ran into a problem… oh yeah.
+Recently I had a problem with XREAL... ah, right.
 
-So I made an AI app that helps with cooking.
+So I built an AI app that helps with cooking.
 [![Image from Gyazo](https://i.gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5.png)](https://gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5)
-_(Concept image by Gemini)_
+_(Illustration by Gemini)_
 
-The idea is simple. You tell the app what you have at home or what you want to make, and the AI generates a "recipe.json" (lol), and the system follows that. With inmo XR, for better or worse, black becomes transparent (XREAL is similar but inmo XR is even more transparent), so I leverage that characteristic.
+The concept is simple. Tell the AI what you have at home or what you want to make, and it generates a "recipe.json" (lol), and the system follows it. inmo XR has the characteristic (for better or worse) that black becomes transparent (XREAL is similar but inmo XR is more transparent), so we take advantage of that.
 
-Previously, a prototype at this level that could be used as a product might have taken at least a week to build. But using LLM coding tools (like Cursor), it can be done in a day or even half a day.
+In the past, making a product at a usable level (beyond a prototype) might have taken at least a week, but with LLM coding tools like Cursor, you can build it in a day — or half a day.
 
-What people currently need is the skill to supervise the AI — to watch if it seems to work, whether it will finish successfully, to monitor the AI’s actions, decide if corrections are needed, and if so, at what point to interrupt and make corrections.
+What people need now is the skill to monitor the AI: judging whether things are likely to work, whether it'll succeed to the end, watching the AI's actions to decide if corrections are needed, and if so when to interrupt and ask for fixes.
 
 https://xr-ai-recipe-assistant.vercel.app/
 
-I built a quick demo, so please try it out (I’m paying for the LLM usage, so I might have to stop if I can’t afford it).
+I made a quick demo, so try it out (I'm paying for the LLM usage — I'll shut it down if I can't cover the costs).
 
+## Design decisions
 
-## Design choices
+Text can be a little hard to read on XR, so I made the buttons huge. They look ridiculously large on a PC, but oddly they're just right in XR.
 
-Text in XR can be slightly hard to read, so I made the buttons huge. They look ridiculous on a PC, but they’re surprisingly just right in XR.
+Originally the buttons were dark, but the darker the color, the more transparent it becomes (same as a movie theater projector), so I switched the buttons to green so they're visible in bright environments. That turned out to be the most visible. Maybe the reason movie HUDs are green is real.
 
-Also, initially the buttons were dark, but the darker they are the more transparent they become (same as movie theater projectors), so I changed the buttons to green so they’re visible in bright environments. That makes them easiest to see. Maybe that’s why movie HUDs are green.
+We also needed to reduce the number of buttons. The demo has several buttons, but in the end we should control it with head movements (like nodding to go to the next page). You don't want to touch a touchpad with hands covered in raw meat while cooking. So to eliminate buttons in the future, we capped the maximum number of buttons at four and added voice input for text fields.
 
-I also needed to reduce the number of buttons. The demo has several buttons, but ultimately I want to control it by head movements (like nodding for the next page). You don’t want to touch the touchpad with hands covered in raw meat while cooking. To remove buttons in the future, I limited the maximum number of buttons to four and also support voice input for text fields.
+## Other ideas
 
+If the glasses become extremely capable with a wider field of view, I'd like them to recognize real-world objects and render overlays based on their positions.
 
-## Other things I want to build
+This is already possible with approaches like Vision Pro that use a chip to capture video, but glasses that are as easy to wear as regular glasses would be more socially acceptable (at least more than Vision Pro) and cheaper.
 
-If glasses become extremely capable with a wider field of view, I’d like them to recognize real-world objects and render overlays based on their spatial relationships.
+## Trying it out while cooking
 
-Sure, you can already do this with approaches like Vision Pro that capture video with a chip, but if it can be done in a lightweight glasses form factor, it’d probably be more socially acceptable (at least more than Vision Pro) and cheaper.
+If Ukai-san is around he'll lend me the inmo XR, but since I don't have one at home I tried cooking with XREAL and a smartphone instead. The colors tend to shift quite a bit, and you have to run cables from your ears to a PC or phone, so the practicality is questionable.
 
-## Trying it while cooking
-
-If Ukai is around he'll lend me the inmo XR, but since I don’t have one at home I tried cooking with XREAL and a smartphone instead. However, color reproduction changes quite a bit and you need to route cables from the ears to connect to a PC or phone, so practicality is questionable.
-
-> I’ll try it next time I cook, and if it looks promising I’ll add notes.
+> I'll try using it next time I cook and add notes if it looks promising
