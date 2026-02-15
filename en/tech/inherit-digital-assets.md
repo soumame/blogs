@@ -1,62 +1,53 @@
 ---
-title: Inheritance of Digital Assets
-emoji: 🤝
+title: "Digital Asset Inheritance"
+emoji: "🤝"
 tags:
-  - dev
-published_at: 2026-01-10T00:00:00.000Z
-description: I entrust my information to various platforms, and I think it's a waste for those assets to become inaccessible and frozen after my death, so I'm considering measures to pass those assets on to posterity.
+  - "dev"
+published_at: "2026-01-10T00:00:00.000Z"
+description: "I store my information across various platforms, and I think it's a waste for access to be lost and frozen after I die, so I'm thinking about measures to pass those assets on to future generations."
 isTranslated: true
-sourcePath: ja/tech/inherit-digital-assets.md
-sourceHash: fff09ad591d9555c9be442146eaf258e804c2ebfc0474aef7b524264a35a158a
+isDraft: true
+sourcePath: "ja/tech/inherit-digital-assets.md"
+sourceHash: "295eb829b5ccf581f159771aa18b5ab9a0f91e8484d28360c092f2eeab990788"
 ---
 
 ## What if I die?
-At the time of writing this I'm 19, so from an average-lifespan perspective I still have a long life ahead.
+I'm 19 as I write this, so from the perspective of average life expectancy I still have a long life ahead. However, that's a probabilistic statement — it's not impossible for me to die at any time.
 
-However, that's a probabilistic matter — it's not impossible that I could die at any time.
+In many cases, older people do "end-of-life planning" or keep an "end-of-life note" to indicate their wishes after death, which smooths things over for what comes next. Young people, though, rarely do that, and I don't really feel like doing it either. If I survive going forward, the contents of such a note will keep changing, and updating it every year would just be a hassle. Honestly, I'd probably forget.
 
-In many cases, older people do "end-of-life planning" or keep an "end-of-life note," and by expressing their wishes for after death things proceed more smoothly. But young people usually don't do such things, and I myself don't feel like doing it. After all, if I keep living my preferences in an end-of-life note will continue to change, and updating it every year would just be a hassle. Or rather, I feel like I'd forget.
+On top of that, most of my assets are in the digital space. In a world moving everything digital, I imagine many people are like this. For me, things I've written, my connections with people, money, and creations are all stored digitally, which is another headache. If I die, accessing these will be extremely difficult.
 
-On top of that, most of my assets exist in the digital space. In a world where everything is going digital, I think many people are in a similar situation.
+## Share passwords?
+The reason it's so difficult is that to access these things you need to clear passwords, two-factor authentication, and so on. I thought maybe I could write them down on paper and leave them somewhere, but I use a lot of services and the number will only grow, so that's hard.
 
-For me, what I've written, my connections with people, money, and my creations are all stored digitally, which is also a pain. If I die, accessing these will be extremely difficult.
+Also, passwords are getting more complex to prevent brute-force attacks.
 
-## Sharing passwords?
-The reason it's so difficult is that to access these things you have to get past passwords, two-factor authentication, and so on. I thought maybe I could write them down on paper and leave them somewhere, but I use many services and they'll only increase, so that's hard.
+So I'm migrating everything to [1Password](https://1password.com), so that passwords, two-factor setups, and other procedures can all be handled on the same platform.
 
-Also, passwords have become complex to prevent brute-force breaks.
+Entrusting everything to a single platform raises concerns like "what if the service collapses...", and those concerns aren't zero. But at least it seems more likely that I'd lose access because I've misplaced a password than because the password manager collapsed, so I'm using it.
 
-So, I'm moving everything — passwords, two-factor authentication details, and procedures — onto the same platform by using [1Password](https://1password.com).
+This means that to access all accounts you only need the 1Password master password and the Secret Key. If those two are leaked, it's over, but conversely if I protect those two I'm fine. To allow access to these assets after my death, I need some way to notify my heirs or relatives of those two pieces of information.
 
-Putting everything on a single platform raises the concern of "what if the service collapses..." but while that's not zero risk, it seems more likely that I'll simply lose the passwords and be unable to access things, so I use it.
+## How do I communicate access methods?
+Having thought this far, I got stuck on how to convey this to others. There are email delivery services, but those are meaningless if the service ends. Sure, you could say the same about 1Password, but these delivery services are not only services you don't normally use — they need to reliably operate after your death, so you have to trust them a lot. Google has an account inactivity manager, but Google has a habit of burying unused or unprofitable services, so it's not something I fully trust.
 
-This way, to access all accounts you only need the 1Password password and the Secret Key. Sure, if those two get leaked it's game over, but conversely if you protect those two you're fine. And to allow access to those assets after my death, I need to notify my relatives of those two pieces of information somehow.
+Even leaving a paper at home is iffy — will it be found? What if you've moved, or it burns in a fire? Once you start thinking about the various risks there's no end to it.
 
-## How do you communicate access methods?
-
-Up to this point I was stuck on how to convey this to others. There are email delivery services and such, but those are meaningless if the service shuts down. Well, that applies to 1Password too, but delivery services are things you don't use regularly and that must work reliably after death, so you can't use them unless they're extremely trustworthy. Google has an account inactivity tool, but Google has a habit of burying unused or unprofitable services, so it's not trustworthy ().
-
-Leaving a paper at home is also dubious — will it be found? What if you've moved or the house burned down? Once you start considering the various risks there's no end.
-
-Hmm, I was wondering what to do when I found this article
+While wondering what to do, I found this article:
 
 https://blog.jxck.io/entries/2025-07-25/digital-regacy.html
 
-> This system, as the name implies, is a system in which the government stores the will you created.
-> If you die, it notifies statutory heirs and others that a will exists. In this country, it can be regarded as an API that most reliably and accurately detects one's death and delivers the message in the form of a will.
+> As the name suggests, this system allows the government to store wills you create.
+> If you die, it notifies statutory heirs and the like that a will exists. In this country, it can be seen as the most reliable and accurate API that triggers on your death and delivers a will as a message.
 
-The article explained how to use a government system to store this. That's amazing.
+The article explains how to use a government system to store this information. That's amazing.
 
-The method is to have the will store the Secret Key, the URL and email/username needed to access things, and then have the heirs recall the password so they can gain access.
+The method is to have them store a will that lists your Secret Key, URLs for access, email addresses, usernames, and so on, and then have your heirs recall the passwords so they can gain access.
 
-If you have no heirs there's nothing you can do, but this may be the most rational option available now.
+If you have no heirs there's nothing you can do, but this may be the most rational option available right now. The biggest point is that it's valid as long as the government continues to exist. If the facility storing wills is destroyed or the state is overthrown and everything is lost, that's another story, but because it's the government it seems more trustworthy than entrusting a private service. Detecting and notifying that someone has died is difficult, but this should be able to do that reliably. As the article says, it must not fail to operate as expected in cases like thinking someone was alive when they were dead, or vice versa.
 
-The biggest advantage is that it's effective as long as the government doesn't cease to exist. If the facility storing wills were destroyed or the state were overthrown and everything lost, that's another story, but because the counterpart is the government it seems more trustworthy than entrusting things to a private service. Detecting death and notifying people is difficult, but this should reliably do that. As the article says, there must not be cases where it fails to act as expected, such as thinking someone was alive when they were actually dead, or thinking someone was dead when they were actually alive.
+> In fact, if you look there are several digital end-of-life services with that purpose. However, many of them trigger on a lapse in replies to periodic PING emails. In other words, there are false triggers caused by temporary injuries or illnesses. There must be neither false positives (e.g., thinking someone is dead when they're actually alive) nor false negatives (e.g., thinking someone is alive when they're actually dead) — when someone dies, you want it to "_fire immediately once and only once_."
 
-> Actually, if you look for digital end-of-life services you can find a few. However, many are triggered by the absence of replies to periodic PING emails. In other words, temporary injury or illness can trigger false activations. There must be no false positives (thinking they were alive when they were actually dead) or false negatives (thinking they were dead when they were actually alive), and it should "_fire once immediately and reliably_" when you die.
-
-Thinking about it that way, this system might be really good.
-
-## Actually trying it
-
-So, it doesn't cost much (you can do it for just ¥3,900), so I plan to actually try it... but I'm busy with school and don't have time, so I'll report back when I actually do it sometime.
+## Trying it myself
+So, it's not very expensive (you can do it for just ¥3,900), so I plan to actually try it... but school is busy and I don't have time, so I'll report back when I actually do it sometime later.
