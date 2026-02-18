@@ -12,7 +12,7 @@ export function getOpenAIClient() {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     throw new Error(
-      "OPENAI_API_KEY が未設定です。CI/ローカルで環境変数を設定してください。"
+      "OPENAI_API_KEY が未設定です。CI/ローカルで環境変数を設定してください。",
     );
   }
   return new OpenAI({ apiKey });
@@ -20,7 +20,8 @@ export function getOpenAIClient() {
 
 export function getOpenAIModels(): OpenAIModels {
   return {
-    translationModel: process.env.OPENAI_TRANSLATION_MODEL ?? "gpt-4o-mini",
+    translationModel:
+      process.env.OPENAI_TRANSLATION_MODEL ?? "gpt-5-mini-2025-08-07",
     embeddingModel:
       process.env.OPENAI_EMBEDDING_MODEL ?? "text-embedding-3-small",
   };
@@ -55,13 +56,13 @@ function getTimeoutMs() {
 async function withTimeout<T>(
   p: Promise<T>,
   ms: number,
-  label: string
+  label: string,
 ): Promise<T> {
   let t: NodeJS.Timeout | undefined;
   const timeout = new Promise<T>((_, reject) => {
     t = setTimeout(
       () => reject(new Error(`${label} timed out after ${ms}ms`)),
-      ms
+      ms,
     );
   });
   try {
@@ -143,7 +144,7 @@ export async function translateMarkdownStructured(params: {
           text: { format: jsonSchema },
         }),
         timeoutMs,
-        "OpenAI responses.create"
+        "OpenAI responses.create",
       );
 
       const text = res.output_text;
@@ -157,7 +158,7 @@ export async function translateMarkdownStructured(params: {
       if (!shouldRetry) break;
       const backoff = Math.min(30000, 1000 * 2 ** attempt);
       console.warn(
-        `[openai] retry ${attempt + 1}/${maxRetries} after ${backoff}ms: ${(e as Error).message}`
+        `[openai] retry ${attempt + 1}/${maxRetries} after ${backoff}ms: ${(e as Error).message}`,
       );
       await sleep(backoff);
     }
