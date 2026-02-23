@@ -7,7 +7,7 @@ tags:
 published_at: 2026-01-02
 isTranslated:
 isDraft: true
-noIndex: "true"
+noIndex: true
 ---
 
 毎年やっているわけですが、今年もやります。自分の個人的な失敗を晒す会です。
