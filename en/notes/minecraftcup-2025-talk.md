@@ -14,7 +14,7 @@ sourceHash: "14e134a4adf02e11017b3369d134db25a9b86bc9041dbd0edc592e4d2f08abd8"
 ## I took part in a talk session at Minecraft Cup
 I recently appeared on a talk session at [Minecraft Cup 2025](https://minecraftcup.com/) held at the University of Tokyo (Interfaculty Initiative in Information Studies, Fukutake Hall), and discussed “Learning and the Power of Creation from Minecraft,” talking about what I gained through Minecraft.
 ### What is Minecraft Cup
-> [[minecraftcup|Minecraft Cup]] is a digital making contest held in Japan for children from elementary through high school, where participants use Minecraft Education to create works based on a theme and compete with entries from across Japan and overseas.
+> [[en/misc/minecraftcup|Minecraft Cup]] is a digital making contest held in Japan for children from elementary through high school, where participants use Minecraft Education to create works based on a theme and compete with entries from across Japan and overseas.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLvSMQJ5ts4?si=eLEb6pMmD0r2ifQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

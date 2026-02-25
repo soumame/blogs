@@ -12,7 +12,7 @@ noIndex: false
 ## マイクラカップでトークセッションに出ました
 先日東京大学(情報学環、福武ホール)で開催された[Minecraftカップ2025](https://minecraftcup.com/)のトークセッションに登壇し、「マイクラからの学びと創造の力」をテーマに、マイクラを通して得たものについて議論しました。
 ### マイクラカップとは
-> [[minecraftcup|Minecraftカップ]]は、小学生から高校生以下の子どもたちを対象に、教育版マインクラフト（Minecraft Education）を使ってテーマに沿った作品を作り、全国・海外から応募して競い合う日本で開催しているデジタルものづくりコンテストです。
+> [[en/misc/minecraftcup|Minecraftカップ]]は、小学生から高校生以下の子どもたちを対象に、教育版マインクラフト（Minecraft Education）を使ってテーマに沿った作品を作り、全国・海外から応募して競い合う日本で開催しているデジタルものづくりコンテストです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLvSMQJ5ts4?si=eLEb6pMmD0r2ifQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

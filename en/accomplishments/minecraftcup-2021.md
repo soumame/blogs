@@ -13,7 +13,7 @@ sourcePath: "ja/accomplishments/minecraftcup-2021.md"
 sourceHash: "b5213eb28cf9d94c0e673e10c332fb630e0bc9480c37385f56f90f5da00eade9"
 ---
 
-[[minecraftcup|Minecraft Cup]] is a digital making contest held in Japan for children from elementary to high school. Using Minecraft Education, participants create theme-based works and compete with entries from across Japan and abroad.
+[[en/misc/minecraftcup|Minecraft Cup]] is a digital making contest held in Japan for children from elementary to high school. Using Minecraft Education, participants create theme-based works and compete with entries from across Japan and abroad.
 
 I competed with a few friends, showcasing Minecraft technical skills and problem-solving; we were finalists and received the Impress "Children and IT" award.
 
