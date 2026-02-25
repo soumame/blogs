@@ -1,14 +1,14 @@
 ---
 title: Openclawを使って対話を通してブログを作ってみる
 emoji: 🦞
-description:
+description: ブログ書くのすら面倒くさいと思うような私でも、自分の意見を、AIを通して、より伝わりやすくすることができるようになったのではないかと思っている
 tags:
   - ai-generated
   - dev
-published_at: "2026-02-25"
+published_at: 2026-02-25
 isTranslated: false
 isDraft: true
-noIndex: true
+noIndex: false
 dialogue-users:
   そうまめ: https://avatars.githubusercontent.com/u/46675982
   OpenClaw書記: https://i.gyazo.com/8b41047e614840673b90b7120faf5cfe.jpg
