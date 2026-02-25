@@ -1,21 +1,22 @@
 ---
-title: Recommendation for Hack Club
-emoji: 💻
+title: "A Recommendation for Hack Club"
+emoji: "💻"
 tags:
-  - dev
-published_at: 2025-12-15T00:00:00.000Z
-description: I recommend a community called Hack Club in the English-speaking world.
+  - "dev"
+published_at: "2025-12-15T00:00:00.000Z"
+description: "I recommend Hack Club, an English-speaking community."
 isTranslated: true
-sourcePath: ja/tech/hack-club.md
-sourceHash: f597e349ef082d8a2c87716d98a8c66f7bc8aae6ff8a4db6b36e222218568ce3
+isDraft: true
+sourcePath: "ja/tech/hack-club.md"
+sourceHash: "2acb8ffbe4f6c35a5c1622c9588823f9e0ec1fea0231d02f16aab2e7a3b5db88"
 ---
 
-## What is Hack Club?
+## What is Hack Club
 
-> Hack Club is a network operated by a non-profit organization aimed at high school students worldwide, focusing on programming and maker education. As of November 2024, Hack Club has many participants around the world, exceeding 80,000, with thousands of students engaged in diverse projects every week.
+> Hack Club is a network run by a nonprofit organization that operates programming and maker-school (hands-on making) programs for high school students around the world. Hack Club currently has many participants worldwide (as of November 2024), numbering over 80,000, and each week thousands of students work on a wide range of projects.
 
 https://hackclub.com
 
-- Active on Slack
-- Targeted at those under 18
-- Occasionally hosts events where participants can receive various items
+- Activities take place on Slack
+- Intended for those under 18
+- They occasionally host events and you can sometimes receive various items or perks

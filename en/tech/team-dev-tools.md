@@ -1,136 +1,134 @@
 ---
-title: "Introduction of Useful Tools for Team Development"
+title: "Introduction to Useful Tools for Team Development"
 emoji: "⚒️"
 tags:
   - "coding"
   - "team-dev"
 published_at: "2025-10-05T00:00:00.000Z"
-description: "When starting team development for the first time, everyone struggles with how to proceed. This article summarizes tools that may be useful in such cases."
+description: "When starting team development, it's often difficult to decide how to work together. This article summarizes tools that may be useful in such cases."
 isTranslated: true
 sourcePath: "ja/tech/team-dev-tools.md"
-sourceHash: "cbf3004a2dd31397937a61cdd15cd6d85f198f8932dc3d6685df26040ac2740d"
+sourceHash: "b82ff1cab454408b21a055303e299516fabbdc6129bd446602e472186276a32b"
 ---
 
-## Tools Suitable for Team Development
-> This content is aimed at participants of the TOMODACHI Boeing Entrepreneurship Seminar 2025, organized by the Public Interest Incorporated Foundation U.S.-Japan Council and operated by the general incorporated association Code for Japan, but it can also be viewed by external parties.
+## Tools That May Be Useful for Team Development
+> This is intended for participants of the [[tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]], organized by the U.S.-Japan Council Japan (a public interest incorporated foundation) and run by Code for Japan (a general incorporated association), but it is also viewable by external readers
 
-- Must be free to use
+- Must be free
 - Must work on Windows/MacOS
-- Usable even by those with no prior team development experience
+- Must be usable even by people with no prior team development experience
 ## Design and Idea Sharing
 ### [[figma|Figma]]
 [![Image from Gyazo](https://i.gyazo.com/4addba09ea6044e8ed37e3aff051f2d3.png)](https://gyazo.com/4addba09ea6044e8ed37e3aff051f2d3)
-There was a time when we used Adobe XD and now Figma has become the dominant tool.
-Just by placing shapes, you can easily design the UI of an app.
-You can create designs using drag & drop, or you can define spacing properly with numerical values, making it accessible for everyone from beginners to advanced users.
+There used to be a time when people used Adobe XD, but before I knew it Figma became dominant.
+You can design app UIs easily just by placing shapes.
+You can create with drag & drop, or set precise numeric spacing and other details for proper design — it's finished in a way that anyone from beginners to advanced users can use.
 
-Sharing designs among multiple users is super easy (if you're familiar with Google Docs, you'll find it straightforward), so I highly recommend it.
+Sharing designs among multiple people is super easy (if you've used Google Docs you'll pick it up quickly), so I recommend it.
 ### [[tldraw]]
-Figma is great, but if you want to quickly share ideas, this is the tool for you!
-Just place shapes easily to create diagrams. While I previously recommended an app called Miro, it has limitations on the number of boards that can be created, which can be restrictive, so I recommend this instead. If the person hosting (creating the board) has a free account, others can use it without registering.
-[![Image from Gyazo](https://i.gyazo.com/2dba6448bc3062a36c0d81336be6f3a9.png)](https://gyazo.com/2dba6448bc3062a36c0d81336be6f3a9) When everyone is in different locations, you can't use physical sticky notes for brainstorming, so tools like this can be really helpful.
+Figma is great, but for quick idea sharing this is the one!
+You can create diagrams simply by placing shapes. I used to recommend an app called Miro, but it restricts the number of boards you can create, which is a harsh limitation, so I recommend this instead. If the host (the person who creates the board) creates a free account, others can use it without registering.
+[![Image from Gyazo](https://i.gyazo.com/2dba6448bc3062a36c0d81336be6f3a9.png)](https://gyazo.com/2dba6448bc3062a36c0d81336be6f3a9)
+When everyone is remote, you can't use physical sticky notes for brainstorming, so tools like this are handy.
 
-## Coding
+## Writing Code
 ### [[vs-code| VS Code]]
-When thinking about typical applications, we often visualize smartphone apps or desktop applications downloaded from the App Store or Google Play. However, creating apps on specific platforms requires specialized knowledge and time (as they need to be reviewed), so there’s no particular reason to use those platforms. If you want to create a service in a short time, it's common to make a web app using Javascript/Typescript.
+The common image of apps might be mobile apps downloaded from the App Store or Google Play or desktop apps for PCs, but building apps for those specific platforms requires specialized knowledge and time (including reviews), so if there's no particular reason to use those platforms and you want to build a service quickly, it's common to make a web app using JavaScript/TypeScript.
 
-VS Code is a very handy code editor that is completely free to use. You can add various features by combining extensions, and it works excellently with AI.
+VS Code is a very convenient, completely free code editor. You can add many features by combining extensions, and it works great with AI.
 
 ### Various LLM Services
 #### Claude
 
 https://claude.ai/new
 
-I personally think this one has the best code performance.
-Claude not only offers a web app but also an application specifically for code generation called Claude Code (mentioned later), which shows considerable dedication to code writing.
+Personally, I feel it has the best code performance.
+Claude also offers Claude Code (mentioned later), an application specialized for code generation — it seems they put a lot of effort into the coding side.
 #### ChatGPT
 
 https://chatgpt.com
 
-Provided by OpenAI. Recently, everyone has been calling it "Chappy" or something like that...?
+This is provided by OpenAI. Lately people have been calling it “Chappy” or something like that... or so I've heard.
 
 #### Gemini
 
 https://gemini.google.com
 
-This is offered by Google. There is a paid plan that allows university students to use a smarter model for free, so I recommend it for students (they seem to have such initiatives from time to time).
+This is provided by Google. It seems there are promotions where university students can get access to a supposedly smarter model on a paid plan for free, so I recommend it for university students. (They seem to run these kinds of campaigns from time to time.)
 
-### A Bit Advanced: AI Code Generation Services
-Unlike the previously mentioned LLM services, there are editors that provide more powerful code-generating AIs. To be precise, the inner workings of these services are similar to the ones mentioned earlier, but they have been fine-tuned to allow for longer code writing and have features that help you finish the entire program without needing to copy and paste each time. I won't go into too much detail, but I’d like to at least mention them.
+### For the more advanced: AI code-generation services
+Unlike the LLM services mentioned above, there are editors that provide more powerful code-generation AI. To be precise, the underlying technology is the same as the services mentioned earlier, but these are tuned to write longer pieces of code and include features that can finish large parts of a program for you without copying and pasting bit by bit. I won't go into much detail here, but I'll list a few.
 
-When using these services, I recommend understanding why they work, and how programs operate. If you don’t understand what the AI has created, or what the AI is trying to do, you may not realize if it’s something dangerous.
+When using these services, I recommend understanding why they work and how the programs they produce run. If you don't understand what the AI created or what it is trying to do, you may not realize if it's doing something dangerous.
 
 https://x.com/mugisus/status/1940127947962396815?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1940127947962396815%7Ctwgr%5Ea4b906fe53a5ba6d495774e424167e89ea6cf635%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnote.com%2Flab_bit__sutoh%2Fn%2Fn3363f140d3de
 
-As an example, in this post, the AI tool executes a command that deletes all files from the computer (normally you wouldn't do something like that).
-What happens if you overlook this? Please use it carefully after thinking it through (though it's super convenient).
+As an example/talking point, this post shows an AI tool executing a command that deletes all files on a computer (you normally wouldn't do that). What would happen if you didn't notice that and left it running? Think carefully when using these tools (they're super convenient though).
 
 #### GitHub Copilot
-Attached to VS Code and should be free to use if you’re part of the [[github-student-pack|GitHub Student Pack]].
+Used as an add-on for VS Code and others. If you're in the [[github-student-pack|GitHub Student Pack]] you should be able to use it for free.
 #### Cursor
-An editor based on VS Code with many added AI capabilities.
+An editor based on VS Code with many AI features added.
 
-#### CLI Tools
-The following three are used by being added to the CLI (terminal).
+#### Tools to use in the CLI
+The following three are CLI/terminal tools.
 #### Claude Code
-Claude is displayed directly in the terminal. However, unlike the web version, it keeps going until it writes the code completely, though sometimes it can get stuck and start thinking indefinitely...
+Claude appears directly in your terminal. Unlike the web version, it will persist and properly finish the code. But sometimes it gets stuck and starts thinking forever...
 #### Gemini CLI
-Google also has something similar to Claude Code, but honestly, I feel Claude Code is better.
+Google has released something like Claude Code, but honestly I feel Claude Code is better.
 #### Codex
-A relatively new player from OpenAI. It seems to have a good reputation.
-
+A relatively later entrant. It's provided by OpenAI. The reputation seems good.
 ## File and Source Code Sharing
 
 ### [[github-team-dev|GitHub]]
-GitHub is the first choice for source code storage. There’s not really a second choice since GitHub is so widely used.
+The primary choice for source code hosting is GitHub. It's used so much you could say there's no second choice.
 
 https://github.com
 
 [![Image from Gyazo](https://i.gyazo.com/d018017bd674a21da6471ff09f28c54d.png)](https://gyazo.com/d018017bd674a21da6471ff09f28c54d)
-GitHub is currently operated by Microsoft and provides various services based on the Git version control system. For instructions on how to use [[github-team-dev|GitHub]], please check it out!
+GitHub is currently operated by Microsoft and provides various services based on the Git version control system. I also explain [[github-team-dev|How to use GitHub]], so please check it out.
 ## Document Sharing
 ### Notion
-Notion is an application that can be used across various platforms, functioning like a note-taking app. However, despite being a note app, it can organize massive data, integrate with calendars, and serve various purposes. The abundance of features can sometimes be overwhelming, but it's very useful.
+Notion is an app like a notebook that works across many platforms. But it's more than a notebook: you can organize large amounts of data, integrate with calendars, and use it in many different ways. On the flip side, it has so many features it can be overwhelming, but it's convenient.
 
 https://notion.com
 ### Google Docs
-If it's just document sharing, personally I think Google Docs works well too. It’s simple, and as long as you have a Google account, it’s easy to collaboratively edit.
+If you're only sharing documents, Google Docs is fine in my view. It's simple and very easy for collaborative editing as long as you have a Google account.
 
-### GitHub Issues
-GitHub also has a function called Issues that allows you to use comments to write text in a dialogue format. While it’s not intended for document sharing per se, it’s perfect for recording logs during development or noting down what requires fixing.
+### GitHub Issue
+GitHub also has a feature called Issues where you can write comments and have discussions in a dialog-like format. It's not ideal for long-term document storage or typical document sharing, but it's great for keeping logs during development or noting places that need fixes.
 
 ## Slide Creation
-
-There are various tools for creating presentation slides, and many of you may already be familiar with them, so I will quickly summarize useful online tools for collaborative editing.
+There are many tools for creating presentation slides, and many readers are probably already familiar with them, so here is a quick roundup of online collaborative options.
 
 ### Canva
-This is like Google Slides, with a plethora of templates. It’s lightweight and allows for the quick creation of visually appealing presentations.
+With abundant templates, it's like Google Slides but with a lighter feel — you can quickly make attractive presentations that run smoothly.
 
 ### Google Slides
-This can be thought of as a more stable version of PowerPoint adapted to online sharing. While there aren't particularly exciting features, it often ends up being the go-to choice. There may be disadvantages like being unable to upload videos, but those familiar with PowerPoint might prefer this over Canva.
+Think of it as PowerPoint behavior made stable and shareable online. There's nothing particularly flashy about it, but many people end up using this. It has drawbacks like not being able to upload videos in some cases, but people used to PowerPoint may prefer this over Canva.
 ### Miro
-If you want to present with high freedom in a whiteboard style, it’s quite recommended. You can write text in real time, making it fun.
+If you want a highly flexible presentation style based on a movable whiteboard, this is highly recommended. You can write and draw in real time, and it's fun.
 
 ## Task Management
-Having task management apps can greatly facilitate communication when distributing tasks among several members.
+Having a task management app makes it much easier to distribute work among multiple members and communicate smoothly.
 ### Trello
 [![Image from Gyazo](https://i.gyazo.com/e3a9d5983db5d4a7ea1692bf752ebcdb.png)](https://gyazo.com/e3a9d5983db5d4a7ea1692bf752ebcdb)
 [![Image from Gyazo](https://i.gyazo.com/aada22018959a2290c977bed2752abb1.png)](https://gyazo.com/aada22018959a2290c977bed2752abb1)
-This is a task board based on the kanban method (Toyota's production system).
-It’s a simple setup of writing down tasks and arranging them, which is clear and suitable for team task management.
+It's a task board based on the kanban system (Toyota's production method).
+It's simple — write tasks and line them up — but it's easy to understand and suitable for team task management.
 ### Notion
-As previously mentioned, Notion has various features and can also be used for task management.
+As mentioned above, Notion has many features and can also be used for task management.
 [![Image from Gyazo](https://i.gyazo.com/3d0c7e29d36f396e0c5f0260d753ab86.png)](https://gyazo.com/3d0c7e29d36f396e0c5f0260d753ab86)
-Here’s an example of a template. You can create kanban or horizontally scrolling timeline formats, resembling Gantt charts.
+This is an example template. You can create kanban-style boards or horizontal-scroll timeline-style, gantt-like views like this.
 
 https://mrpugo.notion.site/Project-Timeline-1ad6c91f88508098b40ece4f27dff2a2
 
 ### GitHub Projects
-GitHub has a feature called GitHub Projects, which adopts a Trello-like system.
+GitHub also offers a Trello-like system called GitHub Projects.
 [![Image from Gyazo](https://i.gyazo.com/3ab067da64fcc1e66d66d6eb019a5e24.png)](https://gyazo.com/3ab067da64fcc1e66d66d6eb019a5e24)
-If you’re using GitHub Issues, you can utilize very powerful integrations, so I recommend it.
+If you're using GitHub Issues, you can take advantage of very powerful integrations, so it's recommended.
 
 ## Conclusion
-This is a list of recommendations that I personally pushed upon everyone, but I believe there are many more good tools out there.
+That's my personal list of recommended tools pushed onto everyone, but I believe there are many other great tools out there.
 
-If you have recommendations, please feel free to let me know via email or DM!
+If you have recommendations, please let me know by email or DM!!

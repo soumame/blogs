@@ -1,42 +1,43 @@
 ---
-title: Can LLM Usage Be Detected?
-emoji: 🤖
+title: "Can the use of LLMs be detected?"
+emoji: "🤖"
 tags:
-  - brain-storming
-  - llm
-published_at: 2025-10-06T00:00:00.000Z
-description: Have you ever been banned from using AI tools like ChatGPT (LLMs) at school? At one time OpenAI and others released experimental software to detect text written by LLMs, but such tools are hard to find now. Is it actually possible to reliably detect LLM usage?
+  - "brain-storming"
+  - "llm"
+published_at: "2025-10-06T00:00:00.000Z"
+description: "Have you ever been banned from using AI tools like ChatGPT (LLMs) at school? For a while OpenAI and others published experimental software to detect text written by LLMs, but nowadays such tools are hard to find. Is it actually possible to reliably detect the use of an LLM?"
 isTranslated: true
-sourcePath: ja/tech/detect-llm-usage.md
-sourceHash: 90857afb14f00f5a98f0d154a4bdd1a9dfeba92e7f80e967747ebdea43805b6e
+isDraft: true
+sourcePath: "ja/tech/detect-llm-usage.md"
+sourceHash: "b537120fcb8ea6cebe200ffea8ef6455c15ffdb603512d6c2fb979ac3e562d75"
 ---
 
-My teacher at school was like, "We have tools to detect LLM usage," — but is that true? So I looked into it.
+My teacher said something like "we have tools to detect the use of LLMs" — I wondered if that's true, so I looked into it.
 
-## How LLMs Work in the First Place
+## How LLMs work in the first place
 
-I'm a bit fuzzy on the details, but the way AI returns text is, simply put, like: "the previous word was this, so the next word is probably that." So if you know what prompt was used, the output should be somewhat predictable.[^How?]
+I only vaguely remember, but the way AI generates text is, simply put, something like "given the previous word(s), the next word will be X" — it outputs based on that kind of pattern. So if you know what prompt was used, you can to some extent predict the output.[^どうやって？]
 
-But if you don't know the prompt, how would you do that? It probably depends a lot on what data the model was trained on, but for major models, is it largely understandable?
+But if you don't know the prompt, how would you do it? It probably depends a lot on what data the model was trained on, but for major models is it fairly possible to figure out?
 
 ## OpenAI
-OpenAI once released software for AI detection.
+OpenAI previously released software for detecting AI-generated text.
 
 https://openai.com/ja-JP/index/new-ai-classifier-for-indicating-ai-written-text/
 
-However, it seems the accuracy wasn't great, and it never became practical.
+However, it seems the accuracy wasn't very good, and it probably wasn't practical.
 
 ## Quillbot 
-A lot of people used it at my previous high school. It's a service that offers an AI detector and a paraphrasing feature (replacing words with other words) in the same app — clearly targeting students trying to get AI to do their assignments. They also provide various other tools.
+A lot of people at my previous high school used it. It's a service that offers an AI detector and a paraphrasing (replacing words with other words) function in the same app — clearly targeting students who try to get assignments done by AI at any cost. They also offer various other tools.
 
 ## Turnitin
-At my school, [[ja/works/keio|Keio SFC]], there's sometimes a message saying, "This course uses Turnitin, so your AI use will be totally exposed!"
+At my school, [[en/works/keio|Keio SFC]], there are sometimes messages saying "We're using Turnitin for this course, so your use of AI will be totally exposed!".
 
 https://www.turnitin.com/
 
-From what I found, Turnitin offers tools for educational institutions to detect AI use and plagiarism (copy-paste), basically the kinds of tools teachers would like to use.
+From what I found, Turnitin provides tools for educational institutions that teachers would want to use, like AI-detection and plagiarism (copy-paste) detection.
 
 ## wip
-This article is a work in progress, and I don't have deep knowledge of LLMs, so I don't really know much — if anyone knows anything, please tell me~
+This article is a work in progress, and I don't have deep knowledge of LLM internals, so if anyone knows anything, please let me know~
 
-[^How?]: Is there any good reference material?
+[＾どうやって？]: Any good references?
