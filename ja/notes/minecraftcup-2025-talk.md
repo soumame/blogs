@@ -1,5 +1,5 @@
 ---
-title: マイクラカップ2025で登壇しました
+title: 第7回Minecraftカップ(2025)で登壇しました
 emoji: 🧱
 description: 今の私を形作った要素の一部である、マイクラカップで登壇させていただきました。色々と話し損ねたこともあるので、そういったことも含めてブログとして紹介します。
 tags:
@@ -10,18 +10,20 @@ isDraft: false
 noIndex: false
 ---
 ## マイクラカップでトークセッションに出ました
-先日東京大学(情報学環、福武ホール)で開催された[Minecraftカップ2025](https://minecraftcup.com/)のトークセッションに登壇し、「マイクラからの学びと創造の力」をテーマに、マイクラを通して得たものについて議論しました。
+先日東京大学(情報学環、福武ホール)で開催された[第7回Minecraftカップ](https://minecraftcup.com/)のトークセッションに登壇し、「マイクラからの学びと創造の力」をテーマに、マイクラを通して得たものについて議論しました。
 ### マイクラカップとは
 > [[en/misc/minecraftcup|Minecraftカップ]]は、小学生から高校生以下の子どもたちを対象に、教育版マインクラフト（Minecraft Education）を使ってテーマに沿った作品を作り、全国・海外から応募して競い合う日本で開催しているデジタルものづくりコンテストです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLvSMQJ5ts4?si=eLEb6pMmD0r2ifQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+https://www.youtube.com/live/YLvSMQJ5ts4?si=N6HOi4Ih0_-dYf0G&t=15685
 
 ### トークセッションの概要
 
 [![Image from Gyazo](https://i.gyazo.com/612743df910194cd7165ce1cacc3c52e.jpg)](https://gyazo.com/612743df910194cd7165ce1cacc3c52e)
 左から、運営事務局の土井さん、CoderDojo福山大門のチャンピオンである澤山さん、過去出場者である私、株式会社IDENCEの加藤さん、さくらインターネット/CoderDojo前橋チャンピオンである関口さん、そして一番右が運営事務局の栗原さん、という並びです。
 
-私は過去にマイクラカップに３回参加しており、[[ja/accomplishments/minecraftcup-2023|Minecraftカップ2023]]で奨励賞受賞、[[ja/accomplishments/minecraftcup-2021| Minecraftカップ2021]]で全国大会出場&受賞といった感じで、それからどうなったか？みたいなことを喋っていました。
+私は過去にマイクラカップに３回参加しており、[[ja/accomplishments/minecraftcup-2023|第5回Minecraftカップ(2023)]]で奨励賞受賞、[[ja/accomplishments/minecraftcup-2021| 第3回Minecraftカップ(2021)]]で全国大会出場&受賞といった感じで、それからどうなったか？みたいなことを喋っていました。
 
 トークセッションに出たよ！というお知らせと併せて、自分とマイクラカップの関係や、マイクラ（特にマイクラカップ）で得たものなどをここで書き残しておこうと思います。
 
@@ -31,7 +33,7 @@ noIndex: false
 
 [![Image from Gyazo](https://i.gyazo.com/172d96b399b1a725ec32353fb36d1720.jpg)](https://gyazo.com/172d96b399b1a725ec32353fb36d1720)
 
-前日ワクワクしすぎたせいで4時間睡眠&運営のお手伝いを不慣れな中やっていたため、また、スケジュールの合間のトークセッションということでちょっと緊張していました。また、トークセッションって、プレゼントかと違って内容が決まっていないので、新鮮な機会でした。こんな貴重な体験をさせていただけるとは...
+前日ワクワクしすぎたせいで4時間睡眠&運営のお手伝いを不慣れな中やっていたため、また、スケジュールの合間のトークセッションということでちょっと緊張していました。また、トークセッションって、プレゼンなどと違って内容が決まっていないので、新鮮な機会でした。こんな貴重な体験をさせていただけるとは...
 
 [![Image from Gyazo](https://i.gyazo.com/3a59b203e427bc9cdb9dd3efdeb35465.jpg)](https://gyazo.com/3a59b203e427bc9cdb9dd3efdeb35465)
 ## 私とマイクラカップの関わり
