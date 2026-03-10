@@ -7,7 +7,7 @@ tags:
 published_at: 2026-02-20
 isTranslated: false
 isDraft: false
-noIndex: false
+noindex: false
 ---
 ## マイクラカップでトークセッションに出ました
 先日東京大学(情報学環、福武ホール)で開催された[第7回Minecraftカップ](https://minecraftcup.com/)のトークセッションに登壇し、「マイクラからの学びと創造の力」をテーマに、マイクラを通して得たものについて議論しました。

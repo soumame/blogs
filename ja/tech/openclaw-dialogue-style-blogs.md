@@ -8,7 +8,7 @@ tags:
 published_at: 2026-02-25
 isTranslated: false
 isDraft: true
-noIndex: false
+noindex: false
 dialogue-users:
   そうまめ: https://avatars.githubusercontent.com/u/46675982
   OpenClaw書記: https://i.gyazo.com/8b41047e614840673b90b7120faf5cfe.jpg

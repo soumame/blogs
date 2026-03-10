@@ -7,7 +7,7 @@ tags:
 published_at: "{{date:YYYY-MM-DD}}"
 isTranslated: false
 isDraft: true
-noIndex: true
+noindex: true
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
 style: dialogue

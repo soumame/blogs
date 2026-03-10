@@ -7,7 +7,7 @@ tags:
 published_at: "{{date:YYYY-MM-DD}}"
 isTranslated: false
 isDraft: true
-noIndex: true
+noindex: true
 ---
 
 This is template!!!
