@@ -1,0 +1,7 @@
+interface:
+  display_name: "Discord Dialogue Blog"
+  short_description: "Discord会話を対話形式ブログMarkdownへ整形"
+  default_prompt: "Use $discord-topic-dialogue-blog to turn this Discord conversation into a publishable dialogue-style blog.md."
+
+policy:
+  allow_implicit_invocation: true
