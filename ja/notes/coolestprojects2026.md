@@ -1,6 +1,6 @@
 ---
-title: template
-emoji: ❓
+title: Coolest Projects 2026
+emoji: 💥
 description: 日本初開催となった作品展示イベントであるCoolest Projectsに行ってきたので紹介します（来年度も開催予定）
 tags:
   - educaiton
@@ -8,8 +8,8 @@ tags:
   - ai-generated
 published_at: 2026-04-02
 isTranslated: false
-isDraft: true
-noindex: true
+isDraft: false
+noindex: false
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
 style: dialogue
