@@ -1,7 +1,7 @@
 ---
-title: Coolest Projects 2026
+title: Coolest Projects Japan 2026
 emoji: 💥
-description: 日本初開催となった作品展示イベントであるCoolest Projectsに行ってきたので紹介します（来年度も開催予定）
+description: 日本初開催となった作品展示イベントであるCoolest Projects Japan 2026に行ってきたので紹介します（来年度も開催予定）
 tags:
   - educaiton
   - talks
