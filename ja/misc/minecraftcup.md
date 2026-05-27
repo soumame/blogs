@@ -1,10 +1,11 @@
 ---
 title: Minecraftカップ
 emoji: 🧱
-description:
+description: Minecraftカップ
 tags:
 published_at: 2026-02-25
 isTranslated: false
-isDraft: true
+isDraft: false
 noIndex: true
 ---
+マイクラカップは、教育版マイクラを使ったデジタルものづくりコンテストです。
