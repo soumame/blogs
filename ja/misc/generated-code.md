@@ -1,5 +1,5 @@
 ---
-title: generated-code
+title: 生成されたコード
 emoji: ❓
 description: AI生成されたコードについて思ったこと
 tags:
