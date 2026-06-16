@@ -6,8 +6,8 @@ tags:
   - ai-generated
 published_at: 2026-06-15
 isTranslated: false
-isDraft: true
-noindex: true
+isDraft: false
+noindex: false
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
   gemini: https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg
