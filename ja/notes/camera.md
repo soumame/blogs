@@ -115,7 +115,8 @@ Pixel 9 Proは相当レベルが高くて、HDR機能がすごく気に入って
 ポイントとか、周辺のカメラ用品とかを合わせて買うかどうかとかを決めるのに数時間かかった。
 
 家に帰ってニコニコで開封した時の様子
-<iframe width="1080" height="1920" src="https://www.youtube.com/embed/aPxdIrruxHA" title="EOS R50 Unboxing 📸" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="540" height="960" class="short-video"
+ src="https://www.youtube.com/embed/aPxdIrruxHA" title="EOS R50 Unboxing 📸" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 本体はすごく小型で、Powershotと同じくらい。
 
