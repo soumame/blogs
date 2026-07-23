@@ -5,7 +5,7 @@ description: Diver-X株式会社（アルバイト）でソフトウェア開発
 tags:
   - Work
 published_at: 2026-01-27
-isDraft: true
+isDraft: false
 ---
 ## 何をしてるの
 HIDデバイスを作ったり、その技術を使った受託開発をしていたりしています。
