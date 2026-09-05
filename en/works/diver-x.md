@@ -4,29 +4,29 @@ emoji: "💼"
 tags:
   - "Work"
 published_at: "2026-01-27T00:00:00.000Z"
-description: "I am engaged in software development at Diver-X Inc. (part-time)."
+description: "I work as a software developer at Diver-X Inc. (part-time)."
 isTranslated: true
-isDraft: true
+isDraft: false
 sourcePath: "ja/works/diver-x.md"
-sourceHash: "7737b2332826cf876d6f24ef72874ce2371c1bc219dcf2eff5b192127bde331f"
+sourceHash: "83ad1961562ff80bf56636203f5a6a80028bbf1c446eed83e6946e35bf8018c6"
 ---
 
 ## What I do
-I develop HID devices and undertake contract development using that technology.
+HID devices are developed, and I also do contract development using that technology.
 
-HID = a method for people and computers to exchange (communicate) information, so you can think of it that way.
+HID can be thought of as a method for people and computers to exchange information (communication).
 
-I assist as a part-time employee while attending [[en/works/keio|university]].
+I help them as a part-time worker while attending [[en/works/keio|university]].
 
 ### Products I'm involved with
 https://www.melt-interface.com/melt-mouse
 
-We are developing the Melt Mouse under the Melt Interface brand.
-We design mice targeted at creators and others who use computers extensively.
+I am developing the Melt Mouse under the Melt Interface brand.
+We make a mouse targeted at creators and other heavy computer users.
 
-We aim to perfect various aspects — the mouse's physical design, engineering, the mouse firmware, the user-facing GUI, mouse control, and so on — to bring to market "the ultimate mouse we envisioned." 
+We aim to perfect various aspects — hardware design, engineering, mouse firmware, the user-facing GUI, and mouse control — and bring to market "the ultimate mouse we envisioned."
 
-While leveraging my experience in software development, I'm also deepening my knowledge of hardware.
+While leveraging my software development experience, I am also deepening my knowledge of hardware.
 
-Business activities:
-Development, manufacturing, and sales of XR-related equipment, and enterprise-focused manufacturing process improvement solutions using those devices.
+Business:
+Development, manufacturing, and sales of XR-related devices, and enterprise-oriented manufacturing process improvement solutions using those devices.
