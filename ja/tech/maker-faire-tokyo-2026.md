@@ -295,7 +295,7 @@ Maker Faireでは、製作済み分を全て販売しようと思っています
 [![Image from Gyazo](https://i.gyazo.com/74c314fd75813155ed979189a934bcc2.png)](https://gyazo.com/74c314fd75813155ed979189a934bcc2)
 
 ## 9月12日: 振り返り
-（書いている途中）
+
 
 ## 何が言いたいのか
 
