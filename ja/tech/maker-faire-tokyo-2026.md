@@ -283,6 +283,10 @@ Maker Faireでは、製作済み分を全て販売しようと思っています
 
 あとはTestFlightに提出して、リリースを待てば、とりあえずベータ版として購入者に渡すことができる
 
+> 追記:リリースされました
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【Maker Faireで名刺基板を購入されたかたへ】<br>ご購入いただいた皆様のおかげで、iOS版を作ってTestFlightで公開できました！フォーム記入後に表示されるリンクからダウンロードしていただけます！<a href="https://t.co/SG3Hi27NEH">https://t.co/SG3Hi27NEH</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2097843944776458598?ref_src=twsrc%5Etfw">September 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
 ### リポジトリのセットアップ
 また、元々適当にやっていたこのプロジェクトだけど、10数人のコアなユーザーが存在し、自分が何かを作るのを心待ちにしてくれているというのが嬉しくって、AIに適当に作らせたリポジトリもちゃんと整備しようと思うようになった
 直したいところとか、改善したいところもあるし、指摘されたところもある。例えば、安定性はまだ解決の余地がある上に、特にNFC周辺はまだ改善できるところがある、と会場を訪れた専門家のような人にも言われた。(聞いた感じ、半分くらいしか理解できなかったけど、NFCの専門家みたいな人で、すごかった)Maker Faireって本当に色々な人が来てるんだなと思った。これは出店して初めて知ったことかもしれない。
