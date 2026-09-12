@@ -232,7 +232,10 @@ AIに全てやらせると言いつつも、AIが話す言葉をある程度は�
 
 ## 9月5日: Day 1終了！
 
-バタバタしていて全然続きを書けていませんでした。基本的に4日まではロジ周りのことをやっていたり、前日まで、届いた名刺基板の製作なんかをやっていました。（つまり、無事届いて組み立てもできたということになります。
+バタバタしていて全然続きを書けていませんでした。いよいよMFT当日。基本的に4日まではロジ周りのことをやっていたり、前日まで、届いた名刺基板の製作なんかをやっていました。（つまり、無事届いて組み立てもできたということになります。
+
+[![Image from Gyazo](https://i.gyazo.com/3b3a335539975fab86c3b1f2258ffcc4.JPG)](https://gyazo.com/3b3a335539975fab86c3b1f2258ffcc4)
+組み立てはこんな感じ。届いた基板に電子ペーパーくっつけてFW書き込みを行って完成！というノリ。
 
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://x.com/hashtag/MFTokyo2026?src=hash&amp;ref_src=twsrc%5Etfw">#MFTokyo2026</a> 1日目終了！ということで、たくさんのかたに見てもらえました！ここに書ききれないくらいいろいろ話したい！<br><br>ソフトウェアの人でもいい感じにAIを使ってこういったプロダクトに落とせる時代になってきた...というか、今朝できるようになりましたね。<br>人間の仕事は、こうしたところで自b <a href="https://t.co/eO8R892Y0I">pic.twitter.com/eO8R892Y0I</a></p>&mdash; そうまめ #MFTokyo2026 B-07-08 (@So_to9) <a href="https://x.com/So_to9/status/2096249111892869247?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
@@ -264,7 +267,11 @@ Maker Faireでは、製作済み分を全て販売しようと思っています
 
 しかし、人との出会いや経験という風に考えてば、めちゃめちゃ黒字なのかもしれない。明日も頑張っていこうと思います。
 
-## 9月6日: Day2, Maker fairsを終えて
+[![Image from Gyazo](https://i.gyazo.com/9172d2fefb7dc938956b8972b892757e.JPG)](https://gyazo.com/9172d2fefb7dc938956b8972b892757e)
+
+## 9月6日: Day2, Maker fairを終えて
+
+[![Image from Gyazo](https://i.gyazo.com/56d150efa4f05326bc56f89c2dd15a39.JPG)](https://gyazo.com/56d150efa4f05326bc56f89c2dd15a39)
 ### iOSアプリ
 当初はiOSを持っている人は買わないだろうし、諦めてもらおうと思っていたが、それでも5000円払ってくれる人がいて、流石に作らないとダメかという気持ちになった。いや、まず買う人がいないと思っていた。
 
