@@ -1,7 +1,7 @@
 ---
 title: Maker Faire Tokyo 2026に出展する話
 emoji: 🔧
-description: 初めて作ったハードウェアをなんとなく出したら出展することになった！？Maker Faire Tokyoにソフトウェア畑の人間が出展してみました。
+description: Vibeで作ったハードウェアをなんとなく出したら出展することになった！？Maker Faire Tokyoにソフトウェア畑の人間が作ったバッテリーレスで動く電子ペーパーNFC基板名刺出展してみました。
 tags:
   - essay
 published_at: 2026-08-17
