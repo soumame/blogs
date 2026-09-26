@@ -4,282 +4,324 @@ emoji: "🔧"
 tags:
   - "essay"
 published_at: "2026-08-17T00:00:00.000Z"
-description: "I casually submitted my first piece of hardware and ended up getting accepted!?"
+description: "I casually presented hardware I made with Vibe and ended up getting accepted!? I exhibited a batteryless e-paper NFC circuit-board business card made by a software person at Maker Faire Tokyo."
 isTranslated: true
-isDraft: true
+isDraft: false
 sourcePath: "ja/tech/maker-faire-tokyo-2026.md"
-sourceHash: "50a4d7f7adb3c6d4c71167fba013c4dd20367e3c2dcbdf8e672521cd082000da"
+sourceHash: "ecc5f1cc0250b0a0002b1df27334d51804df5593d121093815b5f83d02893bd7"
 ---
 
-> I’m updating the story of how I ended up exhibiting at Maker Faire Tokyo as I go. This is very much a work in progress — I’ll finish it before the event.
-
-# Announcement and Overview of the Exhibit
-The details of the exhibit have been published! Come see it!
+# Exhibition Overview
 
 https://makezine.jp/event/makers-mft2026/m0232/
 
-|         |                                                                                         |
-| ------- | --------------------------------------------------------------------------------------- |
-| 📛 出店名称 | そうまめの部屋(Soumame's room)                                                                 |
-| 📍 場所   | B-07-08                                                                                 |
-| 🛒 出展物  | ワイヤレス給電で書き換え可能な電子ペーパー名刺(Wirelessly-rewritable E-paper name badge (card style))          |
-| 販売情報    | 1日目、2日目に分けて、電子ペーパー名刺（すぐに使用可能）とソフトウェア（Androidアプリ限定。~~iOSは資金が集まり次第開発~~ (資金が集まったので)近日公開予定） |
+|         |                                                                                |
+| ------- | ------------------------------------------------------------------------------ |
+| 📛 Booth name | そうまめの部屋 (Soumame's room)                                                        |
+| 📍 Location   | B-07-08                                                                        |
+| 🛒 Exhibit  | ワイヤレス給電で書き換え可能な電子ペーパー名刺 (Wirelessly-rewritable E-paper name badge (card style)) |
+| Sales info    | On Day 1 and Day 2 I split sales between immediately usable e-paper business cards and software                                           |
 
----
-## Profile
-
-I’m Tokumaru, also known as Soumame, a first-year student at Keio University’s Faculty of Environment and Information Studies! I’ve mostly been doing software development, but recently I got interested in hardware and have been studying a lot!
-
-- Web: [https://tokumaru.work](https://tokumaru.work/)
-- X: [@so_toku](https://twitter.com/so_toku)
-
-## Exhibit Details
-### Main attraction: E-paper business card sales
+## Exhibition Details
+### Highlight: E-paper business card for sale
 [![](https://i.gyazo.com/5ce08d454c244c9f428ee89669c03ed4.jpg)](https://gyazo.com/5ce08d454c244c9f428ee89669c03ed4)
-I’ll be showcasing and selling a limited number (**planned 30 units**) of e-paper business cards that run on wireless power and can be rewritten from your smartphone whenever you like!
-These are seriously expensive to produce, and it’s been quite a struggle. **We are currently performing operational checks, but if they don’t work reliably, we may have to cancel sales.**
+I’m introducing a wirelessly powered e-paper business card that you can rewrite from your phone whenever you like, and I’ll be selling a limited quantity **(planned 30 units)**!
+This thing is honestly expensive to produce, and it’s been a real struggle. **We are currently performing operation verification, but if it doesn’t work, we may have to abandon sales.**
 
-### A hands-on NFC demo
-While I’m at it, I’ll also display things you can do with NFC, which I played with this spring and found really interesting.
+### NFC play area
+While I’m at it, I plan to exhibit various things you can do with NFC that I explored and found interesting around this spring.
 
-### Talk about AI-assisted board design and implementation
-The aforementioned NFC board was designed and implemented with AI assistance, so I’d like to talk about that too. Using AI to help with software is already commonplace, but using AI for hardware design is becoming easier as well, and I feel the piece I built this time shows how accessible this has become.
+### Talk about AI and board implementation
+Also, the aforementioned NFC board is something I implemented with AI, so I’d like to talk about that too. I already use AI as a matter of course when writing software, and it’s getting easier to use for hardware design as well. I feel that things like what I made this time are becoming something anyone can create.
 
 
 ---
 
 # Diary
-> I’ll write everything here about how this project started and progressed.
-## August 11, 2025: It’s so cool that hardware can run on a single board
+> I’ll record everything here about how this project started.
+## August 11, 2025: I love hardware that runs on a single board
 
 https://x.com/So_to9/status/1954792229806936385?s=20
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I had a great time at DEF CON — heading back to Japan.<br><br>(This is me trying to use the ads-b/ATC receiver I bought from <a href="https://x.com/SecureAerospace?ref_src=twsrc%5Etfw">@SecureAerospace</a> to receive aircraft position information and radio) <a href="https://t.co/6MNufnrjJ1">pic.twitter.com/6MNufnrjJ1</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/1954792229806936385?ref_src=twsrc%5Etfw">August 11, 2025</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">DEFCON楽しかったぞ〜ってことで日本に帰ります。<br><br>(これは <a href="https://x.com/SecureAerospace?ref_src=twsrc%5Etfw">@SecureAerospace</a> で買ったads-b/ATC(航空機の位置情報や、無線)を受信するやつを、使おうとしている様子) <a href="https://t.co/6MNufnrjJ1">pic.twitter.com/6MNufnrjJ1</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/1954792229806936385?ref_src=twsrc%5Etfw">August 11, 2025</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-I’d never actually built hardware before, and I thought people who can do this must live in another realm — that I couldn’t do it.
+I’d never really built hardware before, and I thought people who can do this must live in another world — I couldn’t do it.
 
-DEF CON has a BadgeLife culture where people show off their badges at the event. Many badges are based on PCBs and have some functionality — LED-flashing types, ones capable of advanced computation, and even some with screens running Linux.
+DEF CON has a BadgeLife culture where people flaunt their badges at the event. Many badges are based on circuit boards and have some functionality, from flashy LED blinkers to seriously capable devices (some even have screens and run Linux).
 
-Maker Faire isn’t as intensely hyped as DEF CON, but there are still a few people like that. Also, Japan has a strong business card culture — people carry business cards almost everywhere, and engineers are no exception.
+Maker Faire isn’t as intense as that, but there are still a few people like that. Also, Japan has a strong business card culture — most business people carry business cards everywhere. Engineers are the same.
 
-So I decided not to make a huge badge-sized board this time, but intentionally keep it the size of a business card so you can casually show off your cool board in daily life.
+So this time, instead of a large badge-sized thing, I decided to purposely keep it small, business-card sized, and make a kit that lets you show off a cool PCB in daily life.
 
 
 ## February: Joined [[en/works/diver-x|Diver-X (now Melt Interface Technologies)]]
 
-I joined as a software engineer and got involved mainly with the software around the Melt Mouse HID device.
+I joined as a software engineer and got involved mainly with software around a HID device called Melt Mouse.
 
-I hadn’t had many opportunities to interact with hardware engineers before, so it was a fresh experience. There are some insanely skilled hardware engineers, and even the students working part-time there are proficient with CAD and schematics — they’re amazing. It felt like a team of monster engineers.
+I’d had few chances to interact with hardware people until now, so it was really refreshing. There are insanely skilled hardware engineers, and even the students working part-time there are masters of CAD and schematics — it’s like a team of monster engineers.
 
-Even though I’d never touched hardware, I felt the necessity to understand it. I decided it was worth investing some of my own money to learn, and luckily I was in an environment where I could gain that knowledge — this was the chance.
+Although I hadn’t handled hardware before, I realized I needed to understand it, so I decided to invest some of my own money to learn. Being in an environment where I can easily gain knowledge felt like a great opportunity.
 
 
-## April 1: The AI-designed business card worked!? The start of the board creation
+## April 1: The AI-designed business card ran!? The start of board creation
 
-However, my lazy streak made me think, “Can’t I just throw all the tedious work to AI?” That laziness was actually part of why I started making software in the first place.
+However, my lazy streak made me wonder, “Can I throw all the tedious tasks to AI?” That laziness was part of how I started making software in the first place.
 
-Instead of learning everything the usual way, I thought, why not have AI design the board while I gradually understand it? I showed the KiCad design app screen to Gemini and, with guidance, completed a PCB.
+Learning normally is fine, but I thought it might be better to have AI design the board while I gradually understand it. I showed Gemini the KiCad design app screen and finished a PCB myself.
 
-As mentioned, I was interested in making a badge-like item on a board to show off, so I decided to make a business card PCB and add a display to it.
+As I mentioned earlier, I was interested in making a badge or business-card-like item that showcases yourself, so I decided to make a business-card PCB and put a display on it.
 
-I then thought, if that display were e-paper, I wouldn’t need to worry about battery drain, and I could rewrite the content whenever I liked.
+Moreover, I realized that if I used an e-paper display, there’d be no worry about batteries running out and the content could be rewritten whenever.
 
 [![Image from Gyazo](https://i.gyazo.com/1f708d335cf51ce5b2d5bb7f07e037ec.png)](https://gyazo.com/1f708d335cf51ce5b2d5bb7f07e037ec)
-This is the moment I explained it to Gemini and it taught me. For some reason it started complimenting me a lot halfway through. Maybe it’s an educator’s mindset that uses praise to encourage learning.
+This is what I sent to Gemini and was taught. For some reason it started praising me a lot halfway through. Maybe it’s an educator who believes in praise to encourage growth.
 
 
 https://x.com/So_to9/status/2039325011564269822?s=20
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I asked an LLM for guidance and maybe created the ultimate business card? (AI PCB design)<br>Will it actually work... <a href="https://t.co/WDZVj5H4B9">pic.twitter.com/WDZVj5H4B9</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2039325011564269822?ref_src=twsrc%5Etfw">April 1, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LLMに指示を仰いだらなんか最強の名刺ができたかもしれない？（AI基板設計）<br>果たして動くのか... <a href="https://t.co/WDZVj5H4B9">pic.twitter.com/WDZVj5H4B9</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2039325011564269822?ref_src=twsrc%5Etfw">April 1, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-As a result, I at least completed an MVP that can be rewritten (though it still feels barely like an MVP).
+As a result, an MVP that can be rewritten (though it hardly feels like a full MVP) was completed.
 
-Of course it didn’t work perfectly — it’s basically at the level where you write data via NFC and the e-paper updates.
+Of course it doesn’t work perfectly — it’s at the level of “NFC wrote data and the e-paper updated!”
 
 
 ## April 18: Drone business card!? Too cool
 
 https://fumimaker.net/entry/2026/04/18/202824
 
-> I later realized this fumi is the fumi from [[en/works/keio|Keio SFC]]...!? I can’t believe someone like that is in the same school. Amazing.
+> I later realized this fumi person is the fumi from [[en/works/keio|Keio SFC]]...!? I’m amazed there’s someone like that at the same university.
 
-My motivation for the business card board went up.
+My motivation for PCB business cards rose.
 
 
-## April 22: I applied just in case
+## April 22: I applied anyway.
 
 [![Image from Gyazo](https://i.gyazo.com/4930496183247744f54fcb46b88e50df.png)](https://gyazo.com/4930496183247744f54fcb46b88e50df)
 
-I wasn’t sure whether it was okay to exhibit a half-finished business card, but I thought setting a goal and working toward it was good, so I applied.
+I wasn’t sure whether a work-in-progress business card would be accepted, but I felt it was good to set a goal and work toward it, so I applied.
 
 
 ## May 28: Seriously!?
 [![Image from Gyazo](https://i.gyazo.com/988af3d7a88fb0bf9609fd4bec9b2783.png)](https://gyazo.com/988af3d7a88fb0bf9609fd4bec9b2783)
-To my surprise, it was accepted. My motivation spiked by about five times, but university got really busy, so I couldn’t work much...
+To my surprise, it was accepted. My motivation multiplied by about five, but I was so busy with university that I couldn’t work much...
 
 
-## May 31: Starting to drift
+## May 31: Getting off track
 [![](https://i.gyazo.com/9d1378128adf9f528d5c852f454c5505.png)](https://gyazo.com/9d1378128adf9f528d5c852f454c5505)
-This is V3, which incorporates fixes up to V2 and is the closest to the current prototype.
+This is V3, which includes fixes up to V2 and is the closest to the current prototype.
 
-The idea is to harvest power from NFC to drive the circuit and rewrite the E-ink (e-paper) display wirelessly. Being batteryless allows for thinness, making this configuration ideal for devices like business cards. Using power generated by NFC to drive the circuit and update the E-ink display wirelessly enables a batteryless, thin form factor suitable for business-card devices.
+The idea is to harvest power received via NFC, run a circuit, and rewrite an e-paper display. It’s rewritable non-contact and batteryless, so it can be thin — perfect for a business-card-like device.
 
-When I actually built it, I could update the screen, but even working with AI I ran into a problem: insufficient power capacity.
+When I actually built it, I could rewrite the screen. However, even while consulting with AI, I ran into a power insufficiency problem.
 
-That forced a redesign of the circuit, and I had to investigate from scratch how power capacity and energy storage work in NFC-powered systems, which involved a lot of trial and error.
+So I revised the circuit from scratch: how much power can you receive via NFC, and how to store it. I tested a lot and iterated.
 
 
 ## August 16: V4 ordered
 
 [![Image from Gyazo](https://i.gyazo.com/c9930131e17dfda62e445dde5148fc88.png)](https://gyazo.com/c9930131e17dfda62e445dde5148fc88)
 
-If this doesn’t work, it’ll be really bad, but I ordered it anyway. I significantly increased the number of capacitors and reselected footprints.
-I used AI again to automatically pick suitable footprints based on LCSC (JLCPCB) stock lists and then automatically run simulations based on those footprints.
+If this doesn’t work it’ll be really bad, but I ordered it anyway. I greatly increased the number of capacitors and reselected footprints.
+I used AI again to automatically pick suitable footprints from LCSC (JLCPCB) stock lists and ran simulations with them.
 
-No amount of simulation guarantees hardware will work, so I can’t be sure it’ll function, but reliability should be improved compared to before.
+No matter how much you simulate, hardware sometimes just won’t work—so I can’t guarantee it will definitely run, but the reliability should be better than before.
 
-Also, during development I disassembled an ezsign e-paper card to study how it works.
+I also disassembled an ezsign e-paper card to study how it worked while creating this.
 
-ezsign’s existing product:
+The ezsign product:
 
 https://amzn.asia/d/04zeppW6
 
-If it had writable memory I could embed a URL and have it scanned, which would have been perfect... but oh well.
+If it had a writable memory area I could’ve embedded a URL and made it scannable — that would’ve been perfect, I thought.
 
 [![Image from Gyazo](https://i.gyazo.com/9b051ddbd437a69b7777f07867d00829.png)](https://gyazo.com/9b051ddbd437a69b7777f07867d00829)
-This thing is pretty amazing — you can write to it using apps available in the app store.
+This is pretty amazing; you can write to it using a regular app from the app store.
 
-Hold it to a reader for about 20 seconds and it rewrites like this.
+Hold it for about 20 seconds and it rewrites like this:
 [![Image from Gyazo](https://i.gyazo.com/275e8abc4c7e6563241a766758e41355.jpg)](https://gyazo.com/275e8abc4c7e6563241a766758e41355)
-I disassembled it to check the antenna shape and how much storage capacity it has.
+I disassembled it and checked the antenna shape and how much charge it could store.
 
-At first I didn’t fully understand the concept of energy storage, but through this I learned a bit.
+I didn’t really understand the concept of energy storage at first, but I think I learned a bit through this.
 
-I realized their design was much more efficient than mine. They have dedicated chips and sometimes use a method of continuously receiving power and communicating rather than storing energy. It’s impressive.
+I found out their design is way more efficient than what I designed. They use dedicated chips or a communication method that continuously uses the received power rather than storing it. Amazing.
 
 
 ## August 19: It finally worked
 [![Image from Gyazo](https://i.gyazo.com/6c1a8e4082e14d2f1e805cdb6863bd08.jpg)](https://gyazo.com/6c1a8e4082e14d2f1e805cdb6863bd08)
-When I flashed firmware onto the delivered boards and held a phone to them, they worked. More than happy, I felt relieved. If this hadn’t worked, selling functioning devices at Maker Faire would have been very difficult.
+When I flashed firmware onto the delivered board and waved it, it worked. I felt relieved more than happy. If this hadn’t worked, selling working units at Maker Faire would’ve been extremely difficult.
 
 
 ## August 23: App development
+Since it worked, I decided to make an app. I’d made apps before, but they were web apps, and I’d never handled NFC in an app, so it was a new challenge.
 
-Since it worked, I decided to make an app. I had built web apps before, but never handled NFC, so this was a new challenge.
+By having AI write code I managed to get most of it done. Recent AIs are at a level that makes you wonder if humans are even necessary — I knew enough about frameworks to instruct the AI on what approach to use.
 
-However, by having AI do the coding, it was manageable to some extent. Modern AI is at a level where I sometimes wonder if humans are even necessary. I knew what frameworks were available, so I instructed the AI to build it in a certain way and had it do so.
-
-There was one issue: on iOS you can’t use NFC for development purposes unless you join the Apple Developer Program and pay $99, which is an absurd restriction. So I abandoned iOS for now and the app will likely be Android-only for sales.
+There was one problem: on iOS, you can’t use NFC for development without joining the Apple Developer Program and paying $99, which is a baffling restriction. So I gave up on Apple initially, and the app I planned to sell looked like it would be Android-only.
 [![Image from Gyazo](https://i.gyazo.com/db79a789837a1bbed2535b36212a3ced.png)](https://gyazo.com/db79a789837a1bbed2535b36212a3ced)
-Development wasn’t that hard overall, but there were a few important experiential takeaways. Making the NFC business card easy to rewrite and tuning the display quality balance were important.
 
-If you try to improve display quality, you might have to hold the NFC steady for about a minute. With faster settings it still takes about 15 seconds. Commercial products also take about 15 seconds, so that’s acceptable.
+There weren’t that many hard parts to building it. Important UX considerations included how easy it is to rewrite the NFC business card board and balancing image quality.
+If you try to improve the image quality, you have to hold the NFC for about a minute; even a fast setting takes around 15 seconds. Commercial products also take about 15 seconds, so I thought that was acceptable.
+However, because writing requires holding the device steadily for about 15 seconds, the software needed robust error handling. After tweaking plenty, it became stable enough and sales became feasible, which was a relief.
 
-However, because writing requires holding the device steadily for around 15 seconds, the software needs robust error handling. After tweaking a lot, it became stable enough and I felt confident about selling them.
-## August 25: The banner
+## August 25: Banner
+I’d observed that unpaid Maker Faire booths tend to look pretty shabby. Even tables and chairs aren’t provided unless you pay, so I thought about how to decorate a space fairly cheaply.
 
-From past Maker Faires I observed that unpaid exhibitor spaces can look pretty sparse. Even tables and chairs aren’t supplied unless you pay, so I thought about how to decorate my space cheaply.
+It turned out printing a huge banner is more eye-catching and cost-effective than flyers. Bringing the rest of the table stuff from home (I have a car) was cheaper.
 
-I found that making one huge banner was more attention-grabbing and cost-effective than printing flyers. Bringing my own table and other items (I have a car) was cheaper too.
-
-When the ordered banner arrived today... lol
+When the banner I ordered arrived today... lololol
 [![Image from Gyazo](https://i.gyazo.com/a8ae86fd3bda5829af78b37f988c6880.png)](https://gyazo.com/a8ae86fd3bda5829af78b37f988c6880)
-It’s huge. Too huge.
-It’s fire-retardant and at the maximum allowed size for the event, but still... lol
+It’s huge. Way too big.
+I made it right up to the event’s allowed size and with fire retardant treatment.
 
-My Illustrator license had expired (the Adobe tax is too high), so I made it in PowerPoint, and PowerPoint can apparently make these rainbow-style letters. No wonder PowerPoint slides are often tacky.
+My Adobe Illustrator license had already expired (Adobe tax is too high), so I made it in PowerPoint — you can make rainbow-style text easily in PowerPoint. No wonder PowerPoint slides often look tacky.
+Let me be clear: I don’t actually like incorporating this sort of design into products. This was purely to get attention. I’m not choosing this design out of preference.
 
-Just to be clear, I don’t actually like this design for my product. I prioritized visibility, not aesthetics. I’m not choosing this because I prefer it.
 
+## August 26: Ordered product V1
+Although things looked on track, some improvements were needed. There were no screw holes, so you couldn’t add a 3D-printed cover, and you couldn’t hang it around your neck.
 
-## August 26: Ordering production V1
-
-Even though things were looking hopeful, I found a few improvements to make. There were no screw holes, so I couldn’t make a cover with a 3D printer or attach a strap to wear it around the neck.
-
-After considering shape changes, I added four screw holes, a strap hole for wearing it around the neck, and extra GPIO pins so purchasers can program their own firmware.
+After considering shape changes, I added four screw holes, a strap hole to hang from the neck, and extra GPIO pins so buyers can flash their own programs.
 [![](https://i.gyazo.com/8b916a571b5f9215e48f39ac85a9bd79.png)](https://gyazo.com/8b916a571b5f9215e48f39ac85a9bd79)
-AI did all of this for me, which is amazing. I chose black for the color.
+AI did all of this for me, which is truly amazing. I chose black as the color.
 
-### Forced to change footprints
+### Forced footprint changes
+However, when I tried to order, I got an error: the parts used in the previous successful prototype (ST25 and STM32) were out of stock. Ten days before Maker Faire, this is bad.
 
-When I tried to order, I got an error: the parts used in the previous successful prototype (ST25 and STM32) were out of stock. Ten days before Maker Faire, this was bad news.
+Since I asked JLCPCB to assemble parts, I either had to wait for restock or find substitutes. I found substitute parts with slightly lower specs (less memory) but that seemed sufficient, so I reordered with them.
 
-Since I was asking JLCPCB to assemble the parts, I either had to wait for restocking or find replacements. I selected alternative parts with somewhat lower performance (less memory) but still sufficient to operate, and ordered them.
-
-As a result, the order was delayed and I wasn’t sure it would arrive by MFT.
+As a result, the order was delayed and it became uncertain whether the boards would arrive by MFT.
 
 
 ## August 28: Customs paperwork
 [![Image from Gyazo](https://i.gyazo.com/c05af8dcf6f8597e0d5969a5de6c2124.jpg)](https://gyazo.com/c05af8dcf6f8597e0d5969a5de6c2124)
-My family told me, “You got a suspicious letter from China,” and handed it over.
+My family told me they received a suspicious letter from China and gave it to me.
 
-Inside it said I had to pay ¥5,500. Is this a scam? Turns out it was just the bill for the e-paper I ordered.
+Inside it said to pay 5,500 yen. Is it a scam? It turned out to be the invoice for the e-paper order.
 
-When I previously ordered e-paper it took over a month via China Post, so I used FedEx this time, but they still charged ¥5,500...
+Previously, when I ordered e-paper, China Post took over a month, so I used FedEx this time — but they still charged 5,500 yen...
 
-I’ve already sunk over ¥150,000 into this project, so finances are tight. Even if I sold all 30 units at ¥5,000 each at Maker Faire, I might not break even.
+So far I’ve sunk over 150,000 yen and it’s getting really tight financially. At this cost, even if I sold all 30 units at Maker Faire for 5,000 yen each, I probably wouldn’t break even.
 
-But if you exclude the learning costs, the cost of the actual product might not be so large. It’s fine — ¥150,000 should be recouped quickly in the future. (But right now I have about ¥300,000 in total assets, so I’m quietly freaking out inside.)
+That said, if you exclude the learning cost, the direct learning expense might not be that large. It’s fine. 150,000 yen will pay off in the future, I tell myself.
+(That said, I currently only have about 300,000 yen in total, so I’m almost in tears inside.)
 
-Even though I say I let AI do everything, I still need to understand what the AI says to some extent (and try to understand it), clarify things I don’t know, and give instructions.
+Even though I wanted AI to do everything, I still need to understand what AI says to some extent, check what I don’t understand, and give instructions.
 
-I didn’t learn how to design schematics from scratch, but by deciding the hardware I wanted to build and making everything myself (mostly with AI), including the software, and releasing it for others to use, I can hold the whole process in my hands. Considering that it cost only ¥150,000, it might be insanely cheap.
+I didn’t study how to make schematics from scratch, but by deciding the hardware I wanted and making everything including software (mostly via AI), packaging it so others can use it, and releasing it — that whole process is now in my hands. Considering it cost only 150,000 yen, it might actually be a bargain.
 
 
-## August 29: Worried it won’t arrive in time
+## August 29: Too worried about whether it will arrive in time
 [![Image from Gyazo](https://i.gyazo.com/e7086daa4dc78f41244b02f1b607087a.png)](https://gyazo.com/e7086daa4dc78f41244b02f1b607087a)
-The prototype arrived in four days last time, so I thought it would be fine, but due to parts and color choices this time it’s taking longer. Still, it should arrive in a week, right...?
+Last time it arrived at my home in 4 days, so I thought I had margin, but due to the chosen parts and color this time it apparently takes longer. Still... it should arrive within a week, right...?
 
-I keep checking JLCPCB’s order status every two hours, but it’s stuck on "manufacturing data finished." Maybe because today is Saturday, manufacturing starts Monday? Worst-case, the boards might arrive after MFT. That would be bad.
+I kept checking JLCPCB’s order screen every couple of hours, but it wouldn’t move past “manufacturing data finished.” Maybe because it was Saturday, production wouldn’t start until Monday? Worst case, the boards might arrive after MFT ended — that would be bad.
 
-...but there’s not much I can do. Rushing them probably won’t help.
+There wasn’t much I could do. Pushing them probably wouldn’t speed things up.
 
 
 ## August 30: Don’t leave things to the last minute
-### I ended up nudging them
-
-Last night I said "nudging won’t speed things up," but I decided to nudge them anyway.
+### I ended up hurrying them
+I said yesterday that hurrying wouldn’t help, but I still decided to bug them.
 [![Image from Gyazo](https://i.gyazo.com/d98070e9d82ed4532f5b8dfa5b3d346a.png)](https://gyazo.com/d98070e9d82ed4532f5b8dfa5b3d346a)
-It probably didn’t do much, but some human- or LLM-like response came back,
+It probably didn’t change anything, but I got a human-like (or LLM-like) response and
 [![Image from Gyazo](https://i.gyazo.com/abd9a5b93a49eb7e43efa231c59c8689.png)](https://gyazo.com/abd9a5b93a49eb7e43efa231c59c8689)
-and an estimated schedule started showing up.
+an estimated schedule appeared.
 [![Image from Gyazo](https://i.gyazo.com/44831e5245fdd9ac7376c60377e81728.png)](https://gyazo.com/44831e5245fdd9ac7376c60377e81728)
-But PCB assembly is scheduled for September 2. I need to receive them by around September 4 (the day before), so that’s tight... (Reality sink-in panic increases.)
+But PCB assembly was scheduled for September 2. I needed to receive it by around September 4 (the day before), so this was tight and my panic increased.
 
 ### The banner
-
-To make matters worse, I hadn’t actually applied the fire-retardant option to the banner I ordered (I thought I had, but the setting probably got cleared — my mistake), so I had to reorder. I considered just using flyers, but the banner seemed comparatively cheaper, so I reordered. My house already has a huge banner without fire-retardant treatment, and my family told me not to bring more junk home. I don’t know what to do with the non-fire-retardant one...
+To make matters worse, the banner I bought earlier didn’t have fire retardant treatment applied (I thought I’d applied it, but probably the setting got lost — my mistake), so I had to reorder. At first I thought flyers would be fine, but comparing costs, another banner actually looked cheaper, so I ordered again. My family told me not to bring more junk home since I already had a huge non-fireproof banner. What should I do with the non-fireproof one...
 
 
 ## September 5: Day 1 finished!
 
-I was so busy I hadn’t updated this. Up until the 4th I was dealing with logistics and assembling the delivered business card boards. (So yes — they arrived and I assembled them.)
+I’d been so busy I hadn’t written more. It was finally MFT day. Until the 4th I worked on logic and assembled the delivered business-card PCBs (so they arrived and I could assemble them).
+
+[![Image from Gyazo](https://i.gyazo.com/3b3a335539975fab86c3b1f2258ffcc4.JPG)](https://gyazo.com/3b3a335539975fab86c3b1f2258ffcc4)
+Assembly looked like this: attach the e-paper to the delivered PCBs, flash firmware, and it’s done!
 
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">#MFTokyo2026 Day 1 finished! Many people stopped by and saw it! I want to write so much more here!<br><br>It’s become possible for software people to productize things like this using AI... actually, it became possible this morning. (GPT-6 Astra)<br>Human work may be about showing and letting people hold what we make and communicating around it. <a href="https://t.co/eO8R892Y0I">pic.twitter.com/eO8R892Y0I</a></p>&mdash; そうまめ #MFTokyo2026 B-07-08 (@So_to9) <a href="https://x.com/So_to9/status/2096249111892869247?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://x.com/hashtag/MFTokyo2026?src=hash&amp;ref_src=twsrc%5Etfw">#MFTokyo2026</a> Day 1 finished! We had a lot of visitors and I want to tell so many things I can’t fit here!<br><br>Even software people can now use AI to ship products like this... or rather, it became possible this morning.<br>The work for humans is to show what they make and engage in communication <a href="https://t.co/eO8R892Y0I">pic.twitter.com/eO8R892Y0I</a></p>&mdash; そうまめ #MFTokyo2026 B-07-08 (@So_to9) <a href="https://x.com/So_to9/status/2096249111892869247?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-I wrote that on X, but the character limit is brutal so I’ll write it here.
+I wrote that on X, but the character limit was too restrictive so I’ll write more here.
 
-Day 1 finished! Many people came to see it! I want to share so many things I can’t fit in that post. It’s now possible for software people to productize things like this using AI — in fact, it became possible this morning. (GPT-6 Astra)
+Day 1 finished! We had a lot of visitors and I want to tell so many things I can’t fit here! Software people can now use AI to ship products like this... actually, it became possible this morning. (GPT-6 Astra)
 
-I feel that human work might be about showing what you’ve made, letting people hold it, and communicating. Hardware makes this easier than software, so it’s been an amazing experience, and I want to be able to understand what AI produces and hold the reins of that creation.
+I think a human’s job is to show the things they make, have people pick them up, and communicate. Hardware makes that easier than software, so it was an incredibly fun experience. I want to be able to understand what AI creates and hold the reins properly.
 
-By the way, sales went reasonably well. I expected none or only a few acquaintances to buy them, but many different people purchased them.
+By the way, sales went fairly well. Honestly, I thought it might not sell at all or only to a few friends, but a variety of people bought them.
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I bought Soumame’s NFC business card <a href="https://t.co/IP3tSUtVqk">pic.twitter.com/IP3tSUtVqk</a></p>&mdash; シルマ (@s1ruma) <a href="https://x.com/s1ruma/status/2096082221673357354?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Apparently you can rewrite e-paper with the tiny power from NFC electromagnetic induction — it rewrites with just that little bit! <a href="https://x.com/hashtag/MFT2026?src=hash&amp;ref_src=twsrc%5Etfw">#MFT2026</a> <a href="https://t.co/ajolNviS5F">pic.twitter.com/ajolNviS5F</a></p>&mdash; ぽん (@ammucha) <a href="https://x.com/ammucha/status/2096115412094288000?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Apparently you can rewrite an e-paper with just a tiny bit of electromagnetic induction from NFC—so easy to rewrite! <a href="https://x.com/hashtag/MFT2026?src=hash&amp;ref_src=twsrc%5Etfw">#MFT2026</a> <a href="https://t.co/ajolNviS5F">pic.twitter.com/ajolNviS5F</a></p>&mdash; ぽん (@ammucha) <a href="https://x.com/ammucha/status/2096115412094288000?ref_src=twsrc%5Etfw">September 5, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-I’m super happy people shared these online!
+I’m super happy people posted about it online!
 
-Also, this was my first time selling hardware, so I was extremely nervous. What if the hardware or firmware breaks? I’ve tested a lot, but unlike software you can’t just replace things easily.
+Selling hardware for the first time made me very nervous. What if the hardware or firmware fails? I’ve tested many times, but unlike software you can’t just "replace it" easily.
 
-I work part-time at [[melt-interface-technologies | Melt Interface Technologies]] (a sponsor of Maker Faire), and from a software engineer’s perspective you gain insights you wouldn’t normally see. If something breaks, you can fix it, but once you sell it you can’t easily replace it — recovery takes a lot of cost.
+I work part-time at Melt Interface Technologies (a Maker Faire sponsor), and being a software engineer there made me see things I wouldn’t notice otherwise. If something breaks you can fix it, but once you sell something it’s not easy to replace — shipping it back is costly.
 
-I was shocked: do people really sell things in this world!? At the same time, it’s incredibly rewarding to see people use something you made.
+I wondered how people sell things in this world, but I also felt great that people could use the thing I made.
 
-Honestly, I set the sale price at ¥5,000 per unit and I personally feel that’s very expensive. There’s no legal guarantee like consumer warranty here, but it’s under my name — if it breaks, that’s a problem and anyone who paid ¥5,000 might feel cheated. It’s a heavy responsibility.
+Frankly, the selling price of 5,000 yen per unit felt very high to me. Of course there’s no legal warranty in this kind of sale, but I sold it under my name, so if it breaks that would be bad and buyers might feel cheated. Big responsibility.
 
-That said, the price includes development and research costs, and I’ll probably still be in the red at that price... I plan to sell all the units I’ve produced at Maker Faire.
+That said, the price includes R&D costs and I’ll probably still be at a loss... I plan to sell all manufactured units at Maker Faire.
 
-However, if you think about the encounters and experiences, it might actually be hugely profitable in a non-monetary sense. I’ll do my best again tomorrow.
+But in terms of connections and experience, it might be immensely profitable. I’ll do my best tomorrow too.
+
+[![Image from Gyazo](https://i.gyazo.com/9172d2fefb7dc938956b8972b892757e.JPG)](https://gyazo.com/9172d2fefb7dc938956b8972b892757e)
+
+
+## September 6: Day 2, after Maker Faire
+
+[![Image from Gyazo](https://i.gyazo.com/56d150efa4f05326bc56f89c2dd15a39.JPG)](https://gyazo.com/56d150efa4f05326bc56f89c2dd15a39)
+### iOS app
+Initially I thought iPhone owners wouldn’t buy and I’d just give up on an iOS app, but some people paid 5,000 yen anyway, so I felt I had to make one. I didn’t expect buyers.
+
+Fortunately, I earn a bit more from my part-time job than a typical student, so I had the funds to register (though at 19 my credit card hit its limit and I had to wait for a charge). Even if it resulted in a loss, I could use initial sales to cover part of the development cost, so I was able to prepare funds.
+
+Coincidentally, GPT-6 Astra was released by OpenAI the day before (the 5th), so “Swift and the release procedures are annoying” was no longer an excuse.
+
+I tried building with Vibe and produced a near-equivalent iOS app in about 30 minutes — it even fixed Android bugs. Incredible.
+
+Then I submitted it to TestFlight and waited for release; then I could distribute a beta to buyers.
+
+> Edit: It was released
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">[To customers who bought the business-card PCB at Maker Faire]<br>Thanks to everyone who bought one, I was able to create an iOS version and publish it on TestFlight! You can download from the link shown after filling out the form! <a href="https://t.co/SG3Hi27NEH">https://t.co/SG3Hi27NEH</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2097843944776458598?ref_src=twsrc%5Etfw">September 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+### Repository setup
+Also, although the project was put together haphazardly, I was happy that about a dozen core users were eagerly awaiting what I’d build, so I decided to clean up the repo AI had created.
+There are things I want to fix and improve, and people pointed out issues. For example, stability can be improved, and NFC-related parts could be better — an NFC expert at the venue told me this (I only understood about half of what they said, but they were amazing). I realized how many kinds of people come to Maker Faire. Maybe that was the most eye-opening thing about exhibiting.
+Selling things carries responsibility and, in some ways, brings you closer to people than just exhibiting would — after all, who would buy a 5,000 yen device from some unknown maker without getting closer? That’s a sign of trust.
+
+[![Image from Gyazo](https://i.gyazo.com/74c314fd75813155ed979189a934bcc2.png)](https://gyazo.com/74c314fd75813155ed979189a934bcc2)
+
+
+## September 12: Reflection
+Exhibiting at Maker Faire was an incredibly valuable experience.
+
+I’ve been a software engineer for a long time, but this time I shipped something that AI helped create, sold it, and talked directly with people who picked it up. When the exhibit was accepted I worried: “I didn’t make this from scratch — is it right to present it? Is it meaningful?”
+
+But when I actually exhibited, those worries were mostly unfounded. No one said “You didn’t make it all yourself” or “You don’t understand the mechanism.” Instead, people gave constructive advice like “If you do this, it could be better.” Buyers were excited about me using AI to create things and about what I’ll make next. Being accepted and embraced felt great and validated my decision to exhibit.
+
+On reflection, I wouldn’t criticize a software engineer who uses AI extensively. In both software and hardware, AI is just a tool. If you have something you want to make, and AI is the best tool available, use it. The fact that I could actually materialize something was meaningful.
+
+I also recognized my own gaps. After talking with the NFC expert, I realized that what current AI produces isn’t always sufficient and that I lack the basic knowledge to understand and use AI’s suggestions fully. Rather than feeling discouraged, I want to study more.
+
+If you only stare at a screen as a software engineer, you might not realize what it means to make and sell hardware or how enjoyable it is to connect with people through a physical product. Exhibiting and talking to people revealed what I lacked and what I want to do next.
+
+
+## What I want to say
+Anyone can make things now if they have ideas — which is why sharing what you make at events like Maker Faire is important!
+
+Exhibiting taught me a lot and was a genuinely great experience.
+
+Honestly, the exhibition and development costs were substantial and I’m likely in the red financially. However, having people come and pick up my product and recovering part of the costs made the effort worthwhile.
+
+Now, if you have an idea, anyone can make it. You can even rely on AI for PCB design. You don’t have to hand everything to AI, and even without a teacher nearby you can self-learn with an AI at your side — especially since there are AIs that can communicate well in Japanese. The barrier of “I don’t have the knowledge or skills so I can’t make it” has lowered a lot; if you want to make something, the way to do it is within reach for anyone.
+
+That’s why places like Maker Faire, where you can show & tell what you made and let people touch it, and the skills to do so, will become increasingly important.
+
+I don’t yet have the capacity to run a big event like this myself, so I participated as an exhibitor this time. Someday I’d like to create a space or opportunity where everyone can show what they made and inspire others to say, “I want to make something too!”
