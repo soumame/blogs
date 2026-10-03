@@ -27,7 +27,9 @@ seo:
 Hello everyone. My name is Sousei Tokumaru, also known as Sōmame.
 About a year ago, I became deeply fascinated with web application development using Typescript and React, and I am currently creating a web application called ["TutoriaLLM"](https://tutoriallm.com), which incorporates visual programming, AI interactions, and real-time code execution features.
 
-<https://tutoriallm.com>
+[TutoriaLLMへようこそ](https://tutoriallm.com)
+
+Scratchのようなブロックプログラミングのチュートリアルを簡単に作成し、AIを利用して提供することができるセルフホスト型のソフトウェアです。
 
 Since the beginning of this year, I have been developing ["TutoriaLLM"](https://tutoriallm.com). While it's the first serious app I have created, I am happy to say that it has been selected for [Unexplored Junior 2024](https://jr.mitou.org/projects/2024/tutoriallm) and has won the AI development category at [App Koshien 2024](https://applikoshien.jp/).
 

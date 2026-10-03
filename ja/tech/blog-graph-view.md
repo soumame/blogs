@@ -31,7 +31,7 @@ seo:
 
 ブログを書くのに使っている[[ja/misc/obsidian|Obsidian]]というエディターに同様の機能が搭載されている。Obsidianの記事をwebで公開する、Obsidian Publishにもこのグラフビューが搭載されていて、グラフビューと同じレンダリングエンジンを使っていると言っている。
 
-<https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/>
+[Reddit](https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/)
 
 [![Image from Gyazo](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)
 
@@ -39,7 +39,11 @@ seo:
 
 記事数もそこまで多くないし、パフォーマンスについてはそこまで考えなくて良かったので、先程挙げたredditで言及されていたd3.js というライブラリを内包した、React-Force-Graph というパッケージを使って、力のシミュレーションとかを微調整している。
 
-<https://github.com/vasturiano/react-force-graph>
+[![GitHub - vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs](../../media/9d32f510f5404c4d40e1f645ce2b2611f710fdf5e17dc925e5ecca625f354a37.png)](https://github.com/vasturiano/react-force-graph)
+
+[GitHub - vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs](https://github.com/vasturiano/react-force-graph)
+
+React component for 2D, 3D, VR and AR force directed graphs - vasturiano/react-force-graph
 
 類似のもので、vis.js というものもあるが、d3.js の方がより複雑な操作ができるのでそっちを選択（なお、導入しやすさで言ったら vis.js）。モバイルでの閲覧が多いようなので、ホバー操作などをせずにすべての機能が利用できるようにした。
 

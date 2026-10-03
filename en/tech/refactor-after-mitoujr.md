@@ -30,9 +30,15 @@ This article is part of the [MITOU Junior Advent Calendar](https://adventar.org/
 
 Today, I'd like to talk about a large-scale refactoring of the app I am currently developing, called [TutoriaLLM](https://tutoriallm.com). Although I've gotten somewhat accustomed to it, I am still a beginner in the eyes of the community, so I may be writing code that is generally considered poor. Please let me know gently if I am! [Contact here](https://tokumaru.work/ja)
 
-<https://tutoriallm.com>
+[TutoriaLLMへようこそ](https://tutoriallm.com)
 
-<https://github.com/TutoriaLLM/TutoriaLLM>
+Scratchのようなブロックプログラミングのチュートリアルを簡単に作成し、AIを利用して提供することができるセルフホスト型のソフトウェアです。
+
+[![GitHub - TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](../../media/dc1796d53bfd69d8cdc14c14f2ce490e9ed7cd7c3c8e19a87f3bd6e24bd35af2.png)](https://github.com/TutoriaLLM/TutoriaLLM)
+
+[GitHub - TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](https://github.com/TutoriaLLM/TutoriaLLM)
+
+Self-hosted environment for programming tutorial by LLM - TutoriaLLM/TutoriaLLM
 
 # What is TutoriaLLM?
 

@@ -77,11 +77,15 @@ _こんな感じでポチポチクイズを解いていく。_
 
 App Store
 
-<https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800>
+[![KPP Test 2026 - Ujian KPP01 App - App Store](../../media/961dcbc4112f5e29cdcd54eb9568c5db4c281baf14956a5b425b4caae807d5c7.jpg)](https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800)
+
+[KPP Test 2026 - Ujian KPP01 App - App Store](https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800)
+
+Download KPP Test 2026 - Ujian KPP01 by Apicel PLT on the App Store. See screenshots, ratings and reviews, user tips and more games like KPP Test 2026 - Ujian…
 
 Google Play
 
-<https://play.google.com/store/apps/details?id=info.test.kpp&hl=en_US>
+[play.google.com](https://play.google.com/store/apps/details?id=info.test.kpp\&hl=en_US)
 
 ### 落ちた！
 

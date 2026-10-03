@@ -31,7 +31,7 @@ seo:
 
 The editor I use to write my blog, [[en/misc/obsidian|Obsidian]], has a similar feature. Obsidian Publish, which publishes Obsidian notes to the web, also includes this graph view and says it uses the same rendering engine as the graph view.
 
-<https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/>
+[Reddit](https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/)
 
 [![Image from Gyazo](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)
 
@@ -39,7 +39,11 @@ The editor I use to write my blog, [[en/misc/obsidian|Obsidian]], has a similar 
 
 I don't have that many posts, so I didn't need to worry much about performance. I used a package called React-Force-Graph that bundles the d3.js library mentioned in the Reddit post above, and tweaked the force simulation and other settings.
 
-<https://github.com/vasturiano/react-force-graph>
+[![GitHub - vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs](../../media/9d32f510f5404c4d40e1f645ce2b2611f710fdf5e17dc925e5ecca625f354a37.png)](https://github.com/vasturiano/react-force-graph)
+
+[GitHub - vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs](https://github.com/vasturiano/react-force-graph)
+
+React component for 2D, 3D, VR and AR force directed graphs - vasturiano/react-force-graph
 
 There is a similar library called vis.js, but I chose d3.js because it allows more complex interactions (vis.js is easier to get started with). Since many users browse on mobile, I made all features usable without hover interactions.
 

@@ -30,7 +30,9 @@ seo:
 
 まず、前提として、VCEというのは、オーストラリアのメルボルンのあることで有名なビクトリア州が提供している教育修了書(certificate)です。
 
-<https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education>
+[![Victorian Certificate of Education - Wikipedia](../../media/20196d6d3a9abcd5496853b82907d3b7c3b59c674771587d700ab92216e2e219.jpg)](https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education)
+
+[Victorian Certificate of Education - Wikipedia](https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education)
 
 オーストラリアの高等教育はYear12まであり、VCEは、最後の２年間をかけて修了するため、Year10が終わった後から始まります。ここで気づいた方もいるかもしれませんが、そう、VCEは他のカリキュラムと比べて長いのです。
 
@@ -40,7 +42,11 @@ seo:
 
 ATARについて、結構良いことを書かれている方がいたのでリンク貼っときます
 
-<https://note.com/jatcentreau/n/n1130c28a8a22>
+[![ATARを通して理解する日本とオーストラリアの教育の違い｜梅屋敷](../../media/cd85a7f5f29e4300a536915096e1fdefd0f3594b3e282bd3539b3e1ce2d0cec4.png)](https://note.com/jatcentreau/n/n1130c28a8a22)
+
+[ATARを通して理解する日本とオーストラリアの教育の違い｜梅屋敷](https://note.com/jatcentreau/n/n1130c28a8a22)
+
+オーストラリアの大学受験は、大学や専門学校の入学を希望する生徒に通っている学校の成績と最終学期に行う卒業試験の得点を加味した得点をATARというポイントにして、上位の生徒から希望する大学に入学するシステムになっています。 ATARとは、Australian Tertiary Admission Rank の略です。Tertiaryは第三次という意味で、イギリスやオーストラリアでは、小学校をプライマリー primary education 中学高校をセカンダリー secondary education 大学や専門学校をターシャリー tertiary educationと区分しています。
 
 ## VCEのメリット・デメリット
 
@@ -64,7 +70,9 @@ VCEのメリットとして、一番大きいのが、**選択科目**である�
 
 そして、極め付けは転校についてです。基本的に他の学校(IGCSEを提供している学校)などでは**Year10またはYear11終了後に、カレッジという大学の手前の教育機関に通うのが通例**となっていて、VCEもyear10の時点でIGCSEと同等の内容が終わっているため、**2020年まで**はYear10終了後、カレッジに行くか、そのままVCEをとるという選択肢がありました。オーストラリアに行くならVCEで良いのですが、他の国に行くのであればより一般的なAレベルやCIMPとかの方でも良いわけです。しかし、、2021年からは、例によってマレーシア政府が方針を変え、**VCE含めたオーストラリアのカリキュラムをとっている生徒は、Year12まで終了後、直接Universityに行く**というルールになりました。詳しくはリンク先（MQA）に添付されてるPDFを参照してください。
 
-<https://www.mqa.gov.my/new/nilai_taraf.cfm#gsc.tab=0>
+[The Official Portal Of MQA](https://www.mqa.gov.my/new/nilai_taraf.cfm#gsc.tab=0)
+
+Your page description here
 
 …まあそんな感じなので、特にオーストラリアに固執しておらず、どこの国に行くか決まっていない方は絶対IGCSEとかの方が選択肢が広がると思います。私はVCEを取って後悔しています。その当時特に調べずに来たので。今になって気づいたけど手遅れという感じです。ていうかVCEについてどこ調べても何も書いてなかった時点で怪しむべきだったんだよな。
 

@@ -23,7 +23,9 @@ seo:
   noIndex: false
 ---
 
-<https://ja.wikipedia.org/wiki/World_Wide_Web>
+[![World Wide Web - Wikipedia](../../media/cdb664f531528869c9047b774ea666ed581bf9cdb35ef924856a46b580b97d54.png)](https://ja.wikipedia.org/wiki/World_Wide_Web)
+
+[World Wide Web - Wikipedia](https://ja.wikipedia.org/wiki/World_Wide_Web)
 
 と言っても大半はここに載ってる
 
@@ -52,7 +54,11 @@ Tim-Berners-Leeによって発明された
   - ブラウザ戦争の決着として2008\~にGoogle Chromeが覇権を取ったあたりからまたJavascriptが強くなった(V8とかの影響かな？)そう
   - 今やもうJavascriptだらけで...
 
-<https://qiita.com/yangyooji/items/703ef69d4502fb92d5ea>
+[![JavaScriptとブラウザ戦争の関係を知りたい - Qiita](../../media/139bb0a6c7bfc3fa297fe040e84df5be8b9fb4848358017040f515a81b08dad4.jpg)](https://qiita.com/yangyooji/items/703ef69d4502fb92d5ea)
+
+[JavaScriptとブラウザ戦争の関係を知りたい - Qiita](https://qiita.com/yangyooji/items/703ef69d4502fb92d5ea)
+
+おはようございます！ 昨日からはJavaScriptをもっと知りたいというテーマで、現代の開発環境に至るまでの歴史を調べてみるという記事を書いています！ 歴史的な背景を知ることで、JavaScriptの理解を深めて開発に活かしたいというのが目的で、その中でも「モジュール」「...
 
 ### 標準化団体
 
@@ -67,7 +73,9 @@ Tim-Berners-Leeによって発明された
 
 策定した仕様のブラウザごとの進捗とかは有名なサイトがあって、これで見ることができる:
 
-<https://caniuse.com>
+[Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com)
+
+"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
 ### OSS(オープンソース)
 

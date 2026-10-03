@@ -30,7 +30,9 @@ Hello World! This is the "Thick-Cut JSON" of a serious engineer-comedian. That h
 
 Read this while imagining him pounding the whiteboard and screaming.
 
-<https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3>
+[![厚切りジェイソン - Wikipedia](../../media/02891f9183e5fc0556eef1ef075e7463acff95ff9ec048f11afd1c26e55639e2.jpg)](https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3)
+
+[厚切りジェイソン - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3)
 
 **【Entrance】** (bursting onto the stage) "Hello World!! I'm the serious engineer-comedian, Thick-Cut JSON!!"
 

@@ -49,9 +49,13 @@ Education Editionを使用している方は、MCpack化＆拡張子変換して
 
 専用のアプリを使用してワールドを変換します。１つ目に紹介するのは""je2be"で無料です。２つ目のものは有料のUniversal Minecraft Toolというものです。ここでは１つ目のje2beを用いた手順を説明します。
 
-<https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp&gl=jp>
+[![je2be - Windows に無料でダウンロードしてインストールする | Microsoft Store](../../media/b9329b8c376c11ee4f60d9cae0c1bd8b4ddb76d360aa90fb7825dc437424413a.png)](https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp\&gl=jp)
 
-<https://www.universalminecrafttool.com/>
+[je2be - Windows に無料でダウンロードしてインストールする | Microsoft Store](https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp\&gl=jp)
+
+je2be は Minecraft のためのデータ変換ツールです。 ・Java 版から統合版への変換と、統合版から Java 版への変換両方に対応しています。 ・Xbox 360 版から、Java 版・統合版への変換に対応しています。 ・PS3 版から、Java 版・統合版への変換に対応しています。 ・地形、ブロックエンティティ、エンティティの他、ゲームプレイに必要なメタデータを可能な限り変換します。
+
+[Convert, Edit, and Prune Minecraft Worlds - Universal Minecraft Tool](https://www.universalminecrafttool.com/)
 
 インストール＆アプリを開き、「統合版からJavaへ」をクリックするとこのようにワールドのリストが表示されます。
 
@@ -75,7 +79,11 @@ _変換中_
 
 ここからが本題です。ここでは、マインクラフトのワールド取り出して3Dに変換するソフト「jmc2obj」を使用します。以下のリンクからダウンロードしてください
 
-<https://github.com/jmc2obj/j-mc-2-obj/releases>
+[![Releases · jmc2obj/j-mc-2-obj](../../media/4629015ab6fd1858252c47af1a41149120ca435f32e90e4a4b6439df2553dc7d.png)](https://github.com/jmc2obj/j-mc-2-obj/releases)
+
+[Releases · jmc2obj/j-mc-2-obj](https://github.com/jmc2obj/j-mc-2-obj/releases)
+
+Java-based Minecraft-to-OBJ exporter. Contribute to jmc2obj/j-mc-2-obj development by creating an account on GitHub.
 
 > jmc2objの使用方法の説明は、<https://github.com/jmc2obj/j-mc-2-obj/wiki/Getting-started>
 > から引用しています（英語）
@@ -109,7 +117,7 @@ _ジャーン！これだけでもすごい！_
 
 データを取り込むために、mcprepという拡張機能（アドオン）を使用します。これによりマテリアルなどをセットアップせずにすぐに読み込むことができます
 
-<https://theduckcow.com/free-download/>
+[Free Download – Moo-Ack! Productions](https://theduckcow.com/free-download/)
 
 上のリンクからMCprepを選択してダウンロードします。
 ダウンロードしたら、Blenderにアドオンとして追加します。
@@ -118,7 +126,11 @@ _ジャーン！これだけでもすごい！_
 
 _アドオン_
 
-<https://styly.cc/ja/tips/nimi-blender-addon/#Blender>
+[![【Blender入門】アドオンのダウンロード・インストール方法＆おすすめのアドオン記事まとめ | STYLY](../../media/e5898a28125d1895d84a29d64dee35e92bb347cac92eddc845183aa71b7507f5.png)](https://styly.cc/ja/tips/nimi-blender-addon/#Blender)
+
+[【Blender入門】アドオンのダウンロード・インストール方法＆おすすめのアドオン記事まとめ | STYLY](https://styly.cc/ja/tips/nimi-blender-addon/#Blender)
+
+STYLY MAGAZINEでも紹介しているようにBlenderをはじめ、さまざまなCGソフトウェアにはアドオンというものが存在します。この記事ではBlenderでアドオンを使用したい時に必ず行うダウンロードから有効化の説明、そして過去のアドオン記事をまとめて紹介します。
 
 ↑追加方法はこちらから
 
@@ -154,4 +166,6 @@ _うおっ！！きれいすぎっッ！！_
 マインクラフト・3DCG・映像・教育などをテーマに活動中
 🏆Minecraftカップ2021インプレス賞受賞🏆
 
-<https://outstndrs.start.page/>
+[![チーム逸般人/Team Outstndrs](../../media/f61cc890a0ae463b966ab3f7fae8a2b260570dc2172d28648e235d130d929a46.jpg)](https://outstndrs.start.page/)
+
+[チーム逸般人/Team Outstndrs](https://outstndrs.start.page/)

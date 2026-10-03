@@ -28,7 +28,11 @@ seo:
 
 The details of the exhibit have been published! Come see it!
 
-<https://makezine.jp/event/makers-mft2026/m0232/>
+[![そうまめの部屋 | Maker Faire Tokyo 2026 | Make: Japan](../../media/fb0b2cb18ccedbfd1122d622f6aefa263db4969a79fa60f6f5c81de553f336ab.jpg)](https://makezine.jp/event/makers-mft2026/m0232/)
+
+[そうまめの部屋 | Maker Faire Tokyo 2026 | Make: Japan](https://makezine.jp/event/makers-mft2026/m0232/)
+
+そうまめの部屋 ワイヤレス給電で書き換え可能な電子ペーパー名刺 ワイヤレス給電で動作し、好きな時にスマホで内容を書き換えることができる電子ペーパー名刺を紹介＆数量限定で販売します。
 
 |         |                                                                                         |
 | ------- | --------------------------------------------------------------------------------------- |
@@ -71,7 +75,11 @@ The aforementioned NFC board was designed and implemented with AI assistance, so
 
 ## August 11, 2025: It’s so cool that hardware can run on a single board
 
-<https://x.com/So_to9/status/1954792229806936385?s=20>
+[![そうまめ (@So_to9) on X](../../media/8b2038162022b2ff4a721fe3de95bfde14eff60a1c212ce77c269a4f877063b0.webp)](https://x.com/So_to9/status/1954792229806936385?s=20)
+
+[そうまめ (@So_to9) on X](https://x.com/So_to9/status/1954792229806936385?s=20)
+
+DEFCON楽しかったぞ〜ってことで日本に帰ります。 (これは @SecureAerospace で買ったads-b/ATC(航空機の位置情報や、無線)を受信するやつを、使おうとしている様子)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I had a great time at DEF CON — heading back to Japan.<br><br>(This is me trying to use the ads-b/ATC receiver I bought from <a href="https://x.com/SecureAerospace?ref_src=twsrc%5Etfw">@SecureAerospace</a> to receive aircraft position information and radio) <a href="https://t.co/6MNufnrjJ1">pic.twitter.com/6MNufnrjJ1</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/1954792229806936385?ref_src=twsrc%5Etfw">August 11, 2025</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
@@ -105,7 +113,11 @@ I then thought, if that display were e-paper, I wouldn’t need to worry about b
 
 &#xA;This is the moment I explained it to Gemini and it taught me. For some reason it started complimenting me a lot halfway through. Maybe it’s an educator’s mindset that uses praise to encourage learning.
 
-<https://x.com/So_to9/status/2039325011564269822?s=20>
+[![そうまめ (@So_to9) on X](../../media/4cdcfeeaeb387f874f06516c8e89170ddebd6c33546994afc04423e63f4cf053.webp)](https://x.com/So_to9/status/2039325011564269822?s=20)
+
+[そうまめ (@So_to9) on X](https://x.com/So_to9/status/2039325011564269822?s=20)
+
+LLMに指示を仰いだらなんか最強の名刺ができたかもしれない？（AI基板設計） 果たして動くのか...
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I asked an LLM for guidance and maybe created the ultimate business card? (AI PCB design)<br>Will it actually work... <a href="https://t.co/WDZVj5H4B9">pic.twitter.com/WDZVj5H4B9</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2039325011564269822?ref_src=twsrc%5Etfw">April 1, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
@@ -115,7 +127,11 @@ Of course it didn’t work perfectly — it’s basically at the level where you
 
 ## April 18: Drone business card!? Too cool
 
-<https://fumimaker.net/entry/2026/04/18/202824>
+[![実際に飛ぶドローン名刺を作ってみた - fumiLab](../../media/5abd3470db1781f11c90099f277431ce8ec2596111102902967fc9f128b8dc6e.png)](https://fumimaker.net/entry/2026/04/18/202824)
+
+[実際に飛ぶドローン名刺を作ってみた - fumiLab](https://fumimaker.net/entry/2026/04/18/202824)
+
+English description below. 実装することで実際にドローンとして飛行できる，ドローン名刺を作ってみました． 長い間，バグっててあんまりきれいに飛ばなかったのですが息抜きに飛ぶように修正してみました． ESP32をコアとしており，6軸IMUのセンシングとモーターのPID制御します．スマホをプロポとするためにESP32上でWebサーバーを立て，Joystickを動かすとWebSocket通信で入力値をドローンに送信します．また，ドローンのRoll pitch yawの角度値や電圧といったテレメトリをスマホ側で見れるようにしています． イメージとしてはCrazyfileのよう…
 
 > I later realized this fumi is the fumi from [[en/works/keio|Keio SFC]]...!? I can’t believe someone like that is in the same school. Amazing.
 
@@ -158,7 +174,7 @@ Also, during development I disassembled an ezsign e-paper card to study how it w
 
 ezsign’s existing product:
 
-<https://amzn.asia/d/04zeppW6>
+[Amazon.co.jp](https://amzn.asia/d/04zeppW6)
 
 If it had writable memory I could embed a URL and have it scanned, which would have been perfect... but oh well.
 

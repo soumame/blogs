@@ -50,7 +50,11 @@ Leaving a paper at home is suspect — will it be found? What if you move, or it
 
 I wondered what to do, and then I found an article
 
-<https://blog.jxck.io/entries/2025-07-25/digital-regacy.html>
+[![1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io](../../media/4dc662b63f8725f5974b66aeb55a9f5428ed95d1fdb3af1f0e11b8649f344207.png)](https://blog.jxck.io/entries/2025-07-25/digital-regacy.html)
+
+[1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io](https://blog.jxck.io/entries/2025-07-25/digital-regacy.html)
+
+筆者のように、インターネット上での生活が長く、かつエンジニアとして生きてきた人間には、一般の人には伝わりにくいデジタルの遺品が多く存在する。仮に自分が死んだ場合に、これらをどのように遺族に処分してもらうかは、なかなか難しい問題だ。筆者はこの「デジタル終活」をどうするかを、長...
 
 > This system, as the name suggests, is one in which the state stores wills you create.
 > If you die, it notifies statutory heirs that a will exists. In this country it can be regarded as an API that most reliably and accurately triggers on one’s death and delivers the message that is the will.

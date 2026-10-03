@@ -32,7 +32,11 @@ I competed with several friends in a competition that tested our Minecraft techn
 
 As finalists, we were interviewed and received media coverage.
 
-<https://minecraftcup.com/2185/>
+[![Minecraftカップ全国大会コミュニティで「Minecraftカップ入賞者から聞いてみよう」をテーマにオンライン交流会を行いました | Minecraftカップ(マイクラカップ)](../../media/fc6a71d94dab65e534f1293953f5b344f68b0b2e3b75ca0472f8de6d5b6ecb45.png)](https://minecraftcup.com/2185/)
+
+[Minecraftカップ全国大会コミュニティで「Minecraftカップ入賞者から聞いてみよう」をテーマにオンライン交流会を行いました | Minecraftカップ(マイクラカップ)](https://minecraftcup.com/2185/)
+
+FacebookグループのMinecraftカップ全国大会コミュニティで、 11月29日に昨年度のファイナリスト チーム逸般人 （いっぱんじん）のメンバーをゲストに、オンライン交流会を行いました。 ▼当日の流れ（20:00から1時間ほど開催
 
 Participating in Minecraft Cup was a major turning point for me. In particular, it’s no exaggeration to say that the trigger for my 2024 [[en/accomplishments/mitoujr-2024|Mitou Junior]] came from this. Because of the pandemic I couldn’t leave home, and it started as a small opportunity to participate with friends 😆
 

@@ -27,7 +27,9 @@ seo:
 初めまして。そうまめこと得丸創生と申します。
 1 年ほど前から Typescript / React の Web アプリ開発にどハマりして、現在は[「TutoriaLLM」](https://tutoriallm.com)というビジュアルプログラミングと AI による対話、そして、リアルタイムのコード実行の機能などを組み込んだ Web アプリケーションを作っています。
 
-<https://tutoriallm.com>
+[TutoriaLLMへようこそ](https://tutoriallm.com)
+
+Scratchのようなブロックプログラミングのチュートリアルを簡単に作成し、AIを利用して提供することができるセルフホスト型のソフトウェアです。
 
 [「TutoriaLLM」](https://tutoriallm.com)は、今年の頭から開発していて、初めてまともに作ったアプリではあるのですが、嬉しいことに[未踏ジュニア 2024](https://jr.mitou.org/projects/2024/tutoriallm)に採択していただいたり、[アプリ甲子園 2024](https://applikoshien.jp/)の AI 開発部門で優勝したりしています。
 

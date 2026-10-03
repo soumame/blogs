@@ -28,7 +28,11 @@ seo:
 
 Our core business remains the same as [[en/works/diver-x|Diver-X]], but we have become a company that builds interfaces connecting people and machines on a broader scale, not limited to HID devices.
 
-<https://melt-interface-technologies.com/>
+[![Melt Interface Technologies Inc.](../../media/b72bb1b3e1ab6d52c98bf3049b5b3da74a15c877ae5ab0da259efd8c2f15f35a.png)](https://melt-interface-technologies.com/)
+
+[Melt Interface Technologies Inc.](https://melt-interface-technologies.com/)
+
+Melt Interface Technologiesは、人間とコンピュータの“接点”にこそ、体験と生産性を左右する大きな可能性が宿ると考えています。私たちは、人間の力を最大限に引き出す革新的なインターフェースを創り続けます。
 
 I'm helping as a part-time worker while attending [[en/works/keio|University]].
 

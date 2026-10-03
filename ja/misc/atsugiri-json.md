@@ -33,7 +33,9 @@ Hello World！ガチエンジニア芸人の「厚切りJSON」ですね。あ�
 
 ホワイトボードを叩きながら絶叫する姿を想像してお読みください。
 
-<https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3>
+[![厚切りジェイソン - Wikipedia](../../media/02891f9183e5fc0556eef1ef075e7463acff95ff9ec048f11afd1c26e55639e2.jpg)](https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3)
+
+[厚切りジェイソン - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3)
 
 **【登場】** （勢いよくステージに飛び出してきて） 「Hello World！！ ガチエンジニア芸人の、厚切りJSONダヨ！！」
 

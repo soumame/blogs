@@ -39,7 +39,7 @@ In simple terms, it's a system that allows you to convert a driver’s license o
 
 As of March 2025 in Japan, there are three methods for foreign license conversion: countries that are exempt from knowledge and skills confirmation (29 countries, etc.), countries that are exempt from skills confirmation, and other countries.
 
-<https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokugai05.html>
+[外国で取得した運転免許証を日本の運転免許証に切り替えるには 警視庁](https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokugai05.html)
 
 ### About eligible countries
 
@@ -51,7 +51,11 @@ Malaysia, where I was, is not an exempt country, so I had to take all the tests.
 
 I obtained my license in Malaysia when I was 17, then returned to Japan at 18 and converted/took a license there.
 
-<https://note.com/soto9/n/n52d25b33f6b7>
+[![マレーシアで免許取ってみた｜So Tokumaru](../../media/51ac0f5dd88a03618e76179316d7452718edad9430ef0b9d5708ba142b70a0ee.png)](https://note.com/soto9/n/n52d25b33f6b7)
+
+[マレーシアで免許取ってみた｜So Tokumaru](https://note.com/soto9/n/n52d25b33f6b7)
+
+こんにちは。17歳のそうまめです。先日（と言ってもだいぶ前ですが）、マレーシアで免許を取ることができたので、どうやって取ったかここに書き記しておきます。初めに言っておきますが、マレーシアでは17歳から普通自動車免許が取れますので、そこは承知の上で読んでください。 私の知人からマレーシアでの免許の取り方について、質問がありましたので自分の個人的な感想や体験をまとめています。 申し込み まずはどこの自動車教習所で習うかを決める必要があるのですが、私はMetro Driving Academyというところにしました。知人から紹介されたものなのであまりよく考えずに選びましたが、ここ
 
 Details omitted, but in Malaysia it’s relatively easy and cheap to get a license, so converting that in Japan felt like a cost-effective way to obtain a license. Depending on the driving school, licenses in Malaysia can be obtained for around 40,000–60,000 JPY, which is a bargain compared to the roughly 300,000 JPY it can cost in Japan. Due to safety concerns mentioned later, I can’t universally recommend it, but getting a license while studying abroad was a very interesting experience.
 
@@ -59,7 +63,9 @@ Details omitted, but in Malaysia it’s relatively easy and cheap to get a licen
 
 If you originally had a Japanese license and it expired while you were abroad, it seems you can reinstate it with only a simple check regardless of the country. I don’t cover that in this article, so here’s another article instead:
 
-<https://note.com/kinchan1110/n/nb51b0d9650f1>
+[マレーシアの運転免許証から日本の運転免許証に切り替えた｜きんちゃん/Kinchan](https://note.com/kinchan1110/n/nb51b0d9650f1)
+
+昨日（2020年9月16日）、神奈川県警察運転免許センターにて、マレーシアの運転免許証から日本の運転免許証に切り替えの手続きを行い、無事、日本の運転免許証を手にすることができました。 神奈川県警察/外国の運転免許から日本の運転免許への切替手続について 外国の運転免許から日本の運転免許への切替手続について掲載しています。（神奈川県警察） www\.police.pref.kanagawa.jp 実際には、神奈川県警察運転免許センターに記載してある必要書類等だけでは不備であったため、必要書類を揃え、再び、神奈川県警察運転免許センター（以下、運転免許セン
 
 ### Can’t I just drive with an international license?
 
@@ -84,9 +90,17 @@ Required documents vary greatly depending on the issuing country (check the poli
 
 Translations of licenses are handled by designated organizations such as JAF and Ziplus. I had JAF create mine, but JAF does not accept applications from overseas (their application site is restricted), only from within Japan, so I had to ask family or friends in Japan to apply on my behalf (maybe possible via VPN, but not guaranteed). If that’s difficult, you’ll need to do it after returning to Japan.
 
-<https://jaf.or.jp/common/visitor-procedures>
+[![運転免許証の翻訳文](../../media/d010c10a4c39e59b61151eecb4dbd93f8ca27b71fde5755063010c86c433504c.jpg)](https://jaf.or.jp/common/visitor-procedures)
 
-<https://ziplus.jp/switching_license/>
+[運転免許証の翻訳文](https://jaf.or.jp/common/visitor-procedures)
+
+JAFが発行する各種運転免許証の翻訳文についてご案内しています。JAFは外国の運転免許証の日本の免許証への切り替えまたは翻訳文添付による国内での運転、もしくは日本の運転免許証で台湾で運転したい方に向けた翻訳文を発行しています。
+
+[![ZIPLUSの外免切替](../../media/677e003d9611c2d7f3631b027cb9669c766e1a6a0a35e358224e86f748ef75d4.jpg)](https://ziplus.jp/switching_license/)
+
+[ZIPLUSの外免切替](https://ziplus.jp/switching_license/)
+
+ジップラスでは外国運転免許から日本運転免許への切替に必要な外国免許証の「日本語翻訳文」、「技能確認対策動画」、翻訳文発行と実践的な試験対策が一度にできる「外免切替安心パッケージ」の3つのサービスで外国運転免許の切替のサポートを行います。
 
 In my case, my family applied and I received the translation by email in about a week. Printing the emailed document at a convenience store produced a document ready for submission to the police.
 
@@ -145,7 +159,7 @@ To be honest I don’t like reading books, but if you drive a car you need the k
 
 _[Traffic Instruction Manual](https://www.jtsa.or.jp/about/teaching.html)_
 
-<https://www.jtsa.or.jp/about/teaching.html>
+[交通安全のための図書、CD、教材 - 一般財団法人 全日本交通安全協会](https://www.jtsa.or.jp/about/teaching.html)
 
 The Japan Traffic Safety Association sells manuals like the traffic instruction manual or driving school textbooks for a small fee (around 100–300 JPY), so I ordered one from them. I had an old version at home, but rules have changed in recent years (for example, regulations for electric kickboards and certain small mopeds have been added), so I got a new one.
 
@@ -204,7 +218,11 @@ They’re busy administering tests to dozens of people; it must be a very hard j
 
 The test was conducted using about four vehicles. Eating, drinking, and mobile phone use were prohibited during the test, so be careful.
 
-<https://ameblo.jp/youki-888/entry-12759505559.html>
+[![『【運命の日】日本の運転免許へ書き換え（テスト編）』](../../media/0a865f3f14d80b126a7e5697b2431ba0e4be1f4315aa80a50f7a051897cae960.jpg)](https://ameblo.jp/youki-888/entry-12759505559.html)
+
+[『【運命の日】日本の運転免許へ書き換え（テスト編）』](https://ameblo.jp/youki-888/entry-12759505559.html)
+
+こんにちは。 昨日の最後の講習が終わり、遂にやってきた「テスト」の時。 マレーシアの免許の有効期限内に行わないといけないので、この一発しかチャンスはありま…
 
 Someone who took the test about two years ago said there were only two vehicles then, so the number of applicants has increased.
 

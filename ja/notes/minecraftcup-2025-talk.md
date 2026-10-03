@@ -32,7 +32,7 @@ seo:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLvSMQJ5ts4?si=eLEb6pMmD0r2ifQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<https://www.youtube.com/live/YLvSMQJ5ts4?si=N6HOi4Ih0_-dYf0G&t=15685>
+[www.youtube.com](https://www.youtube.com/live/YLvSMQJ5ts4?si=N6HOi4Ih0_-dYf0G\&t=15685)
 
 ### トークセッションの概要
 
@@ -60,7 +60,11 @@ seo:
 
 &#xA;マイクラカップで受賞したのは[[ja/accomplishments/minecraftcup-2021|2021年]]になります。また、最終的に受賞に至らなかった回([[ja/accomplishments/minecraftcup-2023|2023年]])や、作品は作ったけど提出までできなかった回(2019年)などもあります。うまくいくときも、うまくいかない時もあります。マイクラカップ（まちづくり部門は）基本的にチームで出場するのですが、揉めたり、連携がうまく取れなかったり、最終的にモチベーションがなくなったりで、私のチームでうまくいったのは2021年だけなんですよね。
 
-<https://minecraftcup.com>
+[![Minecraftカップ(マイクラカップ) | 教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。](../../media/fc6a71d94dab65e534f1293953f5b344f68b0b2e3b75ca0472f8de6d5b6ecb45.png)](https://minecraftcup.com)
+
+[Minecraftカップ(マイクラカップ) | 教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。](https://minecraftcup.com)
+
+教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。
 
 ### どんなチームだったか？
 

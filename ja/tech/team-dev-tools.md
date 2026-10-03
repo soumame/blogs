@@ -77,7 +77,7 @@ OpenAIが提供しているものになります。最近ではみんな「チ�
 
 #### Gemini
 
-<https://gemini.google.com>
+[gemini.google.com](https://gemini.google.com)
 
 Googleが提供しているものになります。大学生だと無料でより賢いとされるモデルが使える有料プランが提供されているそうなので、大学生の方はお勧めです。（ちょくちょくこういった企画をやっているイメージ）
 
@@ -87,7 +87,11 @@ Googleが提供しているものになります。大学生だと無料でよ�
 
 これらのサービスを利用する際は、なぜこういったものが動くのか、どうしてプログラムが動くのかについて理解しておくことをお勧めします。AIが作ったものや、AIがやろうとしていることがわからないと、それが危険なものだったとしてもわからないからです。
 
-<https://x.com/mugisus/status/1940127947962396815?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1940127947962396815%7Ctwgr%5Ea4b906fe53a5ba6d495774e424167e89ea6cf635%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnote.com%2Flab_bit__sutoh%2Fn%2Fn3363f140d3de>
+[![mugisus (@mugisus) on X](../../media/f3527bdf0e18445f5eb8d3fa6fd139646cf5fc65c821daa04c1666331d459d6f.webp)](https://x.com/mugisus/status/1940127947962396815?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1940127947962396815%7Ctwgr%5Ea4b906fe53a5ba6d495774e424167e89ea6cf635%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Fnote.com%2Flab_bit__sutoh%2Fn%2Fn3363f140d3de)
+
+[mugisus (@mugisus) on X](https://x.com/mugisus/status/1940127947962396815?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1940127947962396815%7Ctwgr%5Ea4b906fe53a5ba6d495774e424167e89ea6cf635%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Fnote.com%2Flab_bit__sutoh%2Fn%2Fn3363f140d3de)
+
+ん？え？は？何してるの？
 
 ネタとしての一例ですが例えばこの投稿では、AIツールがパソコンの全ファイルを削除するコマンドを実行しています（普通はこんなことしないけどね）。
 これに気づかずに放置したらどうなるでしょうか？よく考えた上で使ってください（めっちゃ便利だけどね）
@@ -122,7 +126,11 @@ Claudeがそのままターミナルに表示されます。でもWebのやつ�
 
 ソースコードの置き場はGitHubが第一選択肢です。第２選択肢はないといってもいいくらいGitHubは使われています。
 
-<https://github.com>
+[![GitHub · Change is constant. GitHub keeps you ahead.](../../media/4362e0f40c55899efa413782c16570754ad2ca800bd3bb6232df46ca7269107d.png)](https://github.com)
+
+[GitHub · Change is constant. GitHub keeps you ahead.](https://github.com)
+
+Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
 
 [![Image from Gyazo](../../media/d488009b0b0eb9a447d7d2d92e26dd9cb6ac5504bb07e96dc40f9876aea62981.png)](../../media/d488009b0b0eb9a447d7d2d92e26dd9cb6ac5504bb07e96dc40f9876aea62981.png)
 
@@ -134,7 +142,11 @@ Claudeがそのままターミナルに表示されます。でもWebのやつ�
 
 Notionはいろいろなプラットフォームで使えるメモ帳みたいなアプリです。ただ、メモ帳といっても大量のデータを整理したり、カレンダーと統合したり、いろいろな使い方ができるソフトになっています。逆にいろいろな機能がありすぎて悩むところもありますが、便利です。
 
-<https://notion.com>
+[![The AI workspace that works for you. | Notion](../../media/548455b96a3cb2cfea13a39771b8b5d0114591c179291abc269f579791d54e53.jpg)](https://notion.com)
+
+[The AI workspace that works for you. | Notion](https://notion.com)
+
+Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.
 
 ### Google Docs
 
@@ -181,7 +193,11 @@ GitHubにも一応Issueという機能があってコメント書き込み機能
 
 &#xA;これはテンプレートの例です。こんな感じに、かんばん形式や横スクロールのタイムライン形式でガントチャート風のものを作ったりできます。
 
-<https://mrpugo.notion.site/Project-Timeline-1ad6c91f88508098b40ece4f27dff2a2>
+[![Notion | Where teams and agents work together](../../media/3fad30c68e8991ce1eec0b36769e6ef0d618b11e2be7a4e8040364ae02c9408f.png)](https://mrpugo.notion.site/Project-Timeline-1ad6c91f88508098b40ece4f27dff2a2)
+
+[Notion | Where teams and agents work together](https://mrpugo.notion.site/Project-Timeline-1ad6c91f88508098b40ece4f27dff2a2)
+
+A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.
 
 ### GitHub Projects
 

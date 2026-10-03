@@ -30,7 +30,9 @@ I'm a high school student currently in Year 11, and I've been attending Peninsul
 
 First, as background, VCE (Victorian Certificate of Education) is a certificate provided by the state of Victoria in Australia, which is famous for Melbourne.
 
-<https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education>
+[![Victorian Certificate of Education - Wikipedia](../../media/20196d6d3a9abcd5496853b82907d3b7c3b59c674771587d700ab92216e2e219.jpg)](https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education)
+
+[Victorian Certificate of Education - Wikipedia](https://en.wikipedia.org/wiki/Victorian_Certificate_of_Education)
 
 Australian secondary education goes up to Year 12, and VCE is completed over the final two years, so it starts after Year 10. Some of you may have noticed — compared to other curricula, VCE is longer.
 
@@ -40,7 +42,11 @@ For subjects, you choose six subjects around Year 11, and in Year 12 you can dro
 
 Someone wrote a pretty good explanation about ATAR, so I'm linking it here:
 
-<https://note.com/jatcentreau/n/n1130c28a8a22>
+[![ATARを通して理解する日本とオーストラリアの教育の違い｜梅屋敷](../../media/cd85a7f5f29e4300a536915096e1fdefd0f3594b3e282bd3539b3e1ce2d0cec4.png)](https://note.com/jatcentreau/n/n1130c28a8a22)
+
+[ATARを通して理解する日本とオーストラリアの教育の違い｜梅屋敷](https://note.com/jatcentreau/n/n1130c28a8a22)
+
+オーストラリアの大学受験は、大学や専門学校の入学を希望する生徒に通っている学校の成績と最終学期に行う卒業試験の得点を加味した得点をATARというポイントにして、上位の生徒から希望する大学に入学するシステムになっています。 ATARとは、Australian Tertiary Admission Rank の略です。Tertiaryは第三次という意味で、イギリスやオーストラリアでは、小学校をプライマリー primary education 中学高校をセカンダリー secondary education 大学や専門学校をターシャリー tertiary educationと区分しています。
 
 ## Pros and cons of VCE
 
@@ -64,7 +70,9 @@ Because of that, the range of elective subjects available is very limited. Last 
 
 The kicker is transfer policy. Typically, at other schools (those offering IGCSE, for example) it's common to attend a college — an institution before university — after finishing Year 10 or Year 11, and because VCE covers content equivalent to IGCSE by Year 10, until 2020 there was an option after Year 10 to either go to college or continue with VCE. If you're going to Australia, VCE is fine, but if you're heading to other countries, more common options like A-levels or Cambridge programs might be better. However, from 2021 the Malaysian government changed its policy, and students taking Australian curricula including VCE must go directly to university after completing Year 12. See the PDF attached at the link (MQA) for details.
 
-<https://www.mqa.gov.my/new/nilai_taraf.cfm#gsc.tab=0>
+[The Official Portal Of MQA](https://www.mqa.gov.my/new/nilai_taraf.cfm#gsc.tab=0)
+
+Your page description here
 
 ...So because of all that, if you aren't set on going to Australia and haven't decided which country you want to go to, IGCSE or similar programs will definitely give you more options. I regret taking VCE. I didn't research much before choosing it, and now it's too late. Honestly, I should have been suspicious when I couldn't find any information about VCE anywhere.
 

@@ -38,7 +38,7 @@ seo:
 
 まず、以下のリンクからNicehashの公式サイトへ行きます
 
-<https://www.nicehash.com/>　
+[NiceHash - Leading Cryptocurrency Platform for Mining and Trading](https://www.nicehash.com/)
 
 **GET STARTED**を押す
 

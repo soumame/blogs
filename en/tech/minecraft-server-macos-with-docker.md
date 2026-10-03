@@ -31,7 +31,11 @@ It's nostalgic to think about the days of doing all sorts of things like Forge a
 
 This phrase might sound unfamiliar, but just think of it as Docker.
 
-<https://orbstack.dev>
+[![OrbStack · Fast, light, simple Docker & Linux](../../media/ffe7f868fa4bac0cbdd5c8512f5bed11795466767775e436543fef01f9f7cde9.png)](https://orbstack.dev)
+
+[OrbStack · Fast, light, simple Docker & Linux](https://orbstack.dev)
+
+Say goodbye to slow, clunky containers and VMs. The fast, light, and easy way to run containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
 
 You can consider this a replacement for Docker Desktop that works on macOS.
 
@@ -127,7 +131,11 @@ This is just one example, so you can add various things to this or perhaps you o
 
 - This image creates backups at regular intervals. There is a unique communication form called RCON (Remote Console) used by Minecraft, which saves the world automatically.
 
-<https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949>
+[![MinecraftのサーバにRCONで接続する - Qiita](../../media/4b96da55da07538e8d2fe3bce2fd00b6100a0b12086caf1a4f5250b17de5dccd.jpg)](https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949)
+
+[MinecraftのサーバにRCONで接続する - Qiita](https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949)
+
+RCONとは RCONはRemote Consoleの略称 ゲームサーバをリモートで管理するための機能全般を指す用語 Minecraft以外でも、ARK: Survival EvolvedやBattlefield、Call of Duty、Rust等、ユーザ自身がサーバ...
 
 #### itzg/rcon
 

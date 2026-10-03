@@ -32,7 +32,7 @@ I recently spoke in a talk session at the [7th Minecraft Cup](https://minecraftc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLvSMQJ5ts4?si=eLEb6pMmD0r2ifQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<https://www.youtube.com/live/YLvSMQJ5ts4?si=N6HOi4Ih0_-dYf0G&t=15685>
+[www.youtube.com](https://www.youtube.com/live/YLvSMQJ5ts4?si=N6HOi4Ih0_-dYf0G\&t=15685)
 
 ### Overview of the Talk Session
 
@@ -60,7 +60,11 @@ I was a bit nervous because I had only four hours of sleep from being too excite
 
 &#xA;I won an award at the Minecraft Cup in [[en/accomplishments/minecraftcup-2021|2021]]. There were also times I didn't ultimately win ([[en/accomplishments/minecraftcup-2023|2023]]) and a time when we made a project but couldn't submit it (2019). Sometimes things go well, sometimes they don't. The Minecraft Cup (the town-building category) is basically a team competition, but teams sometimes have conflicts, fail to coordinate, or lose motivation; for my team, the only year that went well was 2021.
 
-<https://minecraftcup.com>
+[![Minecraftカップ(マイクラカップ) | 教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。](../../media/fc6a71d94dab65e534f1293953f5b344f68b0b2e3b75ca0472f8de6d5b6ecb45.png)](https://minecraftcup.com)
+
+[Minecraftカップ(マイクラカップ) | 教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。](https://minecraftcup.com)
+
+教育版マインクラフトを使用した作品コンテスト。子どもたちがプログラミングやデジタルなものづくりにふれることのできる機会を創出します。
 
 ### What Kind of Team Was It?
 

@@ -53,7 +53,11 @@ If you have a **PC or Mac**, you're good to go. If not, you can use online dev t
 
 First, install **Node.js**. This is the runtime environment (the foundation that runs apps), and Astro runs on it. Newer versions will work, so click the download button on the site and install it following the instructions.
 
-<https://nodejs.org/>
+[![Node.js — Run JavaScript Everywhere](../../media/936bd6468cf060e0837231bddef8cded67d28b360efb0c18a42ce67d4c08b539.png)](https://nodejs.org/)
+
+[Node.js — Run JavaScript Everywhere](https://nodejs.org/)
+
+Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
 
 ### Installing VS Code
 
@@ -61,7 +65,11 @@ You might be able to write HTML in Notepad, but there's a much nicer tool. Using
 
 Install it from the link below and follow the setup instructions. For language settings and other preferences, consult other guides if needed (it's a bit of a pain...).
 
-<https://code.visualstudio.com/>
+[![Visual Studio Code - The open source AI code editor | Your home for multi-agent development](../../media/be56697a088e3fcd71febd7afeb4f82e66906c18f1ade495a994b4f0c8b23836.png)](https://code.visualstudio.com/)
+
+[Visual Studio Code - The open source AI code editor | Your home for multi-agent development](https://code.visualstudio.com/)
+
+Visual Studio Code is a free, open source AI code editor. Build with AI agents that plan, code, and debug for you. Manage multi-agent workflows across environments on Linux, macOS, and Windows.
 
 After installing, open the app and install extensions.
 
@@ -87,7 +95,11 @@ Once it's installed, VS Code is ready.
 
 We'll use GitHub to store and publish the site's files. GitHub lets you save and share code, and using it makes version control and deployment easy. Create an account there (I'll skip the detailed steps — it's a hassle).
 
-<https://github.com/>
+[![GitHub · Change is constant. GitHub keeps you ahead.](../../media/4362e0f40c55899efa413782c16570754ad2ca800bd3bb6232df46ca7269107d.png)](https://github.com/)
+
+[GitHub · Change is constant. GitHub keeps you ahead.](https://github.com/)
+
+Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
 
 After signing up or logging in to GitHub, you'll see a screen like this.
 
@@ -270,7 +282,11 @@ You should now be able to change the content as shown. From here, adjust whateve
 
 This project uses regular CSS for styling, but you can add Tailwind CSS for easier, utility-first styling. In Astro these additions are called integrations, and you can add various tools as needed.
 
-<https://docs.astro.build/ja/guides/integrations-guide/>
+[![Working with integrations](../../media/ec06780b7caf949a55a5d32c021c06bf1d229a4de1371bb5799635467ff37adf.webp)](https://docs.astro.build/ja/guides/integrations-guide/)
+
+[Working with integrations](https://docs.astro.build/ja/guides/integrations-guide/)
+
+Learn how to add, configure, and build integrations for your Astro project.
 
 ## Publishing the website
 
@@ -292,7 +308,11 @@ After committing, push the changes to GitHub. Then check GitHub to see the files
 
 Use Vercel to host the website. Vercel connects to GitHub and makes it easy to publish web apps. Sign up on Vercel and be sure to use your GitHub account to register.
 
-<https://vercel.com/>
+[![Agentic Infrastructure - Vercel](../../media/a66f342d9d6366154945c50f0cb19c2ad7476222df94711d28c0bd3c40087916.png)](https://vercel.com/)
+
+[Agentic Infrastructure - Vercel](https://vercel.com/)
+
+The autonomous stack for every app and agent.
 
 [![Image from Gyazo](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)
 
@@ -308,7 +328,9 @@ Once deployed, open the published site.
 
 [![Image from Gyazo](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)
 
-<https://astro-tutorial-six-peach.vercel.app/>
+[Astro Blog](https://astro-tutorial-six-peach.vercel.app/)
+
+Welcome to my website!
 
 With that, you've covered the basics of building and publishing a site. Customize it to your needs!
 

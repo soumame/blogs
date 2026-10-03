@@ -29,7 +29,11 @@ seo:
 
 Duolingo という語学学習アプリ（皆さん一度は見たことがあると思いますが）は、その最たる例で、公式のブログなどによると様々なシーンで機械学習を利用しているそうです。
 
-<https://www.duolingo.com/>
+[![Learn a language for free](../../media/0978ceba0c36f9d9d90d2d6756929a4ca42a433d62c5045a974a62454cda1f40.jpg)](https://www.duolingo.com/)
+
+[Learn a language for free](https://www.duolingo.com/)
+
+Learn languages by playing a game. It's 100% free, fun, and scientifically proven to work.
 
 この記事では語学学習プラットフォームである Duolingo\[^1] 上で、どのように機械学習が活用され、製品においてどのような影響を与えているか、複数の機能などを参考に紹介します。
 
@@ -92,7 +96,11 @@ Duolingo では、入力欄に自由に単語を入力させ、答え合わせ�
 
 記事によると実際にこの改善により、コース改善の効率が大幅に改善したとされています。
 
-<https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/>
+[![How machine learning helps Duolingo prioritize course improvements](../../media/1dd757f5ebfd770d2af71f061ed1f075e90591c2f7fa991c09b5264fedcff7ae.png)](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
+[How machine learning helps Duolingo prioritize course improvements](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
+We combine technology with real-world feedback to improve our courses. Here's how!
 
 ### 2: 広告の最適化
 
@@ -108,7 +116,11 @@ Duolingo では、収益化のため、広告を配信しています。これ�
 
 また、現在は、内部/外部広告の表示の判断だけでなく、より複雑な判断もモデル化しているそうです。（例えば、表示する内部広告の選定など）
 
-<https://blog.duolingo.com/machine-learning-ads/>
+[![How machine learning supercharged our revenue by millions of dollars](../../media/74ef8580558e3a02ecb1decce9cab75cbdb28e774c8a81daa6e8d4c5396e8ee9.png)](https://blog.duolingo.com/machine-learning-ads/)
+
+[How machine learning supercharged our revenue by millions of dollars](https://blog.duolingo.com/machine-learning-ads/)
+
+We used a machine learning system to improve our complicated ads surfacing logic. Now we've increased revenue and decreased tech debt.
 
 ### 3: アプリを開かせるようにする
 
@@ -141,7 +153,11 @@ Duolingo では、テンプレートに基づき、ユーザーに様々な通�
 
 ### リスクの軽減 : A/B テスト
 
-<https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/>
+[![Improving Duolingo, one experiment at a time](../../media/d92d9a3519a76f8d3096bba606f91e240d99f48e04ab85eb9b11fc7e85d60e5e.png)](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
+
+[Improving Duolingo, one experiment at a time](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
+
+We have 100s of A/B tests running across Duolingo. How do we analyze all of the data?
 
 Duolingo では、A/B テストを行い、その結果に基づいて、システムを改善しているそうです。\[^5]
 内製したテストツールを使い、実際にユーザーに対して新機能や実験を提供し、その結果を分析することで、システムの改善を行っているそうです。

@@ -94,18 +94,36 @@ Ideal aircraft plan for this era:
 
 **References**
 
-<https://ato2jp.wiki.fc2.com/>
+[エアタイクーンオンライン2wiki](https://ato2jp.wiki.fc2.com/)
 
-<https://torihikolife.com/air-tycoon-online2-tips>
+エアタイクーンオンライン2は全世界のプレイヤーと対戦し世界中に航空網を作り、利益をあげてゆくオンライン型の航空会社経営シミュレーションゲームです。
 
-<https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960>
+[![【エアタイクーンオンライン2 】攻略！無課金でもTOP3常連になれる経営方法 | とりひこライフ](../../media/1be40cf0bca5d01f109e6c1da7656cc6383c4e664abcf76392918897932d9ae7.jpg)](https://torihikolife.com/air-tycoon-online2-tips)
 
-<http://simgametips.blogspot.com/2017/02/blog-post_15.html>
+[【エアタイクーンオンライン2 】攻略！無課金でもTOP3常連になれる経営方法 | とりひこライフ](https://torihikolife.com/air-tycoon-online2-tips)
+
+航空会社経営ゲームの『エアタイクーンオンライン2 』。 課金無しでもやり方次第で上位に入る事ができて、中々やり
+
+[【ATO2】新規参入～1960年代の経営](https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960)
+
+要点 1960年の早い時期のチャンネルに参入する、場合によっては今あるチャンネルへの参入を控えるのも手 最初の拠点は北米か欧州がいいのではないか 投資は最大限に 1960年代は1ターン1時間 1963年11月まで、ひたすらTU-104を買い揃えていく 路線開設はメッシュ型で TU-104の生産終了後から、高需要路線の機体をB707-120やDC-8-11に置き換える B727-100QFがリリースさ...
+
+[ATO2 航路開設の際の注意点やポイント](http://simgametips.blogspot.com/2017/02/blog-post_15.html)
+
+長い文章ですが、このポイントに従えば会社はあっという間におおきくなります！ 航路開設の基本 まず、航路は基本的に 独占航路のみ開設 していきます。 特に序盤は、これを徹底していきましょう。ライバルに構うだけ、お金の無駄です。もし ライバルが競合してきた場合は、さっさと撤退...
 
 <https://air-tycoon-online.fandom.com/wiki/Aircraft>
 
-<https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC>
+[![�ץ쥤�䡼�ι�ά - �������������󥪥�饤�� ����wiki](../../media/831559550243ab38462215e712872560ce1c554342813d15a3183c4ea8010380.png)](https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC)
 
-<http://ato2game.jugem.jp/?eid=4>
+[�ץ쥤�䡼�ι�ά - �������������󥪥�饤�� ����wiki](https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC)
+
+������˵��ܤ��빶ά�ϡ��桼�����γ����󤬤��줾��˹ͤ����ȼ��ι�άˡ�Ǥ��Τǡ������ι�άˡ��100���������Ȥϸ����ޤ��󡣤����ޤǻ������٤��ɤ�褦�ˤ��Ƥ����������кѴ����ι������������Ǻ�...
+
+[![M\&A | �������������󥪥�饤��2��ά�֥���](../../media/bf7c585729c8548e2e4a047df400015510d4d89f2c0991557e55296d20f5d9b3.png)](http://ato2game.jugem.jp/?eid=4)
+
+[M\&A | �������������󥪥�饤��2��ά�֥���](http://ato2game.jugem.jp/?eid=4)
+
+�Ҷ���ҷбĥ��ߥ�֥������������󥪥�饤��2�פι�ά�ȥץ졼�����Ǥ����ܤ��ܤ������档
 
 : )

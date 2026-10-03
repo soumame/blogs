@@ -32,7 +32,11 @@ HID = 人と、コンピューターがやりとり（通信）をするため�
 
 ### 関わっているプロダクト
 
-<https://www.melt-interface.com/melt-mouse>
+[![Melt Mouse - Redefining the creative experience](../../media/61fbca2fef14c2088038e3b4d9d16f758494f9197c9693adfcc1bde1201bd07a.png)](https://www.melt-interface.com/melt-mouse)
+
+[Melt Mouse - Redefining the creative experience](https://www.melt-interface.com/melt-mouse)
+
+Coming soon on Kickstarter — subscribe for early access to a revolutionary interface experience.
 
 Melt InterfaceというブランドのMelt Mouseを開発しています。
 パソコンをよく使うクリエーターなどをターゲットとしたマウスを作っています

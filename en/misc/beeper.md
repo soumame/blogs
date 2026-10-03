@@ -24,7 +24,9 @@ seo:
 
 Beeper is just plain useful.
 
-<https://www.beeper.com/>
+[Beeper](https://www.beeper.com/)
+
+Visit the post for more.
 
 Lately I've been interacting with a lot of people, but messages are split across different apps and it's not uncommon to miss things. Having native apps helps, of course, but some services like Messenger are only available as web apps and rely solely on browser notifications, which makes the experience much worse compared to a smartphone.
 

@@ -70,7 +70,7 @@ Previously, a prototype at this level that could be used as a real product would
 
 What people need now is the skill to supervise the AI: to watch if it's likely to work, whether it will complete successfully, monitor its actions, decide when to interrupt and correct it, and so on.
 
-<https://xr-ai-recipe-assistant.vercel.app/>
+[XR AI料理アシスタント](https://xr-ai-recipe-assistant.vercel.app/)
 
 It's just a quick build, so please try it out (I'm paying for the LLM, so I'll stop it if I can't afford it).
 

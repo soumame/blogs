@@ -25,7 +25,9 @@ seo:
 
 I feel like fewer and fewer people these days know the manufacturer Sanyo Electric.
 
-<https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B4%8B%E9%9B%BB%E6%A9%9F>
+[![三洋電機 - Wikipedia](../../media/a5281f81326b06a8aa394773fa636d71133a32238069255c807ab5fed6282d5c.jpg)](https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B4%8B%E9%9B%BB%E6%A9%9F)
+
+[三洋電機 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B4%8B%E9%9B%BB%E6%A9%9F)
 
 They had management troubles and are now part of Panasonic. Looking at their pre-Panasonic product lineup, many items were technically excellent or at a level that would still be considered normal to sell today.
 

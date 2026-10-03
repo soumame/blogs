@@ -61,7 +61,11 @@ But **Japan is capitalist now. Money is everything**, so that’s probably the i
 Unfortunately, the current reality is that the **wealthy living in urban areas like Tokyo and Osaka** are geographically and financially advantaged and therefore **more likely to receive better education.**
 I keep thinking every day whether there might be a better way. 🤔
 
-<https://twitter.com/So_to9/status/1738891386987176023?s=20>
+[![そうまめ (@So_to9) on X](../../media/6100ef42efb3a7763c2699520a10703e1fe4bbb70db7e8bc73435861b6d062f2.jpg)](https://twitter.com/So_to9/status/1738891386987176023?s=20)
+
+[そうまめ (@So_to9) on X](https://twitter.com/So_to9/status/1738891386987176023?s=20)
+
+学ぶという行為にお金は払うべきなのかな？ 営利目的で教育を提供するという考えは、格差を生みかねないなとは思うが、その一方で日本は資本主義=お金がすべて、お金がないと生きていけないと思うから、悩む。
 
 I’ve thought a lot about this issue and have posted about it on Twitter several times. (Please follow me…)
 
@@ -79,7 +83,11 @@ I’ve prepared the application documents, so feel free to take a look. I’ll l
 The result was **rejected at the document screening. Total wipeout!!** 😭
 **By the way, the friend who said “it might be doable” got in** (seriously impressive lol). **I was pretty shocked.** 😭 It’s sad not to be recognized. To be honest, I was jealous of that friend for about a week after I failed.
 
-<https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA&s=19>
+[![そうまめ (@So_to9) on X](../../media/6100ef42efb3a7763c2699520a10703e1fe4bbb70db7e8bc73435861b6d062f2.jpg)](https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA\&s=19)
+
+[そうまめ (@So_to9) on X](https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA\&s=19)
+
+ううぅ...落ちた...
 
 ### But even when you fail, you get feedback!?
 
@@ -100,7 +108,7 @@ This was the most tragic thing that happened recently. 😭
 I have been studying abroad in Malaysia since my first year of junior high school, and Malaysia has an educational stage called a “college” (roughly equivalent to a junior college in Japan), where you study to smooth the transition from high school graduation to university (called pre-u or foundation).
 Colleges also offer diploma courses where you can focus on specialized fields.
 
-<https://www.m-ryugaku.com/univ_college#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB%E3%80%81%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%81%AE%E3%80%8C%E3%82%AB%E3%83%AC%E3%83%83%E3%82%B8%E3%80%8D,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82>
+[マレーシア大学・大学院留学ガイド | マレーシア留学チャンネル](https://www.m-ryugaku.com/univ_college#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB%E3%80%81%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%81%AE%E3%80%8C%E3%82%AB%E3%83%AC%E3%83%83%E3%82%B8%E3%80%8D,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82)
 
 Normally, you can move to college and study at Year 10 (equivalent to the first year of high school), but **I was rejected by every school.** Huh? 😭
 
@@ -108,7 +116,11 @@ Normally, you can move to college and study at Year 10 (equivalent to the first 
 
 I explain the details in another article, but basically the Australian Victoria curriculum I was taking (VCE) had a rule change **from 2021** that assumes students will **go directly to university without going to college**, which made my intended path incompatible. **It differed from the route I had planned.** 😭
 
-<https://note.com/soto9/n/n235084017b66>
+[![オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？｜So Tokumaru](../../media/af4ad90139db6f3344ec7ad3126aaeaba0a29f55fb4130c1e655db63c6dac6d2.png)](https://note.com/soto9/n/n235084017b66)
+
+[オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？｜So Tokumaru](https://note.com/soto9/n/n235084017b66)
+
+私は中学1年生からマレーシアにあるPeninsula International School Australiaに通っている現在Year11の高校生なのですが、そこで学習しているオーストラリア、ビクトリア州のカリキュラム「VCE」について結構ややこしく、自分の中でも情報を整理したかったので、書いておきます。 VCEとは まず、前提として、VCEというのは、オーストラリアのメルボルンのあることで有名なビクトリア州が提供している教育修了書(certificate)です。 Victorian Certificate of Education - Wikipedia e
 
 Because of that, **I had to finish the Australian-style education I was doing after all.** What that means is, even though I’ve only been learning English for four years, I now have to compete for university scores on the same footing as native Australian English speakers. 😭 (By the way, other curricula like IGCSE or IB are adopted worldwide and are probably easier for Japanese students.)
 This is the biggest mistake I made while studying abroad. How did I not notice this… **even my school teachers didn’t know.** It’s sad. Please be careful when studying abroad. 😭

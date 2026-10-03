@@ -49,9 +49,13 @@ If you’re using Education Edition, you need to unpack the MCpack & change the 
 
 Use a dedicated app to convert the world. The first tool I’ll introduce is "je2be", which is free. The second option is the paid Universal Minecraft Tool. Here I’ll explain the procedure using the first tool, je2be.
 
-<https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp&gl=jp>
+[![je2be - Windows に無料でダウンロードしてインストールする | Microsoft Store](../../media/b9329b8c376c11ee4f60d9cae0c1bd8b4ddb76d360aa90fb7825dc437424413a.png)](https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp\&gl=jp)
 
-<https://www.universalminecrafttool.com/>
+[je2be - Windows に無料でダウンロードしてインストールする | Microsoft Store](https://apps.microsoft.com/store/detail/je2be/9PC9MFX9QCXS?hl=ja-jp\&gl=jp)
+
+je2be は Minecraft のためのデータ変換ツールです。 ・Java 版から統合版への変換と、統合版から Java 版への変換両方に対応しています。 ・Xbox 360 版から、Java 版・統合版への変換に対応しています。 ・PS3 版から、Java 版・統合版への変換に対応しています。 ・地形、ブロックエンティティ、エンティティの他、ゲームプレイに必要なメタデータを可能な限り変換します。
+
+[Convert, Edit, and Prune Minecraft Worlds - Universal Minecraft Tool](https://www.universalminecrafttool.com/)
 
 Install and open the app, click "From Bedrock to Java" and you’ll see a list of worlds like this.
 
@@ -75,7 +79,11 @@ Once saving is complete, the conversion process is done. Easy, right? (taunt)
 
 Now for the main part. Here we’ll use the tool jmc2obj to export the Minecraft world into 3D. Download it from the link below:
 
-<https://github.com/jmc2obj/j-mc-2-obj/releases>
+[![Releases · jmc2obj/j-mc-2-obj](../../media/4629015ab6fd1858252c47af1a41149120ca435f32e90e4a4b6439df2553dc7d.png)](https://github.com/jmc2obj/j-mc-2-obj/releases)
+
+[Releases · jmc2obj/j-mc-2-obj](https://github.com/jmc2obj/j-mc-2-obj/releases)
+
+Java-based Minecraft-to-OBJ exporter. Contribute to jmc2obj/j-mc-2-obj development by creating an account on GitHub.
 
 > The usage instructions for jmc2obj are quoted from <https://github.com/jmc2obj/j-mc-2-obj/wiki/Getting-started> (in English)
 
@@ -108,7 +116,7 @@ Here we’ll import the data you just created into Blender, a free 3D software.
 
 To import the data, use an add-on called MCprep. This lets you import without manually setting up materials.
 
-<https://theduckcow.com/free-download/>
+[Free Download – Moo-Ack! Productions](https://theduckcow.com/free-download/)
 
 From the link above, choose MCprep and download it. Then add it to Blender as an add-on.
 
@@ -116,7 +124,11 @@ From the link above, choose MCprep and download it. Then add it to Blender as an
 
 _Add-on_
 
-<https://styly.cc/ja/tips/nimi-blender-addon/#Blender>
+[![【Blender入門】アドオンのダウンロード・インストール方法＆おすすめのアドオン記事まとめ | STYLY](../../media/e5898a28125d1895d84a29d64dee35e92bb347cac92eddc845183aa71b7507f5.png)](https://styly.cc/ja/tips/nimi-blender-addon/#Blender)
+
+[【Blender入門】アドオンのダウンロード・インストール方法＆おすすめのアドオン記事まとめ | STYLY](https://styly.cc/ja/tips/nimi-blender-addon/#Blender)
+
+STYLY MAGAZINEでも紹介しているようにBlenderをはじめ、さまざまなCGソフトウェアにはアドオンというものが存在します。この記事ではBlenderでアドオンを使用したい時に必ず行うダウンロードから有効化の説明、そして過去のアドオン記事をまとめて紹介します。
 
 ↑ This link shows how to add it.
 
@@ -152,4 +164,6 @@ A creative group made up of crazy elementary, middle, and high school students �
 We work on themes like Minecraft, 3DCG, video, and education.
 🏆 Winner of the Minecraft Cup 2021 Impress Award 🏆
 
-<https://outstndrs.start.page/>
+[![チーム逸般人/Team Outstndrs](../../media/f61cc890a0ae463b966ab3f7fae8a2b260570dc2172d28648e235d130d929a46.jpg)](https://outstndrs.start.page/)
+
+[チーム逸般人/Team Outstndrs](https://outstndrs.start.page/)

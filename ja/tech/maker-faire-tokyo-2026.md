@@ -24,7 +24,11 @@ seo:
 
 # 出展概要
 
-<https://makezine.jp/event/makers-mft2026/m0232/>
+[![そうまめの部屋 | Maker Faire Tokyo 2026 | Make: Japan](../../media/fb0b2cb18ccedbfd1122d622f6aefa263db4969a79fa60f6f5c81de553f336ab.jpg)](https://makezine.jp/event/makers-mft2026/m0232/)
+
+[そうまめの部屋 | Maker Faire Tokyo 2026 | Make: Japan](https://makezine.jp/event/makers-mft2026/m0232/)
+
+そうまめの部屋 ワイヤレス給電で書き換え可能な電子ペーパー名刺 ワイヤレス給電で動作し、好きな時にスマホで内容を書き換えることができる電子ペーパー名刺を紹介＆数量限定で販売します。
 
 |         |                                                                                |
 | ------- | ------------------------------------------------------------------------------ |
@@ -58,7 +62,11 @@ seo:
 
 ## 2025年8月11日: 基盤1枚で動くハードウェアかっこいいなあ
 
-<https://x.com/So_to9/status/1954792229806936385?s=20>
+[![そうまめ (@So_to9) on X](../../media/8b2038162022b2ff4a721fe3de95bfde14eff60a1c212ce77c269a4f877063b0.webp)](https://x.com/So_to9/status/1954792229806936385?s=20)
+
+[そうまめ (@So_to9) on X](https://x.com/So_to9/status/1954792229806936385?s=20)
+
+DEFCON楽しかったぞ〜ってことで日本に帰ります。 (これは @SecureAerospace で買ったads-b/ATC(航空機の位置情報や、無線)を受信するやつを、使おうとしている様子)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">DEFCON楽しかったぞ〜ってことで日本に帰ります。<br><br>(これは <a href="https://x.com/SecureAerospace?ref_src=twsrc%5Etfw">@SecureAerospace</a> で買ったads-b/ATC(航空機の位置情報や、無線)を受信するやつを、使おうとしている様子) <a href="https://t.co/6MNufnrjJ1">pic.twitter.com/6MNufnrjJ1</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/1954792229806936385?ref_src=twsrc%5Etfw">August 11, 2025</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
@@ -93,7 +101,11 @@ Maker Faireにはここまでの熱気はないが、とはいえそういう人
 
 &#xA;これはそれをGeminiに伝えて、教えてもらった時のやつ。途中からなぜかやたら褒めてくるようになった。褒めて伸ばすという教育者的な心の持ち主なのだろうか。
 
-<https://x.com/So_to9/status/2039325011564269822?s=20>
+[![そうまめ (@So_to9) on X](../../media/4cdcfeeaeb387f874f06516c8e89170ddebd6c33546994afc04423e63f4cf053.webp)](https://x.com/So_to9/status/2039325011564269822?s=20)
+
+[そうまめ (@So_to9) on X](https://x.com/So_to9/status/2039325011564269822?s=20)
+
+LLMに指示を仰いだらなんか最強の名刺ができたかもしれない？（AI基板設計） 果たして動くのか...
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LLMに指示を仰いだらなんか最強の名刺ができたかもしれない？（AI基板設計）<br>果たして動くのか... <a href="https://t.co/WDZVj5H4B9">pic.twitter.com/WDZVj5H4B9</a></p>&mdash; そうまめ (@So_to9) <a href="https://x.com/So_to9/status/2039325011564269822?ref_src=twsrc%5Etfw">April 1, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
@@ -103,7 +115,11 @@ Maker Faireにはここまでの熱気はないが、とはいえそういう人
 
 ## 4月18日: ドローン名刺！？カッコよすぎる
 
-<https://fumimaker.net/entry/2026/04/18/202824>
+[![実際に飛ぶドローン名刺を作ってみた - fumiLab](../../media/5abd3470db1781f11c90099f277431ce8ec2596111102902967fc9f128b8dc6e.png)](https://fumimaker.net/entry/2026/04/18/202824)
+
+[実際に飛ぶドローン名刺を作ってみた - fumiLab](https://fumimaker.net/entry/2026/04/18/202824)
+
+English description below. 実装することで実際にドローンとして飛行できる，ドローン名刺を作ってみました． 長い間，バグっててあんまりきれいに飛ばなかったのですが息抜きに飛ぶように修正してみました． ESP32をコアとしており，6軸IMUのセンシングとモーターのPID制御します．スマホをプロポとするためにESP32上でWebサーバーを立て，Joystickを動かすとWebSocket通信で入力値をドローンに送信します．また，ドローンのRoll pitch yawの角度値や電圧といったテレメトリをスマホ側で見れるようにしています． イメージとしてはCrazyfileのよう…
 
 > このfumiさんって\[\[\[ja/works/keio|慶応SFC]]のfumiさんだよね...!?ってあとから気づいた。同じ学内にこんな人がいるとは...すごい。
 
@@ -146,7 +162,7 @@ NFCで受け取った電気をためて回路を動かし、e-paper（電子ペ�
 
 ezsignの既存製品。
 
-<https://amzn.asia/d/04zeppW6>
+[Amazon.co.jp](https://amzn.asia/d/04zeppW6)
 
 これにメモリ領域があればURLとかを仕込んで、スキャンできるので完璧だったんだけどなあ...と思った。
 

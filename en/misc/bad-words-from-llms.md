@@ -26,7 +26,11 @@ seo:
 
 I saw an article like this
 
-<https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/>
+[![「ChatGPTが自殺や悪い妄想をかきたてた」として複数の家族がOpenAIを訴える](../../media/7f7698c3be3bd50d2a7ba3cca3ef3262f2bb68eca5d493eb82c9465babe068d3.jpg)](https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/)
+
+[「ChatGPTが自殺や悪い妄想をかきたてた」として複数の家族がOpenAIを訴える](https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/)
+
+現地時間の2025年11月6日、ソーシャルメディア被害者法律センターとテック・ジャスティス・ロウ・プロジェクトがアメリカのカリフォルニア州で7世帯の家族と共に、OpenAIおよびサム・アルトマンCEOに対し、過失致死・自殺ほう助・非自発的過失致死・製品責任・消費者保護・過失に関する複数の訴訟を提起しました。原告側はChatGPTで利用可能になっていた大規模言語モデル(LLM)のGPT-4oが、時期尚早かつ効果的な安全対策なしにリリースされたと主張しています。
 
 Because LLMs learn from human words and actions, by their nature there are cases where they end up encouraging behavior considered harmful to people. It seems there have been incidents where an LLM's response prompted someone to attempt suicide or where a user died as a result. OpenAI is being sued over this.
 

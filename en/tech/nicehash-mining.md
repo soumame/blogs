@@ -38,7 +38,7 @@ Here's a quick explanation.
 
 First, go to the official Nicehash website via the link below:
 
-<https://www.nicehash.com/>
+[NiceHash - Leading Cryptocurrency Platform for Mining and Trading](https://www.nicehash.com/)
 
 Click **GET STARTED**.
 

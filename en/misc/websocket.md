@@ -25,4 +25,4 @@ seo:
 
 When you look up WebSocket you'll find a lot of information, but basically it's a protocol that enables real-time communication between computers。
 
-<https://ja.wikipedia.org/wiki/WebSocket>
+[WebSocket - Wikipedia](https://ja.wikipedia.org/wiki/WebSocket)

@@ -26,7 +26,11 @@ seo:
 
 > Hack Club is a network run by a nonprofit organization that operates programming and maker-school (hands-on making) programs for high school students around the world. Hack Club currently has many participants worldwide (as of November 2024), numbering over 80,000, and each week thousands of students work on a wide range of projects.
 
-<https://hackclub.com>
+[![Hack Club — Where teens make cool stuff.](../../media/dce5862e807e0deb7c851b961a41cd3d661ffd3c9fa6484d268d6763e1795e48.png)](https://hackclub.com)
+
+[Hack Club — Where teens make cool stuff.](https://hackclub.com)
+
+Hack Club is the world's largest nonprofit movement of teenagers making cool projects.
 
 - Activities take place on Slack
 - Intended for those under 18

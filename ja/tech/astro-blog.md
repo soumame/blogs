@@ -52,14 +52,22 @@ Astro は、主にコンテンツ配信（ブログ、記事等）を目的と�
 
 まずは、**Node.js**というものをインストールします。これはいわゆる実行環境（アプリが動く土台のようなもの）で、Astro はこの上でしか使うことができません。新しいバージョンであれば動くので、リンク先にあるダウンロードボタンを押してダウンロードしましょう。その後は、手順に従いインストールして下さい。
 
-<https://nodejs.org/>
+[![Node.js — Run JavaScript Everywhere](../../media/936bd6468cf060e0837231bddef8cded67d28b360efb0c18a42ce67d4c08b539.png)](https://nodejs.org/)
+
+[Node.js — Run JavaScript Everywhere](https://nodejs.org/)
+
+Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
 
 ### VS Code のインストール
 
 HTML を書くときにはメモ帳でもなんとかできるかもしれませんが、それよりももっと便利なものがあります。**VS Code**というアプリを使えば、書いたコードにハイライトなどがついて**わかりやすく開発を行う**ことができます。また、VS Code は**拡張機能**を導入することができ、公式から Astro 向けのものが公開されているため、そちらからのインストールも行います。
 以下のリンクからインストールを行い、手順に従ってインストールを行います。言語設定などは、ほかのサイトで説明されているので、そちらを参照してください。（めんどく s…)
 
-<https://code.visualstudio.com/>
+[![Visual Studio Code - The open source AI code editor | Your home for multi-agent development](../../media/be56697a088e3fcd71febd7afeb4f82e66906c18f1ade495a994b4f0c8b23836.png)](https://code.visualstudio.com/)
+
+[Visual Studio Code - The open source AI code editor | Your home for multi-agent development](https://code.visualstudio.com/)
+
+Visual Studio Code is a free, open source AI code editor. Build with AI agents that plan, code, and debug for you. Manage multi-agent workflows across environments on Linux, macOS, and Windows.
 
 インストールしたら、アプリを開いて、拡張機能の導入を行います。
 
@@ -85,7 +93,11 @@ _インストール！_
 
 今回は、サイトの内容を保管したりする際に GitHub を使用します。これは、プログラムのコードを保存したり公開することができたりするツールで、これを使うことでバージョン管理や、サイトの公開が簡単に行うことができます。こちらにアカウント登録を行ってください。（やり方は割愛します。めんど k…殴）
 
-<https://github.com/>
+[![GitHub · Change is constant. GitHub keeps you ahead.](../../media/4362e0f40c55899efa413782c16570754ad2ca800bd3bb6232df46ca7269107d.png)](https://github.com/)
+
+[GitHub · Change is constant. GitHub keeps you ahead.](https://github.com/)
+
+Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
 
 GitHub に登録/ログインすると、このような画面になります。
 
@@ -272,7 +284,11 @@ _/src/content/blog_
 
 また、このプロジェクトでは通常の CSS を使用して見た目を変更していますが、Tailwind CSS というものを導入してより分かりやすい見た目の編集を行うことができます。Astro ではこれらをインテグレーションと呼んでおり、追加で様々な機能を追加することができるので、必要な方は各自追加を行ってください。
 
-<https://docs.astro.build/ja/guides/integrations-guide/>
+[![Working with integrations](../../media/ec06780b7caf949a55a5d32c021c06bf1d229a4de1371bb5799635467ff37adf.webp)](https://docs.astro.build/ja/guides/integrations-guide/)
+
+[Working with integrations](https://docs.astro.build/ja/guides/integrations-guide/)
+
+Learn how to add, configure, and build integrations for your Astro project.
 
 ## ウェブサイトを公開してみる
 
@@ -294,7 +310,11 @@ _コミット前の画面。変更を加えたファイルなどが表示され�
 
 Vercel を使用して、ウェブサイトのホストを行います。Vercel は、GitHub などと連携を行うことで簡単にウェブアプリなどを公開することができるサービスです。Vercel のサイトにアクセスして、登録を行ってください。**登録には、GitHub アカウントを使用してください。**
 
-<https://vercel.com/>
+[![Agentic Infrastructure - Vercel](../../media/a66f342d9d6366154945c50f0cb19c2ad7476222df94711d28c0bd3c40087916.png)](https://vercel.com/)
+
+[Agentic Infrastructure - Vercel](https://vercel.com/)
+
+The autonomous stack for every app and agent.
 
 [![Image from Gyazo](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)
 
@@ -310,7 +330,9 @@ Vercel を使用して、ウェブサイトのホストを行います。Vercel 
 
 [![Image from Gyazo](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)
 
-<https://astro-tutorial-six-peach.vercel.app/>
+[Astro Blog](https://astro-tutorial-six-peach.vercel.app/)
+
+Welcome to my website!
 
 これで、サイト制作を一通りすることができました。ご自身の造りたい内容に合わせてカスタマイズしてみてください！
 

@@ -30,9 +30,15 @@ seo:
 
 今日は私が現在開発しているアプリ、[TutoriaLLM](https://tutoriallm.com)というアプリを大規模にリファクタリングした話をしようと思います。だいぶ慣れてきたとはいえ、まだまだ界隈の方から見ると素人なので一般的に良くないとされるコードの書き方をしているかもしれません。あったらそっと教えてください。[連絡先はこちら](https://tokumaru.work/ja)
 
-<https://tutoriallm.com>
+[TutoriaLLMへようこそ](https://tutoriallm.com)
 
-<https://github.com/TutoriaLLM/TutoriaLLM>
+Scratchのようなブロックプログラミングのチュートリアルを簡単に作成し、AIを利用して提供することができるセルフホスト型のソフトウェアです。
+
+[![GitHub - TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](../../media/dc1796d53bfd69d8cdc14c14f2ce490e9ed7cd7c3c8e19a87f3bd6e24bd35af2.png)](https://github.com/TutoriaLLM/TutoriaLLM)
+
+[GitHub - TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](https://github.com/TutoriaLLM/TutoriaLLM)
+
+Self-hosted environment for programming tutorial by LLM - TutoriaLLM/TutoriaLLM
 
 # TutoriaLLM とは？
 

@@ -34,7 +34,7 @@ seo:
   - 新しいスキルを獲得するため
   - コンフォートゾーンから抜け出し活動するため
 
-<https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C>
+[ティンバーゲンの4つのなぜ - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C)
 
 ## なぐり書き
 
@@ -74,9 +74,11 @@ seo:
 
 まあ多分人為的な原因のほうがよっぽど可能性あるか
 
-<https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85>
+[![人類の絶滅 - Wikipedia](../../media/ec5517b6c7aed69f4462c63fb56cc368df55ea0ad458585a9626c4cc19f2eec0.jpg)](https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85)
 
-<https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9>
+[人類の絶滅 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85)
+
+[反出生主義 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9)
 
 やっぱりそうすると、別の星に移ったり、機能を分散させることでそのリスクを低減するのが良いのかな。
 
@@ -94,7 +96,9 @@ seo:
 
 自分の一生をできるだけ効率よく活かし、次の世代につなげていくのか。
 
-<https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6->
+[![チ。-地球の運動について- - Wikipedia](../../media/43ea60d570d5b2511e7fc063df1ee0c58ec9966f28150aa18096a8ae6f6a835a.webp)](https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-)
+
+[チ。-地球の運動について- - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-)
 
 チ。を思い出した。
 

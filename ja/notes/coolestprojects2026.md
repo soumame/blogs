@@ -33,7 +33,11 @@ dialogue-users:
 
 > Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を仲間と共有する場所です。
 
-<https://coolestprojects2026.coderdojo.jp/>
+[![Coolest Projects Japan 2026 | 創造力と技術で生み出したプロジェクトを発表・共有できる、子どものための作品展示会](../../media/06dc157f47e0774c4cccc63f21b08866d281de723e49157d37eef23e759c735b.jpg)](https://coolestprojects2026.coderdojo.jp/)
+
+[Coolest Projects Japan 2026 | 創造力と技術で生み出したプロジェクトを発表・共有できる、子どものための作品展示会](https://coolestprojects2026.coderdojo.jp/)
+
+Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。
 
 soumame
 
@@ -136,7 +140,11 @@ soumame
 
 &#xA;さまざまな人を巻き込んで、初めてやるイベントとは思えないくらいに人が集まっていました。来年はもっと大きくなるのかな。
 
-<https://x.com/cprojectsjapan>
+[![Coolest Projects Japan (3/29 名古屋 那古野キャンパス開催) (@cprojectsjapan) on X](../../media/f97affca6cbc73acdc37c7c2cc5107e53c15b72ec1c11a335bca8cf5eb1992ea.jpg)](https://x.com/cprojectsjapan)
+
+[Coolest Projects Japan (3/29 名古屋 那古野キャンパス開催) (@cprojectsjapan) on X](https://x.com/cprojectsjapan)
+
+https\://t.co/7ksDAn9Sue 若者達が自らの想像力と技術で生み出したプロジェクトを発表•共有するための作品展示会です。世界中で開催されているこのイベントを、2026年日本で初開催しました。 満員御礼！多くのご来場ありがとうございました🌸
 
 Coolest Projects Japanは来年も開催予定とのことなので、X等をフォローして時々ウォッチしておくことをお勧めします！
 

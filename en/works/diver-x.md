@@ -32,7 +32,11 @@ I assist as a part-time worker while attending [[en/works/keio|university]].
 
 ### Products I'm involved with
 
-<https://www.melt-interface.com/melt-mouse>
+[![Melt Mouse - Redefining the creative experience](../../media/61fbca2fef14c2088038e3b4d9d16f758494f9197c9693adfcc1bde1201bd07a.png)](https://www.melt-interface.com/melt-mouse)
+
+[Melt Mouse - Redefining the creative experience](https://www.melt-interface.com/melt-mouse)
+
+Coming soon on Kickstarter — subscribe for early access to a revolutionary interface experience.
 
 I am developing the Melt Mouse under the Melt Interface brand.
 We make a mouse targeted at creators and other users who use computers extensively.

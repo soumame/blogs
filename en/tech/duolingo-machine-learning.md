@@ -29,7 +29,11 @@ As of 2025, applying machine learning to internet services has become so common 
 
 The language-learning app Duolingo (many of you have probably seen it at least once) is a prime example. According to their official blog, they use machine learning in various scenarios.
 
-<https://www.duolingo.com/>
+[![Learn a language for free](../../media/0978ceba0c36f9d9d90d2d6756929a4ca42a433d62c5045a974a62454cda1f40.jpg)](https://www.duolingo.com/)
+
+[Learn a language for free](https://www.duolingo.com/)
+
+Learn languages by playing a game. It's 100% free, fun, and scientifically proven to work.
 
 In this article I’ll introduce how machine learning is used on the language-learning platform Duolingo\[^1] and how it affects the product, referencing several features.
 
@@ -87,7 +91,11 @@ Of course, depending on model accuracy, these systems can occasionally make mist
 
 According to the article, this improvement significantly increased the efficiency of course improvements.
 
-<https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/>
+[![How machine learning helps Duolingo prioritize course improvements](../../media/1dd757f5ebfd770d2af71f061ed1f075e90591c2f7fa991c09b5264fedcff7ae.png)](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
+[How machine learning helps Duolingo prioritize course improvements](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
+We combine technology with real-world feedback to improve our courses. Here's how!
 
 ### 2: Ad optimization
 
@@ -103,7 +111,11 @@ Previously, they ran A/B tests and displayed ads conditionally based on the resu
 
 They now model not only the decision between internal/external ads but also more complex decisions (for example, selecting which internal ad to show).
 
-<https://blog.duolingo.com/machine-learning-ads/>
+[![How machine learning supercharged our revenue by millions of dollars](../../media/74ef8580558e3a02ecb1decce9cab75cbdb28e774c8a81daa6e8d4c5396e8ee9.png)](https://blog.duolingo.com/machine-learning-ads/)
+
+[How machine learning supercharged our revenue by millions of dollars](https://blog.duolingo.com/machine-learning-ads/)
+
+We used a machine learning system to improve our complicated ads surfacing logic. Now we've increased revenue and decreased tech debt.
 
 ### 3: Getting users to open the app
 
@@ -135,7 +147,11 @@ Using data-driven decision-making extensively like Duolingo does introduces vari
 
 ### Risk mitigation: A/B testing
 
-<https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/>
+[![Improving Duolingo, one experiment at a time](../../media/d92d9a3519a76f8d3096bba606f91e240d99f48e04ab85eb9b11fc7e85d60e5e.png)](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
+
+[Improving Duolingo, one experiment at a time](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
+
+We have 100s of A/B tests running across Duolingo. How do we analyze all of the data?
 
 Duolingo runs A/B tests and improves the system based on the results.\[^5] They use an in-house testing tool to roll out new features and experiments to users and analyze the results to improve the system.
 

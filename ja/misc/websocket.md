@@ -25,4 +25,4 @@ seo:
 
 WebSocketについては調べたらいろいろ出てくるけど、要はパソコン間でリアルタイムに通信することができるプロトコル。
 
-<https://ja.wikipedia.org/wiki/WebSocket>
+[WebSocket - Wikipedia](https://ja.wikipedia.org/wiki/WebSocket)

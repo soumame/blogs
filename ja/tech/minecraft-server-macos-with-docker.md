@@ -31,7 +31,11 @@ seo:
 
 いきなり聞いたことない単語出てきましたが、Dockerだと思っておいてください
 
-<https://orbstack.dev>
+[![OrbStack · Fast, light, simple Docker & Linux](../../media/ffe7f868fa4bac0cbdd5c8512f5bed11795466767775e436543fef01f9f7cde9.png)](https://orbstack.dev)
+
+[OrbStack · Fast, light, simple Docker & Linux](https://orbstack.dev)
+
+Say goodbye to slow, clunky containers and VMs. The fast, light, and easy way to run containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
 
 MacOSとかで使える、Docker Desktopの代替だと思ってください。
 
@@ -127,7 +131,11 @@ volumes:
 
 - バックアップを一定間隔でやってくれる。RCON(Remote Console)というマイクラの独自形式の通信？があるので、それを使って勝手にワールドをセーブしたりしてくれる
 
-<https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949>
+[![MinecraftのサーバにRCONで接続する - Qiita](../../media/4b96da55da07538e8d2fe3bce2fd00b6100a0b12086caf1a4f5250b17de5dccd.jpg)](https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949)
+
+[MinecraftのサーバにRCONで接続する - Qiita](https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949)
+
+RCONとは RCONはRemote Consoleの略称 ゲームサーバをリモートで管理するための機能全般を指す用語 Minecraft以外でも、ARK: Survival EvolvedやBattlefield、Call of Duty、Rust等、ユーザ自身がサーバ...
 
 #### itzg/rcon
 

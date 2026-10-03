@@ -30,7 +30,11 @@ seo:
 
 It's been exactly one year since I completed the creator support program "[[ja/accomplishments/mitoujr-2024|Mitou Junior 2024]]."
 
-<https://jr.mitou.org>
+[![未踏ジュニア - 小中高生クリエータ支援プログラム](../../media/c77e38389599292081f58aaad104186e2beb75af7de5bb6a25a6675a41084883.png)](https://jr.mitou.org)
+
+[未踏ジュニア - 小中高生クリエータ支援プログラム](https://jr.mitou.org)
+
+独創的なアイデアを持つ小中高生クリエータに対し、各界で活躍するメンターやその他専門家による指導、また最大50万円の開発資金の援助を行います。
 
 I was just biking home from university and remembered I wanted to write this article but hadn't, so I decided to bike along in the freezing cold, grimacing from the wind, record myself with Google Recorder, transcribe it with an LLM, and write the blog. Needless to say, some passersby gave me a double-take.
 
@@ -46,7 +50,11 @@ However, maybe because of the cold, the raw content I got was a bit disjointed (
 
 During my Mitou Junior period I developed TutoriaLLM, a tool to set up programming learning environments using LLMs.
 
-<https://jr.mitou.org/projects/2024/tutoriallm>
+[![TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア - 未踏ジュニア](../../media/786f1fe344d24232bf2dc94283f6db2477b03f531bddf91ddd6a95ac4261bd3d.webp)](https://jr.mitou.org/projects/2024/tutoriallm)
+
+[TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア - 未踏ジュニア](https://jr.mitou.org/projects/2024/tutoriallm)
+
+TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
 
 I talked a lot about the details during the presentation, so I'll omit them here.
 
@@ -70,7 +78,11 @@ For a moment there was talk of deploying this as an educational platform to teac
 
 Moreover, there was an announcement that software similar to TutoriaLLM was being developed by the Scratch Foundation.
 
-<https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant>
+[![Coming Soon: Your Creative Learning Assistant](../../media/385015e4c3ba1ef55360c2002634fd24e393455e06e001e27e80ff861f6ce91e.png)](https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant)
+
+[Coming Soon: Your Creative Learning Assistant](https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant)
+
+Imagine if every child could design their own creative assistant that reflects how they think, what excites them, and how they want to learn. We’re bringing that vision to life through an AI-powered tool that puts creative control in kids’ hands. Whether they want a debugging assistant, a storytelling partner, or a discovery tool to find peers and projects, young people decide how their assistant helps them create. For nearly two decades, children have been using Scratch to create, connect, and&#x20;
 
 I realized that what I'd built might be globally competitive, but at the same time I was made aware that something that no one had done before was no longer unique.
 
@@ -136,7 +148,11 @@ There were several reasons:
 
 Regarding preferential treatment for Mitou Junior alumni, Ukai-san wrote about this in this year's Advent Calendar, so check that out:
 
-<https://note.com/ukkaripon/n/n16034b59b4f8>
+[![未踏ジュニアと大学進学｜ukkaripon](../../media/fff5f03d826705d4e16d293fcf06c5e4daf6c438d44484a2be80112b74516d68.png)](https://note.com/ukkaripon/n/n16034b59b4f8)
+
+[未踏ジュニアと大学進学｜ukkaripon](https://note.com/ukkaripon/n/n16034b59b4f8)
+
+この記事は未踏ジュニアアドベントカレンダー10日目の記事です。 adventar.org 未踏ジュニア代表の鵜飼です。未踏ジュニアを2016年に立ち上げて、今年がちょうど10年目でした。よく誤解されますが、未踏ジュニアはIPAが行い、未踏ジュニアのメンターが卒業している未踏事業とは異なり、100%民間企業スポンサー様のご支援で成立しているので、10年間も続けることができて本当に感謝しています。もしご支援いただける企業様ありましたら\&nbsp;jr\@mitou.org\&nbsp;までご連絡いただければと思います。 2025年度のスポンサー様 最近、
 
 Meeting the admission requirements was a big factor.
 
@@ -187,7 +203,11 @@ I used to be the kid who groaned when my parents told me to study, but once I st
 > Huh? That's not play? Do more games?
 > ...So I recently took back the Windows PC I'd lent to my family, bought a wheel, and plan to play racing games. So yes, I'm playing games properly (?). If you want to play together, join my Discord server!
 
-<https://discord.gg/vJtKTWKmt5>
+[![Discord - Group Chat That’s All Fun & Games](../../media/fd5daf4cc4569214cd87e650d89285a0aac548020f1d6734eaffa8b0add2160e.png)](https://discord.gg/vJtKTWKmt5)
+
+[Discord - Group Chat That’s All Fun & Games](https://discord.gg/vJtKTWKmt5)
+
+Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
 
 ## Songs I listened to today
 

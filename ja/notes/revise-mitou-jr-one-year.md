@@ -30,7 +30,11 @@ seo:
 
 クリエイター支援プログラム「[[ja/accomplishments/mitoujr-2024|未踏ジュニア2024]]」を修了してから、ちょうど1年が経ちました。
 
-<https://jr.mitou.org>
+[![未踏ジュニア - 小中高生クリエータ支援プログラム](../../media/c77e38389599292081f58aaad104186e2beb75af7de5bb6a25a6675a41084883.png)](https://jr.mitou.org)
+
+[未踏ジュニア - 小中高生クリエータ支援プログラム](https://jr.mitou.org)
+
+独創的なアイデアを持つ小中高生クリエータに対し、各界で活躍するメンターやその他専門家による指導、また最大50万円の開発資金の援助を行います。
 
 さっき大学から自転車を漕ぎながら家に向かっていて、記事を書こうと思っていたのに書いていないことを思い出しました。なので、外のクソ寒い風で顔を引きつらせ、自転車をこぎながらGoogle Recorderで録音\&LLMで書き起こして、ブログを書くことにしました。すれ違った人が私のことを二度見していたのは言うまでもありません。
 
@@ -46,7 +50,11 @@ seo:
 
 未踏ジュニア期間中では、LLMを用いたプログラミング学習環境構築ソフト、TutoriaLLMを開発していました。
 
-<https://jr.mitou.org/projects/2024/tutoriallm>
+[![TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア - 未踏ジュニア](../../media/786f1fe344d24232bf2dc94283f6db2477b03f531bddf91ddd6a95ac4261bd3d.webp)](https://jr.mitou.org/projects/2024/tutoriallm)
+
+[TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア - 未踏ジュニア](https://jr.mitou.org/projects/2024/tutoriallm)
+
+TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
 
 詳しいことは発表の時とかにたくさん喋っているので、ここでは割愛します。
 
@@ -70,7 +78,11 @@ seo:
 
 さらに、TutoriaLLMと似たソフトウェアが、Scratch財団で開発されているというアナウンスも出てきました。
 
-<https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant>
+[![Coming Soon: Your Creative Learning Assistant](../../media/385015e4c3ba1ef55360c2002634fd24e393455e06e001e27e80ff861f6ce91e.png)](https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant)
+
+[Coming Soon: Your Creative Learning Assistant](https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant)
+
+Imagine if every child could design their own creative assistant that reflects how they think, what excites them, and how they want to learn. We’re bringing that vision to life through an AI-powered tool that puts creative control in kids’ hands. Whether they want a debugging assistant, a storytelling partner, or a discovery tool to find peers and projects, young people decide how their assistant helps them create. For nearly two decades, children have been using Scratch to create, connect, and&#x20;
 
 自分の作ってきたものは世界に通用するものなのかもしれない、と思ったのと同時に、それまでは誰もやったことがなかったかもしれないけど、そうでなくなったというのを認識させられました。
 
@@ -140,7 +152,11 @@ Blockly Summitは、当時GoogleのCS教育部門が開発していた（今年2
 
 未踏ジュニアが優遇されている件については鵜飼さんが今年のアドベントカレンダーにちょうど書いているので、そちらをどうぞ。
 
-<https://note.com/ukkaripon/n/n16034b59b4f8>
+[![未踏ジュニアと大学進学｜ukkaripon](../../media/fff5f03d826705d4e16d293fcf06c5e4daf6c438d44484a2be80112b74516d68.png)](https://note.com/ukkaripon/n/n16034b59b4f8)
+
+[未踏ジュニアと大学進学｜ukkaripon](https://note.com/ukkaripon/n/n16034b59b4f8)
+
+この記事は未踏ジュニアアドベントカレンダー10日目の記事です。 adventar.org 未踏ジュニア代表の鵜飼です。未踏ジュニアを2016年に立ち上げて、今年がちょうど10年目でした。よく誤解されますが、未踏ジュニアはIPAが行い、未踏ジュニアのメンターが卒業している未踏事業とは異なり、100%民間企業スポンサー様のご支援で成立しているので、10年間も続けることができて本当に感謝しています。もしご支援いただける企業様ありましたら\&nbsp;jr\@mitou.org\&nbsp;までご連絡いただければと思います。 2025年度のスポンサー様 最近、
 
 まあ、入学要件を満たしているというのは大きいです。
 
@@ -191,7 +207,11 @@ Blockly Summitは、当時GoogleのCS教育部門が開発していた（今年2
 > え？そんなの遊びじゃない？もっとゲームとかやれよって？
 > ...そう思ったので最近家族に貸していたWindows PCを取り返して、ハンコン買って、レーシングゲームとかで遊ぼうと思っています。なので、ちゃんとゲームもやっています（？）一緒に遊びたい人、ぜひ[Discord](https://discord.gg/vJtKTWKmt5)サーバーに参加してね！
 
-<https://discord.gg/vJtKTWKmt5>
+[![Discord - Group Chat That’s All Fun & Games](../../media/fd5daf4cc4569214cd87e650d89285a0aac548020f1d6734eaffa8b0add2160e.png)](https://discord.gg/vJtKTWKmt5)
+
+[Discord - Group Chat That’s All Fun & Games](https://discord.gg/vJtKTWKmt5)
+
+Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
 
 ## 今日聞いた曲
 

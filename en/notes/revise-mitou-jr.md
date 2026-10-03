@@ -31,7 +31,11 @@ Long time no see — I'm Soumame (<https://tokumaru.work/ja>). I attended an Aus
 
 Today I want to casually review the Mitou Junior creator support program I finished in November — from how I got started to how it went. If you don't know about Mitou Junior, please check the website.
 
-<https://jr.mitou.org/>
+[![未踏ジュニア - 小中高生クリエータ支援プログラム](../../media/c77e38389599292081f58aaad104186e2beb75af7de5bb6a25a6675a41084883.png)](https://jr.mitou.org/)
+
+[未踏ジュニア - 小中高生クリエータ支援プログラム](https://jr.mitou.org/)
+
+独創的なアイデアを持つ小中高生クリエータに対し、各界で活躍するメンターやその他専門家による指導、また最大50万円の開発資金の援助を行います。
 
 ## It started with watching the Mitou Junior results presentation
 
@@ -117,7 +121,9 @@ The software I presented, called **"TutoriaLLM"**, is a self-hosted application 
 
 I'm developing it with help from many people around the world, so I plan to keep working on it at least until those people abandon me. The software is open source, but I'm also considering commercial use, and I hope to deploy the app in real-world, profit-generating settings in the future.
 
-<https://tutoriallm.com/>
+[TutoriaLLMへようこそ](https://tutoriallm.com/)
+
+Scratchのようなブロックプログラミングのチュートリアルを簡単に作成し、AIを利用して提供することができるセルフホスト型のソフトウェアです。
 
 ## Closing thoughts
 
