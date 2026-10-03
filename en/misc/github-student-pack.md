@@ -1,15 +1,27 @@
 ---
+title: GitHub Student Pack
 emoji: ⚒️
-isDraft: true
-isTranslated: true
-published_at: 2025-10-05T00:00:00.000Z
-sourceHash: a6b68f057624936265d3e1d5c023ce59d34c383ad7aec8f8c43fbefb3be976f4
-sourcePath: ja/misc/github-student-pack.md
+locale: en
+slug: github-student-pack
+category: misc
 tags:
   - coding
-  - team-dev
   - dev
-title: GitHub Student Pack
+  - team-dev
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: What is the GitHub Student Pack? The GitHub Student Pack is the name of a package in which GitHub offers students paid software, free server credits, GitHub Pro
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSY203YPHCFP9Z11MYWP
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # What is the GitHub Student Pack?

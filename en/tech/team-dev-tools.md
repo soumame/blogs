@@ -1,14 +1,26 @@
 ---
-description: When starting team development, it's often difficult to decide how to work together. This article summarizes tools that may be useful in such cases.
+title: Introduction to Useful Tools for Team Development
 emoji: ⚒️
-isTranslated: true
-published_at: 2025-10-05T00:00:00.000Z
-sourceHash: b82ff1cab454408b21a055303e299516fabbdc6129bd446602e472186276a32b
-sourcePath: ja/tech/team-dev-tools.md
+locale: en
+slug: team-dev-tools
+category: tech
 tags:
   - coding
   - team-dev
-title: Introduction to Useful Tools for Team Development
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: When starting team development, it's often difficult to decide how to work together. This article summarizes tools that may be useful in such cases.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVS8870R2Q4J8066NWZC
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## Tools That May Be Useful for Team Development

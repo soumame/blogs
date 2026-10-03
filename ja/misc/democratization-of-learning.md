@@ -1,14 +1,28 @@
 ---
-description: 本を買って学ぶ時代からAIに聞く時代へ。便利さの裏で、知識を生み出す人への還元が途絶えることによる「知の停滞」について考えます。
+title: AIによる学習の民主化と、知識生産者が直面する「対価」のジレンマ
 emoji: 📉
-isTranslated: false
-published_at: 2025-12-12
+locale: ja
+slug: democratization-of-learning
+category: misc
 tags:
   - ai-generated
-  - essay
   - dev
+  - essay
   - llm
-title: AIによる学習の民主化と、知識生産者が直面する「対価」のジレンマ
+published_at: 2025-12-12T00:00:00.000Z
+updated_at: 2025-12-12T00:00:00.000Z
+description: 本を買って学ぶ時代からAIに聞く時代へ。便利さの裏で、知識を生み出す人への還元が途絶えることによる「知の停滞」について考えます。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 昔は何かを学ぼうと思ったら、参考書を買ったり、本屋に行ったり、大学の図書館で資料を漁ったりしていましたよね。そうやってお金や時間を投資して、初めて知識を得ることができていました。

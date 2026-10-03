@@ -1,15 +1,27 @@
 ---
-description: For those of you who have registered a GitHub account but don't use it because you're not a developer, here's a brief guide on how to use it.
+title: Let's Develop as a Team on GitHub
 emoji: 💻
-isTranslated: true
-published_at: 2025-10-06T00:00:00.000Z
-sourceHash: ca5e5315b14f203838664e0c0005f8957d6d0ce1f1c9e970037b77d4e0348df1
-sourcePath: ja/tech/github-team-dev.md
+locale: en
+slug: github-team-dev
+category: tech
 tags:
   - coding
   - dev
   - team-dev
-title: Let's Develop as a Team on GitHub
+published_at: 2025-10-06T00:00:00.000Z
+updated_at: 2025-10-06T00:00:00.000Z
+description: For those of you who have registered a GitHub account but don't use it because you're not a developer, here's a brief guide on how to use it.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV9XX3SWC44YBJQBR9C5
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > This is aimed at participants of the [[en/accomplishments/tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]], hosted by the U.S.-Japan Council—Japan (a public interest incorporated foundation) and organized by Code for Japan, but external visitors are also welcome to read it

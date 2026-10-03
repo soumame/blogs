@@ -1,13 +1,27 @@
 ---
-description: 19歳の誕生日を迎えた、未踏ジュニア2024スーパークリエータの得丸創生です。未踏ジュニア修了後、あんまりネットとかを見ると音沙汰がないようにも見えるので、公開できる範囲で近況の報告をしようと思います。
-emoji: ▲
-isTranslated: null
-published_at: 2025-12-15
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - dev
 title: 誕生日なので、未踏ジュニア修了からの経過を振り返る
+emoji: ▲
+locale: ja
+slug: revise-mitou-jr-one-year
+category: notes
+tags:
+  - dev
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2025-12-15T00:00:00.000Z
+updated_at: 2025-12-15T00:00:00.000Z
+description: 19歳の誕生日を迎えた、未踏ジュニア2024スーパークリエータの得丸創生です。未踏ジュニア修了後、あんまりネットとかを見ると音沙汰がないようにも見えるので、公開できる範囲で近況の報告をしようと思います。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > この記事は、[[ja/notes/revise-mitou-jr|未踏ジュニアの振り返り]]を参考に書いた続きの話です。アドベントカレンダー記事としても書いています。

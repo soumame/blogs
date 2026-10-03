@@ -1,13 +1,25 @@
 ---
-description: A record of the time my budgie escaped.
+title: My Budgie Escaped!
 emoji: 🦜
-isTranslated: true
-published_at: 2025-10-14T00:00:00.000Z
-sourceHash: ec84ddb2912837a6ffe696546cf8e1d837b38b5c7dc91fd8876d30b41784f32c
-sourcePath: ja/notes/budgie-fly-away.md
+locale: en
+slug: budgie-fly-away
+category: notes
 tags:
   - essay
-title: My Budgie Escaped!
+published_at: 2025-10-14T00:00:00.000Z
+updated_at: 2025-10-14T00:00:00.000Z
+description: A record of the time my budgie escaped.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTKGSTCF8R8B24M7PEJC
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## Woken by My Mother's Voice

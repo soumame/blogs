@@ -1,13 +1,25 @@
 ---
-description: 今週末は風邪を引いたので家で寝込んでたんだけど、その日の朝にマジで変な夢を見た。インフルエンザ墓斎とか、たまにあるよね。
+title: ガチで具合悪い時の夢
 emoji: 🧠
-isDraft: false
-isTranslated: false
-noindex: true
-published_at: 2026-06-01
+locale: ja
+slug: dreaming-when-i-sick
+category: misc
 tags:
   - essay
-title: ガチで具合悪い時の夢
+published_at: 2026-06-01T00:00:00.000Z
+updated_at: 2026-06-01T00:00:00.000Z
+description: 今週末は風邪を引いたので家で寝込んでたんだけど、その日の朝にマジで変な夢を見た。インフルエンザ墓斎とか、たまにあるよね。
+isDraft: false
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
 ---
 
 夢から覚めた瞬間、まだ記憶があって、寝ぼけながらも覚えていることをボイスメモで記録として作成していたらしい。あとで見返したら謎文章すぎて気持ち悪いなあと思いつつも、普段の自分ではかけないような内容だったのでここに書き記しておく。

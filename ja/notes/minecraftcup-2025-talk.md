@@ -1,13 +1,25 @@
 ---
-description: 今の私を形作った要素の一部である、マイクラカップで登壇させていただきました。色々と話し損ねたこともあるので、そういったことも含めてブログとして紹介します。
+title: 第7回Minecraftカップ(2025)で登壇しました
 emoji: 🧱
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-02-20
+locale: ja
+slug: minecraftcup-2025-talk
+category: notes
 tags:
   - talks
-title: 第7回Minecraftカップ(2025)で登壇しました
+published_at: 2026-02-20T00:00:00.000Z
+updated_at: 2026-02-20T00:00:00.000Z
+description: 今の私を形作った要素の一部である、マイクラカップで登壇させていただきました。色々と話し損ねたこともあるので、そういったことも含めてブログとして紹介します。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## マイクラカップでトークセッションに出ました

@@ -1,12 +1,25 @@
 ---
+title: Looking Back Only at My Failures in 2023!
 emoji: 🤖
-isTranslated: true
-published_at: 2024-01-02T00:00:00.000Z
-sourceHash: 91fc74bbfa8afce9c7e9f3e71e98857865fe4fc8e71c2d771f91aa6ca51d6423
-sourcePath: ja/notes/2023-fails.md
+locale: en
+slug: 2023-fails
+category: notes
 tags:
   - essay
-title: Looking Back Only at My Failures in 2023!
+published_at: 2024-01-02T00:00:00.000Z
+updated_at: 2024-01-02T00:00:00.000Z
+description: Looking Back Only at My Failures in 2023! For those thinking “This is just your opinion, right?” — yes, that's right. This post is mainly about personal experie
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTCAJT6KQXYRH4MQ64AN
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Looking Back Only at My Failures in 2023!

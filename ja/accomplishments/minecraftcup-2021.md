@@ -1,13 +1,27 @@
 ---
-description: 友人数人とともにマインクラフトの技術力や考える力などを競うコンペティションで、ファイナリスト＆インプレス子供とIT賞を受賞しました。
+title: Minecraftカップ2021
 emoji: 🏆
-isDraft: true
-published_at: 2022-01-30
+locale: ja
+slug: minecraftcup-2021
+category: accomplishments
 tags:
+  - awards
   - Minecraft
   - teamwork
-  - awards
-title: Minecraftカップ2021
+published_at: 2022-01-30T00:00:00.000Z
+updated_at: 2022-01-30T00:00:00.000Z
+description: 友人数人とともにマインクラフトの技術力や考える力などを競うコンペティションで、ファイナリスト＆インプレス子供とIT賞を受賞しました。
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 [[ja/misc/minecraftcup|Minecraftカップ]]は、小学生から高校生以下の子どもたちを対象に、教育版マインクラフト（Minecraft Education）を使ってテーマに沿った作品を作り、全国・海外から応募して競い合う日本で開催しているデジタルものづくりコンテストです。

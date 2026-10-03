@@ -1,12 +1,27 @@
 ---
-description: GitHub、アカウント登録はしたけど開発者じゃないから使わないというそこのあなたのために、さっと使い方を説明した記事を書きました。
+title: GitHubでチーム開発してみよう
 emoji: 💻
-published_at: 2025-10-06
+locale: ja
+slug: github-team-dev
+category: tech
 tags:
   - coding
   - dev
   - team-dev
-title: GitHubでチーム開発してみよう
+published_at: 2025-10-06T00:00:00.000Z
+updated_at: 2025-10-06T00:00:00.000Z
+description: GitHub、アカウント登録はしたけど開発者じゃないから使わないというそこのあなたのために、さっと使い方を説明した記事を書きました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > 公益財団法⼈⽶⽇カウンシルージャパンが主催し、一般社団法人コード・フォー・ジャパンが運営する [[ja/accomplishments/tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]] に参加している方に向けた内容となっていますが、外部の方もご覧いただけます

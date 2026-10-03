@@ -1,13 +1,26 @@
 ---
-description: 未踏ジュニアでお馴染みの鵜飼さんが持っていたinmo XRというAndroidが入っているXRグラスを貸してもらってちょっとしたハッカソンをしたのですが、使い道に悩んだ挙句、AIで作ったAIと楽しむ料理アシスタントを作りました。そこでXRグラスを使用してAIと料理することを試みたので、紹介します。
-emoji: 🍳
-isDraft: true
-isTranslated: null
-published_at: 2026-01-12
-tags:
-  - dev
-  - application-development
 title: XRの使い道は、HUDのように使うことなのかもしれない - AIとお料理をしよう
+emoji: 🍳
+locale: ja
+slug: cooking-with-ai
+category: tech
+tags:
+  - application-development
+  - dev
+published_at: 2026-01-12T00:00:00.000Z
+updated_at: 2026-01-12T00:00:00.000Z
+description: 未踏ジュニアでお馴染みの鵜飼さんが持っていたinmo XRというAndroidが入っているXRグラスを貸してもらってちょっとしたハッカソンをしたのですが、使い道に悩んだ挙句、AIで作ったAIと楽しむ料理アシスタントを作りました。そこでXRグラスを使用してAIと料理することを試みたので、紹介します。
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は深圳で買ってきた<a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a> のAndroidが動く眼鏡 Inmo Air 3 向けに Google Slideのスピーカーノートをかっこよく表示できるテレプロンプターアプリを作った。面白いしすぐに実用できそう。（実際は ARグラスで空中に浮いていてくそかっこいいんだけどこれを見せる方法がないのがつらい） <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

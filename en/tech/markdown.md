@@ -1,12 +1,25 @@
 ---
+title: Markdown Syntax Cheat Sheet (Super Simple)
 emoji: ✒️
-isTranslated: true
-published_at: 2025-10-05T00:00:00.000Z
-sourceHash: a96cbe01a79cb877a6f423bd1217a8309bb059c54609349e3bfd00cd3dd8987d
-sourcePath: ja/tech/markdown.md
+locale: en
+slug: markdown
+category: tech
 tags:
   - dev
-title: Markdown Syntax Cheat Sheet (Super Simple)
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: If you've used Google Docs or Word,&#x20; Image from Gyazo &#x20;you can select bold, italic, headings and so on like this. However, when using editors for writ
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KMQDJN1N9X7X83HJA3C0
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 If you've used Google Docs or Word,&#x20;

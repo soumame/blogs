@@ -1,14 +1,26 @@
 ---
-description: The World Wide Web (WWW) came up in class, so I took notes and decided to publish them on the web.
-emoji: 🌐
-isTranslated: true
-published_at: 2025-10-30T00:00:00.000Z
-sourceHash: e5c35623b21ece7e119f7c09b59bfe3e92f777231268bed26baafbdd4d048d20
-sourcePath: ja/misc/world-wide-web.md
-tags:
-  - web
-  - template
 title: WWW Notes
+emoji: 🌐
+locale: en
+slug: world-wide-web
+category: misc
+tags:
+  - template
+  - web
+published_at: 2025-10-30T00:00:00.000Z
+updated_at: 2025-10-30T00:00:00.000Z
+description: The World Wide Web (WWW) came up in class, so I took notes and decided to publish them on the web.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KME78YT9AJEJAN7FCFVR
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <https://ja.wikipedia.org/wiki/World_Wide_Web>

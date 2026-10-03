@@ -1,11 +1,26 @@
 ---
-description: World Wide Web(WWW)が授業で出てきたのでノートを取った、そしてそれをせっかくなのでWebに公開しとく
-emoji: 🌐
-published_at: 2025-10-30
-tags:
-  - web
-  - template
 title: WWWまとめ
+emoji: 🌐
+locale: ja
+slug: world-wide-web
+category: misc
+tags:
+  - template
+  - web
+published_at: 2025-10-30T00:00:00.000Z
+updated_at: 2025-10-30T00:00:00.000Z
+description: World Wide Web(WWW)が授業で出てきたのでノートを取った、そしてそれをせっかくなのでWebに公開しとく
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <https://ja.wikipedia.org/wiki/World_Wide_Web>

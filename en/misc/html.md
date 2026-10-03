@@ -1,13 +1,26 @@
 ---
-emoji: 🗒️
-isTranslated: true
-published_at: 2025-10-05T00:00:00.000Z
-sourceHash: 151851366122cf1bfa1408554ede84339863c2025adbc9b9f5ecc916ac1d0e2e
-sourcePath: ja/misc/html.md
-tags:
-  - dev
-  - coding
 title: What is HTML
+emoji: 🗒️
+locale: en
+slug: html
+category: misc
+tags:
+  - coding
+  - dev
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: The role of HTML HTML stands for HyperText Markup Language, and is a language for describing hypertext. Hypertext is a text file that has a mechanism for linkin
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KKRCQDZDY04WH9JZMY7G
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## The role of HTML

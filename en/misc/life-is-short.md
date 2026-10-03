@@ -1,14 +1,25 @@
 ---
-description: When I think about it, I'm 20 years old this year — how many more years will I live?
+title: Life Is Short
 emoji: 🎇
-isDraft: true
-isTranslated: true
-published_at: 2026-04-28T00:00:00.000Z
-sourceHash: 424566bef568b306038238cc3275a3de94eb49784db9016250b91bc2f3c27085
-sourcePath: ja/misc/life-is-short.md
+locale: en
+slug: life-is-short
+category: misc
 tags:
   - essay
-title: Life Is Short
+published_at: 2026-04-28T00:00:00.000Z
+updated_at: 2026-04-28T00:00:00.000Z
+description: When I think about it, I'm 20 years old this year — how many more years will I live?
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXT1ZE37AVQ9DTQ9MH3A6
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 20 years is 7,300 days.

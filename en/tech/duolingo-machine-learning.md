@@ -1,14 +1,26 @@
 ---
-description: I've heard that the language-learning app Duolingo uses machine learning everywhere — where exactly is it used? I looked into it.
+title: How much machine learning does Duolingo use?
 emoji: 🦉
-isTranslated: true
-published_at: 2025-12-02T00:00:00.000Z
-sourceHash: d293b553c2a511e31b0414248c24b0a9ff4ef2cf922eaa3d19b2709a7ea4fca9
-sourcePath: ja/tech/duolingo-machine-learning.md
+locale: en
+slug: duolingo-machine-learning
+category: tech
 tags:
   - dev
   - llm
-title: How much machine learning does Duolingo use?
+published_at: 2025-12-02T00:00:00.000Z
+updated_at: 2025-12-02T00:00:00.000Z
+description: I've heard that the language-learning app Duolingo uses machine learning everywhere — where exactly is it used? I looked into it.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV834C1X73A0S6E8N0DT
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > I wrote this blog post to deepen my own understanding of machine learning and share that knowledge with others. I'm not a machine learning expert, so I may be mistaken. This article is also published on my website ( <https://tokumaru.work/ja> )

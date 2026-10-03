@@ -1,10 +1,25 @@
 ---
-description: インコが逃げた話を書き残しておく
+title: インコが逃げた！
 emoji: 🦜
-published_at: 2025-10-14
+locale: ja
+slug: budgie-fly-away
+category: notes
 tags:
   - essay
-title: インコが逃げた！
+published_at: 2025-10-14T00:00:00.000Z
+updated_at: 2025-10-14T00:00:00.000Z
+description: インコが逃げた話を書き残しておく
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## 母親の声で目が覚める

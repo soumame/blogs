@@ -1,12 +1,25 @@
 ---
+title: What's VCE — the curriculum offered in Victoria, Australia?
 emoji: 🤖
-isTranslated: true
-published_at: 2023-12-28T00:00:00.000Z
-sourceHash: 3f521d9a69733ea6bba74dfdb6e2ca431a8eedc42398180b3a2ccffab4c0fb04
-sourcePath: ja/notes/australian-vce.md
+locale: en
+slug: australian-vce
+category: notes
 tags:
   - educaiton
-title: What's VCE — the curriculum offered in Victoria, Australia?
+published_at: 2023-12-28T00:00:00.000Z
+updated_at: 2023-12-28T00:00:00.000Z
+description: What's VCE — the curriculum offered in Victoria, Australia? I'm a high school student currently in Year 11, and I've been attending Peninsula International Scho
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTJ7FPJGFZBXRGPWWXAW
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # What's VCE — the curriculum offered in Victoria, Australia?

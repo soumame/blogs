@@ -1,11 +1,25 @@
 ---
-description: LLMとか、画像生成とか、進歩が早すぎてついていくのが面倒くさくなってきた。
+title: 最近のAIの進歩に追いつけない話
 emoji: 🤖
-isTranslated: null
-published_at: 2025-11-21
+locale: ja
+slug: recent-ai-trends
+category: misc
 tags:
   - llm
-title: 最近のAIの進歩に追いつけない話
+published_at: 2025-11-21T00:00:00.000Z
+updated_at: 2025-11-21T00:00:00.000Z
+description: LLMとか、画像生成とか、進歩が早すぎてついていくのが面倒くさくなってきた。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <https://x.com/So_to9/status/1991706450314588168?t=Pz2gJjKcwiJjQELOgcqCrQ&s=19>

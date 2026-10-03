@@ -1,11 +1,26 @@
 ---
-description: インターネット上で活動する小学生から高校生までのメンバーで構成されたチーム逸般人が制作したワールドが、日本で開催されたマインクラフトカップ地区大会にて受賞しました。
+title: Minecraftカップ2023
 emoji: 🏆
-published_at: 2023-12-07
+locale: ja
+slug: minecraftcup-2023
+category: accomplishments
 tags:
   - Minecraft
   - teamwork
-title: Minecraftカップ2023
+published_at: 2023-12-07T00:00:00.000Z
+updated_at: 2023-12-07T00:00:00.000Z
+description: インターネット上で活動する小学生から高校生までのメンバーで構成されたチーム逸般人が制作したワールドが、日本で開催されたマインクラフトカップ地区大会にて受賞しました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 インターネット上で活動する小学生から高校生までのメンバーで構成されたチーム逸般人が制作したワールドが、日本で開催されたマインクラフトカップ地区大会にて奨励賞を受賞しました。

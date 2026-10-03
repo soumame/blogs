@@ -1,10 +1,26 @@
 ---
-emoji: 🤖
-published_at: 2024-12-26
-tags:
-  - TutoriaLLM
-  - mitou-junior
 title: 未踏ジュニアの振り返り
+emoji: 🤖
+locale: ja
+slug: revise-mitou-jr
+category: notes
+tags:
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-12-26T00:00:00.000Z
+updated_at: 2024-12-26T00:00:00.000Z
+description: 未踏ジュニアの振り返り この記事は, 未踏ジュニアアドベントカレンダーの記事です。 お久しぶりです、そうまめ(https://tokumaru.work/ja)です。マレーシアにあるオーストラリアのインターナショナルスクールに通っていたのですが、11月末に卒業しました。 2024年もあとわずかで終わりということもあり、
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 未踏ジュニアの振り返り

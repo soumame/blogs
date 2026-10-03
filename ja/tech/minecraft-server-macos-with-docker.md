@@ -1,12 +1,26 @@
 ---
-description: マイクラサーバーの運用はもはや基礎的な教養となったらしいので、作り方をメモしておきます。（ソース：俺）いつかしっかりと記事を書きたいけど、とりあえず雑に書いておく
+title: マイクラサーバーをmacOS+Dockerでサクッと立てる
 emoji: 🐳
-isTranslated: null
-published_at: 2025-11-28
+locale: ja
+slug: minecraft-server-macos-with-docker
+category: tech
 tags:
   - dev
   - Minecraft
-title: マイクラサーバーをmacOS+Dockerでサクッと立てる
+published_at: 2025-11-28T00:00:00.000Z
+updated_at: 2025-11-28T00:00:00.000Z
+description: マイクラサーバーの運用はもはや基礎的な教養となったらしいので、作り方をメモしておきます。（ソース：俺）いつかしっかりと記事を書きたいけど、とりあえず雑に書いておく
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## マイクラサーバー建てるのめんどい

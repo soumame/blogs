@@ -1,11 +1,25 @@
 ---
-description: MIT(Melt Interface Technologies)でソフトウェア開発に従事しています
+title: Melt Interface Technologies
 emoji: 💼
-isDraft: false
-published_at: 2026-07-01
+locale: ja
+slug: melt-interface-technologies
+category: works
 tags:
   - Work
-title: Melt Interface Technologies
+published_at: 2026-07-01T00:00:00.000Z
+updated_at: 2026-07-01T00:00:00.000Z
+description: MIT(Melt Interface Technologies)でソフトウェア開発に従事しています
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > [[ja/works/diver-x|Diver-X]]が社名変更してMelt Interface Technologiesになりました

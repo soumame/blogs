@@ -1,14 +1,26 @@
 ---
-description: 一周まわって紙のすごさを知ったのでメモを電磁的に記録しておく。
-emoji: 📝
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-09-19
-tags:
-  - essay
-  - dev
 title: ハードウェアとしての紙
+emoji: 📝
+locale: ja
+slug: paper-as-hardware
+category: tech
+tags:
+  - dev
+  - essay
+published_at: 2026-09-19T00:00:00.000Z
+updated_at: 2026-09-19T00:00:00.000Z
+description: 一周まわって紙のすごさを知ったのでメモを電磁的に記録しておく。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 最近、自分の思考とか自分が考えたことをどうやって記録していこうかっていうのをすごい悩んでいるんだよね。

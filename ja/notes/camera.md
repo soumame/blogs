@@ -1,14 +1,26 @@
 ---
-description: １年周期くらいでやってくるカメラ欲しい欲に負けて買ってしまう話
+title: カメラっていいよね
 emoji: 📷️
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-06-25
+locale: ja
+slug: camera
+category: notes
 tags:
   - essay
   - wishlist
-title: カメラっていいよね
+published_at: 2026-06-25T00:00:00.000Z
+updated_at: 2026-06-25T00:00:00.000Z
+description: １年周期くらいでやってくるカメラ欲しい欲に負けて買ってしまう話
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 以前[[ja/misc/wishlist-2025-12|欲しいものが買えない]]とか言っていたんだけど、[[ja/works/diver-x|アルバイト]]を始めて、自分のやりたいことをやらせてもらいながら、ぼちぼちお金が貯まってきた。

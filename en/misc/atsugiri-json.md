@@ -1,14 +1,25 @@
 ---
-description: "\"Why JSON format!?!?\" \"Why can't you write comments!? Didn't they say it's a format for humans to read!? They force us to use it as a config file but won't let us leave notes—what kind of cruelty is that!? Have you ever thought about how it feels for engineers who have to create a dummy key like `\"comment1\": \"ここは本番のURL\"`?\""
+title: Thick-Cut JSON
 emoji: 🔤
-isDraft: false
-isTranslated: true
-published_at: 2026-07-22T00:00:00.000Z
-sourceHash: 133fc8154dc72401f9571ed29b6fd7a93cfcd90c83b87a51efa39f946ccd1a84
-sourcePath: ja/misc/atsugiri-json.md
+locale: en
+slug: atsugiri-json
+category: misc
 tags:
   - ai-generated
-title: Thick-Cut JSON
+published_at: 2026-07-22T00:00:00.000Z
+updated_at: 2026-07-22T00:00:00.000Z
+description: "\"Why JSON format!?!?\" \"Why can't you write comments!? Didn't they say it's a format for humans to read!? They force us to use it as a config file but won't let us leave notes—what kind of cruelty is that!? Have you ever thought about how it feels for engineers who have to create a dummy key like `\"comment1\": \"ここは本番のURL\"`?\""
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M4092S1K48JZ1C2GYEQQ12J2
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 soumame

@@ -1,9 +1,25 @@
 ---
+title: 2023年の失敗だけを振り返る！
 emoji: 🤖
-published_at: 2024-01-02
+locale: ja
+slug: 2023-fails
+category: notes
 tags:
   - essay
-title: 2023年の失敗だけを振り返る！
+published_at: 2024-01-02T00:00:00.000Z
+updated_at: 2024-01-02T00:00:00.000Z
+description: 2023年の失敗だけを振り返る！ これってあなたの感想ですよね？という方へ。その通りです。この投稿には個人的な体験や感想を中心に書かれています。また、文章を簡潔にするため、具体的な説明を省いている箇所があります。気になるところがある方はご自分で一度調べたうえ、DMなどで私に聞いていただけると幸いです。 いや～、いよいよ
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 2023年の失敗だけを振り返る！

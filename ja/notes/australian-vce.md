@@ -1,9 +1,25 @@
 ---
+title: オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？
 emoji: 🤖
-published_at: 2023-12-28
+locale: ja
+slug: australian-vce
+category: notes
 tags:
   - educaiton
-title: オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？
+published_at: 2023-12-28T00:00:00.000Z
+updated_at: 2023-12-28T00:00:00.000Z
+description: オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？ 私は中学1年生からマレーシアにあるPeninsula International School Australiaに通っている現在Year11の高校生なのですが、そこで学習しているオーストラリア、ビクトリア州のカリキュラム「VCE」について
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # オーストラリア・ビクトリア州で提供されているカリキュラム、VCEとはな〜んだ？

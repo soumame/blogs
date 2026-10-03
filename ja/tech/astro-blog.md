@@ -1,10 +1,26 @@
 ---
-emoji: 🤖
-published_at: 2024-05-12
-tags:
-  - web
-  - dev
 title: HTMLさえわかればできる！Astroでブログサイトを作ってみよう！
+emoji: 🤖
+locale: ja
+slug: astro-blog
+category: tech
+tags:
+  - dev
+  - web
+published_at: 2024-05-12T00:00:00.000Z
+updated_at: 2024-05-12T00:00:00.000Z
+description: HTML さえわかればできる！Astro でブログサイトを作ってみよう！ Image from Gyazo なんかブログサイト作りたい、っていうときありますよね。 ある程度の規模のサイトなら、わざわざ Wordpress などを使わなくても自分好みのウェブサイトがすぐに作れる時代となりました。今回は、今流行りのフレーム
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # HTML さえわかればできる！Astro でブログサイトを作ってみよう！

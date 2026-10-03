@@ -1,9 +1,25 @@
 ---
+title: 【ATO2】序盤で最も重要な都市リスト(更新中）
 emoji: 🤖
-published_at: 2021-09-10
+locale: ja
+slug: ato2-big-city-list
+category: notes
 tags:
   - game
-title: 【ATO2】序盤で最も重要な都市リスト(更新中）
+published_at: 2021-09-10T00:00:00.000Z
+updated_at: 2021-09-10T00:00:00.000Z
+description: 【ATO2】序盤で最も重要な都市リスト(更新中） 序盤で押さえておくべき街リストを作りました。良ければ見ていってください。アジア、中東、ヨーロッパ、南北アメリカ、アフリカ、オーストラリアの6つに分類し、その都市の経済規模（ビジネスと観光のレベルを足した合計）などを書いておきます。一応押さえておくべき順（競合が少なく戦い
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【ATO2】序盤で最も重要な都市リスト(更新中）

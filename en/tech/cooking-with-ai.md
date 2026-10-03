@@ -1,15 +1,26 @@
 ---
-description: I borrowed an inmo XR — Android-powered XR glasses — from Ukai, familiar from Mitou Junior, and did a little hackathon. After struggling with what to use it for, I built a cooking assistant to enjoy with an AI. I tried using the XR glasses to cook with AI, so I'll introduce that here.
-emoji: 🍳
-isDraft: true
-isTranslated: true
-published_at: 2026-01-12T00:00:00.000Z
-sourceHash: 0f82af75953f6a92b59d96a44ab58b72e53c6e15277b036aa38839e8e8ac24d8
-sourcePath: ja/tech/cooking-with-ai.md
-tags:
-  - dev
-  - application-development
 title: XR's Use Might Be as a HUD - Let's Cook with AI
+emoji: 🍳
+locale: en
+slug: cooking-with-ai
+category: tech
+tags:
+  - application-development
+  - dev
+published_at: 2026-01-12T00:00:00.000Z
+updated_at: 2026-01-12T00:00:00.000Z
+description: I borrowed an inmo XR — Android-powered XR glasses — from Ukai, familiar from Mitou Junior, and did a little hackathon. After struggling with what to use it for, I built a cooking assistant to enjoy with an AI. I tried using the XR glasses to cook with AI, so I'll introduce that here.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV5K6XTJS2FRBK50ZV2C
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I built a teleprompter app that can stylishly display Google Slides speaker notes for the Inmo Air 3 — Android-powered glasses I bought in Shenzhen from <a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a>. It's fun and seems immediately practical. (In reality it's floating in mid-air with AR glasses and looks freaking cool, but it's painful that there's no way to show this) <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

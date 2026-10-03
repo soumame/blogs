@@ -1,12 +1,25 @@
 ---
+title: Air Tycoon Online 2 — Hardcore Credit Farming Playbook
 emoji: 🤖
-isTranslated: true
-published_at: 2021-12-05T00:00:00.000Z
-sourceHash: 1fc0d96cfbdfcbde447de4b5a2a9de1a9cd07f66368d6ffc8392480afd01eda5
-sourcePath: ja/notes/ato2-best-practice.md
+locale: en
+slug: ato2-best-practice
+category: notes
 tags:
   - game
-title: Air Tycoon Online 2 — Hardcore Credit Farming Playbook
+published_at: 2021-12-05T00:00:00.000Z
+updated_at: 2021-12-05T00:00:00.000Z
+description: ※This article is a work in progress and its contents may change in the future. I've read various articles and tried things; here I present the example that work
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTFAE3MAHE6JYCQ4W0P5
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 **※This article is a work in progress and its contents may change in the future.**

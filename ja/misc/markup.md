@@ -1,11 +1,26 @@
 ---
-description: よくマークアップ言語といいますが、あれはプログラミング言語じゃないのでしょうか？
-emoji: 🗒️
-published_at: 2025-10-05
-tags:
-  - dev
-  - coding
 title: マークアップ言語
+emoji: 🗒️
+locale: ja
+slug: markup
+category: misc
+tags:
+  - coding
+  - dev
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: よくマークアップ言語といいますが、あれはプログラミング言語じゃないのでしょうか？
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 よく[[ja/misc/html|HTML]]はプログラミング言語だ！と言っている人いるけど、あれが違うという話は100回くらい聞かされた

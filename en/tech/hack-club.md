@@ -1,14 +1,25 @@
 ---
-description: I recommend Hack Club, an English-speaking community.
+title: A Recommendation for Hack Club
 emoji: 💻
-isDraft: true
-isTranslated: true
-published_at: 2025-12-15T00:00:00.000Z
-sourceHash: 2acb8ffbe4f6c35a5c1622c9588823f9e0ec1fea0231d02f16aab2e7a3b5db88
-sourcePath: ja/tech/hack-club.md
+locale: en
+slug: hack-club
+category: tech
 tags:
   - dev
-title: A Recommendation for Hack Club
+published_at: 2025-12-15T00:00:00.000Z
+updated_at: 2025-12-15T00:00:00.000Z
+description: I recommend Hack Club, an English-speaking community.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVD1DWK6R4V4T0F1Y651
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## What is Hack Club

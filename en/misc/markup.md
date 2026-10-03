@@ -1,14 +1,26 @@
 ---
-description: People often call it a markup language; isn't it a programming language?
-emoji: 🗒️
-isTranslated: true
-published_at: 2025-10-05T00:00:00.000Z
-sourceHash: 77be31825a071846c17ef08e0976a550fbfce5b3454c3a7a333c9b28b50c9c84
-sourcePath: ja/misc/markup.md
-tags:
-  - dev
-  - coding
 title: Markup Languages
+emoji: 🗒️
+locale: en
+slug: markup
+category: misc
+tags:
+  - coding
+  - dev
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: People often call it a markup language; isn't it a programming language?
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KKZME6NF4QEC9VWZG9RF
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 I've often heard people say [[en/misc/html|HTML]] is a programming language, but I've been told otherwise about a hundred times.

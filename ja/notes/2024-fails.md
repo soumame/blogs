@@ -1,10 +1,25 @@
 ---
-description: 2024年の失敗だけを振り返る！
+title: 2024年の失敗だけを振り返る！
 emoji: 💩
-published_at: 2025-01-01
+locale: ja
+slug: 2024-fails
+category: notes
 tags:
   - essay
-title: 2024年の失敗だけを振り返る！
+published_at: 2025-01-01T00:00:00.000Z
+updated_at: 2025-01-01T00:00:00.000Z
+description: 2024年の失敗だけを振り返る！
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 2024年の失敗だけを振り返る！

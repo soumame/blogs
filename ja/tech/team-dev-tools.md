@@ -1,11 +1,26 @@
 ---
-description: チーム開発を初めてやる時、みんなでどうやるかとても悩みます。この記事ではそういったケースで使えそうなツールをまとめて紹介しています。
+title: チーム開発で使える便利ツールの紹介
 emoji: ⚒️
-published_at: 2025-10-05
+locale: ja
+slug: team-dev-tools
+category: tech
 tags:
   - coding
   - team-dev
-title: チーム開発で使える便利ツールの紹介
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: チーム開発を初めてやる時、みんなでどうやるかとても悩みます。この記事ではそういったケースで使えそうなツールをまとめて紹介しています。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## チーム開発で使えそうなツールをまとめる

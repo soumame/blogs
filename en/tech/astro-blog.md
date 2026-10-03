@@ -1,13 +1,26 @@
 ---
-emoji: 🤖
-isTranslated: true
-published_at: 2024-05-12T00:00:00.000Z
-sourceHash: e2faddd9b20ba37eae0b897806a4bf149c702369fe8f2390494d505f19bd4352
-sourcePath: ja/tech/astro-blog.md
-tags:
-  - web
-  - dev
 title: You Only Need HTML! Build a Blog Site with Astro!
+emoji: 🤖
+locale: en
+slug: astro-blog
+category: tech
+tags:
+  - dev
+  - web
+published_at: 2024-05-12T00:00:00.000Z
+updated_at: 2024-05-12T00:00:00.000Z
+description: You Only Need HTML! Build a Blog Site with Astro! Image from Gyazo Sometimes you just feel like building a blog site. For sites of a certain size, you don't nee
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KMH8RG2T03SXNWF7XGX3
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # You Only Need HTML! Build a Blog Site with Astro!

@@ -1,11 +1,25 @@
 ---
-description: 多分世界のとんでもないお金持ち以外はみんなこの問題に直面する
+title: 欲しいものが買えない
 emoji: 🍠
-isTranslated: null
-published_at: 2025-12-11
+locale: ja
+slug: wishlist-2025-12
+category: misc
 tags:
   - wishlist
-title: 欲しいものが買えない
+published_at: 2025-12-11T00:00:00.000Z
+updated_at: 2025-12-11T00:00:00.000Z
+description: 多分世界のとんでもないお金持ち以外はみんなこの問題に直面する
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## なぜリストを作るのか

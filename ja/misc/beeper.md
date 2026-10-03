@@ -1,13 +1,25 @@
 ---
-description: LINE、Instagram、Messenger、X、Slack、Discord...と、いろいろメッセージアプリが分かれているのを、1つのアプリにまとめます。PCでも動くのですごい便利。
+title: Beeperを使ってすべてのメッセージアプリをまとめる
 emoji: 💬
-isDraft: true
-isTranslated: false
-noindex: false
-published_at: 2026-06-23
+locale: ja
+slug: beeper
+category: misc
 tags:
   - favourite-things
-title: Beeperを使ってすべてのメッセージアプリをまとめる
+published_at: 2026-06-23T00:00:00.000Z
+updated_at: 2026-06-23T00:00:00.000Z
+description: LINE、Instagram、Messenger、X、Slack、Discord...と、いろいろメッセージアプリが分かれているのを、1つのアプリにまとめます。PCでも動くのですごい便利。
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Beeperというアプリが普通に便利。

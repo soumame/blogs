@@ -1,12 +1,27 @@
 ---
-description: 2024年度未踏ジュニアで採択されたTutoriaLLMプロジェクトの支援を11月4日の成果報告会をもって修了しました。同日にビジョナル株式会社様より、企業賞としてVisional賞を受賞しました。また、同月末には特に顕著な成果を残したクリエイターに与えられる、スーパークリエータの認定を受けました。
-emoji: 🏢
-published_at: 2024-11-04
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - awards
 title: 未踏ジュニア2024
+emoji: 🏢
+locale: ja
+slug: mitoujr-2024
+category: accomplishments
+tags:
+  - awards
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-11-04T00:00:00.000Z
+updated_at: 2024-11-04T00:00:00.000Z
+description: 2024年度未踏ジュニアで採択されたTutoriaLLMプロジェクトの支援を11月4日の成果報告会をもって修了しました。同日にビジョナル株式会社様より、企業賞としてVisional賞を受賞しました。また、同月末には特に顕著な成果を残したクリエイターに与えられる、スーパークリエータの認定を受けました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 未踏ジュニアの振り返りについては、[[ja/notes/revise-mitou-jr|未踏ジュニアの振り返り]]をご覧ください。

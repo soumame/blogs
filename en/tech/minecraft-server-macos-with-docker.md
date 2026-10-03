@@ -1,14 +1,26 @@
 ---
-description: "Operating a Minecraft server has become a fundamental skill it seems, so I'll jot down how to create one. (Source: Me) I hope to write a proper article someday, but for now, I'll just write it casually."
+title: Quickly Set Up a Minecraft Server on macOS + Docker
 emoji: 🐳
-isTranslated: true
-published_at: 2025-11-28T00:00:00.000Z
-sourceHash: b1822c43e411e02c35a4ae8496939820d08cf219883393dbdaaec80811306ce9
-sourcePath: ja/tech/minecraft-server-macos-with-docker.md
+locale: en
+slug: minecraft-server-macos-with-docker
+category: tech
 tags:
   - dev
   - Minecraft
-title: Quickly Set Up a Minecraft Server on macOS + Docker
+published_at: 2025-11-28T00:00:00.000Z
+updated_at: 2025-11-28T00:00:00.000Z
+description: "Operating a Minecraft server has become a fundamental skill it seems, so I'll jot down how to create one. (Source: Me) I hope to write a proper article someday, but for now, I'll just write it casually."
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVJASQRE7M2SS1J9W1KJ
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## Setting Up a Minecraft Server is a Hassle

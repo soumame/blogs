@@ -1,9 +1,25 @@
 ---
+title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
 emoji: ♻️
-published_at: 2024-12-14 12:13
+locale: ja
+slug: refactor-after-mitoujr
+category: tech
 tags:
   - mitou-junior
-title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
+published_at: 2024-12-14T03:13:00.000Z
+updated_at: 2024-12-14T03:13:00.000Z
+description: "こんにちは。そうまめです。 :::message この記事は、未踏ジュニアアドベントカレンダーの記事です。 ::: 今日は私が現在開発しているアプリ、TutoriaLLMというアプリを大規模にリファクタリングした話をしようと思います。だいぶ慣れてきたとはいえ、まだまだ界隈の方から見ると素人なので一般的に良くないとされる"
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 こんにちは。そうまめです。

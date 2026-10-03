@@ -1,13 +1,27 @@
 ---
-description: LLMが自殺幇助をしていると主張する人がいるということを知り、いろいろな人が当たり前のようにLLMという得体の知れないブラックボックスを使うようになった今、どう自分はLLMと向き合えばいいのか考えてみる
-emoji: 🤖
-isTranslated: null
-published_at: 2025-12-22
-tags:
-  - essay
-  - brain-storming
-  - llm
 title: LLMが人に悪い行動を促すことについて
+emoji: 🤖
+locale: ja
+slug: bad-words-from-llms
+category: misc
+tags:
+  - brain-storming
+  - essay
+  - llm
+published_at: 2025-12-22T00:00:00.000Z
+updated_at: 2025-12-22T00:00:00.000Z
+description: LLMが自殺幇助をしていると主張する人がいるということを知り、いろいろな人が当たり前のようにLLMという得体の知れないブラックボックスを使うようになった今、どう自分はLLMと向き合えばいいのか考えてみる
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 こんな記事を見た

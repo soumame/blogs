@@ -1,12 +1,25 @@
 ---
+title: 【Bedrock & Java】Convert a Minecraft World to 3D for Free!
 emoji: 🤖
-isTranslated: true
-published_at: 2022-12-02T00:00:00.000Z
-sourceHash: 8704e654ab2983fc71e9d85e00dcb8e22f1ad809af0144cb8a405eb29c9343d0
-sourcePath: ja/notes/minecraft-world-to-3d.md
+locale: en
+slug: minecraft-world-to-3d
+category: notes
 tags:
   - game
-title: 【Bedrock & Java】Convert a Minecraft World to 3D for Free!
+published_at: 2022-12-02T00:00:00.000Z
+updated_at: 2022-12-02T00:00:00.000Z
+description: 【Bedrock & Java】Convert a Minecraft World to 3D for Free! Image from Gyazo This topic gets asked quite often, so I’m putting it together here on note. For Bedro
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTVCYVDD3BS368Y1592J
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【Bedrock & Java】Convert a Minecraft World to 3D for Free!

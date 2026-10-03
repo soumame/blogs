@@ -1,18 +1,30 @@
 ---
-description: ブログ書くのすら面倒くさいと思うような私でも、自分の意見を、AIを通して、より伝わりやすくすることができるようになったのではないかと思っている
-dialogue-users:
-  OpenClaw書記: ../../media/07e6918f3eedb75e11cd8cab5227bd1fd33c0d65d39a852edae29c2adacbbb49.jpg
-  そうまめ: https://avatars.githubusercontent.com/u/46675982
+title: Openclawを使って対話を通してブログを作ってみる
 emoji: 🦞
-isDraft: true
-isTranslated: false
-noindex: false
-published_at: 2026-02-25
-style: dialogue
+locale: ja
+slug: openclaw-dialogue-style-blogs
+category: tech
 tags:
   - ai-generated
   - dev
-title: Openclawを使って対話を通してブログを作ってみる
+published_at: 2026-02-25T00:00:00.000Z
+updated_at: 2026-02-25T00:00:00.000Z
+description: ブログ書くのすら面倒くさいと思うような私でも、自分の意見を、AIを通して、より伝わりやすくすることができるようになったのではないかと思っている
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
+dialogue-users:
+  そうまめ: https://avatars.githubusercontent.com/u/46675982
+  OpenClaw書記: ../../media/07e6918f3eedb75e11cd8cab5227bd1fd33c0d65d39a852edae29c2adacbbb49.jpg
 ---
 
 ### スレッド発案 — 対話でブログを書けるか

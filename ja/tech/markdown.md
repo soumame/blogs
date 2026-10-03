@@ -1,9 +1,25 @@
 ---
+title: Markdown記法チートシート(すごい簡単)
 emoji: ✒️
-published_at: 2025-10-05
+locale: ja
+slug: markdown
+category: tech
 tags:
   - dev
-title: Markdown記法チートシート(すごい簡単)
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: "Google DocsやWordとかを使ったことあると、 Image from Gyazo &#xA;こんな感じで、太字とか、斜体とか、見出しとかを選択することができますよね。 でも、コードを書くエディタとかを使う時などでは、こういったボタンはないことが多かったり、マウスで文字を選択することができない場合があります。 "
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Google DocsやWordとかを使ったことあると、

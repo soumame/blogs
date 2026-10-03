@@ -1,13 +1,25 @@
 ---
-description: About access permissions for UNIX-like systems such as Linux
+title: File access permissions on UNIX-like systems such as Linux
 emoji: 👥
-isTranslated: true
-published_at: 2025-11-05T00:00:00.000Z
-sourceHash: 71bfe87d85e5fabfd686b37f61eeed1c338242619f4e74592a60c7b1d5921a2b
-sourcePath: ja/misc/file-access-permission.md
+locale: en
+slug: file-access-permission
+category: misc
 tags:
   - dev
-title: File access permissions on UNIX-like systems such as Linux
+published_at: 2025-11-05T00:00:00.000Z
+updated_at: 2025-11-05T00:00:00.000Z
+description: About access permissions for UNIX-like systems such as Linux
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSVBNHT7Z1A6H0E0CW7B
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 I researched file access permissions on UNIX-like systems such as Linux and am leaving a note here. Please tell me if anything is incorrect.

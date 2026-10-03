@@ -1,17 +1,29 @@
 ---
-description: 何かを学びに来ていたら、面白いことを見つけて、それを調べていたら気づかぬうちにできることがふえていた...自分は今までそうやってできることを増やしていたけれど、これからそれがAIによってどう変わり、それによって損失が起きないようにどうやって世の中を設計していけばいいんだろう？
-dialogue-users:
-  gemini: https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg
-  soumame: https://avatars.githubusercontent.com/u/46675982
+title: 副作用から学ぶことが難しい時代
 emoji: ❓
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-06-15
-style: dialogue
+locale: ja
+slug: learn-as-side-effect
+category: notes
 tags:
   - ai-generated
-title: 副作用から学ぶことが難しい時代
+published_at: 2026-06-15T00:00:00.000Z
+updated_at: 2026-06-15T00:00:00.000Z
+description: 何かを学びに来ていたら、面白いことを見つけて、それを調べていたら気づかぬうちにできることがふえていた...自分は今までそうやってできることを増やしていたけれど、これからそれがAIによってどう変わり、それによって損失が起きないようにどうやって世の中を設計していけばいいんだろう？
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
+dialogue-users:
+  soumame: https://avatars.githubusercontent.com/u/46675982
+  gemini: https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg
 ---
 
 soumame

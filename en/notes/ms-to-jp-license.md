@@ -1,12 +1,25 @@
 ---
+title: 【Foreign License Conversion】I Converted My Malaysian Driver's License to a Japanese One
 emoji: 🤖
-isTranslated: true
-published_at: 2025-04-04T00:00:00.000Z
-sourceHash: 88318bbf4d7a3063019abc720585908237ad46e1ac85e90f7f517bcac95df8f6
-sourcePath: ja/notes/ms-to-jp-license.md
+locale: en
+slug: ms-to-jp-license
+category: notes
 tags:
   - essay
-title: 【Foreign License Conversion】I Converted My Malaysian Driver's License to a Japanese One
+published_at: 2025-04-04T00:00:00.000Z
+updated_at: 2025-04-04T00:00:00.000Z
+description: 【Foreign License Conversion】I Converted My Malaysian Driver's License to a Japanese One Image from Gyazo Hello, I'm Soumame, 18 years old. I lived in Malaysia f
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTY8QKC53S95VKSXBCQQ
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【Foreign License Conversion】I Converted My Malaysian Driver's License to a Japanese One

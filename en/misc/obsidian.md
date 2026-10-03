@@ -1,15 +1,26 @@
 ---
-description: I also write this blog in Obsidian.
+title: Isn't Obsidian way too useful?
 emoji: 🪨
-isDraft: true
-isTranslated: true
-published_at: 2025-11-14T00:00:00.000Z
-sourceHash: a7fc0ea3ae54511ed184f8783617bb29d28e4b9c0e32d1b36b238eb83e28350c
-sourcePath: ja/misc/obsidian.md
+locale: en
+slug: obsidian
+category: misc
 tags:
   - dev
   - favourite-things
-title: Isn't Obsidian way too useful?
+published_at: 2025-11-14T00:00:00.000Z
+updated_at: 2025-11-14T00:00:00.000Z
+description: I also write this blog in Obsidian.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KM7DGHTZ9V5ADDDJVG8V
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 [![Image from Gyazo](../../media/4b23cb787c6d48925d3440c28610bfceee1b4f9ddc7a4ab5cf80011ef824b2bc.png)](../../media/4b23cb787c6d48925d3440c28610bfceee1b4f9ddc7a4ab5cf80011ef824b2bc.png)

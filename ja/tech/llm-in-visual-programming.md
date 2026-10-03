@@ -1,11 +1,27 @@
 ---
+title: ビジュアルプログラミングにLLMを組み込みたい(Blockly × LLM)
 emoji: 🤖
-published_at: 2024-11-22 12:19
+locale: ja
+slug: llm-in-visual-programming
+category: tech
 tags:
+  - dev
   - llm
   - programming-education
-  - dev
-title: ビジュアルプログラミングにLLMを組み込みたい(Blockly × LLM)
+published_at: 2024-11-22T03:19:00.000Z
+updated_at: 2024-11-22T03:19:00.000Z
+description: "初めまして。そうまめこと得丸創生と申します。 1 年ほど前から Typescript / React の Web アプリ開発にどハマりして、現在は「TutoriaLLM」というビジュアルプログラミングと AI による対話、そして、リアルタイムのコード実行の機能などを組み込んだ Web アプリケーションを作っています。 "
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 初めまして。そうまめこと得丸創生と申します。

@@ -1,13 +1,25 @@
 ---
-description: LLMs, image generation, and other advances are happening so fast that keeping up has become a hassle.
+title: On Not Being Able to Keep Up with Recent AI Advances
 emoji: 🤖
-isTranslated: true
-published_at: 2025-11-21T00:00:00.000Z
-sourceHash: a6e5b9068c2cb631704e41b6496968493741a387a11bfadb021941e10b4262a5
-sourcePath: ja/misc/recent-ai-trends.md
+locale: en
+slug: recent-ai-trends
+category: misc
 tags:
   - llm
-title: On Not Being Able to Keep Up with Recent AI Advances
+published_at: 2025-11-21T00:00:00.000Z
+updated_at: 2025-11-21T00:00:00.000Z
+description: LLMs, image generation, and other advances are happening so fast that keeping up has become a hassle.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXT61BM6WTD98ZQF0NJH1
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 <https://x.com/So_to9/status/1991706450314588168?t=Pz2gJjKcwiJjQELOgcqCrQ&s=19>

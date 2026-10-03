@@ -1,9 +1,25 @@
 ---
+title: 【Notion】関数を使って無料で自動通知を作る方法
 emoji: 🤖
-published_at: 2021-11-22
+locale: ja
+slug: notion-notification-function
+category: tech
 tags:
   - notion
-title: 【Notion】関数を使って無料で自動通知を作る方法
+published_at: 2021-11-22T00:00:00.000Z
+updated_at: 2021-11-22T00:00:00.000Z
+description: 【Notion】関数を使って無料で自動通知を作る方法 Image from Gyazo Notion、便利ですよね。私もTrelloから移行して、非常に便利なのですが、一つだけガッカリなところがあるんです。 時間になっても通知が来ない... 使い始めて数日して、リマインダーが来ないことに気がつきました。 Notionに
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【Notion】関数を使って無料で自動通知を作る方法

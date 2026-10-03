@@ -1,17 +1,29 @@
 ---
+title: 生成されたコード
+emoji: ❓
+locale: ja
+slug: generated-code
+category: misc
+tags:
+  - ai-generated
+  - essay
+published_at: 2026-05-29T00:00:00.000Z
+updated_at: 2026-05-29T00:00:00.000Z
 description: AI生成されたコードについて思ったこと
+isDraft: false
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
+style: dialogue
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
-emoji: ❓
-isDraft: false
-isTranslated: false
-noindex: true
-published_at: 2026-05-29
-style: dialogue
-tags:
-  - essay
-  - ai-generated
-title: 生成されたコード
 ---
 
 今日、[[ja/works/keio|大学の]]研究会で作っているソフトウェアについて聞かれたときにうまく答えられなかったんだよね。

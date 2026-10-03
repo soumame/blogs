@@ -1,13 +1,25 @@
 ---
-description: Vibeで作ったハードウェアをなんとなく出したら出展することになった！？Maker Faire Tokyoにソフトウェア畑の人間が作ったバッテリーレスで動く電子ペーパーNFC基板名刺出展してみました。
+title: Maker Faire Tokyo 2026に出展する話
 emoji: 🔧
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-08-17
+locale: ja
+slug: maker-faire-tokyo-2026
+category: tech
 tags:
   - essay
-title: Maker Faire Tokyo 2026に出展する話
+published_at: 2026-08-17T00:00:00.000Z
+updated_at: 2026-08-17T00:00:00.000Z
+description: Vibeで作ったハードウェアをなんとなく出したら出展することになった！？Maker Faire Tokyoにソフトウェア畑の人間が作ったバッテリーレスで動く電子ペーパーNFC基板名刺出展してみました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 出展概要

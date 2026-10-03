@@ -1,13 +1,26 @@
 ---
-description: このブログもObsidianで書いています
+title: Obsidian便利すぎませんか？
 emoji: 🪨
-isDraft: true
-isTranslated: null
-published_at: 2025-11-14
+locale: ja
+slug: obsidian
+category: misc
 tags:
   - dev
   - favourite-things
-title: Obsidian便利すぎませんか？
+published_at: 2025-11-14T00:00:00.000Z
+updated_at: 2025-11-14T00:00:00.000Z
+description: このブログもObsidianで書いています
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 [![Image from Gyazo](../../media/4b23cb787c6d48925d3440c28610bfceee1b4f9ddc7a4ab5cf80011ef824b2bc.png)](../../media/4b23cb787c6d48925d3440c28610bfceee1b4f9ddc7a4ab5cf80011ef824b2bc.png)

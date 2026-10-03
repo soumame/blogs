@@ -1,12 +1,25 @@
 ---
+title: How to Conduct Bitcoin Transactions Without Using Blockchain (Off-Chain)
 emoji: 🤖
-isTranslated: true
-published_at: 2023-05-09T00:00:00.000Z
-sourceHash: cdca2f6f3d327da6aec04614ee07ee70568b95b6d554af9b082a2d5dd225ee29
-sourcePath: ja/tech/offchain-transaction.md
+locale: en
+slug: offchain-transaction
+category: tech
 tags:
   - crypto
-title: How to Conduct Bitcoin Transactions Without Using Blockchain (Off-Chain)
+published_at: 2023-05-09T00:00:00.000Z
+updated_at: 2023-05-09T00:00:00.000Z
+description: How to Conduct Bitcoin Transactions Without Using Blockchain (Off-Chain) This article is a re-upload of an article I wrote a while ago. When people hear the ter
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVPCS4HQ63XF91B233B8
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # How to Conduct Bitcoin Transactions Without Using Blockchain (Off-Chain)

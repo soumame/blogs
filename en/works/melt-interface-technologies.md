@@ -1,14 +1,25 @@
 ---
-description: I work on software development at Melt Interface Technologies (MIT).
+title: Melt Interface Technologies
 emoji: 💼
-isDraft: false
-isTranslated: true
-published_at: 2026-07-01T00:00:00.000Z
-sourceHash: 5bd75fead953323525c5a8b58e2c12f336d8a75b920fc10dc61c3614164bb11a
-sourcePath: ja/works/melt-interface-technologies.md
+locale: en
+slug: melt-interface-technologies
+category: works
 tags:
   - Work
-title: Melt Interface Technologies
+published_at: 2026-07-01T00:00:00.000Z
+updated_at: 2026-07-01T00:00:00.000Z
+description: I work on software development at Melt Interface Technologies (MIT).
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M409338CBG3RXRJSHN6CHZ2A
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > [[en/works/diver-x|Diver-X]] has changed its company name to Melt Interface Technologies

@@ -1,12 +1,25 @@
 ---
+title: I Got My Driver's License in Malaysia
 emoji: 🤖
-isTranslated: true
-published_at: 2024-07-27T00:00:00.000Z
-sourceHash: a88a9af8357ba01a74d91d9d09b46325048a53937878faadcbcd307ee5e3988f
-sourcePath: ja/notes/got-license-in-malaysia.md
+locale: en
+slug: got-license-in-malaysia
+category: notes
 tags:
   - essay
-title: I Got My Driver's License in Malaysia
+published_at: 2024-07-27T00:00:00.000Z
+updated_at: 2024-07-27T00:00:00.000Z
+description: "I Got My Driver's License in Malaysia Image from Gyazo Hi. I'm Soumame, 17 years old. The other day (well, some time ago), I was able to get a driver's license "
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTR0JVKQQHCGN9ZPVYY6
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # I Got My Driver's License in Malaysia

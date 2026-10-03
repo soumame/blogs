@@ -1,13 +1,25 @@
 ---
-description: Why Do People Move?
+title: Why Do People Move?
 emoji: 🚶
-isTranslated: true
-published_at: 2025-10-16T00:00:00.000Z
-sourceHash: e523fa905b35ab919f15dc20f80ef16631acc930789694c53a57ae78181fcbd2
-sourcePath: ja/notes/why-human-move.md
+locale: en
+slug: why-human-move
+category: notes
 tags:
   - brain-storming
-title: Why Do People Move?
+published_at: 2025-10-16T00:00:00.000Z
+updated_at: 2025-10-16T00:00:00.000Z
+description: Why Do People Move?
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV2YQMW461ZKRBTDZY2W
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 [[en/works/keio|Keio SFC]]'s Environmental Informatics class said something interesting, so I'm taking notes

@@ -1,12 +1,26 @@
 ---
-description: 学校とかでChatGPT(LLM)などのAIツールの使用を禁止されたことはないだろうか。一時期はOpenAIなどがLLMが書いた文章を検出するソフトウェアなどを試験艇に公開していたが、現在はそういったものは調べてもあまり出てこない。果たしてLLMの使用を確実に検知することはできるのか？
+title: LLMの使用は検知できるのか
 emoji: 🤖
-isDraft: true
-published_at: 2025-10-06
+locale: ja
+slug: detect-llm-usage
+category: tech
 tags:
   - brain-storming
   - llm
-title: LLMの使用は検知できるのか
+published_at: 2025-10-06T00:00:00.000Z
+updated_at: 2025-10-06T00:00:00.000Z
+description: 学校とかでChatGPT(LLM)などのAIツールの使用を禁止されたことはないだろうか。一時期はOpenAIなどがLLMが書いた文章を検出するソフトウェアなどを試験艇に公開していたが、現在はそういったものは調べてもあまり出てこない。果たしてLLMの使用を確実に検知することはできるのか？
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 なんか学校の先生が「私たちは LLM の使用を検知するツールを持っている」と言っていたけどあれは本当なのかな？ってことで調べてみる

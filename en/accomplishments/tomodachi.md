@@ -1,14 +1,25 @@
 ---
-description: Received the Presentation Award at the TOMODACHI Boeing Entrepreneurship Seminar 2025
+title: TOMODACHI Boeing Entrepreneurship Seminar 2025
 emoji: ✈️
-isDraft: true
-isTranslated: true
-published_at: 2026-02-10T00:00:00.000Z
-sourceHash: 523713e4fc88323bdac88c451683d84803a584215009c7d60541df58e14cddab
-sourcePath: ja/accomplishments/tomodachi.md
+locale: en
+slug: tomodachi
+category: accomplishments
 tags:
   - application-development
-title: TOMODACHI Boeing Entrepreneurship Seminar 2025
+published_at: 2026-02-10T00:00:00.000Z
+updated_at: 2026-02-10T00:00:00.000Z
+description: Received the Presentation Award at the TOMODACHI Boeing Entrepreneurship Seminar 2025
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSDFBRQTPZCPFBJZA850
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 We developed, as a team, a piece of software called TomoMeet to foster real-life connections at event venues.

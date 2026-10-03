@@ -1,12 +1,25 @@
 ---
+title: Super Large Refactoring After Finishing MITOU Junior
 emoji: ♻️
-isTranslated: true
-published_at: 2024-12-14 12:13
-sourceHash: 5c1c8dcef22a9ddaef81dcbfe7ff4a76a8e8907d35ad9b9685ab0fb21a4ffa31
-sourcePath: ja/tech/refactor-after-mitoujr.md
+locale: en
+slug: refactor-after-mitoujr
+category: tech
 tags:
   - mitou-junior
-title: Super Large Refactoring After Finishing MITOU Junior
+published_at: 2024-12-14T03:13:00.000Z
+updated_at: 2024-12-14T03:13:00.000Z
+description: "Hello. I'm Souma. :::message This article is part of the MITOU Junior Advent Calendar. ::: Today, I'd like to talk about a large-scale refactoring of the app I "
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVQMYDHMBCE9DATTWKEG
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Hello. I'm Souma.

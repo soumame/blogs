@@ -1,17 +1,29 @@
 ---
+title: うちの炊飯器が壊れない
+emoji: 🍚
+locale: ja
+slug: insane-rice-cooker
+category: misc
+tags:
+  - dev
+  - essay
+published_at: 2026-04-04T00:00:00.000Z
+updated_at: 2026-04-04T00:00:00.000Z
 description: 自分が人生で食べてきたご飯の大半は三洋電機の炊飯器に炊いてもらっている。通常、炊飯器の寿命は3から6年とされているらしい（Google調べ）が、少なくとも15年使っている。一体どうなっているの？？？
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
-emoji: 🍚
-isDraft: true
-isTranslated: false
-noindex: false
-published_at: 2026-04-04
-style: dialogue
-tags:
-  - essay
-  - dev
-title: うちの炊飯器が壊れない
 ---
 
 三洋電機というメーカーを知っている人も、今やだいぶ少なくなってきている気がする。

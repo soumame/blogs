@@ -1,12 +1,25 @@
 ---
+title: How to Mine with Nicehash
 emoji: 🤖
-isTranslated: true
-published_at: 2021-04-07T00:00:00.000Z
-sourceHash: d9e55898a71d23ab9ee8a679c017a966d3f9f34b37626ca59ca00056f7c4bb82
-sourcePath: ja/tech/nicehash-mining.md
+locale: en
+slug: nicehash-mining
+category: tech
 tags:
   - crypto
-title: How to Mine with Nicehash
+published_at: 2021-04-07T00:00:00.000Z
+updated_at: 2021-04-07T00:00:00.000Z
+description: "How to Mine with Nicehash Image from Gyazo Here's a quick explanation. What You Need 1. A computer 2. An email address Creating a Nicehash Account First, go to "
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVKSATAG35BPW6BHE35M
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # How to Mine with Nicehash

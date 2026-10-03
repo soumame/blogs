@@ -1,16 +1,28 @@
 ---
-description: From an era of buying books to learn to an era of asking AI. I consider the potential "stagnation of knowledge" that could result from the breakdown of returns to people who produce knowledge behind that convenience.
+title: AI-Driven Democratization of Learning and the "Compensation" Dilemma for Knowledge Producers
 emoji: 📉
-isTranslated: true
-published_at: 2025-12-12T00:00:00.000Z
-sourceHash: f7599278ff324c9ccf53ab27d3a89db4836bb8a63a61e4a9696118d8ded2eb0c
-sourcePath: ja/misc/democratization-of-learning.md
+locale: en
+slug: democratization-of-learning
+category: misc
 tags:
   - ai-generated
-  - essay
   - dev
+  - essay
   - llm
-title: AI-Driven Democratization of Learning and the "Compensation" Dilemma for Knowledge Producers
+published_at: 2025-12-12T00:00:00.000Z
+updated_at: 2025-12-12T00:00:00.000Z
+description: From an era of buying books to learn to an era of asking AI. I consider the potential "stagnation of knowledge" that could result from the breakdown of returns to people who produce knowledge behind that convenience.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSP2TPYV25HF0CS7MTKY
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 In the past, if you wanted to learn something, you would buy reference books, go to bookstores, or dig through materials in a university library. You invested money and time, and only then could you acquire knowledge.

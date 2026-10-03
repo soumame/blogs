@@ -1,12 +1,25 @@
 ---
+title: How to Create Automated Notifications for Free Using Functions in Notion
 emoji: 🤖
-isTranslated: true
-published_at: 2021-11-22T00:00:00.000Z
-sourceHash: b426b06b18e5302c663048382fb70a4a3889b278157f15987e7e353bea8e5c57
-sourcePath: ja/tech/notion-notification-function.md
+locale: en
+slug: notion-notification-function
+category: tech
 tags:
   - notion
-title: How to Create Automated Notifications for Free Using Functions in Notion
+published_at: 2021-11-22T00:00:00.000Z
+updated_at: 2021-11-22T00:00:00.000Z
+description: How to Create Automated Notifications for Free Using Functions in Notion Image from Gyazo Notion is convenient, isn't it? I also migrated from Trello and find i
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVN24V82J641JNEG7FPH
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # How to Create Automated Notifications for Free Using Functions in Notion

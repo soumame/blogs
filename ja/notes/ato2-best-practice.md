@@ -1,9 +1,25 @@
 ---
+title: エアタイクーンオンライン２クレジットガチ稼ぎ虎の巻
 emoji: 🤖
-published_at: 2021-12-05
+locale: ja
+slug: ato2-best-practice
+category: notes
 tags:
   - game
-title: エアタイクーンオンライン２クレジットガチ稼ぎ虎の巻
+published_at: 2021-12-05T00:00:00.000Z
+updated_at: 2021-12-05T00:00:00.000Z
+description: ※この記事は執筆中ですので今後内容が変わる可能性があります。 いろいろな記事を読んで、やってみて、一番うまくいった例を紹介します。難しい言葉が多いので初心者は wiki とかを見てください。 1 ターン目（６０年代）の攻略 1 ターン目（６０年代）の攻略 開幕した瞬間から販売終了するまで TU104 をできるだけ買い、
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 **※この記事は執筆中ですので今後内容が変わる可能性があります。**

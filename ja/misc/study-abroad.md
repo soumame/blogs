@@ -1,13 +1,25 @@
 ---
-description: null
+title: 留学
 emoji: 🌐
-isDraft: true
-isTranslated: false
-noindex: true
-published_at: 2026-06-10
+locale: ja
+slug: study-abroad
+category: misc
 tags:
   - essay
-title: 留学
+published_at: 2026-06-10T00:00:00.000Z
+updated_at: 2026-06-10T00:00:00.000Z
+description: 適当に思ったこと喋って文字起こししただけです なんか最近特に理由を考えてはいないけど、海外に行きたいなって思っていたんだけどさ。 なんか改めて考えてみると何で行きたいんだろうって思うようになったんだよ。 元々さ5年ぐらい海外に行っていた経験があるわけで、なんかあのそれで戻ってきて。 今、日本の大学に通ってるわけじゃんで
+isDraft: true
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
 ---
 
 > 適当に思ったこと喋って文字起こししただけです

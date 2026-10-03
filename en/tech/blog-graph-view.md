@@ -1,14 +1,26 @@
 ---
-description: I liked Obsidian's graph view, so I implemented it on my own website.
+title: Implemented a Graph View on My Blog
 emoji: 🗺️
-isTranslated: true
-published_at: 2025-10-29T00:00:00.000Z
-sourceHash: 56019df901dd5fc03933bd77a6944e4b09742c6c94a4bed6a1bccdb7d154ea58
-sourcePath: ja/tech/blog-graph-view.md
+locale: en
+slug: blog-graph-view
+category: tech
 tags:
   - coding
   - web
-title: Implemented a Graph View on My Blog
+published_at: 2025-10-29T00:00:00.000Z
+updated_at: 2025-10-29T00:00:00.000Z
+description: I liked Obsidian's graph view, so I implemented it on my own website.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KMMC1Y51GT36NDVBHKHK
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## What is the graph view

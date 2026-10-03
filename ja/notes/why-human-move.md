@@ -1,10 +1,25 @@
 ---
-description: 人はなぜ動くのか
+title: 人はなぜ動くのか
 emoji: 🚶
-published_at: 2025-10-16
+locale: ja
+slug: why-human-move
+category: notes
 tags:
   - brain-storming
-title: 人はなぜ動くのか
+published_at: 2025-10-16T00:00:00.000Z
+updated_at: 2025-10-16T00:00:00.000Z
+description: 人はなぜ動くのか
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 [[ja/works/keio|慶應SFC]]の環境情報学の授業で面白いこと言ってたのでメモ

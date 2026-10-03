@@ -1,15 +1,27 @@
 ---
-description: I learned that some people claim LLMs are assisting suicide, and now that many people casually use these mysterious black-box LLMs, I want to think about how I should relate to LLMs.
-emoji: 🤖
-isTranslated: true
-published_at: 2025-12-22T00:00:00.000Z
-sourceHash: e62f521ec2846dee4fd55c05893085dcc6f3e469d2a12f596628b791a9eb730a
-sourcePath: ja/misc/bad-words-from-llms.md
-tags:
-  - essay
-  - brain-storming
-  - llm
 title: On LLMs Encouraging Harmful Behavior in People
+emoji: 🤖
+locale: en
+slug: bad-words-from-llms
+category: misc
+tags:
+  - brain-storming
+  - essay
+  - llm
+published_at: 2025-12-22T00:00:00.000Z
+updated_at: 2025-12-22T00:00:00.000Z
+description: I learned that some people claim LLMs are assisting suicide, and now that many people casually use these mysterious black-box LLMs, I want to think about how I should relate to LLMs.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSGHNJ9S67CS9ARV1WAM
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 I saw an article like this

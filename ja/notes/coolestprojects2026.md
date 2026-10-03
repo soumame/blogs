@@ -1,18 +1,30 @@
 ---
-description: 日本初開催となった作品展示イベントであるCoolest Projects Japan 2026に行ってきたので紹介します（来年度も開催予定）
-dialogue-users:
-  soumame: https://avatars.githubusercontent.com/u/46675982
+title: Coolest Projects Japan 2026
 emoji: 💥
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-04-02
-style: dialogue
+locale: ja
+slug: coolestprojects2026
+category: notes
 tags:
+  - ai-generated
   - educaiton
   - talks
-  - ai-generated
-title: Coolest Projects Japan 2026
+published_at: 2026-04-02T00:00:00.000Z
+updated_at: 2026-04-02T00:00:00.000Z
+description: 日本初開催となった作品展示イベントであるCoolest Projects Japan 2026に行ってきたので紹介します（来年度も開催予定）
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
+dialogue-users:
+  soumame: https://avatars.githubusercontent.com/u/46675982
 ---
 
 先日愛知県名古屋市で開催された日本初開催となった作品展示イベントであるCoolest Projectsに行ってきたので勝手に紹介します（来年度も開催予定）

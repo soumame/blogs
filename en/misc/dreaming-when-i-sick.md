@@ -1,14 +1,25 @@
 ---
-description: I caught a cold this weekend and stayed in bed at home, but that morning I had a really strange dream. An influenza funeral or something — it happens sometimes, right?
+title: A Dream When I Felt Really Sick
 emoji: 🧠
-isDraft: false
-isTranslated: true
-published_at: 2026-06-01T00:00:00.000Z
-sourceHash: 30779e1169754856192a22be969d85586b256897a4966fede14dc91bb4cfd8cb
-sourcePath: ja/misc/dreaming-when-i-sick.md
+locale: en
+slug: dreaming-when-i-sick
+category: misc
 tags:
   - essay
-title: A Dream When I Felt Really Sick
+published_at: 2026-06-01T00:00:00.000Z
+updated_at: 2026-06-01T00:00:00.000Z
+description: I caught a cold this weekend and stayed in bed at home, but that morning I had a really strange dream. An influenza funeral or something — it happens sometimes, right?
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSQGENTBXN2QS0SVEEAW
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 The moment I woke from the dream I still remembered it, and while half-asleep I apparently recorded what I remembered as a voice memo. When I looked back later I thought the text was so strange it felt creepy, but since it was something I wouldn't normally write, I'm recording it here.

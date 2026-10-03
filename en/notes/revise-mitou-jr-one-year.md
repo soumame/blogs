@@ -1,15 +1,27 @@
 ---
-description: I'm Sosei Tokumaru, a Mitou Junior 2024 Super Creator who just turned 19. Since it might look like I've been quiet online after finishing Mitou Junior, I thought I'd share a public update on what I've been up to, as far as I'm able to.
-emoji: ▲
-isTranslated: true
-published_at: 2025-12-15T00:00:00.000Z
-sourceHash: ebbaa673ad632bb202539348e0929bb8a7774c67fb12c55d32cd60061239e76c
-sourcePath: ja/notes/revise-mitou-jr-one-year.md
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - dev
 title: "On My Birthday: Reflections Since Completing Mitou Junior"
+emoji: ▲
+locale: en
+slug: revise-mitou-jr-one-year
+category: notes
+tags:
+  - dev
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2025-12-15T00:00:00.000Z
+updated_at: 2025-12-15T00:00:00.000Z
+description: I'm Sosei Tokumaru, a Mitou Junior 2024 Super Creator who just turned 19. Since it might look like I've been quiet online after finishing Mitou Junior, I thought I'd share a public update on what I've been up to, as far as I'm able to.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTZYTM487C5BCB9PA9BG
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > This article is a continuation written with reference to [[en/notes/revise-mitou-jr|Review of Mitou Junior]]. It's also being written as an Advent Calendar entry.

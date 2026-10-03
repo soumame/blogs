@@ -1,14 +1,25 @@
 ---
-description: Even if you're a man and you accept that about yourself, there are times when you want to be cute, right? But why is that?
+title: I Want to Be Cute
 emoji: ❤
-isDraft: false
-isTranslated: true
-published_at: 2026-06-15T00:00:00.000Z
-sourceHash: b9a1d2ddbe85440329b339ec3ac981e0f8dbdf66b55e8de7d8f9c9e41873bb0f
-sourcePath: ja/misc/kawaii.md
+locale: en
+slug: kawaii
+category: misc
 tags:
   - essay
-title: I Want to Be Cute
+published_at: 2026-06-15T00:00:00.000Z
+updated_at: 2026-06-15T00:00:00.000Z
+description: Even if you're a man and you accept that about yourself, there are times when you want to be cute, right? But why is that?
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXT0M7W75YJ30H5KCSR2X
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## I Want to Be Cute

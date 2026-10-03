@@ -1,16 +1,28 @@
 ---
-description: 視覚、音声、触覚とか、いろいろあるけど、コンピューターを使ったコミュニケーションがどう変わったんだろう？
-dialogue-users:
-  soumame: https://avatars.githubusercontent.com/u/46675982
+title: コンピュータを通したコミュニケーション
 emoji: 🗣️
-isDraft: true
-isTranslated: false
-noindex: true
-published_at: 2026-05-29
-style: dialogue
+locale: ja
+slug: communicate-through-computer
+category: misc
 tags:
   - ai-generated
-title: コンピュータを通したコミュニケーション
+published_at: 2026-05-29T00:00:00.000Z
+updated_at: 2026-05-29T00:00:00.000Z
+description: 視覚、音声、触覚とか、いろいろあるけど、コンピューターを使ったコミュニケーションがどう変わったんだろう？
+isDraft: true
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
+style: dialogue
+dialogue-users:
+  soumame: https://avatars.githubusercontent.com/u/46675982
 ---
 
 soumame

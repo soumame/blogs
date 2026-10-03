@@ -1,14 +1,25 @@
 ---
-description: When I paid attention to the appliances around me, I realized that the household devices we take for granted actually use very advanced technology.
+title: Household Appliances Are Amazing When You Think About It
 emoji: 🔌
-isDraft: true
-isTranslated: true
-published_at: 2026-04-06T00:00:00.000Z
-sourceHash: 26ef736dd6e1152527833ad3c6552d1b32426d080fc0f5d45828dfea6330c704
-sourcePath: ja/misc/electronics-is-insane.md
+locale: en
+slug: electronics-is-insane
+category: misc
 tags:
   - essay
-title: Household Appliances Are Amazing When You Think About It
+published_at: 2026-04-06T00:00:00.000Z
+updated_at: 2026-04-06T00:00:00.000Z
+description: When I paid attention to the appliances around me, I realized that the household devices we take for granted actually use very advanced technology.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSRRP8P8SQKR28X0DED1
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 The other day I mentioned [[en/misc/insane-rice-cooker|My home rice cooker is incredible]], and upon thinking about it again I realized that the other electric appliances in my house are pretty amazing too.

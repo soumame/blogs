@@ -1,11 +1,25 @@
 ---
-description: LinuxなどのUNIX系ファイルのアクセス権限について
+title: LinuxなどのUNIX系ファイルのアクセス権限
 emoji: 👥
-isTranslated: null
-published_at: 2025-11-05
+locale: ja
+slug: file-access-permission
+category: misc
 tags:
   - dev
-title: LinuxなどのUNIX系ファイルのアクセス権限
+published_at: 2025-11-05T00:00:00.000Z
+updated_at: 2025-11-05T00:00:00.000Z
+description: LinuxなどのUNIX系ファイルのアクセス権限について
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 LinuxなどのUNIX系ファイルのアクセス権限について調べたのでメモしておく（間違っていたら教えてください）

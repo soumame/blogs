@@ -1,10 +1,25 @@
 ---
-description: 2025年9月に慶應義塾大学環境情報学部に入学しました。
+title: 慶應義塾大学
 emoji: 🎓
-published_at: 2025-09
+locale: ja
+slug: keio
+category: works
 tags:
   - educaiton
-title: 慶應義塾大学
+published_at: 2025-09
+updated_at: 2025-09-01T00:00:00.000Z
+description: 2025年9月に慶應義塾大学環境情報学部に入学しました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 大学に行った理由としては、やっぱり人との繋がりが欲しいのと、高校とかと比べて、より専門的なことが学べるというのがあります。

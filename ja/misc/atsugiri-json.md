@@ -1,16 +1,28 @@
 ---
-description: '「Why JSON format!?!?」 「なんでコメント書けないノ！？ 人間が読むためのフォーマットって言ってたジャナイ！！ 設定ファイルで使わせるくせに、メモ残せないとか鬼畜カヨ！！ 仕方ないから `"comment1": "ここは本番のURL"` ってダミーのキー作るエンジニアの気持ち、考えたことアルノ！？」'
-dialogue-users:
-  soumame: https://avatars.githubusercontent.com/u/46675982
+title: 厚切りJSON
 emoji: 🔤
-isDraft: false
-isTranslated: false
-noindex: false
-published_at: 2026-07-22
-style: dialogue
+locale: ja
+slug: atsugiri-json
+category: misc
 tags:
   - ai-generated
-title: 厚切りJSON
+published_at: 2026-07-22T00:00:00.000Z
+updated_at: 2026-07-22T00:00:00.000Z
+description: '「Why JSON format!?!?」 「なんでコメント書けないノ！？ 人間が読むためのフォーマットって言ってたジャナイ！！ 設定ファイルで使わせるくせに、メモ残せないとか鬼畜カヨ！！ 仕方ないから `"comment1": "ここは本番のURL"` ってダミーのキー作るエンジニアの気持ち、考えたことアルノ！？」'
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
+dialogue-users:
+  soumame: https://avatars.githubusercontent.com/u/46675982
 ---
 
 soumame

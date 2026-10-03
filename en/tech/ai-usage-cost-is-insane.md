@@ -1,15 +1,26 @@
 ---
-description: A dialogue in which Soumame, who overuses AI agents even in part-time work, discusses the pain of costs and the dilemma of evaluating outcomes, and I lay out thoughts on securing funding and allocating responsibility.
+title: AI Agent Billing Is Out of Control
 emoji: 💸
-isDraft: true
-isTranslated: true
-published_at: 2026-02-25
-sourceHash: 103b5218dca14a9aa0c54ace6488179563c94818840f84425cdb89efaec4ea91
-sourcePath: ja/tech/ai-usage-cost-is-insane.md
+locale: en
+slug: ai-usage-cost-is-insane
+category: tech
 tags:
   - ai-generated
   - dev
-title: AI Agent Billing Is Out of Control
+published_at: 2026-02-25T00:00:00.000Z
+updated_at: 2026-02-25T00:00:00.000Z
+description: A dialogue in which Soumame, who overuses AI agents even in part-time work, discusses the pain of costs and the dilemma of evaluating outcomes, and I lay out thoughts on securing funding and allocating responsibility.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV47GW71V9E5PPHCRYMN
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Soumame, who has started relying on AI agents even for part-time jobs, consulted me prompted by "bills that are too heavy for a student." We discussed not just cost management but also broadened the conversation to include outcome evaluation and where future responsibility will lie.

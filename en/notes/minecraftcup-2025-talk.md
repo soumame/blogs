@@ -1,14 +1,25 @@
 ---
-description: I had the opportunity to speak at the Minecraft Cup, an event that helped shape who I am today. There were things I didn't get to say, so I'll include those here in this blog post.
+title: I Presented at the 7th Minecraft Cup (2025)
 emoji: 🧱
-isDraft: false
-isTranslated: true
-published_at: 2026-02-20T00:00:00.000Z
-sourceHash: 6a6781d69689ac0e36db919bb70b90dc65886d040a1deb69f0619985ea815a4e
-sourcePath: ja/notes/minecraftcup-2025-talk.md
+locale: en
+slug: minecraftcup-2025-talk
+category: notes
 tags:
   - talks
-title: I Presented at the 7th Minecraft Cup (2025)
+published_at: 2026-02-20T00:00:00.000Z
+updated_at: 2026-02-20T00:00:00.000Z
+description: I had the opportunity to speak at the Minecraft Cup, an event that helped shape who I am today. There were things I didn't get to say, so I'll include those here in this blog post.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTWVBZK5NTW3BNHTN7FC
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## I Appeared in a Talk Session at the Minecraft Cup

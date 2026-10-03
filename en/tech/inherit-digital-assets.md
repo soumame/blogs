@@ -1,14 +1,25 @@
 ---
-description: I entrust my information to various platforms, and I thought it would be a waste for those accesses to be frozen after I die, so I'm thinking about measures to pass those assets on to future generations.
+title: Inheritance of Digital Assets
 emoji: 🤝
-isDraft: true
-isTranslated: true
-published_at: 2026-01-10T00:00:00.000Z
-sourceHash: 295eb829b5ccf581f159771aa18b5ab9a0f91e8484d28360c092f2eeab990788
-sourcePath: ja/tech/inherit-digital-assets.md
+locale: en
+slug: inherit-digital-assets
+category: tech
 tags:
   - dev
-title: Inheritance of Digital Assets
+published_at: 2026-01-10T00:00:00.000Z
+updated_at: 2026-01-10T00:00:00.000Z
+description: I entrust my information to various platforms, and I thought it would be a waste for those accesses to be frozen after I die, so I'm thinking about measures to pass those assets on to future generations.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVED8YTRKK1HH74Z9XVS
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## What to do if I die?

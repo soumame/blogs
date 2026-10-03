@@ -1,10 +1,25 @@
 ---
-description: マクドナルドの店員（アルバイト）として働いていました。
+title: マクドナルドの店員（アルバイト）
 emoji: 💼
-published_at: 2025-03
+locale: ja
+slug: mcd
+category: works
 tags:
   - Work
-title: マクドナルドの店員（アルバイト）
+published_at: 2025-03
+updated_at: 2025-03-01T00:00:00.000Z
+description: マクドナルドの店員（アルバイト）として働いていました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 こんにちは、そうまめです。

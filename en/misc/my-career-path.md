@@ -1,14 +1,25 @@
 ---
-description: I sometimes don't know what I should do.
+title: Concerns About My Career
 emoji: ❓
-isDraft: true
-isTranslated: true
-published_at: 2026-05-02T00:00:00.000Z
-sourceHash: 42770072c97b42b1c0725d464fe09c5cd083184a8a34940f70ea8025a1a5bd4c
-sourcePath: ja/misc/my-career-path.md
+locale: en
+slug: my-career-path
+category: misc
 tags:
   - essay
-title: Concerns About My Career
+published_at: 2026-05-02T00:00:00.000Z
+updated_at: 2026-05-02T00:00:00.000Z
+description: I sometimes don't know what I should do.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXT4QQ443KC99MFBQHNJY
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## I don't know what I should do

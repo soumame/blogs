@@ -1,15 +1,26 @@
 ---
-description: Thoughts on AI-generated code
-emoji: ❓
-isDraft: false
-isTranslated: true
-published_at: 2026-05-29T00:00:00.000Z
-sourceHash: 04667c2b69b4b300edaf38357fca445e00a71635cce489d09f198267097cdf41
-sourcePath: ja/misc/generated-code.md
-tags:
-  - essay
-  - ai-generated
 title: Generated Code
+emoji: ❓
+locale: en
+slug: generated-code
+category: misc
+tags:
+  - ai-generated
+  - essay
+published_at: 2026-05-29T00:00:00.000Z
+updated_at: 2026-05-29T00:00:00.000Z
+description: Thoughts on AI-generated code
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSWSJHYCT38VMTRS82TS
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Today, when I was asked about the software we're making in the [[en/works/keio|university]] research group, I couldn't answer well.

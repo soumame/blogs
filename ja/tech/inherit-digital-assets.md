@@ -1,12 +1,25 @@
 ---
-description: さまざまなプラットフォームに自分の情報を預けていて、自分が死んだ後、それらのアクセスを失って凍結されるのはもったいないと思い、後世にその資産を継承するための対策を考えます。
+title: デジタル資産の継承
 emoji: 🤝
-isDraft: true
-isTranslated: null
-published_at: 2026-01-10
+locale: ja
+slug: inherit-digital-assets
+category: tech
 tags:
   - dev
-title: デジタル資産の継承
+published_at: 2026-01-10T00:00:00.000Z
+updated_at: 2026-01-10T00:00:00.000Z
+description: さまざまなプラットフォームに自分の情報を預けていて、自分が死んだ後、それらのアクセスを失って凍結されるのはもったいないと思い、後世にその資産を継承するための対策を考えます。
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## もし死んだらどうするか？

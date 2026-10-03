@@ -1,13 +1,25 @@
 ---
-description: 何をやったらいいかわからなくなるときがある自分
+title: キャリアについての悩み
 emoji: ❓
-isDraft: true
-isTranslated: false
-noindex: true
-published_at: 2026-05-02
+locale: ja
+slug: my-career-path
+category: misc
 tags:
   - essay
-title: キャリアについての悩み
+published_at: 2026-05-02T00:00:00.000Z
+updated_at: 2026-05-02T00:00:00.000Z
+description: 何をやったらいいかわからなくなるときがある自分
+isDraft: true
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
 ---
 
 ## 何をしたらいいのかわからない

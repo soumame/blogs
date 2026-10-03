@@ -1,12 +1,25 @@
 ---
+title: Let's Read Google Sheets via API!
 emoji: 🤖
-isTranslated: true
-published_at: 2024-06-22T00:00:00.000Z
-sourceHash: ca1dcaaab5e1ca5b733ccb734c1825632f18c9f0f6708f2e90d6a59cd7414e7c
-sourcePath: ja/tech/google-sheet-to-api.md
+locale: en
+slug: google-sheet-to-api
+category: tech
 tags:
   - dev
-title: Let's Read Google Sheets via API!
+published_at: 2024-06-22T00:00:00.000Z
+updated_at: 2024-06-22T00:00:00.000Z
+description: Let's Read Google Sheets via API! Image from Gyazo This is a re-publication of an article I wrote on another site last year. It's super easy. I'll explain how t
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVBQHWBCRJGK9NC8ZY7M
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Let's Read Google Sheets via API!

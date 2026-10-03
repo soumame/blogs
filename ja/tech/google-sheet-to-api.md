@@ -1,9 +1,25 @@
 ---
+title: GoogleスプレッドシートをAPI経由で読み込もう！
 emoji: 🤖
-published_at: 2024-06-22
+locale: ja
+slug: google-sheet-to-api
+category: tech
 tags:
   - dev
-title: GoogleスプレッドシートをAPI経由で読み込もう！
+published_at: 2024-06-22T00:00:00.000Z
+updated_at: 2024-06-22T00:00:00.000Z
+description: Google スプレッドシートを API 経由で読み込もう！ Image from Gyazo 去年別のサイトで書いた記事を再公開したものです。 超簡単です。Google スプレッドシートに書いた情報を API というものを使って読み込む方法を解説します。 応用すれば、簡易 CMS としても使用できます！コピペするだけ
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Google スプレッドシートを API 経由で読み込もう！

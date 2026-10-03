@@ -1,14 +1,27 @@
 ---
+title: I Want to Incorporate LLM into Visual Programming (Blockly × LLM)
 emoji: 🤖
-isTranslated: true
-published_at: 2024-11-22 12:19
-sourceHash: 48e4dd8cb0ef3c27560847ec58fd321a40f6dc76ee23dcd39abfe3a1476901b8
-sourcePath: ja/tech/llm-in-visual-programming.md
+locale: en
+slug: llm-in-visual-programming
+category: tech
 tags:
+  - dev
   - llm
   - programming-education
-  - dev
-title: I Want to Incorporate LLM into Visual Programming (Blockly × LLM)
+published_at: 2024-11-22T03:19:00.000Z
+updated_at: 2024-11-22T03:19:00.000Z
+description: Hello everyone. My name is Sousei Tokumaru, also known as Sōmame. About a year ago, I became deeply fascinated with web application development using Typescript
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVGTVCXG4VBJSN3T39SE
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Hello everyone. My name is Sousei Tokumaru, also known as Sōmame.

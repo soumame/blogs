@@ -1,9 +1,25 @@
 ---
+title: ブロックチェーンを使わないビットコイン取引をする方法(オフチェーン)
 emoji: 🤖
-published_at: 2023-05-09
+locale: ja
+slug: offchain-transaction
+category: tech
 tags:
   - crypto
-title: ブロックチェーンを使わないビットコイン取引をする方法(オフチェーン)
+published_at: 2023-05-09T00:00:00.000Z
+updated_at: 2023-05-09T00:00:00.000Z
+description: ブロックチェーンを使わないビットコイン取引をする方法(オフチェーン) この記事はだいぶ前に書いた記事を再アップロードしたものです。 仮想通貨と聞くと、ブロックチェーンを思い浮かべる人は多いのではないでしょうか。最近ブロックチェーンを使わない取引について調べたので、まとめてみました。 ブロックチェーンとは ブロックチェー
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # ブロックチェーンを使わないビットコイン取引をする方法(オフチェーン)

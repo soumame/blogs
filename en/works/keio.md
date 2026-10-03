@@ -1,13 +1,25 @@
 ---
-description: I enrolled in the Faculty of Environment and Information Studies at Keio University in September 2025.
+title: Keio University
 emoji: 🎓
-isTranslated: true
-published_at: 2025-09
-sourceHash: 8ee7e58217744db2975a880296920bd1841766ead6d6655dfb6b37311636def8
-sourcePath: ja/works/keio.md
+locale: en
+slug: keio
+category: works
 tags:
   - educaiton
-title: Keio University
+published_at: 2025-09
+updated_at: 2025-09-01T00:00:00.000Z
+description: I enrolled in the Faculty of Environment and Information Studies at Keio University in September 2025.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVYDDE147SHCV2S9TVT6
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 As for why I went to university, I wanted connections with people, and compared to high school I could learn more specialized things.

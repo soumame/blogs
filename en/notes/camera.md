@@ -1,15 +1,26 @@
 ---
-description: A story about giving in to the recurring, roughly yearly urge to buy a camera.
+title: Cameras Are Great, Aren't They?
 emoji: 📷️
-isDraft: false
-isTranslated: true
-published_at: 2026-06-25T00:00:00.000Z
-sourceHash: 5da620dcbee46f6f07731a1f9e3775061e3506c736b280eb86e5065a828c78c4
-sourcePath: ja/notes/camera.md
+locale: en
+slug: camera
+category: notes
 tags:
   - essay
   - wishlist
-title: Cameras Are Great, Aren't They?
+published_at: 2026-06-25T00:00:00.000Z
+updated_at: 2026-06-25T00:00:00.000Z
+description: A story about giving in to the recurring, roughly yearly urge to buy a camera.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTMVTBJ6C7D78QKM0DD6
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 A while ago I said something like [[en/misc/wishlist-2025-12|I can't buy the things I want]], but I started a [[en/works/diver-x|part-time job]], got to do what I wanted a bit, and slowly saved up some money.

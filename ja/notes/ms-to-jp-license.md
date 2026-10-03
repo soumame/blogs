@@ -1,9 +1,25 @@
 ---
+title: 【外免切り替え】マレーシアの免許を日本の免許に書き換えてみた
 emoji: 🤖
-published_at: 2025-04-04
+locale: ja
+slug: ms-to-jp-license
+category: notes
 tags:
   - essay
-title: 【外免切り替え】マレーシアの免許を日本の免許に書き換えてみた
+published_at: 2025-04-04T00:00:00.000Z
+updated_at: 2025-04-04T00:00:00.000Z
+description: 【外免切り替え】マレーシアの免許を日本の免許に書き換えてみた Image from Gyazo こんにちは、18歳のそうまめです。 5年ほどマレーシアに住んでいましたが、1月末をもって日本に帰国して、外国の免許を日本の免許に書き換えて、日本で車を運転することができたので、ここに書き記しておきます。 2025年3月現在、
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【外免切り替え】マレーシアの免許を日本の免許に書き換えてみた

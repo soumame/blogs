@@ -1,13 +1,26 @@
 ---
-emoji: 🤖
-isTranslated: true
-published_at: 2024-12-26T00:00:00.000Z
-sourceHash: a8b9a935ca9f9436893af7bed3ff85da06e6283e467c68958e29a6ffa76c2111
-sourcePath: ja/notes/revise-mitou-jr.md
-tags:
-  - TutoriaLLM
-  - mitou-junior
 title: Reflections on Mitou Junior
+emoji: 🤖
+locale: en
+slug: revise-mitou-jr
+category: notes
+tags:
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-12-26T00:00:00.000Z
+updated_at: 2024-12-26T00:00:00.000Z
+description: Reflections on Mitou Junior This article is part of the Mitou Junior Advent Calendar. Long time no see — I'm Soumame (https://tokumaru.work/ja). I attended an A
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV1K51YC4SQR4M0H78KE
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Reflections on Mitou Junior

@@ -1,14 +1,25 @@
 ---
-description: If you came to learn something and found something interesting, and while investigating it you gradually gained new abilities... That's how I've increased my skills so far. But how will AI change that, and how should we design society so those losses don't occur?
+title: An Era Where It's Hard to Learn from Side Effects
 emoji: ❓
-isDraft: false
-isTranslated: true
-published_at: 2026-06-15T00:00:00.000Z
-sourceHash: 31efa0bf0281cca647f7a41c60064a6b3acd723499d6c435c8bf592adac9639e
-sourcePath: ja/notes/learn-as-side-effect.md
+locale: en
+slug: learn-as-side-effect
+category: notes
 tags:
   - ai-generated
-title: An Era Where It's Hard to Learn from Side Effects
+published_at: 2026-06-15T00:00:00.000Z
+updated_at: 2026-06-15T00:00:00.000Z
+description: If you came to learn something and found something interesting, and while investigating it you gradually gained new abilities... That's how I've increased my skills so far. But how will AI change that, and how should we design society so those losses don't occur?
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTSMTVTAEC7THD511BP1
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 soumame

@@ -1,13 +1,25 @@
 ---
-description: Looking Back Only at the Failures of 2024!
+title: Looking Back Only at the Failures of 2024!
 emoji: 💩
-isTranslated: true
-published_at: 2025-01-01T00:00:00.000Z
-sourceHash: e04a2dde4c495ed0ff41a568beb786cd8fcf6a4c528416fe5992eb656e1f7b04
-sourcePath: ja/notes/2024-fails.md
+locale: en
+slug: 2024-fails
+category: notes
 tags:
   - essay
-title: Looking Back Only at the Failures of 2024!
+published_at: 2025-01-01T00:00:00.000Z
+updated_at: 2025-01-01T00:00:00.000Z
+description: Looking Back Only at the Failures of 2024!
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTDWXYMPC85P5QXJTFD4
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Looking Back Only at the Failures of 2024!

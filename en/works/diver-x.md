@@ -1,14 +1,25 @@
 ---
-description: I work as a software developer at Diver-X Inc. (part-time).
+title: Diver-X
 emoji: 💼
-isDraft: false
-isTranslated: true
-published_at: 2026-01-27T00:00:00.000Z
-sourceHash: 83ad1961562ff80bf56636203f5a6a80028bbf1c446eed83e6946e35bf8018c6
-sourcePath: ja/works/diver-x.md
+locale: en
+slug: diver-x
+category: works
 tags:
   - Work
-title: Diver-X
+published_at: 2026-01-27T00:00:00.000Z
+updated_at: 2026-01-27T00:00:00.000Z
+description: I work as a software developer at Diver-X Inc. (part-time).
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVTPX0RETTTTF59KZ4RX
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## What I do

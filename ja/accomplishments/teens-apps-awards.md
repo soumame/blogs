@@ -1,12 +1,27 @@
 ---
-description: 日本全国の中高生が競う、アプリ開発のコンテスト「アプリ甲子園2024」にて、TutoriaLLMプロジェクトがAI部門において本戦に進出し、技術賞と優勝・総務大臣賞を受賞しました。
-emoji: 🏆
-published_at: 2024-11-17
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - awards
 title: アプリ甲子園2024 AI部門 技術賞・優勝
+emoji: 🏆
+locale: ja
+slug: teens-apps-awards
+category: accomplishments
+tags:
+  - awards
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-11-17T00:00:00.000Z
+updated_at: 2024-11-17T00:00:00.000Z
+description: 日本全国の中高生が競う、アプリ開発のコンテスト「アプリ甲子園2024」にて、TutoriaLLMプロジェクトがAI部門において本戦に進出し、技術賞と優勝・総務大臣賞を受賞しました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## アプリ甲子園とは

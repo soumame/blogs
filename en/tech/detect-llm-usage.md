@@ -1,15 +1,26 @@
 ---
-description: Have you ever been banned from using AI tools like ChatGPT (LLMs) at school? For a while OpenAI and others published experimental software to detect text written by LLMs, but nowadays such tools are hard to find. Is it actually possible to reliably detect the use of an LLM?
+title: Can the use of LLMs be detected?
 emoji: 🤖
-isDraft: true
-isTranslated: true
-published_at: 2025-10-06T00:00:00.000Z
-sourceHash: b537120fcb8ea6cebe200ffea8ef6455c15ffdb603512d6c2fb979ac3e562d75
-sourcePath: ja/tech/detect-llm-usage.md
+locale: en
+slug: detect-llm-usage
+category: tech
 tags:
   - brain-storming
   - llm
-title: Can the use of LLMs be detected?
+published_at: 2025-10-06T00:00:00.000Z
+updated_at: 2025-10-06T00:00:00.000Z
+description: Have you ever been banned from using AI tools like ChatGPT (LLMs) at school? For a while OpenAI and others published experimental software to detect text written by LLMs, but nowadays such tools are hard to find. Is it actually possible to reliably detect the use of an LLM?
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXV6XRC7TBCX4YVEDFW2T
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 My teacher said something like "we have tools to detect the use of LLMs" — I wondered if that's true, so I looked into it.

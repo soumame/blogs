@@ -1,12 +1,27 @@
 ---
-description: 製作したマインクラフトのワールドが、マレーシア教育省、サンウェイ・モールズ、マイクロソフトが主催するマインクラフト教育チャレンジのInternational高学年部門で2位に選ばれました。
-emoji: 🏆
-published_at: 2023-10-25
-tags:
-  - Minecraft
-  - educaiton
-  - awarded
 title: Minecraftエデュケーションチャレンジ2023 準優勝
+emoji: 🏆
+locale: ja
+slug: minecraft-edu-challenge
+category: accomplishments
+tags:
+  - awarded
+  - educaiton
+  - Minecraft
+published_at: 2023-10-25T00:00:00.000Z
+updated_at: 2023-10-25T00:00:00.000Z
+description: 製作したマインクラフトのワールドが、マレーシア教育省、サンウェイ・モールズ、マイクロソフトが主催するマインクラフト教育チャレンジのInternational高学年部門で2位に選ばれました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 日本ではMinecraftカップというマイクラ教育版のコンテストがあるわけなんですが、海外にもそういった事例はあり、マレーシアでは、MEC(Minecraft Education Challenge)というイベントがあります。[MEC 2023](https://mcedumy.com/mec-2023)に出場し、準優勝しました。

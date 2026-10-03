@@ -1,16 +1,27 @@
 ---
-description: I went to Coolest Projects Japan 2026, the first-ever exhibition event of its kind in Japan, so I'll introduce it here (it's scheduled to be held again next year).
+title: Coolest Projects Japan 2026
 emoji: 💥
-isDraft: false
-isTranslated: true
-published_at: 2026-04-02T00:00:00.000Z
-sourceHash: 3f8b600f3e943a51f39a982c3331b77d9c2d0da3b6b878ba6e95e56a8086a16a
-sourcePath: ja/notes/coolestprojects2026.md
+locale: en
+slug: coolestprojects2026
+category: notes
 tags:
+  - ai-generated
   - educaiton
   - talks
-  - ai-generated
-title: Coolest Projects Japan 2026
+published_at: 2026-04-02T00:00:00.000Z
+updated_at: 2026-04-02T00:00:00.000Z
+description: I went to Coolest Projects Japan 2026, the first-ever exhibition event of its kind in Japan, so I'll introduce it here (it's scheduled to be held again next year).
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTPGRAFE4M2BQ5PRM9W1
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 I recently went to Coolest Projects, the first-ever exhibition event of its kind to be held in Japan, which took place in Nagoya, Aichi Prefecture, and I'll casually introduce it here (it's scheduled to be held again next year).

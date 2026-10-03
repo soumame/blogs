@@ -1,13 +1,25 @@
 ---
-description: 男性だとしても、自分がそれを認めていても、かわいくなりたいときってあるよね？でも、なんでだろう？
+title: かわいくなりたい
 emoji: ❤
-isDraft: false
-isTranslated: false
-noindex: true
-published_at: 2026-06-15
+locale: ja
+slug: kawaii
+category: misc
 tags:
   - essay
-title: かわいくなりたい
+published_at: 2026-06-15T00:00:00.000Z
+updated_at: 2026-06-15T00:00:00.000Z
+description: 男性だとしても、自分がそれを認めていても、かわいくなりたいときってあるよね？でも、なんでだろう？
+isDraft: false
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
 ---
 
 ## かわいくなりたい

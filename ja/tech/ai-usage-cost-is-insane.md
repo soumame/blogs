@@ -1,18 +1,30 @@
 ---
-description: アルバイトでもAIエージェントを酷使するそうまめが、コストの痛みと成果評価のジレンマを語り、私は資金確保や責任の置き所について整理した対話録です。
-dialogue-users:
-  そうまめ: https://avatars.githubusercontent.com/u/46675982
-  まめの家: ../../media/07e6918f3eedb75e11cd8cab5227bd1fd33c0d65d39a852edae29c2adacbbb49.jpg
+title: AIエージェントの請求がやばい
 emoji: 💸
-isDraft: true
-isTranslated: false
-noindex: false
-published_at: 2026-02-25
-style: dialogue
+locale: ja
+slug: ai-usage-cost-is-insane
+category: tech
 tags:
   - ai-generated
   - dev
-title: AIエージェントの請求がやばい
+published_at: 2026-02-25T00:00:00.000Z
+updated_at: 2026-02-25T00:00:00.000Z
+description: アルバイトでもAIエージェントを酷使するそうまめが、コストの痛みと成果評価のジレンマを語り、私は資金確保や責任の置き所について整理した対話録です。
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
+style: dialogue
+dialogue-users:
+  そうまめ: https://avatars.githubusercontent.com/u/46675982
+  まめの家: ../../media/07e6918f3eedb75e11cd8cab5227bd1fd33c0d65d39a852edae29c2adacbbb49.jpg
 ---
 
 アルバイト業務までAIエージェントに頼るようになったそうまめが、「学生には重すぎる請求」をきっかけに相談。私はコスト管理だけでなく、成果評価や将来の責任の所在まで広げて話し合った。

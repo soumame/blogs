@@ -1,14 +1,25 @@
 ---
-description: Specified Nonprofit Corporation Digital Manufacturing Council (Part-time)
+title: Specified Nonprofit Corporation Digital Manufacturing Council
 emoji: 💼
-isDraft: false
-isTranslated: true
-published_at: 2025-06-01T00:00:00.000Z
-sourceHash: 230eafaf0f4b0fbdd3a78ddbf3f922ab3e9d04f283dbcd7e644763bbcc99d57e
-sourcePath: ja/works/dmcouncil.md
+locale: en
+slug: dmcouncil
+category: works
 tags:
   - Minecraft
   - Work
-title: Specified Nonprofit Corporation Digital Manufacturing Council
+published_at: 2025-06-01T00:00:00.000Z
+updated_at: 2025-06-01T00:00:00.000Z
+description: Specified Nonprofit Corporation Digital Manufacturing Council (Part-time)
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVVW7BNCGQZRXGSN799Z
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 

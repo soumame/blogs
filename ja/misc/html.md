@@ -1,10 +1,26 @@
 ---
-emoji: 🗒️
-published_at: 2025-10-05
-tags:
-  - dev
-  - coding
 title: HTMLとは
+emoji: 🗒️
+locale: ja
+slug: html
+category: misc
+tags:
+  - coding
+  - dev
+published_at: 2025-10-05T00:00:00.000Z
+updated_at: 2025-10-05T00:00:00.000Z
+description: HTMLの役目 HTMLは、HyperText Markup Languageと言って、ハイパーテキストを記述する言語。 で、ハイパーテキストっていうのは、今は当たり前となったリンクを通して他の文書と紐づけることができる仕組みがあるテキストファイル。 テキストファイルっていうのは文字を書いておくファイル。(.txtみた
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## HTMLの役目

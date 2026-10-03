@@ -1,15 +1,26 @@
 ---
-description: Most of the rice I've eaten in my life was cooked by a Sanyo rice cooker. According to Google, the typical lifespan of a rice cooker is said to be 3 to 6 years, but I've been using mine for at least 15 years. What's going on???
-emoji: 🍚
-isDraft: true
-isTranslated: true
-published_at: 2026-04-04T00:00:00.000Z
-sourceHash: 25837b09006148a6de1e5baa5b3314be22513d62195801a89dea8e846af40146
-sourcePath: ja/misc/insane-rice-cooker.md
-tags:
-  - essay
-  - dev
 title: My Rice Cooker Never Breaks
+emoji: 🍚
+locale: en
+slug: insane-rice-cooker
+category: misc
+tags:
+  - dev
+  - essay
+published_at: 2026-04-04T00:00:00.000Z
+updated_at: 2026-04-04T00:00:00.000Z
+description: Most of the rice I've eaten in my life was cooked by a Sanyo rice cooker. According to Google, the typical lifespan of a rice cooker is said to be 3 to 6 years, but I've been using mine for at least 15 years. What's going on???
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSZASYE96D46M4B9FKWW
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 I feel like fewer and fewer people these days know the manufacturer Sanyo Electric.

@@ -1,11 +1,26 @@
 ---
-description: Obsidianのグラフビューが気に入ったので自分のウェブサイトにも実装してみた
+title: ブログにグラフビューを実装してみた
 emoji: 🗺️
-published_at: 2025-10-29
+locale: ja
+slug: blog-graph-view
+category: tech
 tags:
   - coding
   - web
-title: ブログにグラフビューを実装してみた
+published_at: 2025-10-29T00:00:00.000Z
+updated_at: 2025-10-29T00:00:00.000Z
+description: Obsidianのグラフビューが気に入ったので自分のウェブサイトにも実装してみた
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## グラフビューってなに

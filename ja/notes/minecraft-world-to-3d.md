@@ -1,9 +1,25 @@
 ---
+title: 【統合&amp;Java】無料でマイクラのワールドを3Dに変換！
 emoji: 🤖
-published_at: 2022-12-02
+locale: ja
+slug: minecraft-world-to-3d
+category: notes
 tags:
   - game
-title: 【統合&amp;Java】無料でマイクラのワールドを3Dに変換！
+published_at: 2022-12-02T00:00:00.000Z
+updated_at: 2022-12-02T00:00:00.000Z
+description: 【統合&Java】無料でマイクラのワールドを3Dに変換！ Image from Gyazo 結構この手の話はよく質問されるので、noteにまとめておきます。統合版は途中でJavaに変換するプロセスが必要なので両方のバージョンを購入している必要があります。 必要なもの マインクラフト Java Edition PC/Ma
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # 【統合\&Java】無料でマイクラのワールドを3Dに変換！

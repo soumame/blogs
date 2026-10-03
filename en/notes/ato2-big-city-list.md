@@ -1,12 +1,25 @@
 ---
+title: "[ATO2] List of the Most Important Early-Game Cities (Updating)"
 emoji: 🤖
-isTranslated: true
-published_at: 2021-09-10T00:00:00.000Z
-sourceHash: bfc00a6a8fc3f5de82c9af684ccd329c9589a2faadc66dec5b2ea2756f960f04
-sourcePath: ja/notes/ato2-big-city-list.md
+locale: en
+slug: ato2-big-city-list
+category: notes
 tags:
   - game
-title: "[ATO2] List of the Most Important Early-Game Cities (Updating)"
+published_at: 2021-09-10T00:00:00.000Z
+updated_at: 2021-09-10T00:00:00.000Z
+description: "[ATO2] List of the Most Important Early-Game Cities (Updating) I created a list of cities you should secure in the early game. Please take a look if you'd like."
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTGTB4HW0FB1H4J908AW
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # \[ATO2] List of the Most Important Early-Game Cities (Updating)

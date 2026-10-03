@@ -1,9 +1,25 @@
 ---
+title: Nicehashでマイニングする方法
 emoji: 🤖
-published_at: 2021-04-07
+locale: ja
+slug: nicehash-mining
+category: tech
 tags:
   - crypto
-title: Nicehashでマイニングする方法
+published_at: 2021-04-07T00:00:00.000Z
+updated_at: 2021-04-07T00:00:00.000Z
+description: Nicehashでマイニングする方法 Image from Gyazo 簡単に説明します 必要なもの １，パソコン ２，Eメールアドレス Nicehashアカウントの作成 まず、以下のリンクからNicehashの公式サイトへ行きます https://www.nicehash.com/ GET STARTEDを押す Im
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # Nicehashでマイニングする方法

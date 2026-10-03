@@ -1,13 +1,25 @@
 ---
-description: Probably everyone except the extremely wealthy faces this problem
+title: Can't Buy What I Want
 emoji: 🍠
-isTranslated: true
-published_at: 2025-12-11T00:00:00.000Z
-sourceHash: b8ff40becefd73b5a4ffb902e43f6da7f0978732391888a70a2b24e78d2af6ec
-sourcePath: ja/misc/wishlist-2025-12.md
+locale: en
+slug: wishlist-2025-12
+category: misc
 tags:
   - wishlist
-title: Can't Buy What I Want
+published_at: 2025-12-11T00:00:00.000Z
+updated_at: 2025-12-11T00:00:00.000Z
+description: Probably everyone except the extremely wealthy faces this problem
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXTAYCC4VD9WG80EJB2WJ
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## Why make a list

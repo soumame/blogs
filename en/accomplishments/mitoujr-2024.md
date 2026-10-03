@@ -1,15 +1,27 @@
 ---
-description: Support for the TutoriaLLM project, which was selected for Mitou Junior 2024, concluded with the results presentation on November 4. On the same day, we received the Visional Award as a corporate prize from Visional, Inc. In addition, at the end of the same month we were recognized as a “Super Creator,” an accreditation given to creators who produced particularly notable achievements.
-emoji: 🏢
-isTranslated: true
-published_at: 2024-11-04T00:00:00.000Z
-sourceHash: a67a4cc0c66fd28a1678296fcddf64c2a8aa87ea9371a8ec83b04227f9eb8dfe
-sourcePath: ja/accomplishments/mitoujr-2024.md
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - awards
 title: Mitou Junior 2024
+emoji: 🏢
+locale: en
+slug: mitoujr-2024
+category: accomplishments
+tags:
+  - awards
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-11-04T00:00:00.000Z
+updated_at: 2024-11-04T00:00:00.000Z
+description: Support for the TutoriaLLM project, which was selected for Mitou Junior 2024, concluded with the results presentation on November 4. On the same day, we received the Visional Award as a corporate prize from Visional, Inc. In addition, at the end of the same month we were recognized as a “Super Creator,” an accreditation given to creators who produced particularly notable achievements.
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSANEK9JCW99E2TK9P1S
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 未踏ジュニアの振り返りについては、[[en/notes/revise-mitou-jr|Review of Mitou Junior]]をご覧ください。

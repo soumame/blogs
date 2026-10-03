@@ -1,11 +1,25 @@
 ---
-description: Diver-X株式会社（アルバイト）でソフトウェア開発に従事しています
+title: Diver-X
 emoji: 💼
-isDraft: false
-published_at: 2026-01-27
+locale: ja
+slug: diver-x
+category: works
 tags:
   - Work
-title: Diver-X
+published_at: 2026-01-27T00:00:00.000Z
+updated_at: 2026-01-27T00:00:00.000Z
+description: Diver-X株式会社（アルバイト）でソフトウェア開発に従事しています
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## 何をしてるの

@@ -1,15 +1,27 @@
 ---
-description: At "App Koshien 2024," an app development contest where middle and high school students from across Japan compete, the TutoriaLLM project advanced to the main tournament in the AI division and won the Technical Award and the Championship (Minister of Internal Affairs and Communications Award).
-emoji: 🏆
-isTranslated: true
-published_at: 2024-11-17T00:00:00.000Z
-sourceHash: 97a44c62ed85983229394749218dcfe7cf9fbc7fc9ca7f2e34f84efe09fa8859
-sourcePath: ja/accomplishments/teens-apps-awards.md
-tags:
-  - TutoriaLLM
-  - mitou-junior
-  - awards
 title: App Koshien 2024 — AI Division Technical Award & Championship
+emoji: 🏆
+locale: en
+slug: teens-apps-awards
+category: accomplishments
+tags:
+  - awards
+  - mitou-junior
+  - TutoriaLLM
+published_at: 2024-11-17T00:00:00.000Z
+updated_at: 2024-11-17T00:00:00.000Z
+description: At "App Koshien 2024," an app development contest where middle and high school students from across Japan compete, the TutoriaLLM project advanced to the main tournament in the AI division and won the Technical Award and the Championship (Minister of Internal Affairs and Communications Award).
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSC2DAYRZHY5JXSCFS6F
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## What is App Koshien

@@ -1,12 +1,25 @@
 ---
-description: Hack Clubという英語圏のコミュニティがあるのでおすすめする
+title: Hack Clubのすすめ
 emoji: 💻
-isDraft: true
-isTranslated: null
-published_at: 2025-12-15
+locale: ja
+slug: hack-club
+category: tech
 tags:
   - dev
-title: Hack Clubのすすめ
+published_at: 2025-12-15T00:00:00.000Z
+updated_at: 2025-12-15T00:00:00.000Z
+description: Hack Clubという英語圏のコミュニティがあるのでおすすめする
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ## Hack Clubとは

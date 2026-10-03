@@ -1,13 +1,25 @@
 ---
-description: I worked as a McDonald's crew member (part-time).
+title: McDonald's Crew Member (Part-time)
 emoji: 💼
-isTranslated: true
-published_at: 2025-03
-sourceHash: 4a3012af93de63a91d2428927f0478fccf1b8ddc989e1d2d11cc1194a7486e9f
-sourcePath: ja/works/mcd.md
+locale: en
+slug: mcd
+category: works
 tags:
   - Work
-title: McDonald's Crew Member (Part-time)
+published_at: 2025-03
+updated_at: 2025-03-01T00:00:00.000Z
+description: I worked as a McDonald's crew member (part-time).
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXVZRWXA5JQD77M72JHMM
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Hello, I'm Soumame.

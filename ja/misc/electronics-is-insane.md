@@ -1,13 +1,25 @@
 ---
-description: 身の回りに当たり、前のようにある家電製品ってよくよく考えると、すごく高度な技術を使っているということに気づいた
+title: よくよく考えると家電製品てすごい
 emoji: 🔌
-isDraft: true
-isTranslated: false
-noindex: true
-published_at: 2026-04-06
+locale: ja
+slug: electronics-is-insane
+category: misc
 tags:
   - essay
-title: よくよく考えると家電製品てすごい
+published_at: 2026-04-06T00:00:00.000Z
+updated_at: 2026-04-06T00:00:00.000Z
+description: 身の回りに当たり、前のようにある家電製品ってよくよく考えると、すごく高度な技術を使っているということに気づいた
+isDraft: true
+hidden_from_listing: true
+noindex: true
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: true
 ---
 
 先日 [[ja/misc/insane-rice-cooker|家の炊飯器が凄すぎる]]という話をして、改めて考えてみると家にあるほかの電化製品も凄いじゃん！ということに気づいた。

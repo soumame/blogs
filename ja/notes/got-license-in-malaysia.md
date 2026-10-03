@@ -1,9 +1,25 @@
 ---
+title: マレーシアで免許取ってみた
 emoji: 🤖
-published_at: 2024-07-27
+locale: ja
+slug: got-license-in-malaysia
+category: notes
 tags:
   - essay
-title: マレーシアで免許取ってみた
+published_at: 2024-07-27T00:00:00.000Z
+updated_at: 2024-07-27T00:00:00.000Z
+description: マレーシアで免許取ってみた Image from Gyazo こんにちは。17歳のそうまめです。先日（と言ってもだいぶ前ですが）、マレーシアで免許を取ることができたので、どうやって取ったかここに書き記しておきます。初めに言っておきますが、マレーシアでは17歳から普通自動車免許が取れますので、そこは承知の上で読んでくださ
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 # マレーシアで免許取ってみた

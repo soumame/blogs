@@ -1,13 +1,25 @@
 ---
-description: 大学に入って、数学の重要さを再認識することになった
+title: 大学に入って数学でつまづきそう
 emoji: 🧮
-isDraft: true
-isTranslated: false
-noindex: false
-published_at: 2026-06-22
+locale: ja
+slug: mathematics
+category: misc
 tags:
   - essay
-title: 大学に入って数学でつまづきそう
+published_at: 2026-06-22T00:00:00.000Z
+updated_at: 2026-06-22T00:00:00.000Z
+description: 大学に入って、数学の重要さを再認識することになった
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 2025年に[[ja/works/keio|大学]]に入学してから、すでに1学期目が終わったんだけど、2学期目で取っているいくつかの授業では、高校数学の知識が必要で、だいぶまずい状態になっている。

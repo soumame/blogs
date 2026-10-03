@@ -1,15 +1,26 @@
 ---
-description: I think that even someone like me, who finds writing blog posts a hassle, may now be able to make my opinions more effectively conveyed through AI.
+title: Creating a Blog Through Dialogue Using OpenClaw
 emoji: 🦞
-isDraft: true
-isTranslated: true
-published_at: 2026-02-25T00:00:00.000Z
-sourceHash: d87978a6909fcb7096c553811768a9a6dff100948c1fe8d63b7993738384cfe6
-sourcePath: ja/tech/openclaw-dialogue-style-blogs.md
+locale: en
+slug: openclaw-dialogue-style-blogs
+category: tech
 tags:
   - ai-generated
   - dev
-title: Creating a Blog Through Dialogue Using OpenClaw
+published_at: 2026-02-25T00:00:00.000Z
+updated_at: 2026-02-25T00:00:00.000Z
+description: I think that even someone like me, who finds writing blog posts a hassle, may now be able to make my opinions more effectively conveyed through AI.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3S3KMV43B4D4724HT1GSV8Z
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 ### TTTTTTThread Proposal — Can a Blog Be Written Through Dialogue?

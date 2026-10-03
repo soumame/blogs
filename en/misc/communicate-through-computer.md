@@ -1,14 +1,25 @@
 ---
-description: There are visual, auditory, tactile modalities, and more—but how has communication using computers changed?
+title: Communication Through Computers
 emoji: 🗣️
-isDraft: true
-isTranslated: true
-published_at: 2026-05-29T00:00:00.000Z
-sourceHash: 6d97778ce7c46bdc976edadcb1dd2cef9b7c195ffc4dc4e2eb6dbd4df0770e67
-sourcePath: ja/misc/communicate-through-computer.md
+locale: en
+slug: communicate-through-computer
+category: misc
 tags:
   - ai-generated
-title: Communication Through Computers
+published_at: 2026-05-29T00:00:00.000Z
+updated_at: 2026-05-29T00:00:00.000Z
+description: There are visual, auditory, tactile modalities, and more—but how has communication using computers changed?
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXSMPH17BRQPKXZQG6SZ7
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 soumame

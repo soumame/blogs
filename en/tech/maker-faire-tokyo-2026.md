@@ -1,14 +1,25 @@
 ---
-description: I casually submitted my first piece of hardware and ended up getting accepted!?
+title: Exhibiting at Maker Faire Tokyo 2026
 emoji: 🔧
-isDraft: true
-isTranslated: true
-published_at: 2026-08-17T00:00:00.000Z
-sourceHash: 50a4d7f7adb3c6d4c71167fba013c4dd20367e3c2dcbdf8e672521cd082000da
-sourcePath: ja/tech/maker-faire-tokyo-2026.md
+locale: en
+slug: maker-faire-tokyo-2026
+category: tech
 tags:
   - essay
-title: Exhibiting at Maker Faire Tokyo 2026
+published_at: 2026-08-17T00:00:00.000Z
+updated_at: 2026-08-17T00:00:00.000Z
+description: I casually submitted my first piece of hardware and ended up getting accepted!?
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M40APHTP5K3Y6BNJRTA7TGFE
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > I’m updating the story of how I ended up exhibiting at Maker Faire Tokyo as I go. This is very much a work in progress — I’ll finish it before the event.

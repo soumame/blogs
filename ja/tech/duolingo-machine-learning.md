@@ -1,12 +1,26 @@
 ---
-description: 語学学習アプリであるDuolingoは機械学習を至る所で使っていると耳にしたのですが、いったいどこで使っているのでしょうか？気になって調べてみました。
+title: Duolingoはどれくらい機械学習使っているのか
 emoji: 🦉
-isTranslated: null
-published_at: 2025-12-02
+locale: ja
+slug: duolingo-machine-learning
+category: tech
 tags:
   - dev
   - llm
-title: Duolingoはどれくらい機械学習使っているのか
+published_at: 2025-12-02T00:00:00.000Z
+updated_at: 2025-12-02T00:00:00.000Z
+description: 語学学習アプリであるDuolingoは機械学習を至る所で使っていると耳にしたのですが、いったいどこで使っているのでしょうか？気になって調べてみました。
+isDraft: false
+hidden_from_listing: false
+noindex: false
+isTranslated: false
+translation_of: null
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 > 機械学習に対する自己理解を深め、その知見をほかの人に共有することを目的に、ブログ記事を執筆しました。私は機械学習の専門家ではないので間違っているかもしれません。この記事は私の Web サイト上でも公開されています（ <https://tokumaru.work/ja> )

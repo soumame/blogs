@@ -1,14 +1,25 @@
 ---
-description: Entering university made me realize the importance of mathematics.
+title: Starting University and Struggling with Mathematics
 emoji: 🧮
-isDraft: true
-isTranslated: true
-published_at: 2026-06-22T00:00:00.000Z
-sourceHash: 261b9c94980952d02fba78d6d0db08538865cfafb3cb07d37ba7bac0012d7303
-sourcePath: ja/misc/mathematics.md
+locale: en
+slug: mathematics
+category: misc
 tags:
   - essay
-title: Starting University and Struggling with Mathematics
+published_at: 2026-06-22T00:00:00.000Z
+updated_at: 2026-06-22T00:00:00.000Z
+description: Entering university made me realize the importance of mathematics.
+isDraft: true
+hidden_from_listing: false
+noindex: false
+isTranslated: true
+translation_of: 01M3TQXT38VVTTE1QPRT6JRCEC
+seo:
+  title: null
+  description: null
+  image: null
+  canonical: null
+  noIndex: false
 ---
 
 Since I entered [[en/works/keio|university]] in 2025, the first semester has already ended, but in some of the classes I'm taking in the second semester, high school math knowledge is required, and I'm in quite a bad shape.
