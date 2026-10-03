@@ -1,29 +1,30 @@
 ---
-title: 誕生日なので、未踏ジュニア修了からの経過を振り返る
-emoji: ▲
 description: 19歳の誕生日を迎えた、未踏ジュニア2024スーパークリエータの得丸創生です。未踏ジュニア修了後、あんまりネットとかを見ると音沙汰がないようにも見えるので、公開できる範囲で近況の報告をしようと思います。
+emoji: ▲
+isTranslated: null
+published_at: 2025-12-15
 tags:
   - TutoriaLLM
   - mitou-junior
   - dev
-published_at: 2025-12-15
-isTranslated:
+title: 誕生日なので、未踏ジュニア修了からの経過を振り返る
 ---
 
-> この記事は、[[revise-mitou-jr|未踏ジュニアの振り返り]]を参考に書いた続きの話です。アドベントカレンダー記事としても書いています。
+> この記事は、[[ja/notes/revise-mitou-jr|未踏ジュニアの振り返り]]を参考に書いた続きの話です。アドベントカレンダー記事としても書いています。
 
 <iframe src="https://adventar.org/calendars/11697/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
 
 クリエイター支援プログラム「[[ja/accomplishments/mitoujr-2024|未踏ジュニア2024]]」を修了してから、ちょうど1年が経ちました。
 
-https://jr.mitou.org
+<https://jr.mitou.org>
 
-さっき大学から自転車を漕ぎながら家に向かっていて、記事を書こうと思っていたのに書いていないことを思い出しました。なので、外のクソ寒い風で顔を引きつらせ、自転車をこぎながらGoogle Recorderで録音&LLMで書き起こして、ブログを書くことにしました。すれ違った人が私のことを二度見していたのは言うまでもありません。
+さっき大学から自転車を漕ぎながら家に向かっていて、記事を書こうと思っていたのに書いていないことを思い出しました。なので、外のクソ寒い風で顔を引きつらせ、自転車をこぎながらGoogle Recorderで録音\&LLMで書き起こして、ブログを書くことにしました。すれ違った人が私のことを二度見していたのは言うまでもありません。
 
 しかし、寒さのせいか出来上がった内容が支離滅裂（文字起こしは合っている）だったので、結局内容を少し整理して書き直しました。未踏ジュニアを通して得たもの、こと、進路のこととか、うまくいったこと、うまくいかなかったことをめちゃめちゃ雑にまとめてみました。
 
-[![Image from Gyazo](https://i.gyazo.com/af0b60ca39764d896a21ef1afa9713d7.jpg)](https://gyazo.com/af0b60ca39764d896a21ef1afa9713d7)
-ちなみにこれはこの前撮ったメンターである西尾さんとのツーショットです。自分の成果報告会はマレーシアから動画中継ということで写真がなかったので、2025年の成果報告会の際に改めて今年の成果報告会でメンターの西尾さんとツーショットを撮りました。ニッコニコですね。あ、ちなみに手に持っている修了証書は自分のではありません。
+[![Image from Gyazo](../../media/2e20a0aeeb9d6428d309db8398184b0f06c75b81dc6c31a6808840043e5bb3e5.jpg)](../../media/2e20a0aeeb9d6428d309db8398184b0f06c75b81dc6c31a6808840043e5bb3e5.jpg)
+
+&#xA;ちなみにこれはこの前撮ったメンターである西尾さんとのツーショットです。自分の成果報告会はマレーシアから動画中継ということで写真がなかったので、2025年の成果報告会の際に改めて今年の成果報告会でメンターの西尾さんとツーショットを撮りました。ニッコニコですね。あ、ちなみに手に持っている修了証書は自分のではありません。
 
 ## 未踏ジュニアでやっていたこと
 
@@ -31,12 +32,13 @@ https://jr.mitou.org
 
 未踏ジュニア期間中では、LLMを用いたプログラミング学習環境構築ソフト、TutoriaLLMを開発していました。
 
-https://jr.mitou.org/projects/2024/tutoriallm
+<https://jr.mitou.org/projects/2024/tutoriallm>
 
 詳しいことは発表の時とかにたくさん喋っているので、ここでは割愛します。
 
-[![Image from Gyazo](https://i.gyazo.com/4f797b19e73f84f105cf64490269a8ba.gif)](https://gyazo.com/4f797b19e73f84f105cf64490269a8ba)
-初めて作る本格的なWebアプリでしたが、AIの助けも借りて一応使える段階まで実装でき、未踏ジュニアのスーパークリエータの認定を受けることができました。また、その後の大会等にこれをそのまま出して受賞することなどもできました
+[![Image from Gyazo](../../media/1f7dd94641c26139b2e20f230fd2503634f68aeea578b74f0a52691623b34085.gif)](../../media/1f7dd94641c26139b2e20f230fd2503634f68aeea578b74f0a52691623b34085.gif)
+
+&#xA;初めて作る本格的なWebアプリでしたが、AIの助けも借りて一応使える段階まで実装でき、未踏ジュニアのスーパークリエータの認定を受けることができました。また、その後の大会等にこれをそのまま出して受賞することなどもできました
 
 ### あれから1年後
 
@@ -48,13 +50,13 @@ https://jr.mitou.org/projects/2024/tutoriallm
 
 当時は、AIがブロックの位置を視覚的に認識することが難しかったため、ブロックを一度文字データ化して読み取らせるという技術を使っていました。しかし、あれから1年経った今ではAIは画像をそのまま認識してコードを理解し、出力までできるようになりました。なんならAIが画像に注釈とか文字を加えて、画像としてスライドを出力することさえできるようになりました。あの時必死で作った技術的アプローチは、AIの進化によって一瞬で不要になり、仕事は無くなりました。
 
-[![Image from Gyazo](https://i.gyazo.com/d664503a646657a89988ef7a30a5fbe0.png)](https://gyazo.com/d664503a646657a89988ef7a30a5fbe0)
+[![Image from Gyazo](../../media/a1268ac34650a91abaedb1cc2fa51b03dd68de8674c267c0300ea4667cc1d5b0.png)](../../media/a1268ac34650a91abaedb1cc2fa51b03dd68de8674c267c0300ea4667cc1d5b0.png)
 
 一瞬これをAIの使い方を学ぶ教育プラットフォームで展開するという話も出ていて、実際に海外の方に打診されたことがあるくらいなのですが、そう言ったものは世の中にたくさんあり、競合があるということでモチベーションがあまり湧きませんでした。
 
 さらに、TutoriaLLMと似たソフトウェアが、Scratch財団で開発されているというアナウンスも出てきました。
 
-https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant
+<https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant>
 
 自分の作ってきたものは世界に通用するものなのかもしれない、と思ったのと同時に、それまでは誰もやったことがなかったかもしれないけど、そうでなくなったというのを認識させられました。
 
@@ -72,15 +74,15 @@ https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant
 
 作ったものをBlockly Summitというところで発表したり
 
-[![Image from Gyazo](https://i.gyazo.com/0c219fc018f65b5a695b50df1f91732e.jpg)](https://gyazo.com/0c219fc018f65b5a695b50df1f91732e)
+[![Image from Gyazo](../../media/bb5eecb81ef2adf174ff3989795a292c0499cb5b6b6c9e542c196e0fbaec9f02.jpg)](../../media/bb5eecb81ef2adf174ff3989795a292c0499cb5b6b6c9e542c196e0fbaec9f02.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/a4fda6270736ade74231bbf2f8652da6.jpg)](https://gyazo.com/a4fda6270736ade74231bbf2f8652da6)
+[![Image from Gyazo](../../media/bab70fe065a0ca50a3ed1d452f474bcbd7e61a8b946fe3c2eb9d9ec906ceabf4.jpg)](../../media/bab70fe065a0ca50a3ed1d452f474bcbd7e61a8b946fe3c2eb9d9ec906ceabf4.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/1a0e0d67785a4a15007c6eeadf3c0ad2.gif)](https://gyazo.com/1a0e0d67785a4a15007c6eeadf3c0ad2)
+[![Image from Gyazo](../../media/0f3aab5c32cd4c455be6b802c66131d1c47cca36a0d40b4bd97a5242463e3e77.gif)](../../media/0f3aab5c32cd4c455be6b802c66131d1c47cca36a0d40b4bd97a5242463e3e77.gif)
 
 DEF CONというハッカーが集まる楽しいところに行かせてもらったり
 
-[![Image from Gyazo](https://i.gyazo.com/e7f36313785b6cddd2d93b1b3df4e2cc.jpg)](https://gyazo.com/e7f36313785b6cddd2d93b1b3df4e2cc)
+[![Image from Gyazo](../../media/ba9dc20cb2f78622399e452fce94449f4413ccb2458af95c7e03337a497297e0.jpg)](../../media/ba9dc20cb2f78622399e452fce94449f4413ccb2458af95c7e03337a497297e0.jpg)
 
 プログラミング自体は始めてまだ1年そこらでしたし、技術力そのものが評価されたというよりは、そのプロセスや姿勢を見て「頑張ったね」と評価してもらえたのだと、今では思っています。
 
@@ -106,7 +108,9 @@ Blockly Summitは、当時GoogleのCS教育部門が開発していた（今年2
 
 去年こんなことを言っていて、卒業してから大学に行くことを決めたのですが、それ以前からいくつか候補はあって、未踏ジュニアから行く方も多い[[ja/works/keio|慶應義塾大学環境情報学部(SFC)]]に入学しました。
 
-[![Image from Gyazo](https://i.gyazo.com/7890be35f6b545223f79d08dd37abd57.jpg)](https://gyazo.com/7890be35f6b545223f79d08dd37abd57)（着慣れないスーツで入学式）
+[![Image from Gyazo](../../media/2200029008361bbca66f6f2d1c80f2a0a4eff7842e9eff541fb628a4fb62e939.jpg)](../../media/2200029008361bbca66f6f2d1c80f2a0a4eff7842e9eff541fb628a4fb62e939.jpg)
+
+（着慣れないスーツで入学式）
 
 ### SFCに行った理由
 
@@ -122,7 +126,7 @@ Blockly Summitは、当時GoogleのCS教育部門が開発していた（今年2
 
 未踏ジュニアが優遇されている件については鵜飼さんが今年のアドベントカレンダーにちょうど書いているので、そちらをどうぞ。
 
-https://note.com/ukkaripon/n/n16034b59b4f8
+<https://note.com/ukkaripon/n/n16034b59b4f8>
 
 まあ、入学要件を満たしているというのは大きいです。
 
@@ -154,23 +158,26 @@ https://note.com/ukkaripon/n/n16034b59b4f8
 
 日本にいると大学生は遊ぶべきだと言われたことはあるのですが、いやいや、遊んでるだけじゃ意味ないでしょ、と思っていました。でもあれは捉え方によっては本当なのかもしれません。まあ遊びと言っても、大学の授業で面白かったものとか、研究会でほかの人がやっていることを真似して、勝手に延長して楽しくなっているという感じです。なので、捉え方によっては勉強のように聞こえますが、楽しいので、遊びなのです。別に誰も成し遂げたことがないような成果というものはないのですが、自分の興味の視野がどんどん広がっていって楽しいです。
 
-[![Image from Gyazo](https://i.gyazo.com/78e249753908110e25d2525f1db98054.jpg)](https://gyazo.com/78e249753908110e25d2525f1db98054)
-最近は[[bambu-a1-mini| 3Dプリンター]]とか、ハードウェアとか、インターネットの仕組み(e.g: [[/ja/misc/world-wide-web|WWW]])とか、今まで自分が触れてこなかったところに触れるようになりました。こういうのって1人で突然始めるのが、Webアプリ作ったりするのとかと比べてハードルが高いように自分は感じていて（初期投資が必要）、大学に行っていろいろな人から話を聞いて、興味を持ちながら手を動かすことができるようになりました。自分から動くのも良いけれど、こういった大学の授業とか、他人から耳にしたことのほうが、やる気が出ることもあります。
+[![Image from Gyazo](../../media/9b10eee4780d08a48ff2d9218f144d55839dbffbf70fbc112f511b15f110c0e8.jpg)](../../media/9b10eee4780d08a48ff2d9218f144d55839dbffbf70fbc112f511b15f110c0e8.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/7f440f5dd2885ae8c0558127773ef978.jpg)](https://gyazo.com/7f440f5dd2885ae8c0558127773ef978)
-（この間[[hack-club|Hack Club]]が東京で作ったゲームの展示をやっていて、それを見に行ったり）
+&#xA;最近は[[ja/misc/bambu-a1-mini| 3Dプリンター]]とか、ハードウェアとか、インターネットの仕組み(e.g: [[ja/misc/world-wide-web|WWW]])とか、今まで自分が触れてこなかったところに触れるようになりました。こういうのって1人で突然始めるのが、Webアプリ作ったりするのとかと比べてハードルが高いように自分は感じていて（初期投資が必要）、大学に行っていろいろな人から話を聞いて、興味を持ちながら手を動かすことができるようになりました。自分から動くのも良いけれど、こういった大学の授業とか、他人から耳にしたことのほうが、やる気が出ることもあります。
+
+[![Image from Gyazo](../../media/831c5448c6280c7bbb394f9cfddd055ce6a5479b836d972e593c8726cc065c4f.jpg)](../../media/831c5448c6280c7bbb394f9cfddd055ce6a5479b836d972e593c8726cc065c4f.jpg)
+
+&#xA;（この間[[ja/tech/hack-club|Hack Club]]が東京で作ったゲームの展示をやっていて、それを見に行ったり）
 
 結局周囲の人に影響されて好きなものを見つけるというのが自分にはあるのかなと思いました。そして、自分は今まで遊びから興味を持って、それが伸びて、誰もやったことがない領域に達して...という感じに成長しているんだなということにも気づきました。
 
-[![Image from Gyazo](https://i.gyazo.com/03f7b5e6832c88d613c4149b75eceb89.gif)](https://gyazo.com/03f7b5e6832c88d613c4149b75eceb89)
-（ハッカソンでWebアプリ作ったり）
+[![Image from Gyazo](../../media/3e5ec659e4f68357fb8aa234c206f1ebcbdcb8beee32380ac90dc924783f12fa.gif)](../../media/3e5ec659e4f68357fb8aa234c206f1ebcbdcb8beee32380ac90dc924783f12fa.gif)
+
+&#xA;（ハッカソンでWebアプリ作ったり）
 
 自分は以前は親から勉強しろと言われて「うえ〜」と言っていたような人間だったのですが、全てを遊びの延長として手を動かすようになったら、全部楽しくなりました。自分の好きなことばっかりをやっていられる環境に身を置けて、とても嬉しいです。（支えてくださった方にも感謝感謝！）
 
 > え？そんなの遊びじゃない？もっとゲームとかやれよって？
 > ...そう思ったので最近家族に貸していたWindows PCを取り返して、ハンコン買って、レーシングゲームとかで遊ぼうと思っています。なので、ちゃんとゲームもやっています（？）一緒に遊びたい人、ぜひ[Discord](https://discord.gg/vJtKTWKmt5)サーバーに参加してね！
 
-https://discord.gg/vJtKTWKmt5
+<https://discord.gg/vJtKTWKmt5>
 
 ## 今日聞いた曲
 

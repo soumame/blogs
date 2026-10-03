@@ -1,27 +1,30 @@
 ---
-title: "Quickly Set Up a Minecraft Server on macOS + Docker"
-emoji: "🐳"
-tags:
-  - "dev"
-  - "Minecraft"
-published_at: "2025-11-28T00:00:00.000Z"
 description: "Operating a Minecraft server has become a fundamental skill it seems, so I'll jot down how to create one. (Source: Me) I hope to write a proper article someday, but for now, I'll just write it casually."
+emoji: 🐳
 isTranslated: true
-sourcePath: "ja/tech/minecraft-server-macos-with-docker.md"
-sourceHash: "b1822c43e411e02c35a4ae8496939820d08cf219883393dbdaaec80811306ce9"
+published_at: 2025-11-28T00:00:00.000Z
+sourceHash: b1822c43e411e02c35a4ae8496939820d08cf219883393dbdaaec80811306ce9
+sourcePath: ja/tech/minecraft-server-macos-with-docker.md
+tags:
+  - dev
+  - Minecraft
+title: Quickly Set Up a Minecraft Server on macOS + Docker
 ---
 
 ## Setting Up a Minecraft Server is a Hassle
+
 It's nostalgic to think about the days of doing all sorts of things like Forge and Java. Fortunately, now you can run a Minecraft server, backups, and other features with just `docker compose up`. I think this is good enough for quickly setting up a server.
 
 ## Install Orbstack
+
 This phrase might sound unfamiliar, but just think of it as Docker.
 
-https://orbstack.dev
+<https://orbstack.dev>
 
 You can consider this a replacement for Docker Desktop that works on macOS.
 
 ## Create a Docker Compose
+
 We will create a Docker compose file.
 
 ```yaml
@@ -100,16 +103,22 @@ volumes:
 ```
 
 ### Sample Images Used in YAML
+
 This is just one example, so you can add various things to this or perhaps you only need the server part.
+
 #### itzg/minecraft-server:latest
+
 - The Minecraft server runs completely on this one image.
-https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose
+  <https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose>
+
 #### itzg/mc-backup
+
 - This image creates backups at regular intervals. There is a unique communication form called RCON (Remote Console) used by Minecraft, which saves the world automatically.
 
-https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949
+<https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949>
 
-#### itzg/rcon 
+#### itzg/rcon
+
 - This allows you to use rcon on the web.
 - You can send commands from the web and perform various operations, making it very convenient.
 - It makes server management easier. You might also consider integrating with Cloudflare Tunnel.

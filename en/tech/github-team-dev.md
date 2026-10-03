@@ -1,18 +1,18 @@
 ---
-title: "Let's Develop as a Team on GitHub"
-emoji: "💻"
-tags:
-  - "coding"
-  - "dev"
-  - "team-dev"
-published_at: "2025-10-06T00:00:00.000Z"
-description: "For those of you who have registered a GitHub account but don't use it because you're not a developer, here's a brief guide on how to use it."
+description: For those of you who have registered a GitHub account but don't use it because you're not a developer, here's a brief guide on how to use it.
+emoji: 💻
 isTranslated: true
-sourcePath: "ja/tech/github-team-dev.md"
-sourceHash: "ca5e5315b14f203838664e0c0005f8957d6d0ce1f1c9e970037b77d4e0348df1"
+published_at: 2025-10-06T00:00:00.000Z
+sourceHash: ca5e5315b14f203838664e0c0005f8957d6d0ce1f1c9e970037b77d4e0348df1
+sourcePath: ja/tech/github-team-dev.md
+tags:
+  - coding
+  - dev
+  - team-dev
+title: Let's Develop as a Team on GitHub
 ---
 
-> This is aimed at participants of the [[tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]], hosted by the U.S.-Japan Council—Japan (a public interest incorporated foundation) and organized by Code for Japan, but external visitors are also welcome to read it
+> This is aimed at participants of the [[en/accomplishments/tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]], hosted by the U.S.-Japan Council—Japan (a public interest incorporated foundation) and organized by Code for Japan, but external visitors are also welcome to read it
 
 Hello. I'm Soumame.
 I'm writing this note to share things that might be useful when everyone spends the next two months building a product online. This time I'll explain GitHub. I'll explain it for those who've heard the name but never used it, or are complete beginners.
@@ -33,8 +33,9 @@ You could avoid this by editing one at a time, but that's tedious. Having to coo
 ## What is Git?
 
 This is where Git comes in.
-Git records and tracks file changes and makes version control easy. It lets you record who changed which file and what changed compared to previous content as a history (for an easy-to-understand explanation, see [What is GIT? Explaining Git concepts - Git - Qiita](https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b)).
-[![Image from Gyazo](https://i.gyazo.com/cdad597c48987e443027db40b14c2b39.png)](https://gyazo.com/cdad597c48987e443027db40b14c2b39)
+Git records and tracks file changes and makes version control easy. It lets you record who changed which file and what changed compared to previous content as a history (for an easy-to-understand explanation, see [What is GIT? Explaining Git concepts - Git - Qiita](https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b)).&#xA;
+
+[![Image from Gyazo](../../media/96ed14ee8310f8916cf8edbf9e295e5e36d4a1d32b5ddd7c01c9a3d1008c8cd8.png)](../../media/96ed14ee8310f8916cf8edbf9e295e5e36d4a1d32b5ddd7c01c9a3d1008c8cd8.png)
 
 With this system, repositories (project file storage) are distributed. Editors modify the local repository (the files on their own computer) directly, and when they're done they upload to the remote repository. This upload is called a push.
 Then you reflect what's on the remote repository to your local repository by pulling it.
@@ -76,7 +77,7 @@ Once you're ready to store code, the next step is to set up a place to write it.
 
 Here are IDEs likely to be used in this hackathon:
 
-- [[vs-code|VS Code]]
+- [[en/misc/vs-code|VS Code]]
   - The first choice for web app developers. It's an editor developed by Microsoft and runs on most OSes like Windows, macOS, and Linux. Strictly speaking it's not an IDE, but you can turn it into one with extensions.
   - It can also be used to build cross-platform apps for Android/iOS.
   - Commonly used for TypeScript, JavaScript, Python, and similar languages.
@@ -93,7 +94,7 @@ Unless you're already writing code, VS Code is probably the best bet, so I'll as
 
 First, create a "remote repository" on GitHub to store your source code. This is like a shared project file storage that the whole team can access. 🗂️
 
-1. **Log in to GitHub**, click the "+" icon in the top-right, and select "New repository." 
+1. **Log in to GitHub**, click the "+" icon in the top-right, and select "New repository."
 2. Choose a **Repository name**. Enter an easy-to-understand name in English (e.g., `tomodachi-product-2025`).
 3. Optionally write a short **Description** explaining what the project is.
 4. Choose the **visibility**. "Public" means anyone can see it; "Private" means only invited people can see it. For team development, "Private" is fine at first.
@@ -106,12 +107,12 @@ Next, copy the remote repository you created on GitHub to your computer. This op
 
 1. Open the repository page you just created.
 2. Click the green "<> Code" button, then click the copy icon to the right of the displayed URL to copy it.
-   [![Image from Gyazo](https://i.gyazo.com/54bdbe8df972361aff0072ef3397c9d2.png)](https://gyazo.com/54bdbe8df972361aff0072ef3397c9d2)
+   [![Image from Gyazo](../../media/c84b37f62691e14c972970d35fdb31acb04af85c421135656bd100ff08123f71.png)](../../media/c84b37f62691e14c972970d35fdb31acb04af85c421135656bd100ff08123f71.png)
 3. Open VS Code.
 4. From the top menu select "View" → "Command Palette", type "Git: Clone" and select it.
-   [![Image from Gyazo](https://i.gyazo.com/a2407b8bc6c88b1e3b214ecc240585b9.png)](https://gyazo.com/a2407b8bc6c88b1e3b214ecc240585b9)
+   [![Image from Gyazo](../../media/7859364cc7416eeb6d0b9820a82844014e1315d83985995b55f95e45b37081ef.png)](../../media/7859364cc7416eeb6d0b9820a82844014e1315d83985995b55f95e45b37081ef.png)
 5. Paste the URL you copied and press Enter.
-   [![Image from Gyazo](https://i.gyazo.com/328a005494c8ae9b751d7d5f19d48597.png)](https://gyazo.com/328a005494c8ae9b751d7d5f19d48597)
+   [![Image from Gyazo](../../media/ba65025b8c7e2af8f5833d770bc7ca4252f3fc9ae4c48195b9b24636d90bb84c.png)](../../media/ba65025b8c7e2af8f5833d770bc7ca4252f3fc9ae4c48195b9b24636d90bb84c.png)
 6. Choose a location on your computer to save the project (Desktop or Documents folder are common choices).
 7. When the clone finishes, a prompt asking "Open the repository?" will appear in the bottom-right — click "Open."
 
@@ -124,7 +125,7 @@ Let's edit a file. Try writing a short self-introduction.
 1. In VS Code's Explorer on the left, click to open the "README.md" file.
 2. Add some text to the file. For example:
 
-.md files differ from .txt files in that they use Markdown syntax, using symbols like `#` and `*` to set heading sizes and emphasis. For more details, see [[markdown|Write using Markdown syntax]]
+.md files differ from .txt files in that they use Markdown syntax, using symbols like `#` and `*` to set heading sizes and emphasis. For more details, see [[en/tech/markdown|Write using Markdown syntax]]
 
 ```
 # TOMODACHI プロダクト
@@ -135,19 +136,20 @@ Let's edit a file. Try writing a short self-introduction.
 - そうまめ
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/a374a6c2163a1946e31155a80f0c2d39.png)](https://gyazo.com/a374a6c2163a1946e31155a80f0c2d39)
+[![Image from Gyazo](../../media/78934a576342217a2bcb1a9aa9c5d62c8c4b13c372f8b537da35d01e1e42085d.png)](../../media/78934a576342217a2bcb1a9aa9c5d62c8c4b13c372f8b537da35d01e1e42085d.png)
 
 3. Save the file (Ctrl+S or Cmd+S). The Source Control icon (a branching tree icon) on the left of VS Code will show a badge indicating changed files. This means "there are modified files."
-   [![Image from Gyazo](https://i.gyazo.com/3af3605b302306b0e7a92aa568b0565f.png)](https://gyazo.com/3af3605b302306b0e7a92aa568b0565f)
+   [![Image from Gyazo](../../media/4dbe44f930bcb1360cdaea147110e9f928cc0f7cef385d81f01a5fe9d0bfe880.png)](../../media/4dbe44f930bcb1360cdaea147110e9f928cc0f7cef385d81f01a5fe9d0bfe880.png)
 
 ## Push
 
-Now upload your edits to the remote repository on GitHub to share them with your team. This operation is called a "push." Pushing is divided into several steps.
-[![Image from Gyazo](https://i.gyazo.com/6e3b9ee6936af1beb13238eeb9191a3c.png)](https://gyazo.com/6e3b9ee6936af1beb13238eeb9191a3c)
+Now upload your edits to the remote repository on GitHub to share them with your team. This operation is called a "push." Pushing is divided into several steps.&#xA;
+
+[![Image from Gyazo](../../media/72059b765f4108bfda8c758927c1f9c74c6c9cdc2c8a65f4cd97f25fcf3095e3.png)](../../media/72059b765f4108bfda8c758927c1f9c74c6c9cdc2c8a65f4cd97f25fcf3095e3.png)
 
 1. **Staging**: Choose which changes to record. This happens on your computer, so nothing is reflected on GitHub yet.
 
-   - Open the Source Control panel to see edited files (e.g., README.md) listed under "Changes." 
+   - Open the Source Control panel to see edited files (e.g., README.md) listed under "Changes."
    - Click the "+" icon to the right of the file name to stage the change.
    - The file will move to the "Staged Changes" list.
 
@@ -162,8 +164,9 @@ Now upload your edits to the remote repository on GitHub to share them with your
 
 ### Example: this blog site
 
-[![Image from Gyazo](https://i.gyazo.com/38c29c9ab26710c7c68088c9c6f56b42.png)](https://gyazo.com/38c29c9ab26710c7c68088c9c6f56b42)
-Right now, as I'm uploading this article, I'm using Git. VS Code visually shows staged changes like this. In the staged changes view, a red "D" means Deleted, and "R" means Renamed.
+[![Image from Gyazo](../../media/e6dbb2432d203b951fc6fc94fc20ec3ba1073670847763592b74813b61658eb5.png)](../../media/e6dbb2432d203b951fc6fc94fc20ec3ba1073670847763592b74813b61658eb5.png)
+
+&#xA;Right now, as I'm uploading this article, I'm using Git. VS Code visually shows staged changes like this. In the staged changes view, a red "D" means Deleted, and "R" means Renamed.
 
 ## Pull (when there are remote changes)
 

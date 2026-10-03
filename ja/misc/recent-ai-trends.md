@@ -1,13 +1,14 @@
 ---
-title: 最近のAIの進歩に追いつけない話
-emoji: 🤖
 description: LLMとか、画像生成とか、進歩が早すぎてついていくのが面倒くさくなってきた。
+emoji: 🤖
+isTranslated: null
+published_at: 2025-11-21
 tags:
   - llm
-published_at: 2025-11-21
-isTranslated:
+title: 最近のAIの進歩に追いつけない話
 ---
-https://x.com/So_to9/status/1991706450314588168?t=Pz2gJjKcwiJjQELOgcqCrQ&s=19
+
+<https://x.com/So_to9/status/1991706450314588168?t=Pz2gJjKcwiJjQELOgcqCrQ&s=19>
 
 > もうAI周りの界隈は、進歩が早すぎて追いつけねえ...今日最先端のものに触ったって来週にはまた違うものが出てきてるんだろうな。風邪を引いて寝込んで起きたら違う世界にいたような感覚(?)
 

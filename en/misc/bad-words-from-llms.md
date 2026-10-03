@@ -1,20 +1,20 @@
 ---
-title: "On LLMs Encouraging Harmful Behavior in People"
-emoji: "🤖"
-tags:
-  - "essay"
-  - "brain-storming"
-  - "llm"
-published_at: "2025-12-22T00:00:00.000Z"
-description: "I learned that some people claim LLMs are assisting suicide, and now that many people casually use these mysterious black-box LLMs, I want to think about how I should relate to LLMs."
+description: I learned that some people claim LLMs are assisting suicide, and now that many people casually use these mysterious black-box LLMs, I want to think about how I should relate to LLMs.
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/misc/bad-words-from-llms.md"
-sourceHash: "e62f521ec2846dee4fd55c05893085dcc6f3e469d2a12f596628b791a9eb730a"
+published_at: 2025-12-22T00:00:00.000Z
+sourceHash: e62f521ec2846dee4fd55c05893085dcc6f3e469d2a12f596628b791a9eb730a
+sourcePath: ja/misc/bad-words-from-llms.md
+tags:
+  - essay
+  - brain-storming
+  - llm
+title: On LLMs Encouraging Harmful Behavior in People
 ---
 
 I saw an article like this
 
-https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/
+<https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/>
 
 Because LLMs learn from human words and actions, by their nature there are cases where they end up encouraging behavior considered harmful to people. It seems there have been incidents where an LLM's response prompted someone to attempt suicide or where a user died as a result. OpenAI is being sued over this.
 
@@ -26,7 +26,7 @@ In fact, Japan still has a significant number of suicides, and on social media p
 
 I think the triggers for suicide are various. I used to think something simple like “I wish you’d just die” would be a trigger, but it seems it’s not that simple.
 
-https://www.mhlw.go.jp/content/001464717.pdf
+<https://www.mhlw.go.jp/content/001464717.pdf>
 
 Not only bullying but also overwork, financial hardship, isolation, and other factors are listed as reasons.
 

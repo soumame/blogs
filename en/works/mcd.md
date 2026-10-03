@@ -1,13 +1,13 @@
 ---
-title: "McDonald's Crew Member (Part-time)"
-emoji: "💼"
-tags:
-  - "Work"
-published_at: "2025-03"
-description: "I worked as a McDonald's crew member (part-time)."
+description: I worked as a McDonald's crew member (part-time).
+emoji: 💼
 isTranslated: true
-sourcePath: "ja/works/mcd.md"
-sourceHash: "4a3012af93de63a91d2428927f0478fccf1b8ddc989e1d2d11cc1194a7486e9f"
+published_at: 2025-03
+sourceHash: 4a3012af93de63a91d2428927f0478fccf1b8ddc989e1d2d11cc1194a7486e9f
+sourcePath: ja/works/mcd.md
+tags:
+  - Work
+title: McDonald's Crew Member (Part-time)
 ---
 
 Hello, I'm Soumame.
@@ -75,7 +75,7 @@ Although I also worked the floor, my primary role was in the kitchen, so I train
 
 It's well known that McDonald's has used the "Made For You" system since 2004: orders entered at the POS appear on kitchen monitors and items are prepared accordingly. This technology lets restaurants prepare items that vary by order (like hamburgers) without making and storing them in advance, reducing waste.
 
-[**50 Happies Born from M | McDonald's Japan 50-Year History | McDonald's Japan** _Thanks to you, McDonald's Japan has reached its 50th anniversary. We introduce the 50-year history we've walked with our customers from various angles._ _www.mcdonalds.co.jp_](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)[](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)
+[**50 Happies Born from M | McDonald's Japan 50-Year History | McDonald's Japan**](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)[ ](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)[*Thanks to you, McDonald's Japan has reached its 50th anniversary. We introduce the 50-year history we've walked with our customers from various angles.*](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)[ ](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)[*www.mcdonalds.co.jp*](https://www.mcdonalds.co.jp/campaign/thankyou50th/history/happy/26/)
 
 ### Monitors everywhere
 
@@ -87,7 +87,7 @@ A fixed number of people generally work in front of each monitor, but if orders 
 
 This system is indispensable to McDonald's operations. There have been times when it stopped and restaurants were temporarily unable to operate, even suspending service. All processes rely heavily on this system.
 
-> [Notice]
+> \[Notice]
 > Many stores nationwide have temporarily suspended operations.
 > We sincerely apologize for the inconvenience to our customers.
 >

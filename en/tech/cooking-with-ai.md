@@ -1,15 +1,15 @@
 ---
-title: "XR's Use Might Be as a HUD - Let's Cook with AI"
-emoji: "🍳"
-tags:
-  - "dev"
-  - "application-development"
-published_at: "2026-01-12T00:00:00.000Z"
-description: "I borrowed an inmo XR — Android-powered XR glasses — from Ukai, familiar from Mitou Junior, and did a little hackathon. After struggling with what to use it for, I built a cooking assistant to enjoy with an AI. I tried using the XR glasses to cook with AI, so I'll introduce that here."
-isTranslated: true
+description: I borrowed an inmo XR — Android-powered XR glasses — from Ukai, familiar from Mitou Junior, and did a little hackathon. After struggling with what to use it for, I built a cooking assistant to enjoy with an AI. I tried using the XR glasses to cook with AI, so I'll introduce that here.
+emoji: 🍳
 isDraft: true
-sourcePath: "ja/tech/cooking-with-ai.md"
-sourceHash: "0f82af75953f6a92b59d96a44ab58b72e53c6e15277b036aa38839e8e8ac24d8"
+isTranslated: true
+published_at: 2026-01-12T00:00:00.000Z
+sourceHash: 0f82af75953f6a92b59d96a44ab58b72e53c6e15277b036aa38839e8e8ac24d8
+sourcePath: ja/tech/cooking-with-ai.md
+tags:
+  - dev
+  - application-development
+title: XR's Use Might Be as a HUD - Let's Cook with AI
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I built a teleprompter app that can stylishly display Google Slides speaker notes for the Inmo Air 3 — Android-powered glasses I bought in Shenzhen from <a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a>. It's fun and seems immediately practical. (In reality it's floating in mid-air with AR glasses and looks freaking cool, but it's painful that there's no way to show this) <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -23,7 +23,7 @@ I also own [XREAL One](http://xreal.com) lenses, so I wondered if it could do si
 However, actually trying the device showed me that being cable-free and running standalone is a huge advantage. It expands what developers can do, and I feel we'll see more devices like this going forward. Unlike XREAL's approach, it's very thin and unobtrusive (though there's still some oddness), and judging by the thinness and performance of the glasses themselves, I wondered if it's an upper-tier alternative to [Even Realities](https://www.evenrealities.com/).
 
 (For Even G1, I recommend the introduction by 電電猫猫:)
-https://note.com/electrical_cat/n/ncbff77528ada
+<https://note.com/electrical_cat/n/ncbff77528ada>
 
 I don't know if inmo XR is the absolute best (I've only compared it to XREAL), but it feels like it's reached a level that's practically usable. Some issues remain: the area around the ears gets absurdly hot under heavy load, and—typical of many Chinese devices—the Play Store doesn't work and related services are unavailable. Maybe there are ways to work around that.
 
@@ -47,9 +47,11 @@ We decided to make something quick in one day (hackathon style), so we largely i
 
 Recently with XREAL I ran into a problem... oh right.
 
-So I built an AI app to help with cooking.
-[![Image from Gyazo](https://i.gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5.png)](https://gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5)
-_(Illustration by Gemini)_
+So I built an AI app to help with cooking.&#xA;
+
+[![Image from Gyazo](../../media/a7084e60003a0f59e39ed0d737e4840b98bbe02984630aa4a1e1f452e7919135.png)](../../media/a7084e60003a0f59e39ed0d737e4840b98bbe02984630aa4a1e1f452e7919135.png)
+
+&#xA;_(Illustration by Gemini)_
 
 The idea is simple. Tell the AI what you have at home or what you'd like to make, and the AI creates a "recipe.json" (lol), then the system follows that. inmo XR tends to render black as transparent (similar to XREAL but even more transparent), so we took advantage of that.
 
@@ -57,7 +59,7 @@ Previously, a prototype at this level that could be used as a real product would
 
 What people need now is the skill to supervise the AI: to watch if it's likely to work, whether it will complete successfully, monitor its actions, decide when to interrupt and correct it, and so on.
 
-https://xr-ai-recipe-assistant.vercel.app/
+<https://xr-ai-recipe-assistant.vercel.app/>
 
 It's just a quick build, so please try it out (I'm paying for the LLM, so I'll stop it if I can't afford it).
 

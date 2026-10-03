@@ -1,10 +1,10 @@
 ---
+description: インコが逃げた話を書き残しておく
+emoji: 🦜
+published_at: 2025-10-14
 tags:
   - essay
 title: インコが逃げた！
-emoji: 🦜
-description: インコが逃げた話を書き残しておく
-published_at: 2025-10-14
 ---
 
 ## 母親の声で目が覚める

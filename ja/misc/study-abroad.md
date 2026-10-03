@@ -1,16 +1,16 @@
 ---
-title: 留学
+description: null
 emoji: 🌐
-description:
+isDraft: true
+isTranslated: false
+noindex: true
+published_at: 2026-06-10
 tags:
   - essay
-published_at: 2026-06-10
-isTranslated: false
-isDraft: true
-noindex: true
+title: 留学
 ---
-> 適当に思ったこと喋って文字起こししただけです
 
+> 適当に思ったこと喋って文字起こししただけです
 
 なんか最近特に理由を考えてはいないけど、海外に行きたいなって思っていたんだけどさ。
 

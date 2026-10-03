@@ -1,9 +1,9 @@
 ---
-title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
 emoji: ♻️
+published_at: 2024-12-14 12:13
 tags:
   - mitou-junior
-published_at: 2024-12-14 12:13
+title: 未踏ジュニア終わったから超大規模リファクタリングしてみた
 ---
 
 こんにちは。そうまめです。
@@ -14,9 +14,9 @@ published_at: 2024-12-14 12:13
 
 今日は私が現在開発しているアプリ、[TutoriaLLM](https://tutoriallm.com)というアプリを大規模にリファクタリングした話をしようと思います。だいぶ慣れてきたとはいえ、まだまだ界隈の方から見ると素人なので一般的に良くないとされるコードの書き方をしているかもしれません。あったらそっと教えてください。[連絡先はこちら](https://tokumaru.work/ja)
 
-https://tutoriallm.com
+<https://tutoriallm.com>
 
-https://github.com/TutoriaLLM/TutoriaLLM
+<https://github.com/TutoriaLLM/TutoriaLLM>
 
 # TutoriaLLM とは？
 
@@ -41,7 +41,7 @@ TutoriaLLM は、わかりやすく言ってしまえば、[Scratch](https://scr
 # リファクタリング開始！
 
 リファクタリングにあたって、ネットの情報だけから作るのではなく、度々手伝ってもらっている助っ人 Yuta さんにリポジトリの設定とか、流行りのフレームワークとかについて、さまざまな助言をいただきました。やっぱり実際にプロダクション環境でアプリを使えるようにするとなると、実際にやったことがある人から話を聞くのが一番良いのかもしれないですね。
-https://zenn.dev/yutakobayashi
+<https://zenn.dev/yutakobayashi>
 
 ## DB の再設計
 
@@ -58,15 +58,15 @@ https://zenn.dev/yutakobayashi
 
 設計し直したと言っても、セッション管理の部分を PostgreSQL に統合しただけなので、結構簡単にできました。ただ、後方互換などをサポートするのは厳しかったのでやめました。（実稼働でこれが起きるととても大変ですよね）
 PostgreSQL のサーバーには、AI 関連の機能で Vector データ（普通の PG にはなく、拡張する必要がある）を保存する必要があったので、初めからそれがサポートされている Docker イメージを使いました。
-https://hub.docker.com/r/ankane/pgvector
+<https://hub.docker.com/r/ankane/pgvector>
 
 これらの操作にあたっては、Drizzle ORM を使いました。[Vector のサポート](https://orm.drizzle.team/docs/guides/vector-similarity-search)もしていて、Javascript/Typescript で書いている人はこれが一番良いと思います。
-https://orm.drizzle.team/
+<https://orm.drizzle.team/>
 
 ## さようなら、Express
 
 TutoriaLLM では、Express でバックエンド、Vite でフロントエンド、というスタックだったので、これらを早く作るために、Vite-express というそのまんまの名前のものを使っていました。
-https://github.com/szymmis/vite-express
+<https://github.com/szymmis/vite-express>
 フレームワークというより、フルスタックを簡単にデプロイするためのラッパーとでもいえば良いのでしょうか（間違っていたらすいません）。アプリは静的ファイルで提供しているので、こういうものを使えば Vite でビルド → それを Express で読み込む → フロントエンド/バックエンドの提供...までの一連の流れを簡単にできたわけです。
 
 開発した当初はこれめっちゃ便利じゃん！と思っていました。確かに便利です。しかし、こういうものを使ってしまうと、フロントエンドとバックエンドを切り離すことができなくなってしまいます。
@@ -87,7 +87,7 @@ TutoriaLLM は Docker イメージとして提供していますが、これだ�
 
 そんな面倒くさがりの個人開発者にアツいフレームワークがありました。Hono です。
 Hono だったら、バックエンドで zod などを使って定義した型定義をフロントエンドに持ってくることができます。
-https://hono.dev/docs/concepts/stacks
+<https://hono.dev/docs/concepts/stacks>
 
 すごいですよね。一体どういう技術が使われているのか、私は見当がつきません（勉強しなさい）が、これを使えば、そのままフロントエンドに型を持っていくことができます。しかも、[Zod+OpenAPI の組み合わせ](https://hono.dev/examples/zod-openapi)をもとにこれらを生成することもできます。API の仕様を定義して、それに合わせたレスポンスを記述するだけで、バックエンド側も完全に型が効いた状態で開発を行うことができるわけです。
 
@@ -111,4 +111,4 @@ TutoriaLLM のコード実行機能では、Minecraft のようなゲームと�
 
 未踏ジュニア期間では、とにかく興味を持ってもらう人を集めるために、とりあえず動くデモを作成することに専念していました。もちろんそうやって、安定性を無視して開発を行うということもありだとは思うのですが、いつかはこうやって書き換えないといけない時が来てしまいます。安定して動くことも目指していかないといけません。これからも頑張ろうと思います。
 
-https://tokumaru.work/ja
+<https://tokumaru.work/ja>

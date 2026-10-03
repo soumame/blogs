@@ -1,33 +1,33 @@
 ---
-title: "Implemented a Graph View on My Blog"
-emoji: "🗺️"
-tags:
-  - "coding"
-  - "web"
-published_at: "2025-10-29T00:00:00.000Z"
-description: "I liked Obsidian's graph view, so I implemented it on my own website."
+description: I liked Obsidian's graph view, so I implemented it on my own website.
+emoji: 🗺️
 isTranslated: true
-sourcePath: "ja/tech/blog-graph-view.md"
-sourceHash: "56019df901dd5fc03933bd77a6944e4b09742c6c94a4bed6a1bccdb7d154ea58"
+published_at: 2025-10-29T00:00:00.000Z
+sourceHash: 56019df901dd5fc03933bd77a6944e4b09742c6c94a4bed6a1bccdb7d154ea58
+sourcePath: ja/tech/blog-graph-view.md
+tags:
+  - coding
+  - web
+title: Implemented a Graph View on My Blog
 ---
 
 ## What is the graph view
 
-[![Image from Gyazo](https://i.gyazo.com/91a13fc1a4272f4d87b3122fcb26adc7.png)](https://gyazo.com/91a13fc1a4272f4d87b3122fcb26adc7)
-In the graph view, you can represent relationships between items in a graph like a correlation diagram.
+[![Image from Gyazo](../../media/46f77a621a0611419df35134c7dcd9de657e72fa9c538c8ea1549c7ba17c1387.png)](../../media/46f77a621a0611419df35134c7dcd9de657e72fa9c538c8ea1549c7ba17c1387.png)
 
-The editor I use to write my blog, [[obsidian|Obsidian]], has a similar feature. Obsidian Publish, which publishes Obsidian notes to the web, also includes this graph view and says it uses the same rendering engine as the graph view.
+&#xA;In the graph view, you can represent relationships between items in a graph like a correlation diagram.
 
-https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/
+The editor I use to write my blog, [[en/misc/obsidian|Obsidian]], has a similar feature. Obsidian Publish, which publishes Obsidian notes to the web, also includes this graph view and says it uses the same rendering engine as the graph view.
 
+<https://www.reddit.com/r/ObsidianMD/comments/1mhujgy/what_does_obsidian_use_to_create_their_graph_view/>
 
+[![Image from Gyazo](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)](../../media/83307025ed893aeb33cdba2830aa2558169d933a990787aeac038abbe80f2303.png)
 
-[![Image from Gyazo](https://i.gyazo.com/2bc46e271420fd8c8617f2e2bf6160d4.png)](https://gyazo.com/2bc46e271420fd8c8617f2e2bf6160d4)
-It seems Obsidian implemented it themselves, but since the source code isn't public, I had no choice but to implement it on my own.
+&#xA;It seems Obsidian implemented it themselves, but since the source code isn't public, I had no choice but to implement it on my own.
 
 I don't have that many posts, so I didn't need to worry much about performance. I used a package called React-Force-Graph that bundles the d3.js library mentioned in the Reddit post above, and tweaked the force simulation and other settings.
 
-https://github.com/vasturiano/react-force-graph
+<https://github.com/vasturiano/react-force-graph>
 
 There is a similar library called vis.js, but I chose d3.js because it allows more complex interactions (vis.js is easier to get started with). Since many users browse on mobile, I made all features usable without hover interactions.
 

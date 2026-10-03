@@ -1,24 +1,24 @@
 ---
-title: "Reflections on Mitou Junior"
-emoji: "🤖"
-tags:
-  - "TutoriaLLM"
-  - "mitou-junior"
-published_at: "2024-12-26T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/notes/revise-mitou-jr.md"
-sourceHash: "a8b9a935ca9f9436893af7bed3ff85da06e6283e467c68958e29a6ffa76c2111"
+published_at: 2024-12-26T00:00:00.000Z
+sourceHash: a8b9a935ca9f9436893af7bed3ff85da06e6283e467c68958e29a6ffa76c2111
+sourcePath: ja/notes/revise-mitou-jr.md
+tags:
+  - TutoriaLLM
+  - mitou-junior
+title: Reflections on Mitou Junior
 ---
 
 # Reflections on Mitou Junior
 
 > This article is part of the [Mitou Junior Advent Calendar](https://adventar.org/calendars/10825).
 
-Long time no see — I'm Soumame ([https://tokumaru.work/ja](https://tokumaru.work/ja)). I attended an Australian international school in Malaysia and graduated at the end of November. With 2024 almost over, I've been looking back on what I did this year.
+Long time no see — I'm Soumame (<https://tokumaru.work/ja>). I attended an Australian international school in Malaysia and graduated at the end of November. With 2024 almost over, I've been looking back on what I did this year.
 
 Today I want to casually review the Mitou Junior creator support program I finished in November — from how I got started to how it went. If you don't know about Mitou Junior, please check the website.
 
-[https://jr.mitou.org/](https://jr.mitou.org/)
+<https://jr.mitou.org/>
 
 ## It started with watching the Mitou Junior results presentation
 
@@ -62,9 +62,9 @@ However, my last report card before promotion was the worst. For the first time 
 
 Unusually, I stuck to it, and my grades **recovered steadily**. Panic really helps sometimes. I woke up at 6:30, went to school, came home at 4, studied, ate, and slept — not an extreme routine, but consistent. After three or four months my grades became decent again, and I think I reached a level where I could reasonably aim for international universities.
 
-[![Image from Gyazo](https://i.gyazo.com/c0cc9d466a8a037c0bf489a954f736da.png)](https://gyazo.com/c0cc9d466a8a037c0bf489a954f736da)
+[![Image from Gyazo](../../media/daa374d9c78794f0e49ba6e4a81e5ad5a4a8dd4b0f49e7866cc8040e6dbbb613.png)](../../media/daa374d9c78794f0e49ba6e4a81e5ad5a4a8dd4b0f49e7866cc8040e6dbbb613.png)
 
-*I made up my mind!*
+_I made up my mind!_
 
 ## A turning point
 
@@ -104,7 +104,7 @@ The software I presented, called **"TutoriaLLM"**, is a self-hosted application 
 
 I'm developing it with help from many people around the world, so I plan to keep working on it at least until those people abandon me. The software is open source, but I'm also considering commercial use, and I hope to deploy the app in real-world, profit-generating settings in the future.
 
-[https://tutoriallm.com/](https://tutoriallm.com/)
+<https://tutoriallm.com/>
 
 ## Closing thoughts
 
@@ -118,4 +118,4 @@ I want to thank Nishio-san and everyone who mentored me at Mitou Junior, those w
 
 If you'd like, check out the website and follow me on social media:
 
-[https://tokumaru.work/ja](https://tokumaru.work/ja)
+<https://tokumaru.work/ja>

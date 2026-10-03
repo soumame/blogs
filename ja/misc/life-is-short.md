@@ -1,13 +1,13 @@
 ---
-title: 人生って短い
-emoji: 🎇
 description: よくよく考えたら自分は今年で20歳なわけだけど、あと何年生きるんだろうか？
+emoji: 🎇
+isDraft: true
+isTranslated: false
+noindex: true
+published_at: 2026-04-28
 tags:
   - essay
-published_at: 2026-04-28
-isTranslated: false
-isDraft: true
-noindex: true
+title: 人生って短い
 ---
 
 20年は、7300日。

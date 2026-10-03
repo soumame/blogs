@@ -1,18 +1,18 @@
 ---
-title: "You Only Need HTML! Build a Blog Site with Astro!"
-emoji: "🤖"
-tags:
-  - "web"
-  - "dev"
-published_at: "2024-05-12T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/tech/astro-blog.md"
-sourceHash: "e2faddd9b20ba37eae0b897806a4bf149c702369fe8f2390494d505f19bd4352"
+published_at: 2024-05-12T00:00:00.000Z
+sourceHash: e2faddd9b20ba37eae0b897806a4bf149c702369fe8f2390494d505f19bd4352
+sourcePath: ja/tech/astro-blog.md
+tags:
+  - web
+  - dev
+title: You Only Need HTML! Build a Blog Site with Astro!
 ---
 
 # You Only Need HTML! Build a Blog Site with Astro!
 
-[![Image from Gyazo](https://i.gyazo.com/e010985632217bb795333cd12915bf36.png)](https://gyazo.com/e010985632217bb795333cd12915bf36)
+[![Image from Gyazo](../../media/4f94facb82ddf6423699bc708eabd0b360cdd4629851507bd4f16523e9a6afd1.png)](../../media/4f94facb82ddf6423699bc708eabd0b360cdd4629851507bd4f16523e9a6afd1.png)
 
 Sometimes you just feel like building a blog site.
 
@@ -40,7 +40,7 @@ If you have a **PC or Mac**, you're good to go. If not, you can use online dev t
 
 First, install **Node.js**. This is the runtime environment (the foundation that runs apps), and Astro runs on it. Newer versions will work, so click the download button on the site and install it following the instructions.
 
-[https://nodejs.org/](https://nodejs.org/)
+<https://nodejs.org/>
 
 ### Installing VS Code
 
@@ -48,21 +48,21 @@ You might be able to write HTML in Notepad, but there's a much nicer tool. Using
 
 Install it from the link below and follow the setup instructions. For language settings and other preferences, consult other guides if needed (it's a bit of a pain...).
 
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+<https://code.visualstudio.com/>
 
 After installing, open the app and install extensions.
 
-[![Image from Gyazo](https://i.gyazo.com/6224c4baea1d8dd736f04485edaaf7bc.png)](https://gyazo.com/6224c4baea1d8dd736f04485edaaf7bc)
+[![Image from Gyazo](../../media/37f04bf1a80a9b4e96e5f47612ed4ff312ca21ad007dbe85011daa760efa7223.png)](../../media/37f04bf1a80a9b4e96e5f47612ed4ff312ca21ad007dbe85011daa760efa7223.png)
 
 _This is the screen you'll see when you launch it._
 
 Click the Extensions button in the left sidebar, then type "Astro" in the search box in the opened tab.
 
-[![Image from Gyazo](https://i.gyazo.com/a86114a4ab2ec8ce567b851b6d975e60.png)](https://gyazo.com/a86114a4ab2ec8ce567b851b6d975e60)
+[![Image from Gyazo](../../media/653b469da843f8e0850d8c5dbcc81a7c39d320da0374e835072be5ee808598f3.png)](../../media/653b469da843f8e0850d8c5dbcc81a7c39d320da0374e835072be5ee808598f3.png)
 
 _Select the extension_
 
-[![Image from Gyazo](https://i.gyazo.com/2c6bf8567f554948caa167c2122d6e4d.png)](https://gyazo.com/2c6bf8567f554948caa167c2122d6e4d)
+[![Image from Gyazo](../../media/a940a0d969f094c93f0b2d4de7a30ffb3847b18ad4a33b8211dd44c7b53d8e0a.png)](../../media/a940a0d969f094c93f0b2d4de7a30ffb3847b18ad4a33b8211dd44c7b53d8e0a.png)
 
 _Click Install!_
 
@@ -74,23 +74,23 @@ Once it's installed, VS Code is ready.
 
 We'll use GitHub to store and publish the site's files. GitHub lets you save and share code, and using it makes version control and deployment easy. Create an account there (I'll skip the detailed steps — it's a hassle).
 
-[https://github.com/](https://github.com/)
+<https://github.com/>
 
 After signing up or logging in to GitHub, you'll see a screen like this.
 
-[![Image from Gyazo](https://i.gyazo.com/5a5e9afab5f3131d7e677841129b765f.png)](https://gyazo.com/5a5e9afab5f3131d7e677841129b765f)
+[![Image from Gyazo](../../media/5d84c928c1e8954c76c7ac8701391aaa634c787197bb85034006edbd35f0eac4.png)](../../media/5d84c928c1e8954c76c7ac8701391aaa634c787197bb85034006edbd35f0eac4.png)
 
 Click the green "New" button on the left to create a new repository. Think of this as a storage space for your project.
 
-[![Image from Gyazo](https://i.gyazo.com/60834beeae01e0c39cc7eb95605c891b.png)](https://gyazo.com/60834beeae01e0c39cc7eb95605c891b)
+[![Image from Gyazo](../../media/9505d4ed8121620a730fa108734eb0e566e6a93c5aa00e07e6941b1361a9879e.png)](../../media/9505d4ed8121620a730fa108734eb0e566e6a93c5aa00e07e6941b1361a9879e.png)
 
 The creation screen looks like this. In the red box you choose the repository name and whether it's public or private. If public, everything you push will be visible — be careful. This doesn't directly affect the website's publishing settings. You can also set a description, initialize a README, choose a license, etc. When ready, click "Create repository" at the bottom.
 
-[![Image from Gyazo](https://i.gyazo.com/067294127a58396aee726d0e8bfa3793.png)](https://gyazo.com/067294127a58396aee726d0e8bfa3793)
+[![Image from Gyazo](../../media/af40d0f3adbcb3e55a3cc0b97477b150e4a2a3b2479eda64799e68ebbd8d614e.png)](../../media/af40d0f3adbcb3e55a3cc0b97477b150e4a2a3b2479eda64799e68ebbd8d614e.png)
 
 You should then see this screen. You're all set.
 
-[![Image from Gyazo](https://i.gyazo.com/c5e5c3b61c90595efea492050c7f01d1.png)](https://gyazo.com/c5e5c3b61c90595efea492050c7f01d1)
+[![Image from Gyazo](../../media/faadf7a219526231901a3bf5995daf29e0b01244d47f002d980bc2b26975c052.png)](../../media/faadf7a219526231901a3bf5995daf29e0b01244d47f002d980bc2b26975c052.png)
 
 _Repository creation complete!_
 
@@ -100,11 +100,11 @@ _Repository creation complete!_
 
 Now let's clone the repository you created. Copy the link shown on the repository page and paste it into VS Code's "Clone Git Repository". (If you're logged in to GitHub in VS Code, you can clone directly from there.)
 
-[![Image from Gyazo](https://i.gyazo.com/16f534159ebe0084899da6a4f556ae4c.png)](https://gyazo.com/16f534159ebe0084899da6a4f556ae4c)
+[![Image from Gyazo](../../media/5432108b140cd06bac38904e6f51452949deb6fd229006bfe8b5183366b21554.png)](../../media/5432108b140cd06bac38904e6f51452949deb6fd229006bfe8b5183366b21554.png)
 
 _Copy the link shown around the middle of the page..._
 
-[![Image from Gyazo](https://i.gyazo.com/f9e6bd9fb2444edd8691cc5a1ad09e56.png)](https://gyazo.com/f9e6bd9fb2444edd8691cc5a1ad09e56)
+[![Image from Gyazo](../../media/fe02adc4b95d94714a11eaa61f30ddd11f7efc1a91abe5ff18b488ead460e20a.png)](../../media/fe02adc4b95d94714a11eaa61f30ddd11f7efc1a91abe5ff18b488ead460e20a.png)
 
 _A text box will appear at the top — paste it there._
 
@@ -114,11 +114,11 @@ Choose a folder on your machine to clone into. I recommend creating a "GitHub" f
 
 After cloning, you should see a screen like this in VS Code. This will be your main development view.
 
-[![Image from Gyazo](https://i.gyazo.com/c92ebb3a6f9a238ac4a56892579ea61f.png)](https://gyazo.com/c92ebb3a6f9a238ac4a56892579ea61f)
+[![Image from Gyazo](../../media/1cfc3b02b3c6fda8a22bb48e6ca025d22f015b601ad10723470ed8ee12b35e6a.png)](../../media/1cfc3b02b3c6fda8a22bb48e6ca025d22f015b601ad10723470ed8ee12b35e6a.png)
 
 Open a terminal ("Terminal" → "New Terminal" from the menu). On macOS the menu is in the menu bar.
 
-[![Image from Gyazo](https://i.gyazo.com/d0a879d378d922abbf27730de064b9b7.png)](https://gyazo.com/d0a879d378d922abbf27730de064b9b7)
+[![Image from Gyazo](../../media/7ff8aa1497fe102f27867a982137545e4ed414100695712743a81f7d1cf9ee56.png)](../../media/7ff8aa1497fe102f27867a982137545e4ed414100695712743a81f7d1cf9ee56.png)
 
 Check your current directory in the terminal. In my case it looked like this, so I installed in the current folder. If it's different, use cd to change directories.
 
@@ -126,7 +126,7 @@ Check your current directory in the terminal. In my case it looked like this, so
 フォルダ一覧 ls フォルダにに移動する cd フォルダ名 一つ上の階層に移動する cd .. インストールする位置を決める。 C:\Users\souto\public\Astro-tutorial>
 ```
 
-When the location is set, type **npm create astro@latest ./** and press Enter. This installs the latest Astro into ./ (the current folder).
+When the location is set, type **npm create astro\@latest ./** and press Enter. This installs the latest Astro into ./ (the current folder).
 
 ```
 npmコマンドを使用して今いるフォルダ内にインストールする npm create astro@latest ./ 今いるフォルダ内に新しいフォルダを作成し、そこにインストールする npm create astro@latest [フォルダ名]
@@ -134,7 +134,7 @@ npmコマンドを使用して今いるフォルダ内にインストールす�
 
 If all goes well you'll see a series of prompts. Use the arrow keys to navigate. Since we're making a blog, move down and select "use blog template."
 
-[![Image from Gyazo](https://i.gyazo.com/fd1ea0696157123ba03b8d991bb5fdc5.png)](https://gyazo.com/fd1ea0696157123ba03b8d991bb5fdc5)
+[![Image from Gyazo](../../media/75c37ef48750fa6c79003bc59618c1c7a7e1ac4ce7bec98120f2cf6c9b95dd69.png)](../../media/75c37ef48750fa6c79003bc59618c1c7a7e1ac4ce7bec98120f2cf6c9b95dd69.png)
 
 After that, you can just press Enter for the remaining prompts.
 
@@ -144,7 +144,7 @@ tmpl How would you like to start your new project? Use blog template ts Do you p
 
 Once installation finishes, start the Astro dev server by running **npm run dev** in the console. Then open the displayed URL in your browser.
 
-[![Image from Gyazo](https://i.gyazo.com/c6a6ac61e4345699bf3c7e1cd07f97ac.png)](https://gyazo.com/c6a6ac61e4345699bf3c7e1cd07f97ac)
+[![Image from Gyazo](../../media/943b02380c9152d445f006fbe35bb81a90cc52bf7512f9d7bbb9526151588f6f.png)](../../media/943b02380c9152d445f006fbe35bb81a90cc52bf7512f9d7bbb9526151588f6f.png)
 
 _Done! That was easy._
 
@@ -156,7 +156,7 @@ Astro itself isn't the website — it generates HTML files based on .astro files
 
 In other words, if you write code to fetch a list of blog posts, that data is fetched at build time and converted into HTML when you publish the site (a process called **building**). Astro calls this **pre-rendering**. This makes pages fast but means **you can't update content in real time** — keep that in mind. Astro also offers on-demand rendering, which fetches data on each request, but in this tutorial we'll use pre-rendering. For a personal blog, that's usually enough.
 
-[![Image from Gyazo](https://i.gyazo.com/b26ec95bc2bff275b507f3a118c3c1e6.png)](https://gyazo.com/b26ec95bc2bff275b507f3a118c3c1e6)
+[![Image from Gyazo](../../media/4388099487581d6d18895835aa6fce2b9bbc7ab27f79d6afe73398331c7d2a73.png)](../../media/4388099487581d6d18895835aa6fce2b9bbc7ab27f79d6afe73398331c7d2a73.png)
 
 ### The concept of components
 
@@ -213,7 +213,7 @@ You can also place CSS or JavaScript here and load them directly, but they won't
 
 Rewriting everything would be too long, so let's make a few changes and publish. First, edit the page users first see. Open index.astro in VS Code.
 
-[![Image from Gyazo](https://i.gyazo.com/08c75cf4a1ecbab656b842db87c14c15.png)](https://gyazo.com/08c75cf4a1ecbab656b842db87c14c15)
+[![Image from Gyazo](../../media/ba436f3b92fbd89def4cc221b8d22abb84f2eb4834035774499ae5f837c07f6a.png)](../../media/ba436f3b92fbd89def4cc221b8d22abb84f2eb4834035774499ae5f837c07f6a.png)
 
 _index.astro_
 
@@ -229,17 +229,17 @@ The file structure looks like this. I rewrote it to be my personal page like thi
 
 After saving, the page should update automatically. That's the basic way to build a site with Astro. Since it's the same as writing HTML, those familiar with HTML should find it easy.
 
-[![Image from Gyazo](https://i.gyazo.com/d0aa8d2ee23eeaea30571c8b5ec6baa9.png)](https://gyazo.com/d0aa8d2ee23eeaea30571c8b5ec6baa9)
+[![Image from Gyazo](../../media/ee439c8ea6ba71e833f765832cef7aee232adc61a02e274926ea7b752cc6b006.png)](../../media/ee439c8ea6ba71e833f765832cef7aee232adc61a02e274926ea7b752cc6b006.png)
 
 Next, let's update the blog list. Navigate to /src/content/blog.
 
-[![Image from Gyazo](https://i.gyazo.com/cd697ca81518d5fafbed77278bc495e8.png)](https://gyazo.com/cd697ca81518d5fafbed77278bc495e8)
+[![Image from Gyazo](../../media/ac5ff1886598b61de8d02a5349d1918471e76f61eaa2ecdedda84427c2484318.png)](../../media/ac5ff1886598b61de8d02a5349d1918471e76f61eaa2ecdedda84427c2484318.png)
 
 _/src/content/blog_
 
 Blog posts are stored in files ending with .md. Open one.
 
-[![Image from Gyazo](https://i.gyazo.com/df6b79449f0da30fca7a080173ce7ed2.png)](https://gyazo.com/df6b79449f0da30fca7a080173ce7ed2)
+[![Image from Gyazo](../../media/cf2fab671f762d7e1129d994b532e06b91e1dbac9fb75ba112c130a9b2fae586.png)](../../media/cf2fab671f762d7e1129d994b532e06b91e1dbac9fb75ba112c130a9b2fae586.png)
 
 You should see a Markdown file with metadata at the top. Astro calls this frontmatter. Blog posts in /content use this frontmatter to manage their metadata. In this template you can configure title, description, publish date, and images. Let's change the frontmatter like this:
 
@@ -249,7 +249,7 @@ You should see a Markdown file with metadata at the top. Astro calls this frontm
 
 For images, use files placed in the public directory, but we'll skip that for now.
 
-[![Image from Gyazo](https://i.gyazo.com/2f7a239c5ac481deef6255acf21c202e.png)](https://gyazo.com/2f7a239c5ac481deef6255acf21c202e)
+[![Image from Gyazo](../../media/04d88ad12b62e5e883b9dac7d40c9789200598e5c7e24793b0f55773f44ee043.png)](../../media/04d88ad12b62e5e883b9dac7d40c9789200598e5c7e24793b0f55773f44ee043.png)
 
 You should now be able to change the content as shown. From here, adjust whatever you need and your site will come together!
 
@@ -257,7 +257,7 @@ You should now be able to change the content as shown. From here, adjust whateve
 
 This project uses regular CSS for styling, but you can add Tailwind CSS for easier, utility-first styling. In Astro these additions are called integrations, and you can add various tools as needed.
 
-[https://docs.astro.build/ja/guides/integrations-guide/](https://docs.astro.build/ja/guides/integrations-guide/)
+<https://docs.astro.build/ja/guides/integrations-guide/>
 
 ## Publishing the website
 
@@ -267,50 +267,50 @@ Once your site is ready, let's publish it. We'll use Vercel and connect it to Gi
 
 First, sync your local changes with GitHub. In VS Code, use the Source Control tab to commit your changes, then sync. When committing, include a message describing the changes. You cannot commit without a message — you'll be prompted to enter one if you try.
 
-[![Image from Gyazo](https://i.gyazo.com/08bab3c34d2e3f97668f296b3f983cac.png)](https://gyazo.com/08bab3c34d2e3f97668f296b3f983cac)
+[![Image from Gyazo](../../media/5a08929c4fb7906a195afacf10a4c7770854dfe57d13bc804a6cc2f7f899b964.png)](../../media/5a08929c4fb7906a195afacf10a4c7770854dfe57d13bc804a6cc2f7f899b964.png)
 
 _This is the screen before committing. Modified files are listed. For the first commit, all files will be uploaded._
 
 After committing, push the changes to GitHub. Then check GitHub to see the files.
 
-[![Image from Gyazo](https://i.gyazo.com/6bfb3da069ce66508f2c312b787e908a.png)](https://gyazo.com/6bfb3da069ce66508f2c312b787e908a)
+[![Image from Gyazo](../../media/fe37b8e3be46ab7490f138b4bdef471799cb8c9656367346fe9d4be639668a05.png)](../../media/fe37b8e3be46ab7490f138b4bdef471799cb8c9656367346fe9d4be639668a05.png)
 
 ### Hosting for free with Vercel
 
 Use Vercel to host the website. Vercel connects to GitHub and makes it easy to publish web apps. Sign up on Vercel and be sure to use your GitHub account to register.
 
-[https://vercel.com/](https://vercel.com/)
+<https://vercel.com/>
 
-[![Image from Gyazo](https://i.gyazo.com/09c816cd3eee8740b564994845f30603.png)](https://gyazo.com/09c816cd3eee8740b564994845f30603)
+[![Image from Gyazo](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)
 
 After registering, go to the dashboard and click "Add new…" → "Project". You'll see a list of repos from your connected GitHub account — select the Astro repository you created.
 
-[![Image from Gyazo](https://i.gyazo.com/1a2a87c4722cd1590c7d0e77e1161ffa.png)](https://gyazo.com/1a2a87c4722cd1590c7d0e77e1161ffa)
+[![Image from Gyazo](../../media/caeb9e137620027b93943a45a1a77fcf107a3406ccb0a1d0a44215cd150a81fc.png)](../../media/caeb9e137620027b93943a45a1a77fcf107a3406ccb0a1d0a44215cd150a81fc.png)
 
 There are no special settings needed — just click "Deploy". That's it; your site will be published.
 
-[![Image from Gyazo](https://i.gyazo.com/ef971e1941a9aab8d03b4f80912a88b1.png)](https://gyazo.com/ef971e1941a9aab8d03b4f80912a88b1)
+[![Image from Gyazo](../../media/96a42ee8226dae15fa0e43fcd20a55ab25453d36d77f5609fb240ed49e5ee32f.png)](../../media/96a42ee8226dae15fa0e43fcd20a55ab25453d36d77f5609fb240ed49e5ee32f.png)
 
 Once deployed, open the published site.
 
-[![Image from Gyazo](https://i.gyazo.com/b5b8ec70409bd2e5596a7ea86beb576f.png)](https://gyazo.com/b5b8ec70409bd2e5596a7ea86beb576f)
+[![Image from Gyazo](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)
 
-[https://astro-tutorial-six-peach.vercel.app/](https://astro-tutorial-six-peach.vercel.app/)
+<https://astro-tutorial-six-peach.vercel.app/>
 
 With that, you've covered the basics of building and publishing a site. Customize it to your needs!
 
 ### Adding a custom domain on Vercel
 
-If you already own a domain (like example.com), you can add it in Vercel. In the Vercel dashboard, select your project and click "Domains." 
+If you already own a domain (like example.com), you can add it in Vercel. In the Vercel dashboard, select your project and click "Domains."
 
-[![Image from Gyazo](https://i.gyazo.com/485e09882c4130b5a7690c3bef03b293.png)](https://gyazo.com/485e09882c4130b5a7690c3bef03b293)
+[![Image from Gyazo](../../media/02306d88c9b92f4ca7a7d2455c1331e5f29202b85f650795dcfd7300a5a118e1.png)](../../media/02306d88c9b92f4ca7a7d2455c1331e5f29202b85f650795dcfd7300a5a118e1.png)
 
 Click the search box and enter your domain. Vercel will present a guide for connecting the domain — follow those steps to add it.
 
-[![Image from Gyazo](https://i.gyazo.com/2149206be7b4a50138796cc4c6aa4ffe.png)](https://gyazo.com/2149206be7b4a50138796cc4c6aa4ffe)
+[![Image from Gyazo](../../media/49cc4f626c3d6129e3a9ae5fcf4f2b4cd7992cd61dcea54d158ec6a02d74832b.png)](../../media/49cc4f626c3d6129e3a9ae5fcf4f2b4cd7992cd61dcea54d158ec6a02d74832b.png)
 
 ## Conclusion
 
 You should now be able to build a website from start to finish. Many other frameworks like Next.js follow similar workflows, so try different tools and find what suits you best. Follow me on social media if you'd like! (By the way, the site below is also made with Astro.)
 
-[https://so-bean.work/ja](https://so-bean.work/ja)
+<https://so-bean.work/ja>

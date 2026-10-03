@@ -1,31 +1,32 @@
 ---
-title: "On My Birthday: Reflections Since Completing Mitou Junior"
-emoji: "▲"
-tags:
-  - "TutoriaLLM"
-  - "mitou-junior"
-  - "dev"
-published_at: "2025-12-15T00:00:00.000Z"
-description: "I'm Sosei Tokumaru, a Mitou Junior 2024 Super Creator who just turned 19. Since it might look like I've been quiet online after finishing Mitou Junior, I thought I'd share a public update on what I've been up to, as far as I'm able to."
+description: I'm Sosei Tokumaru, a Mitou Junior 2024 Super Creator who just turned 19. Since it might look like I've been quiet online after finishing Mitou Junior, I thought I'd share a public update on what I've been up to, as far as I'm able to.
+emoji: ▲
 isTranslated: true
-sourcePath: "ja/notes/revise-mitou-jr-one-year.md"
-sourceHash: "ebbaa673ad632bb202539348e0929bb8a7774c67fb12c55d32cd60061239e76c"
+published_at: 2025-12-15T00:00:00.000Z
+sourceHash: ebbaa673ad632bb202539348e0929bb8a7774c67fb12c55d32cd60061239e76c
+sourcePath: ja/notes/revise-mitou-jr-one-year.md
+tags:
+  - TutoriaLLM
+  - mitou-junior
+  - dev
+title: "On My Birthday: Reflections Since Completing Mitou Junior"
 ---
 
-> This article is a continuation written with reference to [[revise-mitou-jr|Review of Mitou Junior]]. It's also being written as an Advent Calendar entry.
+> This article is a continuation written with reference to [[en/notes/revise-mitou-jr|Review of Mitou Junior]]. It's also being written as an Advent Calendar entry.
 
 <iframe src="https://adventar.org/calendars/11697/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
 
 It's been exactly one year since I completed the creator support program "[[ja/accomplishments/mitoujr-2024|Mitou Junior 2024]]."
 
-https://jr.mitou.org
+<https://jr.mitou.org>
 
 I was just biking home from university and remembered I wanted to write this article but hadn't, so I decided to bike along in the freezing cold, grimacing from the wind, record myself with Google Recorder, transcribe it with an LLM, and write the blog. Needless to say, some passersby gave me a double-take.
 
 However, maybe because of the cold, the raw content I got was a bit disjointed (the transcription itself was accurate), so I ended up tidying and rewriting it a bit. Here’s a very rough summary of what I gained and learned through Mitou Junior, my career path, what went well, and what didn't.
 
-[![Image from Gyazo](https://i.gyazo.com/af0b60ca39764d896a21ef1afa9713d7.jpg)](https://gyazo.com/af0b60ca39764d896a21ef1afa9713d7)
-By the way, this is a recent two-shot photo with my mentor, Nishio-san. I had no photo from my own成果報告会 because I was broadcasting from Malaysia, so at the 2025成果報告会 I took a two-shot with my mentor Nishio-san from this year's presentation. He's grinning ear-to-ear. Oh, and the certificate he's holding is not mine.
+[![Image from Gyazo](../../media/2e20a0aeeb9d6428d309db8398184b0f06c75b81dc6c31a6808840043e5bb3e5.jpg)](../../media/2e20a0aeeb9d6428d309db8398184b0f06c75b81dc6c31a6808840043e5bb3e5.jpg)
+
+&#xA;By the way, this is a recent two-shot photo with my mentor, Nishio-san. I had no photo from my own成果報告会 because I was broadcasting from Malaysia, so at the 2025成果報告会 I took a two-shot with my mentor Nishio-san from this year's presentation. He's grinning ear-to-ear. Oh, and the certificate he's holding is not mine.
 
 ## What I worked on in Mitou Junior
 
@@ -33,12 +34,13 @@ By the way, this is a recent two-shot photo with my mentor, Nishio-san. I had no
 
 During my Mitou Junior period I developed TutoriaLLM, a tool to set up programming learning environments using LLMs.
 
-https://jr.mitou.org/projects/2024/tutoriallm
+<https://jr.mitou.org/projects/2024/tutoriallm>
 
 I talked a lot about the details during the presentation, so I'll omit them here.
 
-[![Image from Gyazo](https://i.gyazo.com/4f797b19e73f84f105cf64490269a8ba.gif)](https://gyazo.com/4f797b19e73f84f105cf64490269a8ba)
-It was my first serious web app, but with the help of AI I implemented it to a usable stage and was recognized as a Mitou Junior Super Creator. I was also able to submit it to later competitions and even win awards.
+[![Image from Gyazo](../../media/1f7dd94641c26139b2e20f230fd2503634f68aeea578b74f0a52691623b34085.gif)](../../media/1f7dd94641c26139b2e20f230fd2503634f68aeea578b74f0a52691623b34085.gif)
+
+&#xA;It was my first serious web app, but with the help of AI I implemented it to a usable stage and was recognized as a Mitou Junior Super Creator. I was also able to submit it to later competitions and even win awards.
 
 ### One year later
 
@@ -50,13 +52,13 @@ There were many causes, but the biggest was the rapid advancement of technology,
 
 At the time, AI had trouble visually recognizing block positions, so we used a technique that converted blocks into text data and had the model read that. But a year later, AI can recognize images directly, understand code from them, and even output code. Some models can annotate images or add text and output slides as images. The technical approach I had worked so hard to build became obsolete in an instant due to AI progress, and my work disappeared.
 
-[![Image from Gyazo](https://i.gyazo.com/d664503a646657a89988ef7a30a5fbe0.png)](https://gyazo.com/d664503a646657a89988ef7a30a5fbe0)
+[![Image from Gyazo](../../media/a1268ac34650a91abaedb1cc2fa51b03dd68de8674c267c0300ea4667cc1d5b0.png)](../../media/a1268ac34650a91abaedb1cc2fa51b03dd68de8674c267c0300ea4667cc1d5b0.png)
 
 For a moment there was talk of deploying this as an educational platform to teach how to use AI, and I even had a tentative inquiry from someone overseas, but there are already many such platforms in the world and a lot of competition, so I didn't feel very motivated.
 
 Moreover, there was an announcement that software similar to TutoriaLLM was being developed by the Scratch Foundation.
 
-https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant
+<https://scratchfoundation.org/blog/coming-soon-your-creative-learning-assistant>
 
 I realized that what I'd built might be globally competitive, but at the same time I was made aware that something that no one had done before was no longer unique.
 
@@ -74,15 +76,15 @@ Although the artifact I made became outdated, it allowed me to meet many people 
 
 I presented my work at the Blockly Summit,
 
-[![Image from Gyazo](https://i.gyazo.com/0c219fc018f65b5a695b50df1f91732e.jpg)](https://gyazo.com/0c219fc018f65b5a695b50df1f91732e)
+[![Image from Gyazo](../../media/bb5eecb81ef2adf174ff3989795a292c0499cb5b6b6c9e542c196e0fbaec9f02.jpg)](../../media/bb5eecb81ef2adf174ff3989795a292c0499cb5b6b6c9e542c196e0fbaec9f02.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/a4fda6270736ade74231bbf2f8652da6.jpg)](https://gyazo.com/a4fda6270736ade74231bbf2f8652da6)
+[![Image from Gyazo](../../media/bab70fe065a0ca50a3ed1d452f474bcbd7e61a8b946fe3c2eb9d9ec906ceabf4.jpg)](../../media/bab70fe065a0ca50a3ed1d452f474bcbd7e61a8b946fe3c2eb9d9ec906ceabf4.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/1a0e0d67785a4a15007c6eeadf3c0ad2.gif)](https://gyazo.com/1a0e0d67785a4a15007c6eeadf3c0ad2)
+[![Image from Gyazo](../../media/0f3aab5c32cd4c455be6b802c66131d1c47cca36a0d40b4bd97a5242463e3e77.gif)](../../media/0f3aab5c32cd4c455be6b802c66131d1c47cca36a0d40b4bd97a5242463e3e77.gif)
 
 I even got to go to DEF CON, a fun gathering of hackers,
 
-[![Image from Gyazo](https://i.gyazo.com/e7f36313785b6cddd2d93b1b3df4e2cc.jpg)](https://gyazo.com/e7f36313785b6cddd2d93b1b3df4e2cc)
+[![Image from Gyazo](../../media/ba9dc20cb2f78622399e452fce94449f4413ccb2458af95c7e03337a497297e0.jpg)](../../media/ba9dc20cb2f78622399e452fce94449f4413ccb2458af95c7e03337a497297e0.jpg)
 
 I had only been programming for about a year, and in hindsight I think people recognized my process and attitude — they were essentially saying "you worked hard" — rather than purely judging my technical skill.
 
@@ -106,7 +108,9 @@ So next is the story about my career path. I agonized a lot about it.
 
 I said that last year and decided to go to university after graduating. I had several options beforehand, and I enrolled in [[ja/works/keio|Keio University Faculty of Environment and Information Studies (SFC)]], which many Mitou Junior alumni attend.
 
-[![Image from Gyazo](https://i.gyazo.com/7890be35f6b545223f79d08dd37abd57.jpg)](https://gyazo.com/7890be35f6b545223f79d08dd37abd57) (The entrance ceremony in a suit I'm not used to wearing)
+[![Image from Gyazo](../../media/2200029008361bbca66f6f2d1c80f2a0a4eff7842e9eff541fb628a4fb62e939.jpg)](../../media/2200029008361bbca66f6f2d1c80f2a0a4eff7842e9eff541fb628a4fb62e939.jpg)
+
+&#x20;(The entrance ceremony in a suit I'm not used to wearing)
 
 ### Why I chose SFC
 
@@ -120,7 +124,7 @@ There were several reasons:
 
 Regarding preferential treatment for Mitou Junior alumni, Ukai-san wrote about this in this year's Advent Calendar, so check that out:
 
-https://note.com/ukkaripon/n/n16034b59b4f8
+<https://note.com/ukkaripon/n/n16034b59b4f8>
 
 Meeting the admission requirements was a big factor.
 
@@ -152,23 +156,26 @@ There are English courses too, and depending on the instructor you can take clas
 
 In Japan people tell university students to "play a lot," and I used to think "what's the point of just playing?" But maybe there's truth in it depending on how you interpret it. For me, "playing" often means taking interesting university classes or copying what others in research groups are doing and extending it for fun. That sounds like study, but it's fun, so it's play. It's not that I'm achieving something unprecedented, but my range of interests keeps expanding, which is enjoyable.
 
-[![Image from Gyazo](https://i.gyazo.com/78e249753908110e25d2525f1db98054.jpg)](https://gyazo.com/78e249753908110e25d2525f1db98054)
-Lately I've been getting into the [[bambu-a1-mini| 3D printer]], hardware, and how the internet works (e.g., [[/ja/misc/world-wide-web|WWW]]), areas I hadn't touched before. Starting these on my own feels harder than making web apps because of the initial investment, but being at university and hearing from various people made me interested and got me hands-on. It's good to take initiative, but sometimes classes and hearing about things from others spur motivation more.
+[![Image from Gyazo](../../media/9b10eee4780d08a48ff2d9218f144d55839dbffbf70fbc112f511b15f110c0e8.jpg)](../../media/9b10eee4780d08a48ff2d9218f144d55839dbffbf70fbc112f511b15f110c0e8.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/7f440f5dd2885ae8c0558127773ef978.jpg)](https://gyazo.com/7f440f5dd2885ae8c0558127773ef978)
-(Recently Hack Club held a game exhibition in Tokyo and I went to see it)
+&#xA;Lately I've been getting into the [[en/misc/bambu-a1-mini| 3D printer]], hardware, and how the internet works (e.g., [[ja/misc/world-wide-web|WWW]]), areas I hadn't touched before. Starting these on my own feels harder than making web apps because of the initial investment, but being at university and hearing from various people made me interested and got me hands-on. It's good to take initiative, but sometimes classes and hearing about things from others spur motivation more.
+
+[![Image from Gyazo](../../media/831c5448c6280c7bbb394f9cfddd055ce6a5479b836d972e593c8726cc065c4f.jpg)](../../media/831c5448c6280c7bbb394f9cfddd055ce6a5479b836d972e593c8726cc065c4f.jpg)
+
+&#xA;(Recently Hack Club held a game exhibition in Tokyo and I went to see it)
 
 In the end, I think I find things I like by being influenced by people around me. I realized that my interests often start as play, grow, and reach areas no one else has explored.
 
-[![Image from Gyazo](https://i.gyazo.com/03f7b5e6832c88d613c4149b75eceb89.gif)](https://gyazo.com/03f7b5e6832c88d613c4149b75eceb89)
-(I built a web app at a hackathon)
+[![Image from Gyazo](../../media/3e5ec659e4f68357fb8aa234c206f1ebcbdcb8beee32380ac90dc924783f12fa.gif)](../../media/3e5ec659e4f68357fb8aa234c206f1ebcbdcb8beee32380ac90dc924783f12fa.gif)
+
+&#xA;(I built a web app at a hackathon)
 
 I used to be the kid who groaned when my parents told me to study, but once I started treating everything as play and got hands-on, it all became fun. I'm grateful to be in an environment where I can do what I love. Big thanks to everyone who supported me!
 
 > Huh? That's not play? Do more games?
 > ...So I recently took back the Windows PC I'd lent to my family, bought a wheel, and plan to play racing games. So yes, I'm playing games properly (?). If you want to play together, join my Discord server!
 
-https://discord.gg/vJtKTWKmt5
+<https://discord.gg/vJtKTWKmt5>
 
 ## Songs I listened to today
 

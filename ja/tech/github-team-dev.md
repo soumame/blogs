@@ -1,15 +1,15 @@
 ---
-title: GitHubでチーム開発してみよう
+description: GitHub、アカウント登録はしたけど開発者じゃないから使わないというそこのあなたのために、さっと使い方を説明した記事を書きました。
 emoji: 💻
+published_at: 2025-10-06
 tags:
   - coding
   - dev
   - team-dev
-published_at: 2025-10-06
-description: GitHub、アカウント登録はしたけど開発者じゃないから使わないというそこのあなたのために、さっと使い方を説明した記事を書きました。
+title: GitHubでチーム開発してみよう
 ---
 
-> 公益財団法⼈⽶⽇カウンシルージャパンが主催し、一般社団法人コード・フォー・ジャパンが運営する [[tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]] に参加している方に向けた内容となっていますが、外部の方もご覧いただけます
+> 公益財団法⼈⽶⽇カウンシルージャパンが主催し、一般社団法人コード・フォー・ジャパンが運営する [[ja/accomplishments/tomodachi|TOMODACHI Boeing Entrepreneurship Seminar 2025]] に参加している方に向けた内容となっていますが、外部の方もご覧いただけます
 
 こんにちは。そうまめです。
 これからみんながオンラインで２ヶ月かけてプロダクトを作るわけですが、その際に使えそうなものを皆さんに共有したく、ノートを書いています。今回は GitHub について説明します。名前は聞いたことあっても、触ったことない方や、そもそも初めての方向けに説明していきます。
@@ -30,9 +30,11 @@ C さんは３段落目を編集して、２番目にアップロードしまし
 ## Git とは
 
 で、ここで、Git という仕組みが出てきます。
-Git は、ファイルの変更履歴を記録、追跡し、簡単にバージョン管理することができます。誰が、どのファイルに対してどんな変更をし、前の内容と何が変わったかを履歴として残しておくことができます (詳しくは [【初心者向け】GIT とは何か？GIT の概念を解説 Git - Qiita](https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b)とかを参照するとわかりやすいと思います)
-[![Image from Gyazo](https://i.gyazo.com/cdad597c48987e443027db40b14c2b39.png)](https://gyazo.com/cdad597c48987e443027db40b14c2b39)
-この仕組みでは、リポジトリ（プロジェクトのファイル置き場）を分散させ、編集する人は、ローカルのリポジトリ（自分のパソコンにあるファイル）を直接編集し、編集が終わったら、リモートリポジトリにアップロードします。これを、プッシュと呼びます。
+Git は、ファイルの変更履歴を記録、追跡し、簡単にバージョン管理することができます。誰が、どのファイルに対してどんな変更をし、前の内容と何が変わったかを履歴として残しておくことができます (詳しくは [【初心者向け】GIT とは何か？GIT の概念を解説 Git - Qiita](https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b)とかを参照するとわかりやすいと思います)&#xA;
+
+[![Image from Gyazo](../../media/96ed14ee8310f8916cf8edbf9e295e5e36d4a1d32b5ddd7c01c9a3d1008c8cd8.png)](../../media/96ed14ee8310f8916cf8edbf9e295e5e36d4a1d32b5ddd7c01c9a3d1008c8cd8.png)
+
+&#xA;この仕組みでは、リポジトリ（プロジェクトのファイル置き場）を分散させ、編集する人は、ローカルのリポジトリ（自分のパソコンにあるファイル）を直接編集し、編集が終わったら、リモートリポジトリにアップロードします。これを、プッシュと呼びます。
 そして、そのリモートリポジトリに上げられた内容をプル（引っ張ってくる）することで、自分たちのローカルリポジトリに反映させます。
 
 勝手にプルしてきちゃうと作業中に内容が突然変わってしまったりするので、ユーザーがプル操作をする必要があります。いつその内容を引っ張ってくるかということに関しては、[【Github】pull のタイミングについて](https://zenn.dev/nineball/articles/ca7ccee53791b2)とかを確認してもらえると良いかなと思います。
@@ -72,7 +74,7 @@ Student Pack で使えるもので一番皆さんにとって激アツだと思�
 
 以下は今回のハッカソンで使われそうな IDE のリストです：
 
-- [[vs-code|VS Code]]
+- [[ja/misc/vs-code|VS Code]]
   - Web アプリを作る人の第一選択肢。Microsoft が開発するエディタで、Windows, MacOS, Linux といった大体の OS で動作します。厳密には IDE ではないんですけど、拡張機能を追加することで実質 IDE のような使い方ができます。
   - Android/iOS に対応した、クロスプラットフォームアプリを作る場合にも使用できます
   - Typescript, Javascript, Python といった言語でよく使われます
@@ -102,12 +104,12 @@ Student Pack で使えるもので一番皆さんにとって激アツだと思�
 
 1. 先ほど作成したリポジトリのページを開きます。
 2. 緑色の「<> Code」ボタンをクリックし、表示された URL の右側にあるコピーアイコンをクリックして、URL をコピーします。
-   [![Image from Gyazo](https://i.gyazo.com/54bdbe8df972361aff0072ef3397c9d2.png)](https://gyazo.com/54bdbe8df972361aff0072ef3397c9d2)
+   [![Image from Gyazo](../../media/c84b37f62691e14c972970d35fdb31acb04af85c421135656bd100ff08123f71.png)](../../media/c84b37f62691e14c972970d35fdb31acb04af85c421135656bd100ff08123f71.png)
 3. VS Code を開きます。
 4. 上部のメニューから「表示 (View)」→「コマンドパレット (Command Palette)」を開き、「Git: Clone」と入力して選択します。
-   [![Image from Gyazo](https://i.gyazo.com/a2407b8bc6c88b1e3b214ecc240585b9.png)](https://gyazo.com/a2407b8bc6c88b1e3b214ecc240585b9)
+   [![Image from Gyazo](../../media/7859364cc7416eeb6d0b9820a82844014e1315d83985995b55f95e45b37081ef.png)](../../media/7859364cc7416eeb6d0b9820a82844014e1315d83985995b55f95e45b37081ef.png)
 5. 先ほどコピーした URL を貼り付けて、Enter キーを押します。
-   [![Image from Gyazo](https://i.gyazo.com/328a005494c8ae9b751d7d5f19d48597.png)](https://gyazo.com/328a005494c8ae9b751d7d5f19d48597)
+   [![Image from Gyazo](../../media/ba65025b8c7e2af8f5833d770bc7ca4252f3fc9ae4c48195b9b24636d90bb84c.png)](../../media/ba65025b8c7e2af8f5833d770bc7ca4252f3fc9ae4c48195b9b24636d90bb84c.png)
 6. パソコンのどこにプロジェクトを保存するか聞かれるので、分かりやすい場所（デスクトップやドキュメントフォルダなど）を選びます。
 7. クローンが完了すると、右下に「リポジトリを開きますか？」と表示されるので、「開く (Open)」をクリックします。
 
@@ -120,7 +122,7 @@ Student Pack で使えるもので一番皆さんにとって激アツだと思�
 1. VS Code の左側にあるエクスプローラーから、「README.md」ファイルをクリックして開きます。
 2. ファイルに何かテキストを書き加えてみましょう。例えば、こんな感じです。
 
-.md ファイルは、普通の.txt ファイルなどとは違って、Markdown 記法という書き方で、 `#`や\*などの記号を使って、文字の大きさや強調する箇所とかを設定することができます。詳しくは [[markdown|Markdown記法で書いてみよう]] の記事を参照してください
+.md ファイルは、普通の.txt ファイルなどとは違って、Markdown 記法という書き方で、 `#`や\*などの記号を使って、文字の大きさや強調する箇所とかを設定することができます。詳しくは [[ja/tech/markdown|Markdown記法で書いてみよう]] の記事を参照してください
 
 ```
 # TOMODACHI プロダクト
@@ -131,15 +133,16 @@ Student Pack で使えるもので一番皆さんにとって激アツだと思�
 - そうまめ
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/a374a6c2163a1946e31155a80f0c2d39.png)](https://gyazo.com/a374a6c2163a1946e31155a80f0c2d39)
+[![Image from Gyazo](../../media/78934a576342217a2bcb1a9aa9c5d62c8c4b13c372f8b537da35d01e1e42085d.png)](../../media/78934a576342217a2bcb1a9aa9c5d62c8c4b13c372f8b537da35d01e1e42085d.png)
 
 3. ファイルを編集して保存 (`Ctrl+S` または `Cmd+S`) すると、VS Code の左側にある木の枝が分かれたようなアイコン（ソース管理）に、① のようなバッジが表示されます。これは「変更されたファイルがありますよ」という印です。
-   [![Image from Gyazo](https://i.gyazo.com/3af3605b302306b0e7a92aa568b0565f.png)](https://gyazo.com/3af3605b302306b0e7a92aa568b0565f)
+   [![Image from Gyazo](../../media/4dbe44f930bcb1360cdaea147110e9f928cc0f7cef385d81f01a5fe9d0bfe880.png)](../../media/4dbe44f930bcb1360cdaea147110e9f928cc0f7cef385d81f01a5fe9d0bfe880.png)
 
 ## プッシュする
 
-編集した内容を、今度はリモートリポジトリ（GitHub 上）にアップロードして、チームメンバーに共有しましょう。この操作を**プッシュ (Push)** と呼びます。プッシュは、いくつかのステップに分かれています。
-[![Image from Gyazo](https://i.gyazo.com/6e3b9ee6936af1beb13238eeb9191a3c.png)](https://gyazo.com/6e3b9ee6936af1beb13238eeb9191a3c)
+編集した内容を、今度はリモートリポジトリ（GitHub 上）にアップロードして、チームメンバーに共有しましょう。この操作を**プッシュ (Push)** と呼びます。プッシュは、いくつかのステップに分かれています。&#xA;
+
+[![Image from Gyazo](../../media/72059b765f4108bfda8c758927c1f9c74c6c9cdc2c8a65f4cd97f25fcf3095e3.png)](../../media/72059b765f4108bfda8c758927c1f9c74c6c9cdc2c8a65f4cd97f25fcf3095e3.png)
 
 1. **ステージング**: どの変更を記録に残すか選びます。これは、自分のパソコンの中で行うので、この段階で GitHub 側には何も反映されません。
 
@@ -158,8 +161,9 @@ Student Pack で使えるもので一番皆さんにとって激アツだと思�
 
 ### 例：このブログサイトの場合
 
-[![Image from Gyazo](https://i.gyazo.com/38c29c9ab26710c7c68088c9c6f56b42.png)](https://gyazo.com/38c29c9ab26710c7c68088c9c6f56b42)
-今この記事をアップロードする瞬間にも、Git を使用しています。VS Code にはこんな感じで Git でステージした内容とかが視覚的に表示されます。
+[![Image from Gyazo](../../media/e6dbb2432d203b951fc6fc94fc20ec3ba1073670847763592b74813b61658eb5.png)](../../media/e6dbb2432d203b951fc6fc94fc20ec3ba1073670847763592b74813b61658eb5.png)
+
+&#xA;今この記事をアップロードする瞬間にも、Git を使用しています。VS Code にはこんな感じで Git でステージした内容とかが視覚的に表示されます。
 ステージされている変更の部分を見てみましょう。赤い D と書いてある内容は、削除した内容(Deleted)で、R は名称変更(Rename)です。
 
 ## プルする (リモートに変更があった場合)

@@ -1,17 +1,18 @@
 ---
-title: "Diver-X"
-emoji: "💼"
-tags:
-  - "Work"
-published_at: "2026-01-27T00:00:00.000Z"
-description: "I work as a software developer at Diver-X Inc. (part-time)."
-isTranslated: true
+description: I work as a software developer at Diver-X Inc. (part-time).
+emoji: 💼
 isDraft: false
-sourcePath: "ja/works/diver-x.md"
-sourceHash: "83ad1961562ff80bf56636203f5a6a80028bbf1c446eed83e6946e35bf8018c6"
+isTranslated: true
+published_at: 2026-01-27T00:00:00.000Z
+sourceHash: 83ad1961562ff80bf56636203f5a6a80028bbf1c446eed83e6946e35bf8018c6
+sourcePath: ja/works/diver-x.md
+tags:
+  - Work
+title: Diver-X
 ---
 
 ## What I do
+
 I create HID devices and do contract development using that technology.
 
 HID = You can think of it as a method for people and computers to exchange (communicate).
@@ -19,7 +20,8 @@ HID = You can think of it as a method for people and computers to exchange (comm
 I assist as a part-time worker while attending [[en/works/keio|university]].
 
 ### Products I'm involved with
-https://www.melt-interface.com/melt-mouse
+
+<https://www.melt-interface.com/melt-mouse>
 
 I am developing the Melt Mouse under the Melt Interface brand.
 We make a mouse targeted at creators and other users who use computers extensively.

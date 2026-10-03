@@ -1,15 +1,15 @@
 ---
-title: "GitHub Student Pack"
-emoji: "⚒️"
-tags:
-  - "coding"
-  - "team-dev"
-  - "dev"
-published_at: "2025-10-05T00:00:00.000Z"
-isTranslated: true
+emoji: ⚒️
 isDraft: true
-sourcePath: "ja/misc/github-student-pack.md"
-sourceHash: "a6b68f057624936265d3e1d5c023ce59d34c383ad7aec8f8c43fbefb3be976f4"
+isTranslated: true
+published_at: 2025-10-05T00:00:00.000Z
+sourceHash: a6b68f057624936265d3e1d5c023ce59d34c383ad7aec8f8c43fbefb3be976f4
+sourcePath: ja/misc/github-student-pack.md
+tags:
+  - coding
+  - team-dev
+  - dev
+title: GitHub Student Pack
 ---
 
 # What is the GitHub Student Pack?

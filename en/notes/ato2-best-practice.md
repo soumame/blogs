@@ -1,12 +1,12 @@
 ---
-title: "Air Tycoon Online 2 — Hardcore Credit Farming Playbook"
-emoji: "🤖"
-tags:
-  - "game"
-published_at: "2021-12-05T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/notes/ato2-best-practice.md"
-sourceHash: "1fc0d96cfbdfcbde447de4b5a2a9de1a9cd07f66368d6ffc8392480afd01eda5"
+published_at: 2021-12-05T00:00:00.000Z
+sourceHash: 1fc0d96cfbdfcbde447de4b5a2a9de1a9cd07f66368d6ffc8392480afd01eda5
+sourcePath: ja/notes/ato2-best-practice.md
+tags:
+  - game
+title: Air Tycoon Online 2 — Hardcore Credit Farming Playbook
 ---
 
 **※This article is a work in progress and its contents may change in the future.**
@@ -53,7 +53,7 @@ DC-8 satisfaction should be dropping, so **replace DC-8-62s with IL-62Ms**, and 
 
 Sell the phased-out DC-8s, or if you have spare capacity use them to open new routes. Be careful not to sell too many, as that lowers company value.
 
-## 1975~1980
+## 1975\~1980
 
 Around here it's best to have about 400–500 routes. The aircraft you should buy at this timing are 747-200, DC-10-30, L-1011-500, and IL-62M. For small aircraft, unless they've reached end of life, just refurbish them. After this, unless you find large-scale routes (like London–Frankfurt), stop opening short-haul routes because acquiring slots takes time.
 
@@ -67,7 +67,7 @@ For cargo, replace 707s with 100% load factor with DC-10-30s, and use the rest t
 
 From May 1980, crude oil prices rise, which you can use to significantly improve your ranking.
 
-## 1980~1985
+## 1980\~1985
 
 When you have about 100 L-1011s, stop buying them and wait for the 767-200 to appear.
 
@@ -81,18 +81,18 @@ Ideal aircraft plan for this era:
 
 **References**
 
-[https://ato2jp.wiki.fc2.com/](https://ato2jp.wiki.fc2.com/)
+<https://ato2jp.wiki.fc2.com/>
 
-[https://torihikolife.com/air-tycoon-online2-tips](https://torihikolife.com/air-tycoon-online2-tips)
+<https://torihikolife.com/air-tycoon-online2-tips>
 
-[https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960](https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960)
+<https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960>
 
-[http://simgametips.blogspot.com/2017/02/blog-post_15.html](http://simgametips.blogspot.com/2017/02/blog-post_15.html)
+<http://simgametips.blogspot.com/2017/02/blog-post_15.html>
 
-[https://air-tycoon-online.fandom.com/wiki/Aircraft](https://air-tycoon-online.fandom.com/wiki/Aircraft)
+<https://air-tycoon-online.fandom.com/wiki/Aircraft>
 
-[https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC](https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC)
+<https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC>
 
-[http://ato2game.jugem.jp/?eid=4](http://ato2game.jugem.jp/?eid=4)
+<http://ato2game.jugem.jp/?eid=4>
 
 : )

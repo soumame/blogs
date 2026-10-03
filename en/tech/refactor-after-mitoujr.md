@@ -1,12 +1,12 @@
 ---
-title: "Super Large Refactoring After Finishing MITOU Junior"
-emoji: "♻️"
-tags:
-  - "mitou-junior"
-published_at: "2024-12-14 12:13"
+emoji: ♻️
 isTranslated: true
-sourcePath: "ja/tech/refactor-after-mitoujr.md"
-sourceHash: "5c1c8dcef22a9ddaef81dcbfe7ff4a76a8e8907d35ad9b9685ab0fb21a4ffa31"
+published_at: 2024-12-14 12:13
+sourceHash: 5c1c8dcef22a9ddaef81dcbfe7ff4a76a8e8907d35ad9b9685ab0fb21a4ffa31
+sourcePath: ja/tech/refactor-after-mitoujr.md
+tags:
+  - mitou-junior
+title: Super Large Refactoring After Finishing MITOU Junior
 ---
 
 Hello. I'm Souma.
@@ -17,9 +17,9 @@ This article is part of the [MITOU Junior Advent Calendar](https://adventar.org/
 
 Today, I'd like to talk about a large-scale refactoring of the app I am currently developing, called [TutoriaLLM](https://tutoriallm.com). Although I've gotten somewhat accustomed to it, I am still a beginner in the eyes of the community, so I may be writing code that is generally considered poor. Please let me know gently if I am! [Contact here](https://tokumaru.work/ja)
 
-https://tutoriallm.com
+<https://tutoriallm.com>
 
-https://github.com/TutoriaLLM/TutoriaLLM
+<https://github.com/TutoriaLLM/TutoriaLLM>
 
 # What is TutoriaLLM?
 
@@ -44,11 +44,11 @@ When I started coding in May, everything was a trial and error, and I didn’t u
 # Start Refactoring!
 
 In embarking on the refactoring, I made sure to get advice from Yuta, who often helps me, about setting up the repository and trendy frameworks, rather than relying solely on information from the internet. After all, I think it's best to hear from someone who has actually done it when it comes to getting an app into a production environment.
-https://zenn.dev/yutakobayashi
+<https://zenn.dev/yutakobayashi>
 
 ## Redesigning the Database
 
-First, I started by completely redesigning the database. 
+First, I started by completely redesigning the database.
 Originally, I was using a combination of PostgreSQL and Redis, but I decided to integrate them into PostgreSQL.
 
 Initially, TutoriaLLM was using Redis to synchronize users’ created programs in real-time with the server's storage in order to handle LLM processing, multiple users accessing the same session, and server-side code execution. At that time, I didn’t have much understanding of PostgreSQL, and since it was still in the testing phase, I prioritized creating a working version quickly, which is why I chose Redis for its simplicity and immediate usability. Additionally, session data was described in JSON and was being overwritten in Redis each time, thus leveraging its advertised fast in-memory processing.
@@ -61,15 +61,15 @@ Thus, as we transitioned from creating a functional demo to a stage where real u
 
 Even though I said I redesigned it, I only integrated session management into PostgreSQL, so it was relatively simple to do. However, I decided against supporting backward compatibility because doing so in a production environment would be very tricky.
 Since the PostgreSQL server needed to store vector data related to AI features (which is not present in standard PG and needs to be extended), I started with a Docker image that supports it from the outset.
-https://hub.docker.com/r/ankane/pgvector
+<https://hub.docker.com/r/ankane/pgvector>
 
 For these operations, I used Drizzle ORM. It supports [vector capabilities](https://orm.drizzle.team/docs/guides/vector-similarity-search), and for those writing in Javascript/Typescript, this is probably the best option.
-https://orm.drizzle.team/
+<https://orm.drizzle.team/>
 
 ## Goodbye, Express
 
 In TutoriaLLM, the stack consisted of Express for the backend and Vite for the frontend, and to create these quickly, I was using something simply named vite-express.
-https://github.com/szymmis/vite-express
+<https://github.com/szymmis/vite-express>
 
 Rather than a framework, it's more like a wrapper for easily deploying full-stack applications (I apologize if that’s incorrect). Since the app is served as static files, using something like this made the process straightforward from building with Vite → loading it with Express → providing frontend/backend.
 
@@ -91,7 +91,7 @@ I considered creating a module solely for type definitions in the pnpm workspace
 
 There was a hot framework for lazy individual developers: Hono.
 With Hono, you can bring the type definitions defined in the backend (using zod etc.) to the frontend.
-https://hono.dev/docs/concepts/stacks
+<https://hono.dev/docs/concepts/stacks>
 
 Isn’t that wonderful? I have no idea what technology is being used (I should study), but by using this, you can take types straight to the frontend. Moreover, you can even generate these based on a [Zod + OpenAPI combination](https://hono.dev/examples/zod-openapi). By defining the API specifications and writing the corresponding responses, the backend can develop completely with types intact.
 

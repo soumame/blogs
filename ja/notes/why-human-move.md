@@ -1,16 +1,16 @@
 ---
-title: 人はなぜ動くのか
-emoji: 🚶
 description: 人はなぜ動くのか
+emoji: 🚶
+published_at: 2025-10-16
 tags:
   - brain-storming
-published_at: 2025-10-16
+title: 人はなぜ動くのか
 ---
 
-[[works/keio|慶應SFC]]の環境情報学の授業で面白いこと言ってたのでメモ
-
+[[ja/works/keio|慶應SFC]]の環境情報学の授業で面白いこと言ってたのでメモ
 
 人はなぜ動くのか考えよう。
+
 - 生存
   - 食べ物を食べたり、獲物を狩ったりするため？
   - 動くための体を持っているから
@@ -19,15 +19,16 @@ published_at: 2025-10-16
   - 新しいスキルを獲得するため
   - コンフォートゾーンから抜け出し活動するため
 
-https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C
-
+<https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C>
 
 ## なぐり書き
+
 > 深い意味はない。電車に乗りながら考えてるだけ。
 
 人は動かないとどうなるんだろう。何のために生きているのか考えている生き物は人間くらいなのかな。
 意味もなく生きている？
 死にたくないから生きている？
+
 - 恐怖を感じる
 
 すごく高度で、複雑な文明の中に自分は生きているわけだけど、今この世の中に生きている人ってなんで生きているんだろう。
@@ -50,17 +51,17 @@ https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%8
 - Development
 - Evolution
 
-
 ## なぐり書き２
+
 人が生きる理由は、生存することだとしても、長期的に生存できるかは分からないことに気づいた
 
 隕石がもし地球に落ちたら？５０億年経って地球がなくなったら？
 
 まあ多分人為的な原因のほうがよっぽど可能性あるか
 
-https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85
+<https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85>
 
-https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9
+<https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9>
 
 やっぱりそうすると、別の星に移ったり、機能を分散させることでそのリスクを低減するのが良いのかな。
 
@@ -78,7 +79,7 @@ https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9
 
 自分の一生をできるだけ効率よく活かし、次の世代につなげていくのか。
 
-https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-
+<https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6->
 
 チ。を思い出した。
 

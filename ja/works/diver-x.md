@@ -1,13 +1,15 @@
 ---
-title: Diver-X
-emoji: 💼
 description: Diver-X株式会社（アルバイト）でソフトウェア開発に従事しています
+emoji: 💼
+isDraft: false
+published_at: 2026-01-27
 tags:
   - Work
-published_at: 2026-01-27
-isDraft: false
+title: Diver-X
 ---
+
 ## 何をしてるの
+
 HIDデバイスを作ったり、その技術を使った受託開発をしていたりしています。
 
 HID = 人と、コンピューターがやりとり（通信）をするための方法、というふうに捉えても良いかもしれません
@@ -15,7 +17,8 @@ HID = 人と、コンピューターがやりとり（通信）をするため�
 [[ja/works/keio|大学]]に通いながらアルバイトとして、お手伝いしています。
 
 ### 関わっているプロダクト
-https://www.melt-interface.com/melt-mouse
+
+<https://www.melt-interface.com/melt-mouse>
 
 Melt InterfaceというブランドのMelt Mouseを開発しています。
 パソコンをよく使うクリエーターなどをターゲットとしたマウスを作っています

@@ -1,16 +1,16 @@
 ---
-title: "AI-Driven Democratization of Learning and the \"Compensation\" Dilemma for Knowledge Producers"
-emoji: "📉"
-tags:
-  - "ai-generated"
-  - "essay"
-  - "dev"
-  - "llm"
-published_at: "2025-12-12T00:00:00.000Z"
-description: "From an era of buying books to learn to an era of asking AI. I consider the potential \"stagnation of knowledge\" that could result from the breakdown of returns to people who produce knowledge behind that convenience."
+description: From an era of buying books to learn to an era of asking AI. I consider the potential "stagnation of knowledge" that could result from the breakdown of returns to people who produce knowledge behind that convenience.
+emoji: 📉
 isTranslated: true
-sourcePath: "ja/misc/democratization-of-learning.md"
-sourceHash: "f7599278ff324c9ccf53ab27d3a89db4836bb8a63a61e4a9696118d8ded2eb0c"
+published_at: 2025-12-12T00:00:00.000Z
+sourceHash: f7599278ff324c9ccf53ab27d3a89db4836bb8a63a61e4a9696118d8ded2eb0c
+sourcePath: ja/misc/democratization-of-learning.md
+tags:
+  - ai-generated
+  - essay
+  - dev
+  - llm
+title: AI-Driven Democratization of Learning and the "Compensation" Dilemma for Knowledge Producers
 ---
 
 In the past, if you wanted to learn something, you would buy reference books, go to bookstores, or dig through materials in a university library. You invested money and time, and only then could you acquire knowledge.
@@ -44,9 +44,9 @@ That leads to a sense of futility: "Is there any point in going through the trou
 
 What happens if intellectuals and creators around the world feel the same way and think "it's not worth it, so I'll stop publishing"?
 
-* People stop writing books.
-* Fewer people share their insights on blogs.
-* Contributions to open source decrease.
+- People stop writing books.
+- Fewer people share their insights on blogs.
+- Contributions to open source decrease.
 
 If that happens, the supply of "new knowledge" for AI to learn from will dry up.
 AI is good at producing answers by recombining existing data, but discovering entirely new concepts or identifying and systematizing phenomena that no one has yet verbalized is still, for now, largely a human endeavor.
@@ -66,7 +66,6 @@ But when I step back and think long-term, I can't shake questions like:
 "If nobody writes anything new anymore, what will AI learn from?"
 
 If humanity, having obtained superintelligent AI, were to stop the pursuit of new knowledge because of that convenience, it would be terrifying—and at the same time oddly ironic and fascinating. We're living in a strange era.
-
 
 ## The most alarming thing
 

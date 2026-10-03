@@ -1,25 +1,25 @@
 ---
-title: "How much machine learning does Duolingo use?"
-emoji: "🦉"
-tags:
-  - "dev"
-  - "llm"
-published_at: "2025-12-02T00:00:00.000Z"
-description: "I've heard that the language-learning app Duolingo uses machine learning everywhere — where exactly is it used? I looked into it."
+description: I've heard that the language-learning app Duolingo uses machine learning everywhere — where exactly is it used? I looked into it.
+emoji: 🦉
 isTranslated: true
-sourcePath: "ja/tech/duolingo-machine-learning.md"
-sourceHash: "d293b553c2a511e31b0414248c24b0a9ff4ef2cf922eaa3d19b2709a7ea4fca9"
+published_at: 2025-12-02T00:00:00.000Z
+sourceHash: d293b553c2a511e31b0414248c24b0a9ff4ef2cf922eaa3d19b2709a7ea4fca9
+sourcePath: ja/tech/duolingo-machine-learning.md
+tags:
+  - dev
+  - llm
+title: How much machine learning does Duolingo use?
 ---
 
-> I wrote this blog post to deepen my own understanding of machine learning and share that knowledge with others. I'm not a machine learning expert, so I may be mistaken. This article is also published on my website ( https://tokumaru.work/ja )
+> I wrote this blog post to deepen my own understanding of machine learning and share that knowledge with others. I'm not a machine learning expert, so I may be mistaken. This article is also published on my website ( <https://tokumaru.work/ja> )
 
 As of 2025, applying machine learning to internet services has become so common that you can find plenty of examples just by searching. However, I think there are only a handful of services that truly leverage it well — services that successfully use it and have a solid user base.
 
 The language-learning app Duolingo (many of you have probably seen it at least once) is a prime example. According to their official blog, they use machine learning in various scenarios.
 
-https://www.duolingo.com/
+<https://www.duolingo.com/>
 
-In this article I’ll introduce how machine learning is used on the language-learning platform Duolingo[^1] and how it affects the product, referencing several features.
+In this article I’ll introduce how machine learning is used on the language-learning platform Duolingo\[^1] and how it affects the product, referencing several features.
 
 ## What is machine learning?
 
@@ -31,15 +31,15 @@ Machine learning can be seen as changing inputs into appropriate outputs based o
 
 There are various kinds of machine learning. For example, depending on whether labeled data is available, it can be divided into supervised and unsupervised learning. Below are the main types of machine learning.
 
-| Type | Description | Use cases |
-| ------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Classification | Learn correct answers for inputs (output classes) | Email spam detection |
-| Regression | Learn the correct value for inputs | Price estimation in real estate services (this place would be this price)<br>Predicting listing prices on Mercari -> used for listing price recommendations |
-| Clustering | Unsupervised learning. Predict which cluster the data belongs to | Prevent the problem of duplicate news items about the same event (if this news is already out, you don't need another article from the same group) |
-| Recommendation | Includes collaborative filtering and content-based filtering; recently most systems use both | Present items the user might like (people who bought this item also bought that item)<br><br>However, if an item hasn't sold, it can't be recommended, so content-based methods are often used too |
-| Nearest-neighbor search | Find similar items. Similar technology to content-based filtering, using vector representations | Like word2vec. Used to find related articles, etc. |
-| Anomaly detection | Detect outliers or change points | Stop the factory if odd numbers appear (not just a single parameter) |
-| Reinforcement learning | Find optimal methods | Common in game AI (AlphaGo) and robot control; web site use cases are relatively rare |
+| Type                    | Description                                                                                     | Use cases                                                                                                                                                                                          |
+| ----------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Classification          | Learn correct answers for inputs (output classes)                                               | Email spam detection                                                                                                                                                                               |
+| Regression              | Learn the correct value for inputs                                                              | Price estimation in real estate services (this place would be this price)<br>Predicting listing prices on Mercari -> used for listing price recommendations                                        |
+| Clustering              | Unsupervised learning. Predict which cluster the data belongs to                                | Prevent the problem of duplicate news items about the same event (if this news is already out, you don't need another article from the same group)                                                 |
+| Recommendation          | Includes collaborative filtering and content-based filtering; recently most systems use both    | Present items the user might like (people who bought this item also bought that item)<br><br>However, if an item hasn't sold, it can't be recommended, so content-based methods are often used too |
+| Nearest-neighbor search | Find similar items. Similar technology to content-based filtering, using vector representations | Like word2vec. Used to find related articles, etc.                                                                                                                                                 |
+| Anomaly detection       | Detect outliers or change points                                                                | Stop the factory if odd numbers appear (not just a single parameter)                                                                                                                               |
+| Reinforcement learning  | Find optimal methods                                                                            | Common in game AI (AlphaGo) and robot control; web site use cases are relatively rare                                                                                                              |
 
 #### The need for labeled data
 
@@ -55,11 +55,11 @@ Deep learning, which came later as research progressed, learns more complex lang
 
 ## Examples of usage in Duolingo
 
-Let's look at some examples of how Duolingo uses machine learning. Recently, Duolingo has been offering a service called Duolingo Max[^2], which uses LLMs (large language models) and has attracted attention, but they are also working to improve service quality using other machine learning approaches. In fact, the basic service may rely on machine learning for almost everything.
+Let's look at some examples of how Duolingo uses machine learning. Recently, Duolingo has been offering a service called Duolingo Max\[^2], which uses LLMs (large language models) and has attracted attention, but they are also working to improve service quality using other machine learning approaches. In fact, the basic service may rely on machine learning for almost everything.
 
 ### 1: Prioritizing course improvements
 
-Duolingo has a system that lets users freely type words into input fields and then checks their answers. Unlike multiple-choice questions, users can enter whatever they like in the blanks, and the system needs to check the answer. Because users can input freely, it's rare for an answer to exactly match the pre-set correct answer. Therefore, the answer-checking system needs to be somewhat flexible. Duolingo uses machine learning to prioritize improvements to this system.[^3]
+Duolingo has a system that lets users freely type words into input fields and then checks their answers. Unlike multiple-choice questions, users can enter whatever they like in the blanks, and the system needs to check the answer. Because users can input freely, it's rare for an answer to exactly match the pre-set correct answer. Therefore, the answer-checking system needs to be somewhat flexible. Duolingo uses machine learning to prioritize improvements to this system.\[^3]
 
 Before this system, there was a team that edited question answers, handled by volunteers (now discontinued) and staff. They also accepted user reports through a report button displayed after a user completed a question.
 
@@ -75,7 +75,7 @@ Of course, depending on model accuracy, these systems can occasionally make mist
 
 According to the article, this improvement significantly increased the efficiency of course improvements.
 
-https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/
+<https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/>
 
 ### 2: Ad optimization
 
@@ -83,7 +83,7 @@ Duolingo serves ads to monetize the service. There are two types: internal ads t
 
 Showing external ads in a free app is common these days, but excessive ads can harm user experience, increase churn, and ultimately reduce revenue.
 
-In ad delivery, it's important to optimize the frequency and content of ads. As of 2025, Duolingo uses machine learning to decide whether to show internal or external ads.[^4]
+In ad delivery, it's important to optimize the frequency and content of ads. As of 2025, Duolingo uses machine learning to decide whether to show internal or external ads.\[^4]
 
 Previously, they ran A/B tests and displayed ads conditionally based on the results, but after switching to this system, it produced tens of millions of dollars in additional annual revenue. The old system was fragmented across multiple systems, causing bugs and technical debt, but replacing them with a machine learning system made it simpler and more scalable.
 
@@ -91,7 +91,7 @@ Previously, they ran A/B tests and displayed ads conditionally based on the resu
 
 They now model not only the decision between internal/external ads but also more complex decisions (for example, selecting which internal ad to show).
 
-https://blog.duolingo.com/machine-learning-ads/
+<https://blog.duolingo.com/machine-learning-ads/>
 
 ### 3: Getting users to open the app
 
@@ -99,7 +99,7 @@ To ease the narrative a bit, here’s a simpler and more tangible example of mac
 
 Anyone who has installed Duolingo knows they are very strategic about getting users to open the app. Beyond marketing with the green bird that runs wild on social media, they use email, background app notifications, and various other methods to prompt users to open the app. With so many apps on a smartphone, getting a user to tap an app that's tucked away on the home screen has become very difficult. Even if a user becomes engaged once they open the app, you first have to get them to open it.
 
-Duolingo has built a notification algorithm using machine learning to make users open the app at all costs.[^6]
+Duolingo has built a notification algorithm using machine learning to make users open the app at all costs.\[^6]
 
 Duolingo sends users various notifications based on templates. Here are some examples:
 
@@ -115,7 +115,7 @@ So Duolingo developed a clever algorithm that gets users to open the app without
 
 When I thought of machine learning, I imagined a model that you feed inputs to, but when you consider it, using daily-updated database data and user behavior logs to compute decisions and make choices is itself a solid example of machine learning.
 
-https://research.duolingo.com/papers/yancey.kdd20.pdf
+<https://research.duolingo.com/papers/yancey.kdd20.pdf>
 
 ## Risks in operation
 
@@ -123,9 +123,9 @@ Using data-driven decision-making extensively like Duolingo does introduces vari
 
 ### Risk mitigation: A/B testing
 
-https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/
+<https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/>
 
-Duolingo runs A/B tests and improves the system based on the results.[^5] They use an in-house testing tool to roll out new features and experiments to users and analyze the results to improve the system.
+Duolingo runs A/B tests and improves the system based on the results.\[^5] They use an in-house testing tool to roll out new features and experiments to users and analyze the results to improve the system.
 
 Their in-house tool sets key metrics that must always be monitored and additional metrics to monitor for each experiment, and by observing these they improve the system. This has enabled faster iteration of A/B tests.
 
@@ -136,8 +136,13 @@ By heavily using machine learning, Duolingo has simplified and made its system f
 ## References & Notes
 
 [^1]: [Duolingo](https://www.duolingo.com/)
+
 [^2]: [Duolingo Max](https://www.duolingo.com/max)
+
 [^3]: WILL MONROE, PH.D., DECEMBER 16, 2019 - [how machine learning helps duolingo prioritize course improvements (Duolingo Blog)](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
 [^4]: NAVEEN SHANKAR, MARCH 18, 2025 - [how machine learning supercharged our revenue by millions of dollars](https://blog.duolingo.com/machine-learning-ads/)
+
 [^5]: LAVANYA APRAMEYA, JANUARY 10, 2020 - [improving duolingo, one experiment at a time](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
-[^6]:[A Sleeping, Recovering Bandit Algorithm for Optimizing	Recurring Notifications]((https://research.duolingo.com/papers/yancey.kdd20.pdf), JANUARY 10, 2020
+
+[^6]: \[A Sleeping, Recovering Bandit Algorithm for Optimizing	Recurring Notifications]\((<https://research.duolingo.com/papers/yancey.kdd20.pdf>), JANUARY 10, 2020

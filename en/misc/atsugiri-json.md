@@ -1,25 +1,25 @@
 ---
-title: "Thick-Cut JSON"
-emoji: "🔤"
-tags:
-  - "ai-generated"
-published_at: "2026-07-22T00:00:00.000Z"
 description: "\"Why JSON format!?!?\" \"Why can't you write comments!? Didn't they say it's a format for humans to read!? They force us to use it as a config file but won't let us leave notes—what kind of cruelty is that!? Have you ever thought about how it feels for engineers who have to create a dummy key like `\"comment1\": \"ここは本番のURL\"`?\""
-isTranslated: true
+emoji: 🔤
 isDraft: false
-sourcePath: "ja/misc/atsugiri-json.md"
-sourceHash: "133fc8154dc72401f9571ed29b6fd7a93cfcd90c83b87a51efa39f946ccd1a84"
+isTranslated: true
+published_at: 2026-07-22T00:00:00.000Z
+sourceHash: 133fc8154dc72401f9571ed29b6fd7a93cfcd90c83b87a51efa39f946ccd1a84
+sourcePath: ja/misc/atsugiri-json.md
+tags:
+  - ai-generated
+title: Thick-Cut JSON
 ---
 
 soumame
+
 > Think up a signature bit for a serious engineer's "Thick-Cut JSON," not the comedian Atsugiri Jason
 
 Hello World! This is the "Thick-Cut JSON" of a serious engineer-comedian. That high energy and righteous anger are perfect for venting at the absurdities of the JSON spec.
 
 Read this while imagining him pounding the whiteboard and screaming.
 
-https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3
-
+<https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3>
 
 **【Entrance】** (bursting onto the stage) "Hello World!! I'm the serious engineer-comedian, Thick-Cut JSON!!"
 

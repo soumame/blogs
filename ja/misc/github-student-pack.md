@@ -1,12 +1,12 @@
 ---
-title: GitHub Student Pack
 emoji: ⚒️
+isDraft: true
+published_at: 2025-10-05
 tags:
   - coding
   - team-dev
   - dev
-published_at: 2025-10-05
-isDraft: true
+title: GitHub Student Pack
 ---
 
 # GitHub Student Packとは？

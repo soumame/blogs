@@ -1,17 +1,16 @@
 ---
-title: "Studying Abroad"
-emoji: "🌐"
-tags:
-  - "essay"
-published_at: "2026-06-10T00:00:00.000Z"
-isTranslated: true
+emoji: 🌐
 isDraft: true
-sourcePath: "ja/misc/study-abroad.md"
-sourceHash: "9547349ed3deaa4b5ce90377d96ea1734c963e1664a9b34438329bcfb7a250a7"
+isTranslated: true
+published_at: 2026-06-10T00:00:00.000Z
+sourceHash: 9547349ed3deaa4b5ce90377d96ea1734c963e1664a9b34438329bcfb7a250a7
+sourcePath: ja/misc/study-abroad.md
+tags:
+  - essay
+title: Studying Abroad
 ---
 
 > I just spoke some random thoughts and transcribed them.
-
 
 Lately I've been wanting to go abroad, even though I haven't really thought about the reason.
 

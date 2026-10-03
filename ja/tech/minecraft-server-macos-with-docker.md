@@ -1,25 +1,28 @@
 ---
-title: マイクラサーバーをmacOS+Dockerでサクッと立てる
-emoji: 🐳
 description: マイクラサーバーの運用はもはや基礎的な教養となったらしいので、作り方をメモしておきます。（ソース：俺）いつかしっかりと記事を書きたいけど、とりあえず雑に書いておく
+emoji: 🐳
+isTranslated: null
+published_at: 2025-11-28
 tags:
   - dev
   - Minecraft
-published_at: 2025-11-28
-isTranslated:
+title: マイクラサーバーをmacOS+Dockerでサクッと立てる
 ---
+
 ## マイクラサーバー建てるのめんどい
+
 昔はForgeだのJavaだのなんかいろいろやっていた時代が懐かしいですよね。ありがたいことに、今では`docker compose up`だけでマイクラサーバー、バックアップ、その他機能を動かせるようになりました。サクッとサーバー立てるとかならこれでいいと思います。
 
 ## Orbstacksを入れる
+
 いきなり聞いたことない単語出てきましたが、Dockerだと思っておいてください
 
-https://orbstack.dev
+<https://orbstack.dev>
 
 MacOSとかで使える、Docker Desktopの代替だと思ってください。
 
-
 ## Docker composeを作成する
+
 Docker composeを作成します
 
 ```yaml
@@ -98,16 +101,22 @@ volumes:
 ```
 
 ### サンプルのyamlで使っているイメージ
+
 あくまで一例なので、これにいろいろ足したり、逆にサーバーだけでも良いかも。
+
 #### itzg/minecraft-server:latest
+
 - マイクラサーバーがこれ1つで動く。
-https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose
+  <https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose>
+
 #### itzg/mc-backup
+
 - バックアップを一定間隔でやってくれる。RCON(Remote Console)というマイクラの独自形式の通信？があるので、それを使って勝手にワールドをセーブしたりしてくれる
 
-https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949
+<https://qiita.com/h_tyokinuhata/items/85d855f88d5d33c21949>
 
-#### itzg/rcon 
+#### itzg/rcon
+
 - rconをwebで使えるようにするやつ
 - webからコマンドを送ったり、いろいろ操作できたりするので、すげー便利。
 - サーバー管理とかが楽になる。cloudflare tunnel入れてもいいかもね。

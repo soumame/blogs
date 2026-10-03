@@ -1,13 +1,13 @@
 ---
-title: VS Codeを始めよう
+description: VS Codeの簡単なガイドを書いておきます
 emoji: 💻
+isDraft: true
+published_at: 2025-10-05
 tags:
   - dev
   - coding
   - favourite-things
-published_at: 2025-10-05
-description: VS Codeの簡単なガイドを書いておきます
-isDraft: true
+title: VS Codeを始めよう
 ---
 
 # VS Code を始めよう

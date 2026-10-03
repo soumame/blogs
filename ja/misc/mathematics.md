@@ -1,27 +1,28 @@
 ---
-title: 大学に入って数学でつまづきそう
-emoji: 🧮
 description: 大学に入って、数学の重要さを再認識することになった
+emoji: 🧮
+isDraft: true
+isTranslated: false
+noindex: false
+published_at: 2026-06-22
 tags:
   - essay
-published_at: 2026-06-22
-isTranslated: false
-isDraft: true
-noindex: false
+title: 大学に入って数学でつまづきそう
 ---
 
 2025年に[[ja/works/keio|大学]]に入学してから、すでに1学期目が終わったんだけど、2学期目で取っているいくつかの授業では、高校数学の知識が必要で、だいぶまずい状態になっている。
 
 > 大学で微積分とか出てきて高校で勉強してこなかったツケが回ってきている...（オーストラリアのカリキュラムでは選択科目になっていて、数学ⅠとA相当しかやってない） 今までコード書いていても使わなかったのが不思議なくらい。
-> 
+
 [Xからの引用](https://x.com/So_to9/status/2068907852870418614)
 
 自分は[[ja/works/pisa|マレーシアにあるオーストラリアのインターナショナルスクール]]に通っていて、ビクトリア州のカリキュラム（VCE）として、、「General Mathematics」という科目を取っていた。このカリキュラムの数学では、
-- General Mathematics 
+
+- General Mathematics
 - Mathematical Methods
-- Specialist Mathematics 
-の3種類がある。名前で大体わかるけど、General Mathematicsは基礎的なレベルで、Specialistになると、数学が好きで、数学を学ぶ人向け、みたいな感じになる。
-で、自分は数学は手段で、そこまで好きではなかったから、General Mathematicsを履修した。
+- Specialist Mathematics
+  の3種類がある。名前で大体わかるけど、General Mathematicsは基礎的なレベルで、Specialistになると、数学が好きで、数学を学ぶ人向け、みたいな感じになる。
+  で、自分は数学は手段で、そこまで好きではなかったから、General Mathematicsを履修した。
 
 General Mathematicsでカバーされる範囲は、日本の数学に例えると、数学Ⅰと数学Aのレベルになる。最大の特徴は、CAS電卓というグラフィック電卓を使うことが前提になっている点と、日本にはない金融数学、行列、ネットワーク理論が含まれている点。
 

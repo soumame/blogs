@@ -1,14 +1,14 @@
 ---
-title: "Life Is Short"
-emoji: "🎇"
-tags:
-  - "essay"
-published_at: "2026-04-28T00:00:00.000Z"
-description: "When I think about it, I'm 20 years old this year — how many more years will I live?"
-isTranslated: true
+description: When I think about it, I'm 20 years old this year — how many more years will I live?
+emoji: 🎇
 isDraft: true
-sourcePath: "ja/misc/life-is-short.md"
-sourceHash: "424566bef568b306038238cc3275a3de94eb49784db9016250b91bc2f3c27085"
+isTranslated: true
+published_at: 2026-04-28T00:00:00.000Z
+sourceHash: 424566bef568b306038238cc3275a3de94eb49784db9016250b91bc2f3c27085
+sourcePath: ja/misc/life-is-short.md
+tags:
+  - essay
+title: Life Is Short
 ---
 
 20 years is 7,300 days.

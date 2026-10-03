@@ -1,17 +1,17 @@
 ---
-title: "Let's Read Google Sheets via API!"
-emoji: "🤖"
-tags:
-  - "dev"
-published_at: "2024-06-22T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/tech/google-sheet-to-api.md"
-sourceHash: "ca1dcaaab5e1ca5b733ccb734c1825632f18c9f0f6708f2e90d6a59cd7414e7c"
+published_at: 2024-06-22T00:00:00.000Z
+sourceHash: ca1dcaaab5e1ca5b733ccb734c1825632f18c9f0f6708f2e90d6a59cd7414e7c
+sourcePath: ja/tech/google-sheet-to-api.md
+tags:
+  - dev
+title: Let's Read Google Sheets via API!
 ---
 
 # Let's Read Google Sheets via API!
 
-[![Image from Gyazo](https://i.gyazo.com/6a095cc268da576355197126bde0b519.png)](https://gyazo.com/6a095cc268da576355197126bde0b519)
+[![Image from Gyazo](../../media/e565e24f8c5187b8e49295ef788c875f3c34968a4415af212ed6c23702d46fec.png)](../../media/e565e24f8c5187b8e49295ef788c875f3c34968a4415af212ed6c23702d46fec.png)
 
 > This is a re-publication of an article I wrote on another site last year.
 
@@ -23,9 +23,9 @@ It's obvious, but first you need to create a spreadsheet. To make it easier to u
 
 $$
 \begin{array}{|c|c|c|c|c|} \hline
-いつ（yyyy-mm) & どこで & 何を & どのように & リンク \\ \hline
-2023-08 & 東京で & すしを食べた & もぐもぐ。 & url \\ \hline
-2022-05 & マレーシアで & ナシレマを食べた & スプーンを使って食べた & url \\ \hline
+いつ（yyyy-mm) & どこで & 何を & どのように & リンク \ \hline
+2023-08 & 東京で & すしを食べた & もぐもぐ。 & url \ \hline
+2022-05 & マレーシアで & ナシレマを食べた & スプーンを使って食べた & url \ \hline
 \end{array}
 $$
 

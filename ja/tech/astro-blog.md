@@ -1,15 +1,15 @@
 ---
-title: HTMLさえわかればできる！Astroでブログサイトを作ってみよう！
 emoji: 🤖
+published_at: 2024-05-12
 tags:
   - web
   - dev
-published_at: 2024-05-12
+title: HTMLさえわかればできる！Astroでブログサイトを作ってみよう！
 ---
 
 # HTML さえわかればできる！Astro でブログサイトを作ってみよう！
 
-[![Image from Gyazo](https://i.gyazo.com/e010985632217bb795333cd12915bf36.png)](https://gyazo.com/e010985632217bb795333cd12915bf36)
+[![Image from Gyazo](../../media/4f94facb82ddf6423699bc708eabd0b360cdd4629851507bd4f16523e9a6afd1.png)](../../media/4f94facb82ddf6423699bc708eabd0b360cdd4629851507bd4f16523e9a6afd1.png)
 
 なんかブログサイト作りたい、っていうときありますよね。
 
@@ -36,28 +36,28 @@ Astro は、主にコンテンツ配信（ブログ、記事等）を目的と�
 
 まずは、**Node.js**というものをインストールします。これはいわゆる実行環境（アプリが動く土台のようなもの）で、Astro はこの上でしか使うことができません。新しいバージョンであれば動くので、リンク先にあるダウンロードボタンを押してダウンロードしましょう。その後は、手順に従いインストールして下さい。
 
-[https://nodejs.org/](https://nodejs.org/)
+<https://nodejs.org/>
 
 ### VS Code のインストール
 
 HTML を書くときにはメモ帳でもなんとかできるかもしれませんが、それよりももっと便利なものがあります。**VS Code**というアプリを使えば、書いたコードにハイライトなどがついて**わかりやすく開発を行う**ことができます。また、VS Code は**拡張機能**を導入することができ、公式から Astro 向けのものが公開されているため、そちらからのインストールも行います。
 以下のリンクからインストールを行い、手順に従ってインストールを行います。言語設定などは、ほかのサイトで説明されているので、そちらを参照してください。（めんどく s…)
 
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+<https://code.visualstudio.com/>
 
 インストールしたら、アプリを開いて、拡張機能の導入を行います。
 
-[![Image from Gyazo](https://i.gyazo.com/6224c4baea1d8dd736f04485edaaf7bc.png)](https://gyazo.com/6224c4baea1d8dd736f04485edaaf7bc)
+[![Image from Gyazo](../../media/37f04bf1a80a9b4e96e5f47612ed4ff312ca21ad007dbe85011daa760efa7223.png)](../../media/37f04bf1a80a9b4e96e5f47612ed4ff312ca21ad007dbe85011daa760efa7223.png)
 
 _起動するとこんな感じの画面が出ます。_
 
 画面の左側のサイドバーにある、拡張機能のボタンを押して開いたタブにある検索窓に、「Astro」と入力して検索してください。
 
-[![Image from Gyazo](https://i.gyazo.com/a86114a4ab2ec8ce567b851b6d975e60.png)](https://gyazo.com/a86114a4ab2ec8ce567b851b6d975e60)
+[![Image from Gyazo](../../media/653b469da843f8e0850d8c5dbcc81a7c39d320da0374e835072be5ee808598f3.png)](../../media/653b469da843f8e0850d8c5dbcc81a7c39d320da0374e835072be5ee808598f3.png)
 
 _拡張機能を選択_
 
-[![Image from Gyazo](https://i.gyazo.com/2c6bf8567f554948caa167c2122d6e4d.png)](https://gyazo.com/2c6bf8567f554948caa167c2122d6e4d)
+[![Image from Gyazo](../../media/a940a0d969f094c93f0b2d4de7a30ffb3847b18ad4a33b8211dd44c7b53d8e0a.png)](../../media/a940a0d969f094c93f0b2d4de7a30ffb3847b18ad4a33b8211dd44c7b53d8e0a.png)
 
 _インストール！_
 
@@ -69,23 +69,23 @@ _インストール！_
 
 今回は、サイトの内容を保管したりする際に GitHub を使用します。これは、プログラムのコードを保存したり公開することができたりするツールで、これを使うことでバージョン管理や、サイトの公開が簡単に行うことができます。こちらにアカウント登録を行ってください。（やり方は割愛します。めんど k…殴）
 
-[https://github.com/](https://github.com/)
+<https://github.com/>
 
 GitHub に登録/ログインすると、このような画面になります。
 
-[![Image from Gyazo](https://i.gyazo.com/5a5e9afab5f3131d7e677841129b765f.png)](https://gyazo.com/5a5e9afab5f3131d7e677841129b765f)
+[![Image from Gyazo](../../media/5d84c928c1e8954c76c7ac8701391aaa634c787197bb85034006edbd35f0eac4.png)](../../media/5d84c928c1e8954c76c7ac8701391aaa634c787197bb85034006edbd35f0eac4.png)
 
 画面の左側のこの緑色の New というボタンから新しいリポジトリの作成を行います。保管場所のようなものだと思ってください。
 
-[![Image from Gyazo](https://i.gyazo.com/60834beeae01e0c39cc7eb95605c891b.png)](https://gyazo.com/60834beeae01e0c39cc7eb95605c891b)
+[![Image from Gyazo](../../media/9505d4ed8121620a730fa108734eb0e566e6a93c5aa00e07e6941b1361a9879e.png)](../../media/9505d4ed8121620a730fa108734eb0e566e6a93c5aa00e07e6941b1361a9879e.png)
 
 作成画面はこのようになります。赤枠のところで、リポジトリ名（プロジェクト名）と、公開設定（公開か非公開か）を選択することができます。公開にすると、自分のつくったものがすべて公開されますので、注意してください。ウェブサイト自体の公開設定には影響しません。それ以外の項目では、リポジトリの説明や、README の設定、ライセンス（著作権関連）などの設定を行うことができます。設定ができたら、ページ下部の「Create repository」をクリックしましょう。
 
-[![Image from Gyazo](https://i.gyazo.com/067294127a58396aee726d0e8bfa3793.png)](https://gyazo.com/067294127a58396aee726d0e8bfa3793)
+[![Image from Gyazo](../../media/af40d0f3adbcb3e55a3cc0b97477b150e4a2a3b2479eda64799e68ebbd8d614e.png)](../../media/af40d0f3adbcb3e55a3cc0b97477b150e4a2a3b2479eda64799e68ebbd8d614e.png)
 
 するとこのような画面が出てきます。これで、準備は完了です。
 
-[![Image from Gyazo](https://i.gyazo.com/c5e5c3b61c90595efea492050c7f01d1.png)](https://gyazo.com/c5e5c3b61c90595efea492050c7f01d1)
+[![Image from Gyazo](../../media/faadf7a219526231901a3bf5995daf29e0b01244d47f002d980bc2b26975c052.png)](../../media/faadf7a219526231901a3bf5995daf29e0b01244d47f002d980bc2b26975c052.png)
 
 _リポジトリの作成が完了！_
 
@@ -96,11 +96,11 @@ _リポジトリの作成が完了！_
 では、早速作成したリポジトリを読み込みましょう。
 リポジトリの画面に表示されているリンクをコピーして、VS Code の「Git リポジトリのクローン」に貼り付けます。（VS Code に GitHub アカウントでログインされている場合は、そちらから複製を行うこともできます。）
 
-[![Image from Gyazo](https://i.gyazo.com/16f534159ebe0084899da6a4f556ae4c.png)](https://gyazo.com/16f534159ebe0084899da6a4f556ae4c)
+[![Image from Gyazo](../../media/5432108b140cd06bac38904e6f51452949deb6fd229006bfe8b5183366b21554.png)](../../media/5432108b140cd06bac38904e6f51452949deb6fd229006bfe8b5183366b21554.png)
 
 _画面の真ん中あたりに表示されているリンクをコピーして…_
 
-[![Image from Gyazo](https://i.gyazo.com/f9e6bd9fb2444edd8691cc5a1ad09e56.png)](https://gyazo.com/f9e6bd9fb2444edd8691cc5a1ad09e56)
+[![Image from Gyazo](../../media/fe02adc4b95d94714a11eaa61f30ddd11f7efc1a91abe5ff18b488ead460e20a.png)](../../media/fe02adc4b95d94714a11eaa61f30ddd11f7efc1a91abe5ff18b488ead460e20a.png)
 
 _上に入力欄が出てくるので、そこに張り付ける_
 
@@ -110,12 +110,12 @@ _上に入力欄が出てくるので、そこに張り付ける_
 
 複製したら、このような画面が出てくるはずです。基本的に開発はこの画面で行います。
 
-[![Image from Gyazo](https://i.gyazo.com/c92ebb3a6f9a238ac4a56892579ea61f.png)](https://gyazo.com/c92ebb3a6f9a238ac4a56892579ea61f)
+[![Image from Gyazo](../../media/1cfc3b02b3c6fda8a22bb48e6ca025d22f015b601ad10723470ed8ee12b35e6a.png)](../../media/1cfc3b02b3c6fda8a22bb48e6ca025d22f015b601ad10723470ed8ee12b35e6a.png)
 
 画面が開けたら、ターミナルを使用して、Astro のインストールを行います。
 画面上部の「ターミナル」から、「新しいターミナル」を選択します。Mac の場合は、メニューバーにあります。
 
-[![Image from Gyazo](https://i.gyazo.com/d0a879d378d922abbf27730de064b9b7.png)](https://gyazo.com/d0a879d378d922abbf27730de064b9b7)
+[![Image from Gyazo](../../media/7ff8aa1497fe102f27867a982137545e4ed414100695712743a81f7d1cf9ee56.png)](../../media/7ff8aa1497fe102f27867a982137545e4ed414100695712743a81f7d1cf9ee56.png)
 
 ターミナルが開けたら、表示された自分の居場所を確認します。私の場合は、このようなディレクトリでしたので、今いるディレクトリ（フォルダの位置）にそのままインストールしていきます。もし違う場合は、cd コマンドを使って移動します。
 
@@ -123,7 +123,7 @@ _上に入力欄が出てくるので、そこに張り付ける_
 フォルダ一覧 ls フォルダにに移動する cd フォルダ名 一つ上の階層に移動する cd .. インストールする位置を決める。 C:\Users\souto\public\Astro-tutorial>
 ```
 
-場所が確定したら、そこに **npm create astro@latest ./** と入力して Enter を押しましょう。これは、Astro の最新版を ./（今いる場所）にインストールするという意味のコマンドです。
+場所が確定したら、そこに **npm create astro\@latest ./** と入力して Enter を押しましょう。これは、Astro の最新版を ./（今いる場所）にインストールするという意味のコマンドです。
 
 ```
 npmコマンドを使用して今いるフォルダ内にインストールする npm create astro@latest ./ 今いるフォルダ内に新しいフォルダを作成し、そこにインストールする npm create astro@latest [フォルダ名]
@@ -131,7 +131,7 @@ npmコマンドを使用して今いるフォルダ内にインストールす�
 
 上手くいけば、こんな感じの選択肢が画面に現れます。**矢印キーで操作**を行って、選択していきます。今回は、ブログを作るので。下へ移動して、「use blog template」を選択します。
 
-[![Image from Gyazo](https://i.gyazo.com/fd1ea0696157123ba03b8d991bb5fdc5.png)](https://gyazo.com/fd1ea0696157123ba03b8d991bb5fdc5)
+[![Image from Gyazo](../../media/75c37ef48750fa6c79003bc59618c1c7a7e1ac4ce7bec98120f2cf6c9b95dd69.png)](../../media/75c37ef48750fa6c79003bc59618c1c7a7e1ac4ce7bec98120f2cf6c9b95dd69.png)
 
 その後は、すべて Enter を押して大丈夫です。
 
@@ -139,9 +139,9 @@ npmコマンドを使用して今いるフォルダ内にインストールす�
 tmpl How would you like to start your new project? Use blog template ts Do you plan to write TypeScript? Yes use How strict should TypeScript be? Strict deps Install dependencies? Yes しばらくするとインストールが完了する next Liftoff confirmed. Explore your project! Run npm run dev to start the dev server. CTRL+C to stop. Add frameworks like react or tailwind using astro add. Stuck? Join us at https://astro.build/cat npm run devでサーバーを起動すると...? astro v4.8.2 ready in 243 ms ┃ Local http://localhost:4321/ ┃ Network use --host to expose 22:50:46 watching for file changes...
 ```
 
-インストールが完了したら、アクセスしてみましょう。Astro の開発モードを起動するには、**「npm run dev」**とコンソールにに入力します。表示された URL にアクセスしてみましょう。
+インストールが完了したら、アクセスしてみましょう。Astro の開発モードを起動するには、\*\*「npm run dev」\*\*とコンソールにに入力します。表示された URL にアクセスしてみましょう。
 
-[![Image from Gyazo](https://i.gyazo.com/c6a6ac61e4345699bf3c7e1cd07f97ac.png)](https://gyazo.com/c6a6ac61e4345699bf3c7e1cd07f97ac)
+[![Image from Gyazo](../../media/943b02380c9152d445f006fbe35bb81a90cc52bf7512f9d7bbb9526151588f6f.png)](../../media/943b02380c9152d445f006fbe35bb81a90cc52bf7512f9d7bbb9526151588f6f.png)
 
 _できた！簡単！_
 
@@ -151,9 +151,9 @@ _できた！簡単！_
 
 Astro は、それ自体がウェブサイトになるわけではなく、**.astro ファイルに書かれた内容をもとに HTML ファイルを生成**します。src ディレクトリにある内容は、レンダリング設定を変えない限りページの生成時に javascript などは自動的に HTML に変換されます。
 
-つまり、ページ内でブログの記事一覧を取得するプログラムを書くと、サイトとして公開する（**ビルド**と呼びます）タイミングで取得され、その後、HTML に変換されます。Astro ではこれを**事前レンダリング**と呼んでいます。この仕様は、ページが高速になる反面、**リアルタイムで更新を行うことができません。**ここは注意する必要があります。一方で、Astro はページにアクセスされるたびに情報を読み込みなおすオンデマンドレンダリングも提供していますが、今回は、前者の事前レンダリングを使います。個人ブログならこの程度で十分。
+つまり、ページ内でブログの記事一覧を取得するプログラムを書くと、サイトとして公開する（**ビルド**と呼びます）タイミングで取得され、その後、HTML に変換されます。Astro ではこれを**事前レンダリング**と呼んでいます。この仕様は、ページが高速になる反面、\*\*リアルタイムで更新を行うことができません。\*\*ここは注意する必要があります。一方で、Astro はページにアクセスされるたびに情報を読み込みなおすオンデマンドレンダリングも提供していますが、今回は、前者の事前レンダリングを使います。個人ブログならこの程度で十分。
 
-[![Image from Gyazo](https://i.gyazo.com/b26ec95bc2bff275b507f3a118c3c1e6.png)](https://gyazo.com/b26ec95bc2bff275b507f3a118c3c1e6)
+[![Image from Gyazo](../../media/4388099487581d6d18895835aa6fce2b9bbc7ab27f79d6afe73398331c7d2a73.png)](../../media/4388099487581d6d18895835aa6fce2b9bbc7ab27f79d6afe73398331c7d2a73.png)
 
 ### コンポーネントの概念
 
@@ -192,8 +192,8 @@ Pages は、Astro のシステムが予約している必須のディレクト�
 **/content(予約済み)**
 こちらは予約されたディレクトリですが、必須ではありません。コンテンツコレクションという Astro に備わっている機能を利用してブログなどの記事の内容を入れておくことができます。今回のプロジェクトではこちらを使用してブログの記事の管理などを行います。
 
-**/Components
-**コンポーネントは、先ほど説明したコンポーネントとして作成した Astro ファイルを置くときに使える場所です。必要な時に、ほかの Astro ファイルから呼び出したりするときに使います。必須ではないので、別に名前が違ったりしても問題ありません。
+\*\*/Components
+\*\*コンポーネントは、先ほど説明したコンポーネントとして作成した Astro ファイルを置くときに使える場所です。必要な時に、ほかの Astro ファイルから呼び出したりするときに使います。必須ではないので、別に名前が違ったりしても問題ありません。
 
 **/layouts**
 レイアウトは、複数のページ間で使用するようなテンプレートを定義するのに使用します。こちらも必須ではありません。
@@ -210,7 +210,7 @@ CSS や Javascript などを格納してそのまま読み込むこともでき�
 
 全部作り変えるとものすごく長くなってしまうので、少しいじって公開するところまで説明します。まずは、ユーザーが初めに訪れるページを編集してみましょう。VS Code で index.astro を開いてください。
 
-[![Image from Gyazo](https://i.gyazo.com/08c75cf4a1ecbab656b842db87c14c15.png)](https://gyazo.com/08c75cf4a1ecbab656b842db87c14c15)
+[![Image from Gyazo](../../media/ba436f3b92fbd89def4cc221b8d22abb84f2eb4834035774499ae5f837c07f6a.png)](../../media/ba436f3b92fbd89def4cc221b8d22abb84f2eb4834035774499ae5f837c07f6a.png)
 
 _index.astro_
 
@@ -226,17 +226,17 @@ _index.astro_
 
 書き換えて、保存するとこんな感じに自動的に更新されるはずです。これが Astro でウェブサイトを作る方法となります。書き方は HTML と同じなので、普段使われている方はあまり抵抗なく書けるかと思います。
 
-[![Image from Gyazo](https://i.gyazo.com/d0aa8d2ee23eeaea30571c8b5ec6baa9.png)](https://gyazo.com/d0aa8d2ee23eeaea30571c8b5ec6baa9)
+[![Image from Gyazo](../../media/ee439c8ea6ba71e833f765832cef7aee232adc61a02e274926ea7b752cc6b006.png)](../../media/ee439c8ea6ba71e833f765832cef7aee232adc61a02e274926ea7b752cc6b006.png)
 
 では、今度はブログ一覧を更新してみましょう。/src/content/blog ディレクトリに移動します。
 
-[![Image from Gyazo](https://i.gyazo.com/cd697ca81518d5fafbed77278bc495e8.png)](https://gyazo.com/cd697ca81518d5fafbed77278bc495e8)
+[![Image from Gyazo](../../media/ac5ff1886598b61de8d02a5349d1918471e76f61eaa2ecdedda84427c2484318.png)](../../media/ac5ff1886598b61de8d02a5349d1918471e76f61eaa2ecdedda84427c2484318.png)
 
 _/src/content/blog_
 
 .md で終わるファイルにブログが格納されいます。開いてみましょう。
 
-[![Image from Gyazo](https://i.gyazo.com/df6b79449f0da30fca7a080173ce7ed2.png)](https://gyazo.com/df6b79449f0da30fca7a080173ce7ed2)
+[![Image from Gyazo](../../media/cf2fab671f762d7e1129d994b532e06b91e1dbac9fb75ba112c130a9b2fae586.png)](../../media/cf2fab671f762d7e1129d994b532e06b91e1dbac9fb75ba112c130a9b2fae586.png)
 
 このように上にメタデータが書かれた Markdown ファイルが開けるはずです。Astro では、これをフロントマターと呼んでおり、/content ディレクトリ内に配置されたブログの記事などは、このフロントマターを使用してデータの管理を行うことができます。
 この Astro のブログのテンプレートでは、タイトル、説明、投稿日時、画像が設定できます。フロントマターを以下のように変えてみましょう。
@@ -247,7 +247,7 @@ _/src/content/blog_
 
 画像に関しては、public ディレクトリなどに入れた画像を呼び出すことで使用することができますが、今回は割愛します。
 
-[![Image from Gyazo](https://i.gyazo.com/2f7a239c5ac481deef6255acf21c202e.png)](https://gyazo.com/2f7a239c5ac481deef6255acf21c202e)
+[![Image from Gyazo](../../media/04d88ad12b62e5e883b9dac7d40c9789200598e5c7e24793b0f55773f44ee043.png)](../../media/04d88ad12b62e5e883b9dac7d40c9789200598e5c7e24793b0f55773f44ee043.png)
 
 このように内容が変更できるはずです。
 ここまでできれば、あとは必要なところを変更するだけで自分のサイトを作ることができます！
@@ -256,7 +256,7 @@ _/src/content/blog_
 
 また、このプロジェクトでは通常の CSS を使用して見た目を変更していますが、Tailwind CSS というものを導入してより分かりやすい見た目の編集を行うことができます。Astro ではこれらをインテグレーションと呼んでおり、追加で様々な機能を追加することができるので、必要な方は各自追加を行ってください。
 
-[https://docs.astro.build/ja/guides/integrations-guide/](https://docs.astro.build/ja/guides/integrations-guide/)
+<https://docs.astro.build/ja/guides/integrations-guide/>
 
 ## ウェブサイトを公開してみる
 
@@ -266,35 +266,35 @@ _/src/content/blog_
 
 まずは、ローカル環境で開発したものをいったん GitHub と同期する必要があります。VS Code の「ソース管理」タブからコミットをクリックして、その後、同期します。また、同期する際に、変更を加えて点などをメッセージとして残しておいてください。入力せずにコミットすることはできないので、空のままコミットを押すと入力が求められます。
 
-[![Image from Gyazo](https://i.gyazo.com/08bab3c34d2e3f97668f296b3f983cac.png)](https://gyazo.com/08bab3c34d2e3f97668f296b3f983cac)
+[![Image from Gyazo](../../media/5a08929c4fb7906a195afacf10a4c7770854dfe57d13bc804a6cc2f7f899b964.png)](../../media/5a08929c4fb7906a195afacf10a4c7770854dfe57d13bc804a6cc2f7f899b964.png)
 
 _コミット前の画面。変更を加えたファイルなどが表示される。初回はすべてのファイルをアップロードする。_
 
 コミットした後、プッシュという動作を行うと、GitHub にそれが反映されます。プッシュした後、GitHub を確認すると、ファイルが閲覧できるようになっているはずです。
 
-[![Image from Gyazo](https://i.gyazo.com/6bfb3da069ce66508f2c312b787e908a.png)](https://gyazo.com/6bfb3da069ce66508f2c312b787e908a)
+[![Image from Gyazo](../../media/fe37b8e3be46ab7490f138b4bdef471799cb8c9656367346fe9d4be639668a05.png)](../../media/fe37b8e3be46ab7490f138b4bdef471799cb8c9656367346fe9d4be639668a05.png)
 
 ### Vercel を使用して無料でホストする
 
 Vercel を使用して、ウェブサイトのホストを行います。Vercel は、GitHub などと連携を行うことで簡単にウェブアプリなどを公開することができるサービスです。Vercel のサイトにアクセスして、登録を行ってください。**登録には、GitHub アカウントを使用してください。**
 
-[https://vercel.com/](https://vercel.com/)
+<https://vercel.com/>
 
-[![Image from Gyazo](https://i.gyazo.com/09c816cd3eee8740b564994845f30603.png)](https://gyazo.com/09c816cd3eee8740b564994845f30603)
+[![Image from Gyazo](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)](../../media/50041d274e326594d913d6dddb500a1a4a10f36311f488b8124bbdbab39187fe.png)
 
 登録を行うと、ダッシュボードにアクセスできるので、そちらにある「Add new…」をクリックして、Project を選択します。選択すると、紐づけた GitHub アカウントにあるリポジトリが一覧として表示されるので、作成した Astro のリポジトリを選択します。
 
-[![Image from Gyazo](https://i.gyazo.com/1a2a87c4722cd1590c7d0e77e1161ffa.png)](https://gyazo.com/1a2a87c4722cd1590c7d0e77e1161ffa)
+[![Image from Gyazo](../../media/caeb9e137620027b93943a45a1a77fcf107a3406ccb0a1d0a44215cd150a81fc.png)](../../media/caeb9e137620027b93943a45a1a77fcf107a3406ccb0a1d0a44215cd150a81fc.png)
 
 特に追加で行う設定はないので、そのまま「Deploy」を押してください。これだけでサイトを公開することができます。簡単！
 
-[![Image from Gyazo](https://i.gyazo.com/ef971e1941a9aab8d03b4f80912a88b1.png)](https://gyazo.com/ef971e1941a9aab8d03b4f80912a88b1)
+[![Image from Gyazo](../../media/96a42ee8226dae15fa0e43fcd20a55ab25453d36d77f5609fb240ed49e5ee32f.png)](../../media/96a42ee8226dae15fa0e43fcd20a55ab25453d36d77f5609fb240ed49e5ee32f.png)
 
 サイトが公開できたら、アクセスしてみましょう。
 
-[![Image from Gyazo](https://i.gyazo.com/b5b8ec70409bd2e5596a7ea86beb576f.png)](https://gyazo.com/b5b8ec70409bd2e5596a7ea86beb576f)
+[![Image from Gyazo](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)](../../media/5e9cd4b7e62eadfa272a3658f5571bf95634fe2f11a6aa65fc2b5f236136f495.png)
 
-[https://astro-tutorial-six-peach.vercel.app/](https://astro-tutorial-six-peach.vercel.app/)
+<https://astro-tutorial-six-peach.vercel.app/>
 
 これで、サイト制作を一通りすることができました。ご自身の造りたい内容に合わせてカスタマイズしてみてください！
 
@@ -302,14 +302,14 @@ Vercel を使用して、ウェブサイトのホストを行います。Vercel 
 
 ドメイン(example.com のようなサイト名)をすでに持っている方であれば、Vercel に追加することができます。Vercel のダッシュボードからプロジェクトを選択し、Domains をクリックします。
 
-[![Image from Gyazo](https://i.gyazo.com/485e09882c4130b5a7690c3bef03b293.png)](https://gyazo.com/485e09882c4130b5a7690c3bef03b293)
+[![Image from Gyazo](../../media/02306d88c9b92f4ca7a7d2455c1331e5f29202b85f650795dcfd7300a5a118e1.png)](../../media/02306d88c9b92f4ca7a7d2455c1331e5f29202b85f650795dcfd7300a5a118e1.png)
 
 そうすると、検索窓のようなところがありますので、そちらをクリックして所有するドメインを入力すると、ドメインを接続するためのガイドが表示されます。こちらの手順にしたがい、ドメインを追加してください。
 
-[![Image from Gyazo](https://i.gyazo.com/2149206be7b4a50138796cc4c6aa4ffe.png)](https://gyazo.com/2149206be7b4a50138796cc4c6aa4ffe)
+[![Image from Gyazo](../../media/49cc4f626c3d6129e3a9ae5fcf4f2b4cd7992cd61dcea54d158ec6a02d74832b.png)](../../media/49cc4f626c3d6129e3a9ae5fcf4f2b4cd7992cd61dcea54d158ec6a02d74832b.png)
 
 ## おわりに
 
 一応これでウェブサイトを一通り作ることができたはずです。Astro だけでなく、Next.js などのような様々なフレームワーク等もこれと似たようなやり方でできますので、ぜひ色々試してみて、ご自身にあった方法でウェブサイトを作ってみてください！ぜひ SNS 等フォローお願いします！（あ、ちなみにこの下のサイトも Astro 製です。）
 
-[https://so-bean.work/ja](https://so-bean.work/ja)
+<https://so-bean.work/ja>

@@ -1,10 +1,11 @@
 ---
-title: Minecraft Cup
+description: null
 emoji: 🧱
-description:
-tags:
-published_at: 2026-02-25
-isTranslated: false
 isDraft: true
+isTranslated: false
 noindex: true
+published_at: 2026-02-25
+tags: null
+title: Minecraft Cup
 ---
+

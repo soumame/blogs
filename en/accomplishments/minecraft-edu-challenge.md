@@ -1,30 +1,34 @@
 ---
-title: "Runner-up at Minecraft Education Challenge 2023"
-emoji: "🏆"
-tags:
-  - "Minecraft"
-  - "educaiton"
-  - "awarded"
-published_at: "2023-10-25T00:00:00.000Z"
-description: "The Minecraft world I created was selected as second place in the International Senior division of the Minecraft Education Challenge, organized by the Malaysian Ministry of Education, Sunway Malls, and Microsoft."
+description: The Minecraft world I created was selected as second place in the International Senior division of the Minecraft Education Challenge, organized by the Malaysian Ministry of Education, Sunway Malls, and Microsoft.
+emoji: 🏆
 isTranslated: true
-sourcePath: "ja/accomplishments/minecraft-edu-challenge.md"
-sourceHash: "e5fd9737a2d103ee3c7a82914c7e8a2f2f261f0b0e17a2ece01ccdc88b568ab8"
+published_at: 2023-10-25T00:00:00.000Z
+sourceHash: e5fd9737a2d103ee3c7a82914c7e8a2f2f261f0b0e17a2ece01ccdc88b568ab8
+sourcePath: ja/accomplishments/minecraft-edu-challenge.md
+tags:
+  - Minecraft
+  - educaiton
+  - awarded
+title: Runner-up at Minecraft Education Challenge 2023
 ---
 
 In Japan there is a Minecraft Education Edition contest called the Minecraft Cup, and similar events exist overseas; in Malaysia there is an event called MEC (Minecraft Education Challenge). I participated in [MEC 2023](https://mcedumy.com/mec-2023) and finished as runner-up.
 
 ## A Minecraft Cup in Malaysia!?
 
-Works that passed the preliminary review were selected for the final competition on the day, and the event was held at a venue provided by sponsor Sunway Malls
-[![Image from Gyazo](https://i.gyazo.com/16c30fa8570b9440a5a0ee5f32fb25c9.jpg)](https://gyazo.com/16c30fa8570b9440a5a0ee5f32fb25c9)
-Officials from the Ministry of Education came to give greetings in person, and for a first-time event it was very well-supported and well-executed.
+Works that passed the preliminary review were selected for the final competition on the day, and the event was held at a venue provided by sponsor Sunway Malls&#xA;
 
-[![Image from Gyazo](https://i.gyazo.com/405eec74cf4b2a1f0dbdb3d3c2341521.jpg)](https://gyazo.com/405eec74cf4b2a1f0dbdb3d3c2341521)
-I also received a huge trophy.
+[![Image from Gyazo](../../media/eb6ed74013164ea94c82f8d6255f0e81ea19e627219667f421907ab79d61636e.jpg)](../../media/eb6ed74013164ea94c82f8d6255f0e81ea19e627219667f421907ab79d61636e.jpg)
 
-[![Image from Gyazo](https://i.gyazo.com/d1724ea7e122ae86d02d35e3bf1efaeb.jpg)](https://gyazo.com/d1724ea7e122ae86d02d35e3bf1efaeb)
-I took a photo holding the "NAIB JOHAN (Runner-up)" board.
+&#xA;Officials from the Ministry of Education came to give greetings in person, and for a first-time event it was very well-supported and well-executed.
+
+[![Image from Gyazo](../../media/c7147f76ef0b327fa14234c58a69abd35bd1dff84e1f8692e9a98af1c6cc1671.jpg)](../../media/c7147f76ef0b327fa14234c58a69abd35bd1dff84e1f8692e9a98af1c6cc1671.jpg)
+
+&#xA;I also received a huge trophy.
+
+[![Image from Gyazo](../../media/1fcabf8ff478226a3f9e50cbd734b46d08f1c119d9b64deebde8db50c120b771.jpg)](../../media/1fcabf8ff478226a3f9e50cbd734b46d08f1c119d9b64deebde8db50c120b771.jpg)
+
+&#xA;I took a photo holding the "NAIB JOHAN (Runner-up)" board.
 
 ## In 2025...
 

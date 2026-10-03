@@ -1,17 +1,17 @@
 ---
-title: "How to Create Automated Notifications for Free Using Functions in Notion"
-emoji: "🤖"
-tags:
-  - "notion"
-published_at: "2021-11-22T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/tech/notion-notification-function.md"
-sourceHash: "b426b06b18e5302c663048382fb70a4a3889b278157f15987e7e353bea8e5c57"
+published_at: 2021-11-22T00:00:00.000Z
+sourceHash: b426b06b18e5302c663048382fb70a4a3889b278157f15987e7e353bea8e5c57
+sourcePath: ja/tech/notion-notification-function.md
+tags:
+  - notion
+title: How to Create Automated Notifications for Free Using Functions in Notion
 ---
 
 # How to Create Automated Notifications for Free Using Functions in Notion
 
-[![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)
+[![Image from Gyazo](../../media/712aa7039abfdffd62009424bdec9e0a77e889c0f6967fab8491992c92c89b8d.png)](../../media/712aa7039abfdffd62009424bdec9e0a77e889c0f6967fab8491992c92c89b8d.png)
 
 Notion is convenient, isn't it? I also migrated from Trello and find it very useful, but there is one thing that is **disappointing.**
 
@@ -21,7 +21,7 @@ A few days after I started using it, I realized that **reminders don’t come.**
 
 Unlike Trello, Notion does not **automatically remind** you when you set a time; you need to either type **/remind** or toggle a switch when setting it up from the calendar property.
 
-[![Image from Gyazo](https://i.gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c.png)](https://gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c)
+[![Image from Gyazo](../../media/35e5d55f28992efc7e18dc033731e616d99166d1a0b0eed73bd62dc22958a6a0.png)](../../media/35e5d55f28992efc7e18dc033731e616d99166d1a0b0eed73bd62dc22958a6a0.png)
 
 "Oh, it's just a toggle," you might be thinking!
 
@@ -31,12 +31,12 @@ So, I decided to **rely on external tools** to overcome this inconvenience.
 
 ## the:gist
 
-By using **"[the gist](https://www.thegist.so),"** you can create **automated reminders for free.** This app is a service that detects **specific events** and sends notifications.
+By using **"**__[the gist](https://www.thegist.so)__**,"** you can create **automated reminders for free.** This app is a service that detects **specific events** and sends notifications.
 
-[![Image from Gyazo](https://i.gyazo.com/adeaa61701d46a54986681e355701023.png)](https://gyazo.com/adeaa61701d46a54986681e355701023)
+[![Image from Gyazo](../../media/063aa3212cb795aaf24806a8ce8bc4449cf84ac106827f1d99d5a3b8903d06bb.png)](../../media/063aa3212cb795aaf24806a8ce8bc4449cf84ac106827f1d99d5a3b8903d06bb.png)
 
-> **"the:gist"**  
-> Price: Freemium (only the first one is free)  
+> **"the:gist"**
+> Price: Freemium (only the first one is free)
 > Function: Detects events in Notion
 
 ## Let's Set Up "the:gist!"
@@ -51,7 +51,7 @@ This time, we will remind **one day before the due date**, so we will calculate 
 
 First, **select the formula from the property.**
 
-[![Image from Gyazo](https://i.gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a.png)](https://gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a)
+[![Image from Gyazo](../../media/d8d809c109c6b44ba0451b22d7748dd02b81a527ba03f517c744046b228116db.png)](../../media/d8d809c109c6b44ba0451b22d7748dd02b81a527ba03f517c744046b228116db.png)
 
 Then, input the datebetween command into the created property. **In the "date?" part, enter the name of the calendar property you are using.**
 
@@ -77,21 +77,21 @@ Once you've done this, there is **just a little more to go!**
 
 First, link **[the gist](https://app.thegist.so/)** following the steps (it will do it automatically). There’s no need to explain how to do this.
 
-[![Image from Gyazo](https://i.gyazo.com/05aa0cf1bf34499e55102532c4f700ea.png)](https://gyazo.com/05aa0cf1bf34499e55102532c4f700ea)
+[![Image from Gyazo](../../media/dde9b4d7fd79b4ef90d39b29a4e0682b138043236ef1432ccd74a6727e7d8d55.png)](../../media/dde9b4d7fd79b4ef90d39b29a4e0682b138043236ef1432ccd74a6727e7d8d55.png)
 
-> **Name:** Reminder name  
-> **In:** Database name  
-> **if:** Condition to be detected. Set the checkbox property name to be ✅  
+> **Name:** Reminder name
+> **In:** Database name
+> **if:** Condition to be detected. Set the checkbox property name to be ✅
 > **then:** Action when detected. **Here, we set it to notify via email when the check is marked.**
 
 If you input as above, you should receive notifications via Email. Great job!
 
 ## There’s an Even Easier Way...
 
-**Actually, there’s another external tool called "[Notion Automations](https://notion-automations.com/calendar/)"** that allows **two-way synchronization with Google Calendar.** It’s more user-friendly than "the gist." However, it’s priced at 500 yen per month, which might seem a bit too much for personal use.
+**Actually, there’s another external tool called "**__[Notion Automations](https://notion-automations.com/calendar/)__**"** that allows **two-way synchronization with Google Calendar.** It’s more user-friendly than "the gist." However, it’s priced at 500 yen per month, which might seem a bit too much for personal use.
 
-[![Image from Gyazo](https://i.gyazo.com/9c06dc485dfeef48bc92a8efcdde705d.png)](https://gyazo.com/9c06dc485dfeef48bc92a8efcdde705d)
+[![Image from Gyazo](../../media/9acb22fed0d78dabdfdf355933d36035b72c71c73cfb55e34de5458e866db672.png)](../../media/9acb22fed0d78dabdfdf355933d36035b72c71c73cfb55e34de5458e866db672.png)
 
-> **"Notion Automations"**  
-> Price: five dollars (500 yen per month)  
+> **"Notion Automations"**
+> Price: five dollars (500 yen per month)
 > Function: Two-way calendar synchronization

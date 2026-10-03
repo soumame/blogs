@@ -1,19 +1,19 @@
 ---
-title: "Why Do People Move?"
-emoji: "🚶"
-tags:
-  - "brain-storming"
-published_at: "2025-10-16T00:00:00.000Z"
-description: "Why Do People Move?"
+description: Why Do People Move?
+emoji: 🚶
 isTranslated: true
-sourcePath: "ja/notes/why-human-move.md"
-sourceHash: "e523fa905b35ab919f15dc20f80ef16631acc930789694c53a57ae78181fcbd2"
+published_at: 2025-10-16T00:00:00.000Z
+sourceHash: e523fa905b35ab919f15dc20f80ef16631acc930789694c53a57ae78181fcbd2
+sourcePath: ja/notes/why-human-move.md
+tags:
+  - brain-storming
+title: Why Do People Move?
 ---
 
-[[works/keio|Keio SFC]]'s Environmental Informatics class said something interesting, so I'm taking notes
-
+[[en/works/keio|Keio SFC]]'s Environmental Informatics class said something interesting, so I'm taking notes
 
 Let's think about why people move.
+
 - Survival
   - To eat food or hunt prey?
   - Because we have bodies made for moving
@@ -22,15 +22,16 @@ Let's think about why people move.
   - To acquire new skills
   - To get out of the comfort zone and be active
 
-https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C
-
+<https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C>
 
 ## Scribbles
+
 > No deep meaning. Just thinking while riding the train.
 
 What happens if people don't move? Are humans the only creatures that think about why they live?
 Are we living without meaning?
 Do we live because we don't want to die?
+
 - Feeling fear
 
 I'm living inside a very advanced and complex civilization, but why do the people alive today live?
@@ -53,17 +54,17 @@ I'm about to reach my destination, so I'll stop writing.
 - Development
 - Evolution
 
-
 ## Scribbles 2
+
 I realized that even if the reason humans live is to survive, it's unclear whether we can survive in the long term.
 
 What if an asteroid hit the Earth? What if the Earth disappeared in 5 billion years?
 
 Well, human-caused causes are probably much more likely.
 
-https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85
+<https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E3%81%AE%E7%B5%B6%E6%BB%85>
 
-https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9
+<https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%87%BA%E7%94%9F%E4%B8%BB%E7%BE%A9>
 
 So, maybe it's better to move to another planet or reduce risk by decentralizing functions.
 
@@ -81,7 +82,7 @@ What is likely to be realized in my lifetime? How much can I contribute to this 
 
 Should I make the most efficient use of my life and pass it on to the next generation?
 
-https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-
+<https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6->
 
 I remembered "Chi.".
 

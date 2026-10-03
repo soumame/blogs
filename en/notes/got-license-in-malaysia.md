@@ -1,17 +1,17 @@
 ---
-title: "I Got My Driver's License in Malaysia"
-emoji: "🤖"
-tags:
-  - "essay"
-published_at: "2024-07-27T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/notes/got-license-in-malaysia.md"
-sourceHash: "a88a9af8357ba01a74d91d9d09b46325048a53937878faadcbcd307ee5e3988f"
+published_at: 2024-07-27T00:00:00.000Z
+sourceHash: a88a9af8357ba01a74d91d9d09b46325048a53937878faadcbcd307ee5e3988f
+sourcePath: ja/notes/got-license-in-malaysia.md
+tags:
+  - essay
+title: I Got My Driver's License in Malaysia
 ---
 
 # I Got My Driver's License in Malaysia
 
-[![Image from Gyazo](https://i.gyazo.com/3f13a1a685275c15460c6600159073ac.png)](https://gyazo.com/3f13a1a685275c15460c6600159073ac)
+[![Image from Gyazo](../../media/b4a20f7df3dd5aba1e640a8243e2aed629d43663371095e3279355d5f99add56.png)](../../media/b4a20f7df3dd5aba1e640a8243e2aed629d43663371095e3279355d5f99add56.png)
 
 Hi. I'm Soumame, 17 years old. The other day (well, some time ago), I was able to get a driver's license in Malaysia, so I'll write down how I got it here. First off, in Malaysia you can get a standard driver's license from age 17, so please read this with that in mind.
 
@@ -19,7 +19,7 @@ Hi. I'm Soumame, 17 years old. The other day (well, some time ago), I was able t
 
 ## Application
 
-First you need to decide which driving school to learn at. I chose Metro Driving Academy (https://metrodriving.com.my/en/) — it was recommended by an acquaintance so I didn't think much about it, but it was nice that classes were offered in English. I recommend checking whether classes are available in English by contacting the school or checking their website.
+First you need to decide which driving school to learn at. I chose Metro Driving Academy (<https://metrodriving.com.my/en/>) — it was recommended by an acquaintance so I didn't think much about it, but it was nice that classes were offered in English. I recommend checking whether classes are available in English by contacting the school or checking their website.
 
 ### What I needed
 
@@ -33,7 +33,7 @@ I applied through the website and after a while got a WhatsApp message. I signed
 
 The fee was RM2500. From friends I heard that's relatively expensive; some cheaper places offer RM800. For me it seemed reasonable, and it included things like a retest package, so I thought it was fine.
 
-[![Image from Gyazo](https://i.gyazo.com/706fc501b880a88895ba20f0514605f8.png)](https://gyazo.com/706fc501b880a88895ba20f0514605f8)
+[![Image from Gyazo](../../media/b853a3179d8b6a54797a658ad66a7d144f428229ecec8d905e2a268304aecab7.png)](../../media/b853a3179d8b6a54797a658ad66a7d144f428229ecec8d905e2a268304aecab7.png)
 
 > Also, just between us, a few of my friends paid some extra money (amount withheld) and managed to pass the tests that way. I'm a serious person who ~~doesn't have money~~ likes to prove myself properly, so of course I didn't spend a cent on that.
 
@@ -60,17 +60,17 @@ The computer test starts with things like color vision and literacy(?) checks, t
 
 The content is mostly fixed and there are about 8 or 9 different patterns. One of those patterns is chosen for your test and there are 50 questions. Even if your English isn't great, you can memorize the questions and reflexively answer them because the system is pretty lax. If you memorise the material you should be fine. The driving school recommended using a study app like the one below. If you repeatedly practice with this app you'll be fine. The app is available in English and the computer test can be taken in English, so it shouldn't be too hard.
 
-[![Image from Gyazo](https://i.gyazo.com/c85152f0263c2a78f4e04785db2791fa.png)](https://gyazo.com/c85152f0263c2a78f4e04785db2791fa)
+[![Image from Gyazo](../../media/6bb8472aceff13d6c2cc7a8aa801c3769a46211f79b4e88f207bd7c5cdaefdb6.png)](../../media/6bb8472aceff13d6c2cc7a8aa801c3769a46211f79b4e88f207bd7c5cdaefdb6.png)
 
-*This is how you tap through the quizzes.*
+_This is how you tap through the quizzes._
 
 App Store
 
-[https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800](https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800)
+<https://apps.apple.com/my/app/kpp-test-2024-ujian-kpp01/id1383600800>
 
 Google Play
 
-[https://play.google.com/store/apps/details?id=info.test.kpp&hl=en_US](https://play.google.com/store/apps/details?id=info.test.kpp&hl=en_US)
+<https://play.google.com/store/apps/details?id=info.test.kpp&hl=en_US>
 
 ### I failed!
 
@@ -84,9 +84,9 @@ So, I composed myself and went for a retest. Depending on the driving school, yo
 
 I studied properly and passed the computer test, and they issued my learner's permit. It was processed right there at the office. At the office I went to they also took a photo, but that might vary by location.
 
-[![Image from Gyazo](https://i.gyazo.com/06908f3b2d580c8128f8ded15e44579f.jpg)](https://gyazo.com/06908f3b2d580c8128f8ded15e44579f)
+[![Image from Gyazo](../../media/75f403b8f4d9a199809bad4bfb0aee413bd42825db4a4ad57864ef358c4664ff.jpg)](../../media/75f403b8f4d9a199809bad4bfb0aee413bd42825db4a4ad57864ef358c4664ff.jpg)
 
-*LULUS! (means "pass" in Malay. Yay.)*
+_LULUS! (means "pass" in Malay. Yay.)_
 
 ### After the learner's permit is issued
 
@@ -96,9 +96,9 @@ After getting the learner's permit, tell the driving school you passed and book 
 
 The first two days of practical lessons are on the school's grounds. My driving school had a dedicated area where we practiced. Aside from a traffic light that was broken (or just turned off), it was the same as driving schools in Japan.
 
-[![Image from Gyazo](https://i.gyazo.com/a005feb6ddb28db27d331b9ec37818d7.jpg)](https://gyazo.com/a005feb6ddb28db27d331b9ec37818d7)
+[![Image from Gyazo](../../media/302698a569885c14c5013079146f714e6e909f5a78f436df09e3313035cd93b5.jpg)](../../media/302698a569885c14c5013079146f714e6e909f5a78f436df09e3313035cd93b5.jpg)
 
-*The vehicle was a Proton. Maybe new? (photo taken while parked)*
+_The vehicle was a Proton. Maybe new? (photo taken while parked)_
 
 ### Have you driven before?
 
@@ -112,9 +112,9 @@ So I went to the school and, to my surprise, they took me to the car with no exp
 
 You are taught the vehicle checks as if memorizing a poem. This check is required in the JPJ test later, so they run it exactly like the exam. It starts with introducing yourself to the examiner (reading the learner's permit card), then checking the Road Tax, wipers, engine compartment, and walking all the way around the car to check for anything unusual. ~~By the way, the car I was given had its Road Tax expire a few days earlier. When I asked about it I was just ignored — what was that about…~~
 
-[![Image from Gyazo](https://i.gyazo.com/a2222ec2e223dece71620d5fefc6121f.jpg)](https://gyazo.com/a2222ec2e223dece71620d5fefc6121f)
+[![Image from Gyazo](../../media/e89400f16a414cd100f6c04d2449f78fd16f908b3e7d5d462931ff8528dfa2da.jpg)](../../media/e89400f16a414cd100f6c04d2449f78fd16f908b3e7d5d462931ff8528dfa2da.jpg)
 
-*They taught the check items in English like this.*
+_They taught the check items in English like this._
 
 ### Now, driving the car
 
@@ -132,9 +132,9 @@ Here's where the real challenge starts. Amazingly, in Malaysia you go out on the
 
 Still, Malaysian roads are generally wider and easier to drive than in Japan, so depending on the school's location you can probably drive without being overly tense.
 
-[![Image from Gyazo](https://i.gyazo.com/26aedbcd89b7f016dd10c25391740202.jpg)](https://gyazo.com/26aedbcd89b7f016dd10c25391740202)
+[![Image from Gyazo](../../media/c22d05865bd3f4c9589bf1c74a9eb6efa1aa97b46c3c5e76af98081db39c4548.jpg)](../../media/c22d05865bd3f4c9589bf1c74a9eb6efa1aa97b46c3c5e76af98081db39c4548.jpg)
 
-*A hand-drawn map they sent me on WhatsApp. Cute.*
+_A hand-drawn map they sent me on WhatsApp. Cute._
 
 ### Other cars are too fast
 
@@ -164,13 +164,13 @@ There were so many examinees that during the vehicle inspection part of the test
 
 Because urban test centers have many examinees this might be the way it goes. I arrived early, but since they process people by exam number, I still waited quite a while until my turn.
 
-[![Image from Gyazo](https://i.gyazo.com/ca82fc30d9b7f2ae91680a9747b71656.jpg)](https://gyazo.com/ca82fc30d9b7f2ae91680a9747b71656)
+[![Image from Gyazo](../../media/29b4870d1e96a234879044973e8d2e38d2b48a704b30259eb6f5ad7935461ffe.jpg)](../../media/29b4870d1e96a234879044973e8d2e38d2b48a704b30259eb6f5ad7935461ffe.jpg)
 
-*Receiving the exam number*
+_Receiving the exam number_
 
-[![Image from Gyazo](https://i.gyazo.com/dc6edbe2ed69180503526f2387b0fa26.jpg)](https://gyazo.com/dc6edbe2ed69180503526f2387b0fa26)
+[![Image from Gyazo](../../media/3afb63011aab69c40669840acbaf5c677397b6dc756b39f883e7c0187524c846.jpg)](../../media/3afb63011aab69c40669840acbaf5c677397b6dc756b39f883e7c0187524c846.jpg)
 
-*Waiting in the room for my turn.*
+_Waiting in the room for my turn._
 
 ### Cars going out of control
 

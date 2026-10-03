@@ -1,16 +1,16 @@
 ---
-title: tldrawを始めよう
+description: オンラインホワイトボード tldrawの簡単なガイドを書いておきます
 emoji: 💻
+published_at: 2025-10-05
 tags:
   - dev
-published_at: 2025-10-05
-description: オンラインホワイトボード tldrawの簡単なガイドを書いておきます
+title: tldrawを始めよう
 ---
 
-https://www.tldraw.com/
+<https://www.tldraw.com/>
 
 Miro を使うほどでもないし、適当にみんなでブレストしたりできる無料のやつないかな〜って言うので見つけたやつ。
 
-[[websocket|Websocket]]?のような技術を使って、クライアント間をつないでくれるので、みんなでワイワイ編集できる（この辺の技術はすごいよなーと思う）
+[[ja/misc/WebSocket|Websocket]]?のような技術を使って、クライアント間をつないでくれるので、みんなでワイワイ編集できる（この辺の技術はすごいよなーと思う）
 
 excalidraw という似たようなのもある。この辺は結構探したら多そうな気はする。

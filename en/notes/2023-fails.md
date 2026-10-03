@@ -1,12 +1,12 @@
 ---
-title: "Looking Back Only at My Failures in 2023!"
-emoji: "🤖"
-tags:
-  - "essay"
-published_at: "2024-01-02T00:00:00.000Z"
+emoji: 🤖
 isTranslated: true
-sourcePath: "ja/notes/2023-fails.md"
-sourceHash: "91fc74bbfa8afce9c7e9f3e71e98857865fe4fc8e71c2d771f91aa6ca51d6423"
+published_at: 2024-01-02T00:00:00.000Z
+sourceHash: 91fc74bbfa8afce9c7e9f3e71e98857865fe4fc8e71c2d771f91aa6ca51d6423
+sourcePath: ja/notes/2023-fails.md
+tags:
+  - essay
+title: Looking Back Only at My Failures in 2023!
 ---
 
 # Looking Back Only at My Failures in 2023!
@@ -15,7 +15,7 @@ sourceHash: "91fc74bbfa8afce9c7e9f3e71e98857865fe4fc8e71c2d771f91aa6ca51d6423"
 
 Ah—so the year is finally ending—what a long yet short year it has been, I wanted to say—but **in my Discord community, “mamee”**, **I received a mention like this.**
 
-[![Image from Gyazo](https://i.gyazo.com/3155fcd583ab38ded6b3ea42001dc266.png)](https://gyazo.com/3155fcd583ab38ded6b3ea42001dc266)
+[![Image from Gyazo](../../media/317dcb04e09a03443c40bd885d1cfd10ca79e19ff4e23e9e38c6bbe48c138377.png)](../../media/317dcb04e09a03443c40bd885d1cfd10ca79e19ff4e23e9e38c6bbe48c138377.png)
 
 _Write an end-of-year reflection post!!!!!!
 Everyone write one_
@@ -29,10 +29,10 @@ Last year, as a student ambassador for a business contest called IDEACTIVE JAPAN
 ### Learn+ — It wasn’t that nobody came
 
 So, I started a service called **Learn+**, nominally to provide learning content exclusively to participants. The idea was basically **like an online salon**, offering **exclusive content and videos** to members. At first, I assumed no one would join, but surprisingly **a few people registered even though there was no content yet.**
-From there I tried to provide content, **but** since this wasn’t run as a company, and the people operating it were only students with Learn+ not being anyone’s main job, the priority gradually dropped. **Within a few months after starting, events and content offerings stopped.** It gradually faded out. 😭**
-**
+From there I tried to provide content, **but** since this wasn’t run as a company, and the people operating it were only students with Learn+ not being anyone’s main job, the priority gradually dropped. **Within a few months after starting, events and content offerings stopped.** It gradually faded out. 😭\*\*
+\*\*
 
-[![Image from Gyazo](https://i.gyazo.com/87759f8651ce5de7c764e7df600c922e.png)](https://gyazo.com/87759f8651ce5de7c764e7df600c922e)
+[![Image from Gyazo](../../media/8c6047ecccf30b229c5b7974dac8e61cc6e4cb19aadb2d74394463d340ce36a2.png)](../../media/8c6047ecccf30b229c5b7974dac8e61cc6e4cb19aadb2d74394463d340ce36a2.png)
 
 _Past online events were held, for example._
 
@@ -48,7 +48,7 @@ But **Japan is capitalist now. Money is everything**, so that’s probably the i
 Unfortunately, the current reality is that the **wealthy living in urban areas like Tokyo and Osaka** are geographically and financially advantaged and therefore **more likely to receive better education.**
 I keep thinking every day whether there might be a better way. 🤔
 
-[https://twitter.com/So_to9/status/1738891386987176023?s=20](https://twitter.com/So_to9/status/1738891386987176023?s=20)
+<https://twitter.com/So_to9/status/1738891386987176023?s=20>
 
 I’ve thought a lot about this issue and have posted about it on Twitter several times. (Please follow me…)
 
@@ -59,14 +59,14 @@ I went with friends to see the presentation event for Mitou Junior 2022, and one
 
 I’ve prepared the application documents, so feel free to take a look. I’ll leave comments to myself out of it…
 
-[https://docs.google.com/document/d/1voGnXL_GH8a3Vn6rddswLZHRmvQijToDSZiTa-1LOiY/edit?usp=drivesdk](https://docs.google.com/document/d/1voGnXL_GH8a3Vn6rddswLZHRmvQijToDSZiTa-1LOiY/edit?usp=drivesdk)
+<https://docs.google.com/document/d/1voGnXL_GH8a3Vn6rddswLZHRmvQijToDSZiTa-1LOiY/edit?usp=drivesdk>
 
 ### I failed the first (document) screening
 
 The result was **rejected at the document screening. Total wipeout!!** 😭
 **By the way, the friend who said “it might be doable” got in** (seriously impressive lol). **I was pretty shocked.** 😭 It’s sad not to be recognized. To be honest, I was jealous of that friend for about a week after I failed.
 
-[https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA&s=19](https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA&s=19)
+<https://twitter.com/So_to9/status/1651960460848291842?t=lnpjB2wrcDxIf82muFc5BA&s=19>
 
 ### But even when you fail, you get feedback!?
 
@@ -87,7 +87,7 @@ This was the most tragic thing that happened recently. 😭
 I have been studying abroad in Malaysia since my first year of junior high school, and Malaysia has an educational stage called a “college” (roughly equivalent to a junior college in Japan), where you study to smooth the transition from high school graduation to university (called pre-u or foundation).
 Colleges also offer diploma courses where you can focus on specialized fields.
 
-[https://www.m-ryugaku.com/univ_college#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB%E3%80%81%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%81%AE%E3%80%8C%E3%82%AB%E3%83%AC%E3%83%83%E3%82%B8%E3%80%8D,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82](https://www.m-ryugaku.com/univ_college#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB%E3%80%81%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%81%AE%E3%80%8C%E3%82%AB%E3%83%AC%E3%83%83%E3%82%B8%E3%80%8D,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82)
+<https://www.m-ryugaku.com/univ_college#:~:text=%E3%81%A1%E3%81%AA%E3%81%BF%E3%81%AB%E3%80%81%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2%E3%81%AE%E3%80%8C%E3%82%AB%E3%83%AC%E3%83%83%E3%82%B8%E3%80%8D,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82>
 
 Normally, you can move to college and study at Year 10 (equivalent to the first year of high school), but **I was rejected by every school.** Huh? 😭
 
@@ -95,7 +95,7 @@ Normally, you can move to college and study at Year 10 (equivalent to the first 
 
 I explain the details in another article, but basically the Australian Victoria curriculum I was taking (VCE) had a rule change **from 2021** that assumes students will **go directly to university without going to college**, which made my intended path incompatible. **It differed from the route I had planned.** 😭
 
-[https://note.com/soto9/n/n235084017b66](https://note.com/soto9/n/n235084017b66)
+<https://note.com/soto9/n/n235084017b66>
 
 Because of that, **I had to finish the Australian-style education I was doing after all.** What that means is, even though I’ve only been learning English for four years, I now have to compete for university scores on the same footing as native Australian English speakers. 😭 (By the way, other curricula like IGCSE or IB are adopted worldwide and are probably easier for Japanese students.)
 This is the biggest mistake I made while studying abroad. How did I not notice this… **even my school teachers didn’t know.** It’s sad. Please be careful when studying abroad. 😭
@@ -118,7 +118,7 @@ I’m full of anxiety, but I look forward to your support this year as well.
 
 Soumame
 
-[![Image from Gyazo](https://i.gyazo.com/8812358f21d4cfa408e57ec8b5246dc4.png)](https://gyazo.com/8812358f21d4cfa408e57ec8b5246dc4)
+[![Image from Gyazo](../../media/db88847d796f9510cddd483d6408ba24485125d469882dc2858d798e6931ee4c.png)](../../media/db88847d796f9510cddd483d6408ba24485125d469882dc2858d798e6931ee4c.png)
 
 _Happy New Year._
 

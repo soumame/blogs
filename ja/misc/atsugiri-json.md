@@ -1,26 +1,27 @@
 ---
-title: 厚切りJSON
-emoji: 🔤
 description: '「Why JSON format!?!?」 「なんでコメント書けないノ！？ 人間が読むためのフォーマットって言ってたジャナイ！！ 設定ファイルで使わせるくせに、メモ残せないとか鬼畜カヨ！！ 仕方ないから `"comment1": "ここは本番のURL"` ってダミーのキー作るエンジニアの気持ち、考えたことアルノ！？」'
-tags:
-  - ai-generated
-published_at: 2026-07-22
-isTranslated: false
-isDraft: false
-noindex: false
 dialogue-users:
   soumame: https://avatars.githubusercontent.com/u/46675982
+emoji: 🔤
+isDraft: false
+isTranslated: false
+noindex: false
+published_at: 2026-07-22
 style: dialogue
+tags:
+  - ai-generated
+title: 厚切りJSON
 ---
+
 soumame
+
 > 厚切りジェイソンならぬ、ガチのエンジニアの「厚切りJSON」の鉄板ネタを考えて
 
 Hello World！ガチエンジニア芸人の「厚切りJSON」ですね。あのテンションと理不尽への怒り、JSONの仕様にぶつけるにはぴったりです。
 
 ホワイトボードを叩きながら絶叫する姿を想像してお読みください。
 
-https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3
-
+<https://ja.wikipedia.org/wiki/%E5%8E%9A%E5%88%87%E3%82%8A%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%BD%E3%83%B3>
 
 **【登場】** （勢いよくステージに飛び出してきて） 「Hello World！！ ガチエンジニア芸人の、厚切りJSONダヨ！！」
 

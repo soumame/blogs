@@ -1,14 +1,14 @@
 ---
-title: 【Notion】関数を使って無料で自動通知を作る方法
 emoji: 🤖
+published_at: 2021-11-22
 tags:
   - notion
-published_at: 2021-11-22
+title: 【Notion】関数を使って無料で自動通知を作る方法
 ---
 
 # 【Notion】関数を使って無料で自動通知を作る方法
 
-[![Image from Gyazo](https://i.gyazo.com/e3e188f6c332d548eae437e39be4a807.png)](https://gyazo.com/e3e188f6c332d548eae437e39be4a807)
+[![Image from Gyazo](../../media/712aa7039abfdffd62009424bdec9e0a77e889c0f6967fab8491992c92c89b8d.png)](../../media/712aa7039abfdffd62009424bdec9e0a77e889c0f6967fab8491992c92c89b8d.png)
 
 Notion、便利ですよね。私もTrelloから移行して、非常に便利なのですが、一つだけ**ガッカリなところがあるんです。**
 
@@ -18,7 +18,7 @@ Notion、便利ですよね。私もTrelloから移行して、非常に便利�
 
 NotionにはTrelloのように時刻を設定したら**勝手にリマインドするのではなく**、/remindと打つか、カレンダープロパティから設定するときに**スイッチをトグルする必要があります**。
 
-[![Image from Gyazo](https://i.gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c.png)](https://gyazo.com/7fcf5777053ff01cb2eb4efcea5cbd4c)
+[![Image from Gyazo](../../media/35e5d55f28992efc7e18dc033731e616d99166d1a0b0eed73bd62dc22958a6a0.png)](../../media/35e5d55f28992efc7e18dc033731e616d99166d1a0b0eed73bd62dc22958a6a0.png)
 
 「なんだ、ただトグルするだけじゃん」と思っているそこのあなた！
 
@@ -28,9 +28,9 @@ NotionにはTrelloのように時刻を設定したら**勝手にリマインド
 
 ## the:gist
 
-**「[the gist](https://www.thegist.so)」**を使えば、**無料**で自動リマインダーが作れます。このアプリは、**特定のイベントを検知**して、通知を送ってくれるサービスです。
+\*\*「[the gist](https://www.thegist.so)」\*\*を使えば、**無料**で自動リマインダーが作れます。このアプリは、**特定のイベントを検知**して、通知を送ってくれるサービスです。
 
-[![Image from Gyazo](https://i.gyazo.com/adeaa61701d46a54986681e355701023.png)](https://gyazo.com/adeaa61701d46a54986681e355701023)
+[![Image from Gyazo](../../media/063aa3212cb795aaf24806a8ce8bc4449cf84ac106827f1d99d5a3b8903d06bb.png)](../../media/063aa3212cb795aaf24806a8ce8bc4449cf84ac106827f1d99d5a3b8903d06bb.png)
 
 > **「the:gist」**
 > 価格:フリーミアム（最初の１つのみ無料）
@@ -48,7 +48,7 @@ the:gistは便利なソフトウェアですが、リマインダーとして使
 
 まず、**プロパティから関数を選択**します。
 
-[![Image from Gyazo](https://i.gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a.png)](https://gyazo.com/2c0fcdd9827bfc48dc9b431178fdbb8a)
+[![Image from Gyazo](../../media/d8d809c109c6b44ba0451b22d7748dd02b81a527ba03f517c744046b228116db.png)](../../media/d8d809c109c6b44ba0451b22d7748dd02b81a527ba03f517c744046b228116db.png)
 
 そして、作成したプロパティにdatebetweenコマンドを入力します。**"日付？"という部分にはあなたが使用しているカレンダープロパティの名前を入れます。**
 
@@ -60,7 +60,7 @@ dateBetween(prop("日付？"), now(), "days")
 
 次に、残り日数が１日になったら、**アクションを起こすように設定**します。
 
-先程と同じように関数(Formula)プロパティを追加して、**下のものをコピペ**します。**(残り日数)**のところは、この前に作った**datebetweenのプロパティ名**を入れます。
+先程と同じように関数(Formula)プロパティを追加して、**下のものをコピペ**します。**(残り日数)**__**のところは、この前に作った**__**datebetweenのプロパティ名**を入れます。
 
 ```
 if(prop("残り日数") < 1, "yes", "no") == "yes"
@@ -74,20 +74,20 @@ if(prop("残り日数") < 1, "yes", "no") == "yes"
 
 まず、[the:gist](https://app.thegist.so/)を手順通り（自動的にやってくれる）連携します。やり方は説明するまでもありません。
 
-[![Image from Gyazo](https://i.gyazo.com/05aa0cf1bf34499e55102532c4f700ea.png)](https://gyazo.com/05aa0cf1bf34499e55102532c4f700ea)
+[![Image from Gyazo](../../media/dde9b4d7fd79b4ef90d39b29a4e0682b138043236ef1432ccd74a6727e7d8d55.png)](../../media/dde9b4d7fd79b4ef90d39b29a4e0682b138043236ef1432ccd74a6727e7d8d55.png)
 
-> **Name:**リマインダーの名前
-> **In:**データベース名
+> \*\*Name:\*\*リマインダーの名前
+> \*\*In:\*\*データベース名
 > **if:検知する内容。チェックボックスのプロパティ名 is ✅になるように設定**
-> **then:**検知した際の動作。**ここではemailをチェックが入った時に設定。**
+> \*\*then:\*\*検知した際の動作。**ここではemailをチェックが入った時に設定。**
 
 **上の通りに入力すれば、Emailで通知がくるはずです。お疲れ様でした！**
 
 ## もっと簡単な方法もあります...
 
-**実は他にも、「[Notion Automations](https://notion-automations.com/calendar/)」**という外部ツールがあり、これを使えば**Googleカレンダーと双方向で同期**することができます。「the:gist」より使い勝手も良いです。ただし、月500円という価格設定であり、個人で少しだけ使うのは少し勿体無いと思います。
+**実は他にも、「**__[Notion Automations](https://notion-automations.com/calendar/)__**」**__**という外部ツールがあり、これを使えば**__**Googleカレンダーと双方向で同期**することができます。「the:gist」より使い勝手も良いです。ただし、月500円という価格設定であり、個人で少しだけ使うのは少し勿体無いと思います。
 
-[![Image from Gyazo](https://i.gyazo.com/9c06dc485dfeef48bc92a8efcdde705d.png)](https://gyazo.com/9c06dc485dfeef48bc92a8efcdde705d)
+[![Image from Gyazo](../../media/9acb22fed0d78dabdfdf355933d36035b72c71c73cfb55e34de5458e866db672.png)](../../media/9acb22fed0d78dabdfdf355933d36035b72c71c73cfb55e34de5458e866db672.png)
 
 > **「Notion Automations」**
 > 価格:５ドル（月５００円）

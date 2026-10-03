@@ -1,14 +1,14 @@
 ---
-title: GoogleスプレッドシートをAPI経由で読み込もう！
 emoji: 🤖
+published_at: 2024-06-22
 tags:
   - dev
-published_at: 2024-06-22
+title: GoogleスプレッドシートをAPI経由で読み込もう！
 ---
 
 # Google スプレッドシートを API 経由で読み込もう！
 
-[![Image from Gyazo](https://i.gyazo.com/6a095cc268da576355197126bde0b519.png)](https://gyazo.com/6a095cc268da576355197126bde0b519)
+[![Image from Gyazo](../../media/e565e24f8c5187b8e49295ef788c875f3c34968a4415af212ed6c23702d46fec.png)](../../media/e565e24f8c5187b8e49295ef788c875f3c34968a4415af212ed6c23702d46fec.png)
 
 > 去年別のサイトで書いた記事を再公開したものです。
 
@@ -21,9 +21,9 @@ published_at: 2024-06-22
 
 $$
 \begin{array}{|c|c|c|c|c|} \hline
-いつ（yyyy-mm) & どこで & 何を & どのように & リンク \\ \hline
-2023-08 & 東京で & すしを食べた & もぐもぐ。 & url \\ \hline
-2022-05 & マレーシアで & ナシレマを食べた & スプーンを使って食べた & url \\ \hline
+いつ（yyyy-mm) & どこで & 何を & どのように & リンク \ \hline
+2023-08 & 東京で & すしを食べた & もぐもぐ。 & url \ \hline
+2022-05 & マレーシアで & ナシレマを食べた & スプーンを使って食べた & url \ \hline
 \end{array}
 $$
 

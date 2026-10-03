@@ -1,13 +1,13 @@
 ---
-title: "Looking Back Only at the Failures of 2024!"
-emoji: "💩"
-tags:
-  - "essay"
-published_at: "2025-01-01T00:00:00.000Z"
-description: "Looking Back Only at the Failures of 2024!"
+description: Looking Back Only at the Failures of 2024!
+emoji: 💩
 isTranslated: true
-sourcePath: "ja/notes/2024-fails.md"
-sourceHash: "e04a2dde4c495ed0ff41a568beb786cd8fcf6a4c528416fe5992eb656e1f7b04"
+published_at: 2025-01-01T00:00:00.000Z
+sourceHash: e04a2dde4c495ed0ff41a568beb786cd8fcf6a4c528416fe5992eb656e1f7b04
+sourcePath: ja/notes/2024-fails.md
+tags:
+  - essay
+title: Looking Back Only at the Failures of 2024!
 ---
 
 # Looking Back Only at the Failures of 2024!
@@ -18,7 +18,7 @@ sourceHash: "e04a2dde4c495ed0ff41a568beb786cd8fcf6a4c528416fe5992eb656e1f7b04"
 
 </figure>
 
-Wow, 2024 has ended. How was your year? Did things go well? I almost asked that, but then I remembered I wrote [[blogs/en/notes/2023-fails|"Looking Back Only at My Failures in 2023!" article]] last year.
+Wow, 2024 has ended. How was your year? Did things go well? I almost asked that, but then I remembered I wrote [[en/notes/2023-fails|"Looking Back Only at My Failures in 2023!" article]] last year.
 
 So, following last year, I decided to **look back at what happened this year**. As before, I’ll briefly reflect on events this year that I consider **failures** (things where my methods were poor or circumstances were bad and I didn’t achieve my goals). This year had a lot of successes, but constant self-promotion like “I won XX award!” can get tiring. There’s a lot to learn, yet the internet is full of stories of people who succeeded. ~~Apparently, taking pleasure in others’ misfortune can ease your own inferiority complex by making you think, “They’re not that great after all — they’re human like me,” which is comforting,~~ so let’s take a look.
 
@@ -33,6 +33,7 @@ When I saw my hopeless grades at the end of my second year, I realized how badly
 At that point it was just “this is bad.”
 
 ## I didn’t think about university at all
+
 The problem started from here.
 
 Up until around my second year of high school I’d assumed “I’ll probably go to university after graduating.” The adults around me were preparing with university in mind, so I didn’t think deeply about it.
@@ -46,7 +47,6 @@ Also, no matter how impressive your achievements are, many top universities expe
 I don’t know how to reach that level, but in the end I hadn’t decided on the schools I wanted to attend by graduation, and I was even unsure whether going to university was really the right choice for me. So I hadn’t considered what documents, achievements, or grade levels I needed to submit to universities. Because of that, when I considered applying to Japanese universities through the overseas student quota, some universities disqualified me from applying due to my unusual geographic/educational background. (I might write about this later.)
 
 To avoid situations like this, if you’re planning to attend university, I recommend starting preparations more than a year in advance.
-
 
 ## Shining achievements 😄
 
@@ -72,4 +72,4 @@ So, how were my failures of 2024? I made bigger mistakes than last year, but I a
 
 Next year I plan to go to university. Above all, I want to discover more of what I really want to do, and to learn, build, and share as much as possible so I can connect with many more people around the world.
 
-P.S.: This is Mame one year later. Regarding university, I was safely accepted to my [[blogs/en/works/keio|top-choice school]].
+P.S.: This is Mame one year later. Regarding university, I was safely accepted to my [[en/works/keio|top-choice school]].

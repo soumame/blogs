@@ -1,13 +1,13 @@
 ---
-title: XRの使い道は、HUDのように使うことなのかもしれない - AIとお料理をしよう
-emoji: 🍳
 description: 未踏ジュニアでお馴染みの鵜飼さんが持っていたinmo XRというAndroidが入っているXRグラスを貸してもらってちょっとしたハッカソンをしたのですが、使い道に悩んだ挙句、AIで作ったAIと楽しむ料理アシスタントを作りました。そこでXRグラスを使用してAIと料理することを試みたので、紹介します。
+emoji: 🍳
+isDraft: true
+isTranslated: null
+published_at: 2026-01-12
 tags:
   - dev
   - application-development
-published_at: 2026-01-12
-isTranslated:
-isDraft: true
+title: XRの使い道は、HUDのように使うことなのかもしれない - AIとお料理をしよう
 ---
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は深圳で買ってきた<a href="https://twitter.com/inmoxreality?ref_src=twsrc%5Etfw">@inmoxreality</a> のAndroidが動く眼鏡 Inmo Air 3 向けに Google Slideのスピーカーノートをかっこよく表示できるテレプロンプターアプリを作った。面白いしすぐに実用できそう。（実際は ARグラスで空中に浮いていてくそかっこいいんだけどこれを見せる方法がないのがつらい） <a href="https://t.co/lEd14WBgBW">pic.twitter.com/lEd14WBgBW</a></p>&mdash; Yu Ukai (@ukkaripon) <a href="https://twitter.com/ukkaripon/status/2010702060107464846?ref_src=twsrc%5Etfw">January 12, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -22,7 +22,7 @@ isDraft: true
 XREAL の方式とは違い、非常に薄型で目立ちにくい（それでも違和感はまだあるが）し、メガネ部分の薄さと性能だけで見れば[Even Realities](https://www.evenrealities.com/)の上位互換なのか？と思った。
 
 (Even G1 については電電猫猫さんが紹介しているのでおすすめ：)
-https://note.com/electrical_cat/n/ncbff77528ada
+<https://note.com/electrical_cat/n/ncbff77528ada>
 
 inmo XR が最強なのかはわからない（XREAL としか比べていない）けど、なんとか実用に耐えるところまで来ているなというふうには感じた。重たい動作をさせると耳の周辺が異常なくらい発熱したり、中華あるあるだけど、Play Store が使えず、その周辺のサービスも使えないなどの問題もあった。これは...なんとかして解除する方法があるのかもしれない
 
@@ -48,9 +48,11 @@ Android ということもあり、マウスに相当する操作方法が必要
 
 最近 XREAL で困ったことは...あっそうだ
 
-ということで、料理を手伝う AI アプリを作りました。
-[![Image from Gyazo](https://i.gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5.png)](https://gyazo.com/ef4a0c47ca44dd5ad8b1e029500458d5)
-_（イメージ図 by Gemini）_
+ということで、料理を手伝う AI アプリを作りました。&#xA;
+
+[![Image from Gyazo](../../media/a7084e60003a0f59e39ed0d737e4840b98bbe02984630aa4a1e1f452e7919135.png)](../../media/a7084e60003a0f59e39ed0d737e4840b98bbe02984630aa4a1e1f452e7919135.png)
+
+&#xA;_（イメージ図 by Gemini）_
 
 まあ内容はシンプルです。家にあるものとか、作りたいものとか、適当に言うと、AI が「レシピ.json」(笑)を作成して、それの通りにシステムが動いてくれます。
 inmo XR では、良くも悪くも黒色は透明になるという特性がある（これは XREAL も似ているけど、より透明になっている）ので、これを活かした形になる。
@@ -59,7 +61,7 @@ inmo XR では、良くも悪くも黒色は透明になるという特性があ
 
 現状人に必要なのは AI を監視して、なんとなく動きそうかとか、最後までうまくいきそうか、AI の動きを見ていて、修正が必要かどうか、もし修正が必要だったらどのタイミングで中断して修正させるかを判断するスキルだけ。
 
-https://xr-ai-recipe-assistant.vercel.app/
+<https://xr-ai-recipe-assistant.vercel.app/>
 
 とりあえず適当に作ったので、試してみてください（LLM 代を払っているので、払えなさそうだったらやめる）
 

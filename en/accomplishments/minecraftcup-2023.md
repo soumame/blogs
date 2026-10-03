@@ -1,14 +1,14 @@
 ---
-title: "Minecraft Cup 2023"
-emoji: "🏆"
-tags:
-  - "Minecraft"
-  - "teamwork"
-published_at: "2023-12-07T00:00:00.000Z"
-description: "A world created by Team Ippanjin, a team composed of members ranging from elementary to high school students who operate on the internet, received an Encouragement Award at the Minecraft Cup regional tournament held in Japan."
+description: A world created by Team Ippanjin, a team composed of members ranging from elementary to high school students who operate on the internet, received an Encouragement Award at the Minecraft Cup regional tournament held in Japan.
+emoji: 🏆
 isTranslated: true
-sourcePath: "ja/accomplishments/minecraftcup-2023.md"
-sourceHash: "084a9fb5b1f42815f132b1f545c39bccfc4ba8c166f25dee58ce6b080b538b1e"
+published_at: 2023-12-07T00:00:00.000Z
+sourceHash: 084a9fb5b1f42815f132b1f545c39bccfc4ba8c166f25dee58ce6b080b538b1e
+sourcePath: ja/accomplishments/minecraftcup-2023.md
+tags:
+  - Minecraft
+  - teamwork
+title: Minecraft Cup 2023
 ---
 
 A world created by Team Ippanjin, a team composed of members ranging from elementary to high school students who operate on the internet, received an Encouragement Award at the Minecraft Cup regional tournament held in Japan.

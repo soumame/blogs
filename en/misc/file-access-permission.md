@@ -1,18 +1,19 @@
 ---
-title: "File access permissions on UNIX-like systems such as Linux"
-emoji: "👥"
-tags:
-  - "dev"
-published_at: "2025-11-05T00:00:00.000Z"
-description: "About access permissions for UNIX-like systems such as Linux"
+description: About access permissions for UNIX-like systems such as Linux
+emoji: 👥
 isTranslated: true
-sourcePath: "ja/misc/file-access-permission.md"
-sourceHash: "71bfe87d85e5fabfd686b37f61eeed1c338242619f4e74592a60c7b1d5921a2b"
+published_at: 2025-11-05T00:00:00.000Z
+sourceHash: 71bfe87d85e5fabfd686b37f61eeed1c338242619f4e74592a60c7b1d5921a2b
+sourcePath: ja/misc/file-access-permission.md
+tags:
+  - dev
+title: File access permissions on UNIX-like systems such as Linux
 ---
 
 I researched file access permissions on UNIX-like systems such as Linux and am leaving a note here. Please tell me if anything is incorrect.
 
 `ls -l`をMacOSでやると、こういうのが出てくる。
+
 ```bash
 ❯ ls -al
 total 1632
@@ -35,20 +36,21 @@ Breaking down `-rw-rw-r--@` gives `-` | `rw-` | `rw-` | `r--` | `@`.
 
 - The first character is either `-` or `d`; `d` indicates the entry is a directory.
 - The subsequent groups of three characters indicate permissions (described below).
-	- The three-character group repeats three times. The first is the owning user, the next is the owning group, and the last is other users.
-	- In the example `-rw-rw-r--@   1 my-name  staff     14 May 11  2022 001.txt`, my-name is the owner, and staff is the owning group.
-	- If it's `rwxrwxrwx`, everything is permitted.
+  - The three-character group repeats three times. The first is the owning user, the next is the owning group, and the last is other users.
+  - In the example `-rw-rw-r--@   1 my-name  staff     14 May 11  2022 001.txt`, my-name is the owner, and staff is the owning group.
+  - If it's `rwxrwxrwx`, everything is permitted.
 - The trailing `@` indicates extended attributes are present on certain OSes like macOS. (On some OSes it might be `+`?)
-	- The rwxrwxrwx settings alone aren't always sufficient, so macOS adds extra information.
+  - The rwxrwxrwx settings alone aren't always sufficient, so macOS adds extra information.
+
 ## Explanation of permission types
 
 Their meanings are as follows:
 
-| Character  | Meaning           |
-| --- | ------------ |
-| `-` | Not allowed        |
-| `r` | Read - read permission  |
-| `w` | Write - write permission |
-| `x` | eXecute - execute permission |
+| Character | Meaning                      |
+| --------- | ---------------------------- |
+| `-`       | Not allowed                  |
+| `r`       | Read - read permission       |
+| `w`       | Write - write permission     |
+| `x`       | eXecute - execute permission |
 
 If read and write are allowed but execute is not, it would look like `rw-`.

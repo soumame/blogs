@@ -1,9 +1,9 @@
 ---
-title: エアタイクーンオンライン２クレジットガチ稼ぎ虎の巻
 emoji: 🤖
+published_at: 2021-12-05
 tags:
   - game
-published_at: 2021-12-05
+title: エアタイクーンオンライン２クレジットガチ稼ぎ虎の巻
 ---
 
 **※この記事は執筆中ですので今後内容が変わる可能性があります。**
@@ -35,7 +35,7 @@ TU104 が生産終了したら、需要の高い（大都市間の独占路線�
 
 ## 1973
 
-7 月には**経済危機が終了**し、１０月には**L-1011-500 が発売**されます。収益も増え、敵もまた、稼ぎ始めるので、**ここでいかに差をつけるかが重要**です。危機が開けたらすぐさまに１ターン 10~20 機のペースで**L-1011-500 と DC-10-30F を買います。**
+7 月には**経済危機が終了**し、１０月には**L-1011-500 が発売**されます。収益も増え、敵もまた、稼ぎ始めるので、**ここでいかに差をつけるかが重要**です。危機が開けたらすぐさまに１ターン 10\~20 機のペースで**L-1011-500 と DC-10-30F を買います。**
 
 L-1011 は中小都市から大都市または中都市へ、経由便を使用して路線開設します。IL62M で開拓した路線が 100%になったらそれも置き換えます。
 
@@ -47,9 +47,9 @@ DC-8 の満足度が下がってきたはずなので、**DC8-62 は IL-62M**に
 
 離脱した DC8 たちは、売却するか、もし空いているのであれば新規路線を開拓します。あまり売りすぎると、会社の価値が下がるので注意。
 
-## 1975~1980
+## 1975\~1980
 
-この辺で**400~500 路線**ほどになっているのがベストです。このタイミングで買った方がいい機材は、**747-200、DC-10-30、L-1011-500、IL-62M**です。小型機に関しては、寿命がきたりしない限りは、**改装するだけ**にしておきます。これ以降はロンドン~フランクフルトのような**大規模路線が見つからない限り**、短距離路線を開設するのは**やめましょう**。**スロット取得に時間がかかるからです。**
+この辺で**400\~500 路線**ほどになっているのがベストです。このタイミングで買った方がいい機材は、**747-200、DC-10-30、L-1011-500、IL-62M**です。小型機に関しては、寿命がきたりしない限りは、**改装するだけ**にしておきます。これ以降はロンドン\~フランクフルトのような**大規模路線が見つからない限り**、短距離路線を開設するのは**やめましょう**。**スロット取得に時間がかかるからです。**
 
 **長距離** - IL62M, L-1011-500 / 747-200
 **中距離** - 747-100 / DC-10-30 / L-1011-500
@@ -61,7 +61,7 @@ DC-8 の満足度が下がってきたはずなので、**DC8-62 は IL-62M**に
 
 1980 年 5 月からは、**原油価格が上昇する**ので、ここでも**順位**を**大幅に上げる**ことができます。
 
-## 1980~1985
+## 1980\~1985
 
 L-1011 が約 100 機程度になったら、買うのはやめ、767-200 の登場を待ちます。
 
@@ -75,18 +75,18 @@ L-1011 が約 100 機程度になったら、買うのはやめ、767-200 の登
 
 **参考**
 
-[https://ato2jp.wiki.fc2.com/](https://ato2jp.wiki.fc2.com/)
+<https://ato2jp.wiki.fc2.com/>
 
-[https://torihikolife.com/air-tycoon-online2-tips](https://torihikolife.com/air-tycoon-online2-tips)
+<https://torihikolife.com/air-tycoon-online2-tips>
 
-[https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960](https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960)
+<https://rapidliner-tips.tumblr.com/post/120598553870/ato2-1960>
 
-[http://simgametips.blogspot.com/2017/02/blog-post_15.html](http://simgametips.blogspot.com/2017/02/blog-post_15.html)
+<http://simgametips.blogspot.com/2017/02/blog-post_15.html>
 
-[https://air-tycoon-online.fandom.com/wiki/Aircraft](https://air-tycoon-online.fandom.com/wiki/Aircraft)
+<https://air-tycoon-online.fandom.com/wiki/Aircraft>
 
-[https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC](https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC)
+<https://seesaawiki.jp/airtycoononline/d/%A5%D7%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B9%B6%CE%AC>
 
-[http://ato2game.jugem.jp/?eid=4](http://ato2game.jugem.jp/?eid=4)
+<http://ato2game.jugem.jp/?eid=4>
 
 : )

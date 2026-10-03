@@ -1,20 +1,20 @@
 ---
-title: "My Budgie Escaped!"
-emoji: "🦜"
-tags:
-  - "essay"
-published_at: "2025-10-14T00:00:00.000Z"
-description: "A record of the time my budgie escaped."
+description: A record of the time my budgie escaped.
+emoji: 🦜
 isTranslated: true
-sourcePath: "ja/notes/budgie-fly-away.md"
-sourceHash: "ec84ddb2912837a6ffe696546cf8e1d837b38b5c7dc91fd8876d30b41784f32c"
+published_at: 2025-10-14T00:00:00.000Z
+sourceHash: ec84ddb2912837a6ffe696546cf8e1d837b38b5c7dc91fd8876d30b41784f32c
+sourcePath: ja/notes/budgie-fly-away.md
+tags:
+  - essay
+title: My Budgie Escaped!
 ---
 
 ## Woken by My Mother's Voice
 
 It was July, before university started, so I had been getting up lazily around eight or nine in the morning.
 
-But on the 29th I was woken by my mother's voice. The faint hum of a vacuum, the calling voice of the budgie, the sound of a door opening, and then my mother's startled "ah." 
+But on the 29th I was woken by my mother's voice. The faint hum of a vacuum, the calling voice of the budgie, the sound of a door opening, and then my mother's startled "ah."
 
 When I went to her, she suddenly said, "It got away." I had a vague idea from the "ah" she made the moment she opened the door, but I asked what had escaped. "Pii-chan escaped," she said.
 

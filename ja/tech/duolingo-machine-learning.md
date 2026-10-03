@@ -1,23 +1,23 @@
 ---
-title: Duolingoはどれくらい機械学習使っているのか
-emoji: 🦉
 description: 語学学習アプリであるDuolingoは機械学習を至る所で使っていると耳にしたのですが、いったいどこで使っているのでしょうか？気になって調べてみました。
+emoji: 🦉
+isTranslated: null
+published_at: 2025-12-02
 tags:
   - dev
   - llm
-published_at: 2025-12-02
-isTranslated:
+title: Duolingoはどれくらい機械学習使っているのか
 ---
 
-> 機械学習に対する自己理解を深め、その知見をほかの人に共有することを目的に、ブログ記事を執筆しました。私は機械学習の専門家ではないので間違っているかもしれません。この記事は私の Web サイト上でも公開されています（ https://tokumaru.work/ja )
+> 機械学習に対する自己理解を深め、その知見をほかの人に共有することを目的に、ブログ記事を執筆しました。私は機械学習の専門家ではないので間違っているかもしれません。この記事は私の Web サイト上でも公開されています（ <https://tokumaru.work/ja> )
 
 2025 年現在では、機械学習をインターネットサービスに適用するという事例は検索すればいくらでも出てくるような時代となりました。ただ、それをうまく活用できている事例 = うまく利用できていて、しっかりユーザー数がいるサービスというのはほんのひと握りだと思っています。
 
 Duolingo という語学学習アプリ（皆さん一度は見たことがあると思いますが）は、その最たる例で、公式のブログなどによると様々なシーンで機械学習を利用しているそうです。
 
-https://www.duolingo.com/
+<https://www.duolingo.com/>
 
-この記事では語学学習プラットフォームである Duolingo[^1] 上で、どのように機械学習が活用され、製品においてどのような影響を与えているか、複数の機能などを参考に紹介します。
+この記事では語学学習プラットフォームである Duolingo\[^1] 上で、どのように機械学習が活用され、製品においてどのような影響を与えているか、複数の機能などを参考に紹介します。
 
 ## そもそも機械学習とは
 
@@ -55,12 +55,12 @@ https://www.duolingo.com/
 
 ## Duolingo における使用例
 
-では、Duolingo における使用例をいくつか見ていきましょう。最近の Duolingo は、Duolingo Max[^2]と言って、LLM（大規模言語モデル）を利用したサービスを提供しており、こちらのほうが話題性はありますが、それ以外にも、機械学習を利用したサービス品質の向上に取り組んでいます。
+では、Duolingo における使用例をいくつか見ていきましょう。最近の Duolingo は、Duolingo Max\[^2]と言って、LLM（大規模言語モデル）を利用したサービスを提供しており、こちらのほうが話題性はありますが、それ以外にも、機械学習を利用したサービス品質の向上に取り組んでいます。
 むしろ、基本的なサービスは全てそれに依存しているのかもしれません。
 
 ### 1: コース改善の優先順位づけ
 
-Duolingo では、入力欄に自由に単語を入力させ、答え合わせを行うシステムがあります。これは、従来の選択問題と違い、ユーザーが好きな内容を空欄に記述し、それをシステムが答え合わせを行う者になります。しかし、自由に入力できる仕組みである以上、設定された回答と完全に同じになることは稀です。そのため、回答システムにある程度柔軟性を持たせる必要があります。Duolingo では、このシステムの改善の優先順位づけに機械学習を利用しています。[^3]
+Duolingo では、入力欄に自由に単語を入力させ、答え合わせを行うシステムがあります。これは、従来の選択問題と違い、ユーザーが好きな内容を空欄に記述し、それをシステムが答え合わせを行う者になります。しかし、自由に入力できる仕組みである以上、設定された回答と完全に同じになることは稀です。そのため、回答システムにある程度柔軟性を持たせる必要があります。Duolingo では、このシステムの改善の優先順位づけに機械学習を利用しています。\[^3]
 
 そもそも、このシステムの前に、問題の回答を編集するためのチームがあり、ボランティア（現在は中止しているとのこと）や、スタッフが担っていたそうです。そして、ユーザーが問題を解いた後に表示される、報告ボタンを通して、ユーザーからの報告を受け付けていたそうです。
 
@@ -78,7 +78,7 @@ Duolingo では、入力欄に自由に単語を入力させ、答え合わせ�
 
 記事によると実際にこの改善により、コース改善の効率が大幅に改善したとされています。
 
-https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/
+<https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/>
 
 ### 2: 広告の最適化
 
@@ -86,7 +86,7 @@ Duolingo では、収益化のため、広告を配信しています。これ�
 
 無料アプリ内で外部広告を表示するのは近年非常に多く見られますが、過剰な広告はユーザーの利便性を損ない、離脱率を高め、かえって収益を減らしてしまう可能性があります。
 
-広告配信においては、広告の表示頻度や、広告の内容を最適化することが重要です。2025 年現在、Duolingo では内部広告か、外部広告のどちらを表示するのか？という判断を機械学習で行っているそうです。[^4]
+広告配信においては、広告の表示頻度や、広告の内容を最適化することが重要です。2025 年現在、Duolingo では内部広告か、外部広告のどちらを表示するのか？という判断を機械学習で行っているそうです。\[^4]
 
 以前は A/B テストを行い、その結果に基づいて作成し、条件分岐的に広告を表示していたそうですが、このシステムに移行してから、年間数千万ドルの追加の収益をもたらしたそうです。また、以前のシステムは、複数のシステム間で連携し、断片化しており、バグや技術負債が発生していたそうですが、これらを機械学習のシステムに置き換えたことにより、シンプルで、スケーラビリティの高いシステムになったそうです。
 
@@ -94,7 +94,7 @@ Duolingo では、収益化のため、広告を配信しています。これ�
 
 また、現在は、内部/外部広告の表示の判断だけでなく、より複雑な判断もモデル化しているそうです。（例えば、表示する内部広告の選定など）
 
-https://blog.duolingo.com/machine-learning-ads/
+<https://blog.duolingo.com/machine-learning-ads/>
 
 ### 3: アプリを開かせるようにする
 
@@ -102,7 +102,7 @@ https://blog.duolingo.com/machine-learning-ads/
 
 Duolingo を一度でも入れた人ならわかると思いますが、Duolingo は、とても戦略的にユーザーにアプリを開かせるようにしています。SNS で暴れまわっている緑色の鳥によるマーケティングだけでなく、メール配信、アプリのバックグラウンド通知など、様々な方法でユーザーにアプリを開かせるようにしています。スマホにたくさんのアプリが入っている今、ホーム画面の片隅にあるアプリを開かせるというのは非常に難しくなりました。一度開いてしまえばのめり込んでくれたとしても、そもそも開いてもらえないと、その先の学習はできません。
 
-そのため、Duolingo では、機械学習を利用した通知アルゴリズムを構築し、なんとしてもユーザーにアプリを開かせるようにしているそうです。[^6]
+そのため、Duolingo では、機械学習を利用した通知アルゴリズムを構築し、なんとしてもユーザーにアプリを開かせるようにしているそうです。\[^6]
 
 Duolingo では、テンプレートに基づき、ユーザーに様々な通知を送ります。以下はその例です。
 
@@ -119,7 +119,7 @@ Duolingo では、テンプレートに基づき、ユーザーに様々な通�
 
 機械学習と聞くと、モデルがあって、それに入力して...というのを私は創造していたのですが、考えてみると、毎日更新されるデータベースのデータや、ユーザーの行動ログに合わせて、計算を行い、意思決定を行っているということで立派な機械学習の例だと思います。
 
-https://research.duolingo.com/papers/yancey.kdd20.pdf
+<https://research.duolingo.com/papers/yancey.kdd20.pdf>
 
 ## 運用におけるリスク
 
@@ -127,9 +127,9 @@ https://research.duolingo.com/papers/yancey.kdd20.pdf
 
 ### リスクの軽減 : A/B テスト
 
-https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/
+<https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/>
 
-Duolingo では、A/B テストを行い、その結果に基づいて、システムを改善しているそうです。[^5]
+Duolingo では、A/B テストを行い、その結果に基づいて、システムを改善しているそうです。\[^5]
 内製したテストツールを使い、実際にユーザーに対して新機能や実験を提供し、その結果を分析することで、システムの改善を行っているそうです。
 
 内製したツールでは、常に監視すべき重要なメトリクスと、その実験ごとに追加で監視すべきメトリクスを設定し、それらを監視することで、システムの改善を行っているそうです。これにより、A/B テストのの反復をより速い速度で行うことができるようになったそうです。
@@ -141,8 +141,13 @@ Duolingo は、機械学習を多用することで、システムのフロー�
 ## 参考文献・注釈
 
 [^1]: [Duolingo](https://www.duolingo.com/)
+
 [^2]: [Duolingo Max](https://www.duolingo.com/max)
+
 [^3]: WILL MONROE, PH.D., DECEMBER 16, 2019 - [how machine learning helps duolingo prioritize course improvements (Duolingo Blog)](https://blog.duolingo.com/how-machine-learning-helps-duolingo-prioritize-course-improvements/)
+
 [^4]: NAVEEN SHANKAR, MARCH 18, 2025 - [how machine learning supercharged our revenue by millions of dollars](https://blog.duolingo.com/machine-learning-ads/)
+
 [^5]: LAVANYA APRAMEYA, JANUARY 10, 2020 - [improving duolingo, one experiment at a time](https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/)
-[^6]:[A Sleeping, Recovering Bandit Algorithm for Optimizing　Recurring Notifications]((https://research.duolingo.com/papers/yancey.kdd20.pdf), JANUARY 10, 2020
+
+[^6]: \[A Sleeping, Recovering Bandit Algorithm for Optimizing　Recurring Notifications]\((<https://research.duolingo.com/papers/yancey.kdd20.pdf>), JANUARY 10, 2020
