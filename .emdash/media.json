@@ -2586,6 +2586,17 @@
       "path": "media/917b3c70cad79c9c83c13ee0164add773c4e75580eb44397c82ac5c66c82fc92.png",
       "bytes": 80803,
       "sha256": "917b3c70cad79c9c83c13ee0164add773c4e75580eb44397c82ac5c66c82fc92"
+    },
+    {
+      "id": "01M4299PHKXWN16D2H13HVNBDZ",
+      "mimeType": "image/png",
+      "width": 1000,
+      "height": 1001,
+      "alt": null,
+      "filename": "soumame.png",
+      "path": "media/15493b5dac9af3c7ae2cac82c0e3fbc5686dd92af2b86e77cbfb307e3223c939.png",
+      "bytes": 15896,
+      "sha256": "15493b5dac9af3c7ae2cac82c0e3fbc5686dd92af2b86e77cbfb307e3223c939"
     }
   ]
 }
