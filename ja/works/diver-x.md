@@ -7,10 +7,10 @@ category: works
 tags:
   - Work
 published_at: 2026-01-27T00:00:00.000Z
-updated_at: 2026-01-27T00:00:00.000Z
+updated_at: 2026-10-06T01:27:23.463Z
 description: Diver-X株式会社（アルバイト）でソフトウェア開発に従事しています
 isDraft: false
-hidden_from_listing: false
+hidden_from_listing: true
 noindex: false
 isTranslated: false
 translation_of: null

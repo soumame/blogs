@@ -6,8 +6,8 @@ slug: melt-interface-technologies
 category: works
 tags:
   - Work
-published_at: 2026-07-01T00:00:00.000Z
-updated_at: 2026-07-01T00:00:00.000Z
+published_at: 2026-01
+updated_at: 2026-10-06T01:31:33.491Z
 description: MIT(Melt Interface Technologies)でソフトウェア開発に従事しています
 isDraft: false
 hidden_from_listing: false
@@ -40,3 +40,7 @@ Melt Interface Technologiesは、人間とコンピュータの“接点”に�
 
 引き続き、Melt Interfaceブランドのソフトウェアを開発しています。Melt Mouseの制御に使うMelt Studioなどが中心です。
 <https://www.melt-interface.com/melt-mouse>
+
+> First, Melt Studio. Tokumaru, who leads its software development, is currently building out the animations. When you move between settings screens, a smooth animation plays — small touches like these are what make the app easy to follow and genuinely pleasant to use. He's refining it day by day.
+
+<iframe src="https://www.youtube.com/embed/W4UMyVppLrw" width="315" height="560" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

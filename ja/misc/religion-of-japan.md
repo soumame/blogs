@@ -6,10 +6,10 @@ slug: religion-of-japan
 category: misc
 tags: []
 published_at: 2026-10-05T04:01:49.200Z
-updated_at: 2026-10-05T06:16:43.733Z
+updated_at: 2026-10-06T01:01:58.908Z
 description: 日本の宗教はないと言われるけど...「社会」そのものが宗教ではないのだろうか？という話。
 isDraft: true
-hidden_from_listing: true
+hidden_from_listing: false
 noindex: false
 isTranslated: false
 translation_of: null
