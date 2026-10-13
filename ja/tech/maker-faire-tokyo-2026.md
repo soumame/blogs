@@ -1,5 +1,5 @@
 ---
-title: Maker Faire Tokyo 2026に出展する話
+title: Maker Faire Tokyo 2026に出展した話
 emoji: 🔧
 locale: ja
 slug: maker-faire-tokyo-2026
@@ -7,7 +7,7 @@ category: tech
 tags:
   - essay
 published_at: 2026-08-17T00:00:00.000Z
-updated_at: 2026-08-17T00:00:00.000Z
+updated_at: 2026-10-13T11:43:42.238Z
 description: Vibeで作ったハードウェアをなんとなく出したら出展することになった！？Maker Faire Tokyoにソフトウェア畑の人間が作ったバッテリーレスで動く電子ペーパーNFC基板名刺出展してみました。
 isDraft: false
 hidden_from_listing: false
